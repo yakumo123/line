@@ -1,7 +1,7 @@
 var rollbase = require('./rollbase.js');
 var rply ={type : 'text'}; //type是必需的,但可以更改
 
-var = Math.ceil(Math.random()*10*5*9+Math.random()*10*8*3*7*102*Math.random()*Math.random()*0.01)
+var HpNum = Math.ceil(Math.random()*10*5*9+Math.random()*10*8*3*7*102*Math.random()*Math.random()*0.01)
 var MpNum = Math.ceil(Math.random()*10*50*93+Math.random()*10*8*34*7*72*Math.random()*Math.random()*0.7*0.01*Math.random())
 
 function BStyleFlagSCRIPTS() {
