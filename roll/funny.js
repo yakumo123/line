@@ -8,14 +8,14 @@ var rply ={type : 'text'}; //type是必需的,但可以更改
 
 function BStyleFlagSCRIPTS() {
 let rplyArr = ['\
-「九雲是你叫的嗎?」', '\
-「幹 叫屁喔」', '\
-「想被扔進焚化爐?」', '\
-「來 跪下」', '\
-「走開」', '\
-「滾」', '\
-「呀哈哈哈哈」', '\
-「Get Out」'];
+九雲是你叫的嗎?', '\
+幹 叫屁喔', '\
+想被扔進焚化爐?', '\
+來 跪下', '\
+走開', '\
+滾', '\
+呀哈哈哈哈', '\
+Get Out'];
 rply.text = rplyArr[Math.floor((Math.random() * (rplyArr.length)) + 0)];
 return rply;
 }
