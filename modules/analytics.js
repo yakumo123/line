@@ -33,10 +33,10 @@ function parseInput(rplyToken, inputStr) {
 	//FLAG指令開始於此
 	if (trigger.match(/角色背景/) != null) return exports.funny.BStyleFlagSCRIPTS() ;	
 	
-	if (trigger.match(/九雲|式神/) != null) return exports.funny.PPCG() ;
+	if (trigger.match(/九雲|式神/) != null) return exports.funny.ramdomBlame() ;
 	
 	//鴨霸獸指令開始於此
-	if (trigger.match(/鴨霸獸|巴獸/) != null) return exports.funny.randomReply() ;	
+	if (trigger.match(/聽說/) != null) return exports.funny.randomReply() ;	
 	if (trigger.match(/運氣|運勢/) != null) return exports.funny.randomLuck(mainMsg) ; //占卜運氣		
 	
 
