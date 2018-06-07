@@ -1,5 +1,5 @@
 var rollbase = require('./rollbase.js');
-var rply ={type : 'text'}; //type是必需的,但可以更改
+var rply ={type : '占卜'}; //type是必需的,但可以更改
 
 ////////////////////////////////////////
 //////////////// 占卜&其他
