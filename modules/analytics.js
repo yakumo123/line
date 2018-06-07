@@ -32,7 +32,7 @@ function parseInput(rplyToken, inputStr) {
 	
 	//FLAG指令開始於此
 	
-	if (trigger.match(/式神/) != null) return exports.funny.randomIIK() ;	
+	if (trigger.match(/八雲|式神/) != null) return exports.funny.randomIIK() ;	
 	
 	if (trigger.match(/角色背景/) != null) return exports.funny.BStyleFlagSCRIPTS() ;	
 	
