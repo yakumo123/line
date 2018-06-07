@@ -1,46 +1,6 @@
 var rollbase = require('./rollbase.js');
 var rply ={type : 'text'}; //type是必需的,但可以更改
 
-function getRandomArray(200, 9999, 1) {
-	var rdmArray = [1];
- 
-	for(var i=0; i<1; i++) {
-		var rdm = 0;
- 
-		do {
-			var exist = false;
-			rdm = getRandom(200, 9999);
- 
-			
-			if(rdmArray.indexOf(rdm) != -1) exist = true;
- 
-		} while (exist);
- 
-		rdmArray[i] = rdm;
-	}
-	return rdmArray;
- };
-
-function getRandomMP(1000, 18000, 1) {
-	var rdmArrayMP = [1];
- 
-	for(var i=0; i<1; i++) {
-		var rdmMp = 0;
- 
-		do {
-			var existMp = false;
-			rdm = getRandomMp(200, 9999);
- 
-			
-			if(rdmArrayMp.indexOf(rdm) != -1) exist = true;
- 
-		} while (exist);
- 
-		rdmArrayMp[i] = rdmMp;
-	}
-	return rdmArrayMp;
-};
-
 function BStyleFlagSCRIPTS() {
 let PersonalDescriptionArr = ['神族', '魔族', '妖精族', '人族', '巨人族', '森精族', '獸人族', '天翼族', '機凱族', '魚人族', '吸血鬼族', '龍族']
 let IdeologyBeliefsArr = ['男性', '女性'];
@@ -48,10 +8,10 @@ let SignificantPeopleArr = ['結實的', '英俊的', '粗鄙的', '機靈的', 
 let SignificantPeopleWhyArr = ['虔誠信仰著某個神祈', '覺得人類不需要依靠宗教也可以好好生活', '覺得科學可以解釋所有事，並對某種科學領域有獨特的興趣', '相信因果循環與命運', '是一個政黨、社群或秘密結社的成員','覺得這個社會已經病了，而其中某些病灶需要被剷除', '是神秘學的信徒', '是積極參與政治的人，有特定的政治立場', '覺得金錢至上，且為了金錢不擇手段', '是一個激進主義分子，活躍於社會運動']
 let MeaningfulLocationsArr = ['他的父母', '他的祖父母', '他的兄弟姐妹', '他的孩子', '他的另一半','他的兒時好友', '他心目中的偶像或是英雄'];
 let TreasuredPossessionsArr = ['一件他的在工作上需要用到的必需品', '一個從他童年時就保存至今的寶物', '一樣由最重要的人給予他的物品', '一件珍視的蒐藏品', '一件無意間發現，但不知道到底是什麼的東西，正努力尋找答案', '某種體育用品', '一把特別的武器', '他的寵物'];
-let HpSetting = rdmArray
-let MpSetting = rdmArrayMp
+let HpSettingArr = ['100','200','300','400','500','600','700','800','900','1000','不明']
+let MpSettingArr = ['1000','2000','3000','4000','5000','6000','7000','8000','9000','10000','不明']
 
-rply.text = '【種族】:' + PersonalDescriptionArr[Math.floor((Math.random() * (PersonalDescriptionArr.length)) + 0)] + '【性別】:' + IdeologyBeliefsArr[Math.floor((Math.random() * (IdeologyBeliefsArr.length)) + 0)] + '【血量】：' + HpSetting + '【魔力】' + MpSetting + '【特徵】他是一個' + SignificantPeopleArr[Math.floor((Math.random() * (SignificantPeopleArr.length)) + 0)] + '人。【信念】:他' + SignificantPeopleWhyArr[Math.floor((Math.random() * (SignificantPeopleWhyArr.length)) + 0)] + '。【重要之人】：對他來說，最重要的人是' + MeaningfulLocationsArr[Math.floor((Math.random() * (MeaningfulLocationsArr.length)) + 0)] + '【寶貴之物】：他最寶貴的東西就是'+ TreasuredPossessionsArr[Math.floor((Math.random() * (TreasuredPossessionsArr.length)) + 0)];
+rply.text = '【種族】:' + PersonalDescriptionArr[Math.floor((Math.random() * (PersonalDescriptionArr.length)) + 0)] + '【性別】:' + IdeologyBeliefsArr[Math.floor((Math.random() * (IdeologyBeliefsArr.length)) + 0)] + '【血量】：' + HpSettingArr[Math.floor((Math.random() * (HpSettingArr.length)) + 0)] + '【魔力】' + MpSettingArr[Math.floor((Math.random() * (MpSettingArr.length)) + 0)] + '【特徵】他是一個' + SignificantPeopleArr[Math.floor((Math.random() * (SignificantPeopleArr.length)) + 0)] + '人。【信念】:他' + SignificantPeopleWhyArr[Math.floor((Math.random() * (SignificantPeopleWhyArr.length)) + 0)] + '。【重要之人】：對他來說，最重要的人是' + MeaningfulLocationsArr[Math.floor((Math.random() * (MeaningfulLocationsArr.length)) + 0)] + '【寶貴之物】：他最寶貴的東西就是'+ TreasuredPossessionsArr[Math.floor((Math.random() * (TreasuredPossessionsArr.length)) + 0)];
 return rply;
 }
 
