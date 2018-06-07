@@ -97,9 +97,18 @@ function parseInput(rplyToken, inputStr) {
 	}
 */
 
-  
+	def webhook
+	
+	replay_text = learn(received_text)
+	
+	reply_text = keyword_reply(received_text) if replay_text.nuil?
+		
+		response = replay_to_line(reply_text)
+	
+	head :ok
+end
+	
 }
-
 
 module.exports = {
 	parseInput:parseInput
