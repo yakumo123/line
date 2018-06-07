@@ -15,7 +15,8 @@ let rplyArr = ['\
 走開', '\
 滾', '\
 呀哈哈哈哈', '\
-Get Out'];
+Get Out', '\
+Fuck You'];
 rply.text = rplyArr[Math.floor((Math.random() * (rplyArr.length)) + 0)];
 return rply;
 }
