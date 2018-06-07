@@ -45,7 +45,7 @@ function parseInput(rplyToken, inputStr) {
 			
 	if (trigger.match(/(^cc7版創角$|^cc七版創角$)/) != null && mainMsg[1] != NaN )	return exports.coc.build7char(mainMsg[1]);
 		
-	if (trigger.match(/^coc7角色背景$/)!= null ) return exports.coc.PcBG();
+	if (trigger.match(/^角色背景$/)!= null ) return exports.coc.PcBG();
   
 	if (trigger.match(/^bothelp$|^bot幫助$/)!= null ) return exports.help.Help();
 	
