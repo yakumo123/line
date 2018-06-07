@@ -2,29 +2,6 @@ var rollbase = require('./rollbase.js');
 var rply ={type : 'text'}; //type是必需的,但可以更改
 
 ////////////////////////////////////////
-//////////////// COC7
-////////////////////////////////////////		
-
-function coc7bp (chack,bpdiceNum,text){
-	let temp0 = ['\神族\', '\魔族\', '\妖精族\', '\人族\', '\巨人族\', '\森精族\', '\獸人族\', '\天翼族\', '\機凱族\', '\魚人族\', '\吸血鬼族\', '\龍族\'];
-	let countStr = '';
-	countStr = countStr + temp + '、';
-	}
-		rply.text = countStr;
-		return rply;
-	}
-	
-	
-function ArrMax (Arr){
-	var max = this[0];
-	this.forEach (function(ele,index,arr){
-	if(ele > max) {
-		max = ele;
-	}
-	})
-	return max;
-}
-////////////////////////////////////////
 //////////////// COC7傳統創角
 ////////////////////////////////////////		
 function build7char(text01){
@@ -108,7 +85,7 @@ function build7char(text01){
 	}
 
 module.exports = {
-	coc7bp: coc7bp,
-	build7char: build7char,
-	PcBG:PcBG
+	coc7bp,
+	build7char,
+	PcBG
 };
