@@ -162,46 +162,33 @@ function build7char(text01){
 	
 function build6char(){
 /*	//讀取年齡
-	if (text01 == undefined) text01 = 18;
+	if (text01 == undefined) text01 = {
+	<script>
+	function GetRandomNum(Min,Max)
+	{
+	var Range = Max - Min:
+	var Rand = Math.random();
+	reture(Min + Math.round(Rand * Range));
+	}
+	var num = GetRandomNum(1,900000000);
+	alert(num);
+	</script>
+		
+		var chars = ['0','1','2',3'3,'4','5','6','7','8','9','A','B','C','D','E',F'F,'G','H','I','J','K','L','M','N','O','P','Q','R','S','T','U','V','W','X','Y','Z'];
+		
+		function generateMixed(n) {
+		var res = "";
+		for(var i=0; i<n ; i ++)
+		var id = Math.c(Math.random()*35);
+		res += chars[id];
+		}
+		reture res;
+		}
+		}
+;
 	let old = text01;
 	let ReStr = '調查員年齡設為：' + old + '\n';
-	//設定 因年齡減少的點數 和 EDU加骰次數
-	let Debuff = 0;
-	let AppDebuff = 0;
-	let EDUinc = 0;
-	let oldArr = [15,20,40,50,60,70,80]
-	let DebuffArr = [5,0,5,10,20,40,80]
-	let AppDebuffArr = [0,0,5,10,15,20,25]
-	let EDUincArr = [0,1,2,3,4,4,4]
-
-	if (old < 15) rply.text = ReStr + '等等，核心規則不允許小於15歲的人物哦。';	
-	if (old >= 90) rply.text = ReStr + '等等，核心規則不允許90歲以上的人物哦。'; 
-
-	for ( i=0 ; old >= oldArr[i] ; i ++){
-		Debuff = DebuffArr[i];
-		AppDebuff = AppDebuffArr[i];
-		EDUinc = EDUincArr[i];
-	}
-	ReStr = ReStr + '==\n';
-	if (old < 20) ReStr = ReStr + '年齡調整：從STR、SIZ擇一減去' + Debuff + '點\n（請自行手動選擇計算）。\n將EDU減去5點。LUK可擲兩次取高。' ;
-	else
-		if (old >= 40)	ReStr = ReStr + '年齡調整：從STR、CON或DEX中「總共」減去' + Debuff + '點\n（請自行手動選擇計算）。\n將APP減去' + AppDebuff +'點。可做' + EDUinc + '次EDU的成長擲骰。' ;
-	else ReStr = ReStr + '年齡調整：可做' + EDUinc + '次EDU的成長擲骰。' ;
-	ReStr = ReStr + '\n=='; 
- if (old>=40) ReStr = ReStr + '\n（以下箭號三項，自選共減' + Debuff + '點。）' ;
-	if (old<20) ReStr = ReStr + '\n（以下箭號兩項，擇一減去' + Debuff + '點。）' ;
- */
-	let ReStr = '六版核心創角：';
-	ReStr = ReStr + '\nＳＴＲ：' + rollbase.BuildDiceCal('3d6');
-	ReStr = ReStr + '\nＤＥＸ：' + rollbase.BuildDiceCal('3d6');
-	ReStr = ReStr + '\nＣＯＮ：' + rollbase.BuildDiceCal('3d6');
-	ReStr = ReStr + '\nＰＯＷ：' + rollbase.BuildDiceCal('3d6');
-	ReStr = ReStr + '\nＡＰＰ：' + rollbase.BuildDiceCal('3d6');
-	ReStr = ReStr + '\nＩＮＴ：' + rollbase.BuildDiceCal('(2d6+6)');
-	ReStr = ReStr + '\nＳＩＺ：' + rollbase.BuildDiceCal('(2d6+6)');	
-	ReStr = ReStr + '\nＥＤＵ：' + rollbase.BuildDiceCal('(3d6+3)');	
-	ReStr = ReStr + '\n年收入：' + rollbase.BuildDiceCal('(1d10)'); 	
-	ReStr = ReStr + '\n調查員的最小起始年齡等於EDU+6，每比起始年齡年老十年，\n調查員增加一點EDU並且加20點職業技能點數。\n當超過40歲後，每老十年，\n從STR,CON,DEX,APP中選擇一個減少一點。';
+	
 	rply.text = ReStr;
 	return rply;
 	} 
