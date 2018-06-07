@@ -83,7 +83,7 @@ function parseInput(rplyToken, inputStr) {
 	}
 	
 	//FLAG指令開始於此
-	if (trigger.match(/立flag|死亡flag/) != null) return exports.funny.BStyleFlagSCRIPTS() ;	
+	if (trigger.match(/九雲/) != null) return exports.funny.BStyleFlagSCRIPTS() ;	
 	
 	//鴨霸獸指令開始於此
 	if (trigger.match(/鴨霸獸|巴獸/) != null) return exports.funny.randomReply() ;	
