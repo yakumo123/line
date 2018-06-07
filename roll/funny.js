@@ -29,7 +29,7 @@ return rply;
 }
 
 function randomReply() {
-let rplyArr = [''\
+let rplyArr = ['\
 你們死定了呃呃呃不要糾結這些……所以是在糾結哪些？', '\
 在澳洲，每過一分鐘就有一隻鴨嘴獸被拔嘴。 \n我到底在共三小。', '\
 嗚噁噁噁噁噁噁，不要隨便叫我。', '\
@@ -51,7 +51,7 @@ wwwwwwwwwwwwwwwww', '\
 你在大聲什麼啦！！！！', '\
 公道價，八萬一（伸手）。', '\
 你的嘴裡有異音（指）', '\
-有人打你的左臉，你就要用肉食性猛擊咬斷他的小腿。''];
+有人打你的左臉，你就要用肉食性猛擊咬斷他的小腿。'];
 rply.text = rplyArr[Math.floor((Math.random() * (rplyArr.length)) + 0)];
 return rply;
 }
