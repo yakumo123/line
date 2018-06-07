@@ -13,7 +13,7 @@ rply.text = '【種族】:' + PersonalDescriptionArr[Math.floor((Math.random() *
 return rply;
 }
 
-function ramdomBlame() {
+function randomIIK() {
 let rplyArr = ['\
 九雲是你叫的嗎?', '\
 幹 叫屁喔', '\
