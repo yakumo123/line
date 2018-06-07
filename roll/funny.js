@@ -1,5 +1,5 @@
 var rollbase = require('./rollbase.js');
-var rply ={type : '占卜'}; //type是必需的,但可以更改
+var rply ={type : 'text'}; //type是必需的,但可以更改
 
 ////////////////////////////////////////
 //////////////// 占卜&其他
@@ -65,7 +65,7 @@ rply.text = rplyArr[Math.floor((Math.random() * (rplyArr.length)) + 0)];
 return rply;
 }
 	
-function randomReply() {
+function randomReply(Yakumo) {
 let rplyArr = ['\
 你們死定了呃呃呃不要糾結這些……所以是在糾結哪些？', '\
 在澳洲，每過一分鐘就有一隻鴨嘴獸被拔嘴。 \n我到底在共三小。', '\
