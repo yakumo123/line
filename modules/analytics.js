@@ -92,7 +92,7 @@ function parseInput(rplyToken, inputStr) {
 
 	
 	/*tarot 指令
-	if (trigger.match(/猜拳/) != null) {
+	if (trigger.match(/Play/) != null) {
 		return RockPaperScissors(inputStr, mainMsg[1]);
 	}
 */
