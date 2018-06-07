@@ -97,47 +97,6 @@ function parseInput(rplyToken, inputStr) {
 	}
 */
 
-	def webhook
-	
-	replay_text = learn(received_text)
-	
-	reply_text = keyword_reply(received_text) if replay_text.nuil?
-		
-		response = replay_to_line(reply_text)
-	
-	head :ok
-	
-	end
-	
-	def learn(received_text)
-	
-	return nil unless received_text[0..6] == 'Learn;'
-	
-	received_text = received_text[7..-1]
-	semicolon_index = received_text.index(';')
-	
-	return nil if semicolon_index.nil?
-		
-		keyword = received_text[0..semicolon_index-1]
-	message = received_text[semicolon_index+1..-1]
-	
-	KeywordMapping.create(keyword: keyword, message: message)
-	'好哦～好哦～'
-	end
-	
-	def reply_to_line(reply_text)
-	return nil if reply_text.nil?
-    
-		reply_token = params['events'][0]['replyToken']
-	
-	message = {
-	type: 'text',
-		text: reply_text
-    } 
-
-line.reply_message(reply_token, message)
-end
-	
 }
 
 module.exports = {
