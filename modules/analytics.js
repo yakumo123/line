@@ -30,7 +30,7 @@ function parseInput(rplyToken, inputStr) {
 		if (trigger.match(/^大十字|^cross/)!= null) return exports.funny.MultiDrawTarot(mainMsg[1], mainMsg[2], 2);
 	}
 	
-	if (trigger.match(/九雲|式神/) != null) return exports.funny.randomIIK() ;	
+	if (trigger.match(/女裝八雲|女裝|八雲女裝|八雲快女裝/) != null) return exports.funny.randomIIK() ;	
 	
 	if (trigger.match(/角色背景/) != null) return exports.funny.BStyleFlagSCRIPTS() ;	
 
