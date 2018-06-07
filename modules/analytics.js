@@ -31,9 +31,9 @@ function parseInput(rplyToken, inputStr) {
 	}
 	
 	//FLAG指令開始於此
-	if (trigger.match(/九雲/) != null) return exports.funny.BStyleFlagSCRIPTS() ;	
+	if (trigger.match(/角色背景/) != null) return exports.funny.BStyleFlagSCRIPTS() ;	
 	
-	if (trigger.match(/角色背景/) != null) return exports.funny.PPCG() ;
+	if (trigger.match(/九雲/) != null) return exports.funny.PPCG() ;
 	
 	//鴨霸獸指令開始於此
 	if (trigger.match(/鴨霸獸|巴獸/) != null) return exports.funny.randomReply() ;	
