@@ -346,8 +346,6 @@ function choice(input,str) {
 
 module.exports = {
 	BStyleFlagSCRIPTS,
-	getRandomArray,
-	getRandomMp,
 	randomReply,
 	randomLuck,
 	randomIIK,
