@@ -2,9 +2,9 @@ var rollbase = require('./rollbase.js');
 var rply ={type : 'text'}; //type是必需的,但可以更改
 
 function getRandomArray(200, 9999, 1) {
-	var rdmArray = [n];
+	var rdmArray = [1];
  
-	for(var i=0; i<n; i++) {
+	for(var i=0; i<1; i++) {
 		var rdm = 0;
  
 		do {
@@ -22,9 +22,9 @@ function getRandomArray(200, 9999, 1) {
 }
 
 function getRandomMP(1000, 18000, 1) {
-	var rdmArrayMP = [n];
+	var rdmArrayMP = [1];
  
-	for(var i=0; i<n; i++) {
+	for(var i=0; i<1; i++) {
 		var rdmMp = 0;
  
 		do {
