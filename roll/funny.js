@@ -1,8 +1,8 @@
 var rollbase = require('./rollbase.js');
 var rply ={type : 'text'}; //type是必需的,但可以更改
 
-var HpNum = Math.ceil(Math.random()*10*5*9+Math.random()*10*8*3*7*102*Math.random())
-var MpNum = Math.ceil(Math.random()*10*50*93+Math.random()*10*8*34*7*72*Math.random()*Math.random()*0.7)
+var HpNum = Math.ceil(Math.random()*10*5*9+Math.random()*10*8*3*7*102*Math.random()*Math.random())
+var MpNum = Math.ceil(Math.random()*10*50*93+Math.random()*10*8*34*7*72*Math.random()*Math.random()*0.7*0.1)
 
 function BStyleFlagSCRIPTS() {
 let PersonalDescriptionArr = ['神族', '魔族', '妖精族', '人族', '巨人族', '森精族', '獸人族', '天翼族', '機凱族', '魚人族', '吸血鬼族', '龍族']
