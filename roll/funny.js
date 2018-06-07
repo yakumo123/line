@@ -68,7 +68,7 @@ JoJo我不當人類啦！！', '\
 MudaMudaMudaMuda', '\
 不要', '\
 走開'];
-rply.text = rplyArr[Mat私はあなたと友達をすることができるか？h.floor((Math.random() * (rplyArr.length)) + 0)];
+rply.text = rplyArr[Math.floor((Math.random() * (rplyArr.length)) + 0)];
 return rply;
 }
 
