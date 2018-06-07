@@ -56,7 +56,7 @@ function parseInput(rplyToken, inputStr) {
 	if (trigger.match(/^[1-4]n[c|a][+|-][1-99]$|^[1-4]n[c|a]$/)!= null ) return exports.nc.nechronica(trigger,mainMsg[1]);
 
 	//依戀
-	if (trigger.match(/Learn/) != null)return exports.nc.nechronica_mirenn(mainMsg[1]);
+	if (trigger.match(/(^nm$)/) != null)	return exports.nc.nechronica_mirenn(mainMsg[1]);
 
 	
 	//wod 指令開始於此
@@ -67,19 +67,20 @@ function parseInput(rplyToken, inputStr) {
 
 	//Fisher–Yates shuffle
  	//SortIt 指令開始於此
- 	if (trigger.match(/排序/) != null && mainMsg.length >= 3) return exports.funny.SortIt(inputStr,mainMsg);
- 	if (trigger.match(/^d66$/) != null ) return exports.advroll.d66(mainMsg[1]);
-	if (trigger.match(/^d66s$/) != null ) return exports.advroll.d66s(mainMsg[1]);
+ 	if (trigger.match(/排序/)!= null && mainMsg.length >= 3) return exports.funny.SortIt(inputStr,mainMsg);
+ 	if (trigger.match(/^d66$/)!= null ) return exports.advroll.d66(mainMsg[1]);
+	if (trigger.match(/^d66s$/)!= null ) return exports.advroll.d66s(mainMsg[1]);
 
 	
 	//choice 指令開始於此
-	if (trigger.match(/choice|隨機|選項|選1/) != null && mainMsg.length >= 3) return exports.funny.choice(inputStr,mainMsg);
+	if (trigger.match(/choice|隨機|選項|選1/)!= null && mainMsg.length >= 3) return exports.funny.choice(inputStr,mainMsg);
 	
 	//tarot 指令
-	if (trigger.match(/^單張|^每日|^daily/) != null) return exports.funny.NomalDrawTarot(mainMsg[1], mainMsg[2]);
-	if (trigger.match(/^時間|^time/) != null) return exports.funny.MultiDrawTarot(mainMsg[1], mainMsg[2], 1);
-	if (trigger.match(/^大十字|^cross/) != null) return exports.funny.MultiDrawTarot(mainMsg[1], mainMsg[2], 2);
-	
+	if (trigger.match(/tarot|塔羅牌|塔羅/) != null) {
+		if (trigger.match(/^單張|^每日|^daily/)!= null) return exports.funny.NomalDrawTarot(mainMsg[1], mainMsg[2]);//預設抽 79 張
+		if (trigger.match(/^時間|^time/)!= null) 	return exports.funny.MultiDrawTarot(mainMsg[1], mainMsg[2], 1);
+		if (trigger.match(/^大十字|^cross/)!= null) return exports.funny.MultiDrawTarot(mainMsg[1], mainMsg[2], 2);
+	}
 	
 	//FLAG指令開始於此
 	if (trigger.match(/九雲/) != null) return exports.funny.BStyleFlagSCRIPTS() ;	
@@ -91,12 +92,14 @@ function parseInput(rplyToken, inputStr) {
 
 	
 	/*tarot 指令
-	if (trigger.match(/Play/) != null) {
+	if (trigger.match(/猜拳/) != null) {
 		return RockPaperScissors(inputStr, mainMsg[1]);
 	}
 */
 
+  
 }
+
 
 module.exports = {
 	parseInput:parseInput
