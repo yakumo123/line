@@ -25,18 +25,13 @@ let rplyArr = ['\
 滾', '\
 呀哈哈哈哈', '\
 Get Out', '\
-垃圾走開'];
-rply.text = rplyArr[Math.floor((Math.random() * (rplyArr.length)) + 0)];
-return rply;
-}
-
-function randomReply() {
-let rplyArr = ['\
+垃圾走開', '\
 你們死定了呃呃呃不要糾結這些……所以是在糾結哪些？', '\
-在澳洲，每過一分鐘就有一隻鴨嘴獸被拔嘴。 \n我到底在共三小。', '\
 嗚噁噁噁噁噁噁，不要隨便叫我。', '\
 幹，你這學不會的豬！', '\
 嘎嘎嘎。', '\
+你壞掉了，50元收', '\
+你打到虛脫了', '\
 wwwwwwwwwwwwwwwww', '\
 為什麼你們每天都可以一直玩；玩就算了還玩我。', '\
 好棒，整點了！咦？不是嗎？', '\
@@ -346,7 +341,6 @@ function choice(input,str) {
 
 module.exports = {
 	BStyleFlagSCRIPTS,
-	randomReply,
 	randomLuck,
 	randomIIK,
 	RockPaperScissors,
