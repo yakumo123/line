@@ -1,9 +1,6 @@
 var rollbase = require('./rollbase.js');
 var rply ={type : 'text'}; //type是必需的,但可以更改
 
-var HpNum = Math.ceil(Math.random()*10*5*9+Math.random()*10*8*3*7*102*Math.random()*Math.random()*0.01)
-var MpNum = Math.ceil(Math.random()*10*50*93+Math.random()*10*8*34*7*72*Math.random()*Math.random()*0.7*0.01*Math.random())
-
 function getRandomArray(200, 9999, 1) {
 	var rdmArray = [n];
  
@@ -24,7 +21,7 @@ function getRandomArray(200, 9999, 1) {
 	return rdmArray;
 }
 
-function getRandomMP(200, 9999, 1) {
+function getRandomMP(1000, 18000, 1) {
 	var rdmArrayMP = [n];
  
 	for(var i=0; i<n; i++) {
