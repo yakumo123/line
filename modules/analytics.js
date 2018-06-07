@@ -56,7 +56,7 @@ function parseInput(rplyToken, inputStr) {
 	if (trigger.match(/^[1-4]n[c|a][+|-][1-99]$|^[1-4]n[c|a]$/)!= null ) return exports.nc.nechronica(trigger,mainMsg[1]);
 
 	//依戀
-	if (trigger.match(/(^nm$)/) != null)	return exports.nc.nechronica_mirenn(mainMsg[1]);
+	if (trigger.match(/Learn/) != null)return exports.nc.nechronica_mirenn(mainMsg[1]);
 
 	
 	//wod 指令開始於此
