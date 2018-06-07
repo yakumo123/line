@@ -1,27 +1,8 @@
 var rollbase = require('./rollbase.js');
 var rply ={type : 'text'}; //type是必需的,但可以更改
 
-var HpNum = {
-function GetRandomNum(Min,Max)
-{   
-var Range = Max - Min;   
-var Rand = Math.random();   
-return(Min + Math.round(Rand * Range));   
-}   
-var num = GetRandomNum(1,100000);   
-reture(num);   
+var HpNum = Math.ceil(Math.random()*10*5*9+Math.random()*10*8*3*7)
 
-var chars = ['0','1','2','3','4','5','6','7','8','9','A','B','C','D','E','F','G','H','I','J','K','L','M','N','O','P','Q','R','S','T','U','V','W','X','Y','Z'];
-
-function generateMixed(n) {
-     var res = "";
-     for(var i = 0; i < n ; i ++) {
-         var id = Math.ceil(Math.random()*35);
-         res += chars[id];
-     }
-     return res;
- }
-};
 
 function BStyleFlagSCRIPTS() {
 let PersonalDescriptionArr = ['神族', '魔族', '妖精族', '人族', '巨人族', '森精族', '獸人族', '天翼族', '機凱族', '魚人族', '吸血鬼族', '龍族']
