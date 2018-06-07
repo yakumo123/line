@@ -346,6 +346,7 @@ module.exports = {
 	BStyleFlagSCRIPTS,
 	randomReply,
 	randomLuck,
+	randomIIK,
 	RockPaperScissors,
 	MultiDrawTarot,
 	NomalDrawTarot,
