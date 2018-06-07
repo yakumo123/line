@@ -6,7 +6,7 @@ var rply ={type : 'text'}; //type是必需的,但可以更改
 ////////////////////////////////////////
 
 
-function BStyleFlagSCRIPTS() {
+function BStyleFlagSCRIPTS(占卜) {
 let rplyArr = ['\
 「打完這仗我就回老家結婚（この戦いが終わったら、故郷に帰って結婚するんだ）」', '\
 「打完這一仗後我請你喝酒」', '\
@@ -65,7 +65,7 @@ rply.text = rplyArr[Math.floor((Math.random() * (rplyArr.length)) + 0)];
 return rply;
 }
 	
-function randomReply(Yakumo) {
+function randomReply() {
 let rplyArr = ['\
 你們死定了呃呃呃不要糾結這些……所以是在糾結哪些？', '\
 在澳洲，每過一分鐘就有一隻鴨嘴獸被拔嘴。 \n我到底在共三小。', '\
