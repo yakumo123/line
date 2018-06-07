@@ -31,9 +31,12 @@ function parseInput(rplyToken, inputStr) {
 	}
 	
 	//FLAG指令開始於此
+	
+	if (trigger.match(/九雲/) != null) return exports.funny.randomIIK() ;	
+	
 	if (trigger.match(/角色背景/) != null) return exports.funny.BStyleFlagSCRIPTS() ;	
 	
-	if (trigger.match(/九雲|式神/) != null) return exports.funny.ramdomBlame() ;
+	
 	
 	//鴨霸獸指令開始於此
 	if (trigger.match(/聽說/) != null) return exports.funny.randomReply() ;	
