@@ -72,49 +72,6 @@ else
 }
 
 
-
-function coc7bp (chack,bpdiceNum,text){
-	let temp0 = rollbase.Dice(10) - 1;
-	let countStr = '';
-	if (bpdiceNum > 0){
-	for (let i = 0; i <= bpdiceNum; i++ ){
-	let temp = rollbase.Dice(10);
-	let temp2 = temp.toString() + temp0.toString();
-	if (temp2 > 100) temp2 = parseInt(temp2) - 100;	
-	countStr = countStr + temp2 + '、';
-	}
-	countStr = countStr.substring(0, countStr.length - 1) 
-	let countArr = countStr.split('、'); 
-	countStr = countStr + ' → ' + coc7chack(Math.min(...countArr),chack,text);
-	rply.text = countStr;
-		return rply;
-	}
-	
-	if (bpdiceNum < 0){
-	bpdiceNum = Math.abs(bpdiceNum);
-	for (let i = 0; i <= bpdiceNum; i++ ){
-		let temp = rollbase.Dice(10);
-		let temp2 = temp.toString() + temp0.toString();
-		if (temp2 > 100) temp2 = parseInt(temp2) - 100;	
-		countStr = countStr + temp2 + '、';
-	}
-	countStr = countStr.substring(0, countStr.length - 1) 
-	let countArr = countStr.split('、'); 
-	countStr = countStr + ' → ' + coc7chack(Math.max(...countArr),chack,text);
-	rply.text = countStr;
-		return rply;
-	}
-}
-	
-function ArrMax (Arr){
-	var max = this[0];
-	this.forEach (function(ele,index,arr){
-	if(ele > max) {
-		max = ele;
-	}
-	})
-	return max;
-}
 ////////////////////////////////////////
 //////////////// COC7傳統創角
 ////////////////////////////////////////		
@@ -145,11 +102,8 @@ function build7char(text01){
 		}
 		reture res;
 	}
-}
-;
-	}
-	else 
-
+};
+	
 	rply.text = ReStr;
 	return rply;
 	} 
