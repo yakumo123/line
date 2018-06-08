@@ -39,7 +39,7 @@ function parseInput(rplyToken, inputStr) {
 	}
 	
 	//FLAG指令開始於此
-	if (trigger.match(//) != null) return exports.funny.BStyleFlagSCRIPTS() ;	
+	if (trigger.match(/角色背景/) != null) return exports.funny.BStyleFlagSCRIPTS() ;	
 	
 	//鴨霸獸指令開始於此
 	if (trigger.match(/女裝/) != null) return exports.funny.randomIIK() ;	
