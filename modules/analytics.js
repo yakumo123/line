@@ -23,13 +23,6 @@ function parseInput(rplyToken, inputStr) {
 	//choice 指令
 	if (trigger.match(/choice|隨機|選項|選1/)!= null && mainMsg.length >= 3) return exports.funny.choice(inputStr,mainMsg);
 	
-	//tarot 指令
-	if (trigger.match(/tarot|塔羅牌|塔羅/) != null) {
-		if (trigger.match(/^單張|^每日|^daily/)!= null) return exports.funny.NomalDrawTarot(mainMsg[1], mainMsg[2]);
-		if (trigger.match(/^時間|^time/)!= null) 	return exports.funny.MultiDrawTarot(mainMsg[1], mainMsg[2], 1);
-		if (trigger.match(/^大十字|^cross/)!= null) return exports.funny.MultiDrawTarot(mainMsg[1], mainMsg[2], 2);
-	};
-	
 	if (trigger.match(/角色背景/) != null) return exports.funny.BStyleFlagSCRIPTS() ;	
 	if (trigger.match(/運勢/) != null) return exports.funny.randomLuck(mainMsg) ;	
 	if (trigger.match(/女裝/) != null) return exports.funny.randomIIK() ;	
