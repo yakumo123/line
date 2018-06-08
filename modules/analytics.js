@@ -24,8 +24,12 @@ function parseInput(rplyToken, inputStr) {
 	if (trigger.match(/choice|隨機|選項|選1/)!= null && mainMsg.length >= 3) return exports.funny.choice(inputStr,mainMsg);
 	
 	if (trigger.match(/角色背景/) != null) return exports.funny.BStyleFlagSCRIPTS() ;	
+	
 	if (trigger.match(/運勢/) != null) return exports.funny.randomLuck(mainMsg) ;	
+	
 	if (trigger.match(/女裝/) != null) return exports.funny.randomIIK() ;	
+	
+	
 	
 */
 
