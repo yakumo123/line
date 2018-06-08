@@ -28,7 +28,7 @@ function parseInput(rplyToken, inputStr) {
 		if (trigger.match(/^單張|^每日|^daily/)!= null) return exports.funny.NomalDrawTarot(mainMsg[1], mainMsg[2]);
 		if (trigger.match(/^時間|^time/)!= null) 	return exports.funny.MultiDrawTarot(mainMsg[1], mainMsg[2], 1);
 		if (trigger.match(/^大十字|^cross/)!= null) return exports.funny.MultiDrawTarot(mainMsg[1], mainMsg[2], 2);
-	}
+	};
 	
 	if (trigger.match(/角色背景/) != null) return exports.funny.BStyleFlagSCRIPTS() ;	
 	if (trigger.match(/運勢/) != null) return exports.funny.randomLuck(mainMsg) ;	
