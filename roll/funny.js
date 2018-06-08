@@ -21,7 +21,7 @@ rply.text = TEXT[0] + ' ： ' + rplyArr[Math.floor((Math.random() * (rplyArr.len
 return rply;
 }
 
-function randomIIK() {
+function randomReply() {
 let rplyArr = ['\
 笨蛋吹雪！！', '\
 幹 走開', '\
@@ -359,7 +359,7 @@ function choice(input,str) {
 
 module.exports = {
 	BStyleFlagSCRIPTS,
-	randomIIK,
+	randomReply,
 	randomLuck,
 	RockPaperScissors,
 	MultiDrawTarot,
