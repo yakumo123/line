@@ -32,7 +32,7 @@ function parseInput(rplyToken, inputStr) {
 	
 	if (trigger.match(/角色背景/) != null) return exports.funny.BStyleFlagSCRIPTS() ;	
 	if (trigger.match(/運勢/) != null) return exports.funny.randomLuck(mainMsg) ;	
-	if (trigger.match(/女裝八雲|女裝|八雲女裝|八雲快女裝/) != null) return exports.funny.randomIIK() ;	
+	if (trigger.match(/女裝/) != null) return exports.funny.randomIIK() ;	
 	
 */
 
