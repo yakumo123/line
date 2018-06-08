@@ -20,7 +20,7 @@ function parseInput(rplyToken, inputStr) {
 	let trigger = mainMsg[0].toString().toLowerCase(); //指定啟動詞在第一個詞&把大階強制轉成細階
 
 
-	//choice 指令開始於此
+	//choice 指令
 	if (trigger.match(/choice|隨機|選項|選1/)!= null && mainMsg.length >= 3) return exports.funny.choice(inputStr,mainMsg);
 	
 	//tarot 指令
@@ -30,18 +30,10 @@ function parseInput(rplyToken, inputStr) {
 		if (trigger.match(/^大十字|^cross/)!= null) return exports.funny.MultiDrawTarot(mainMsg[1], mainMsg[2], 2);
 	}
 	
+	if (trigger.match(/角色背景/) != null) return exports.funny.BStyleFlagSCRIPTS() ;	
+	if (trigger.match(/運勢/) != null) return exports.funny.randomLuck(mainMsg) ;	
 	if (trigger.match(/女裝八雲|女裝|八雲女裝|八雲快女裝/) != null) return exports.funny.randomIIK() ;	
 	
-	if (trigger.match(/角色背景/) != null) return exports.funny.BStyleFlagSCRIPTS() ;	
-
-	if (trigger.match(/運氣|運勢/) != null) return exports.funny.randomLuck(mainMsg) ; //占卜運氣		
-	
-
-	
-	/*tarot 指令
-	if (trigger.match(/猜拳/) != null) {
-		return RockPaperScissors(inputStr, mainMsg[1]);
-	}
 */
 
   
