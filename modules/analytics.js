@@ -56,20 +56,7 @@ function parseInput(rplyToken, inputStr) {
   
 }
 
-module.exports = {
-	parseInput:parseInput
-};
-
-r.match(/猜拳/) != null) {
-		return RockPaperScissors(inputStr, mainMsg[1]);
-	}
-*/
-
-  
-}
-
 
 module.exports = {
 	parseInput:parseInput
 };
-
