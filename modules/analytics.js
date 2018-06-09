@@ -46,6 +46,7 @@ function parseInput(rplyToken, inputStr) {
 	if (trigger.match(/角色背景/) != null) return exports.funny.BStyleFlagSCRIPTS() ;	
 
 	//鴨霸獸指令開始於此
+	if (trigger.match(/@吹雪/) != null) return exports.funny.randomYuki() ;	
 	if (trigger.match(/女裝/) != null) return exports.funny.randomReply() ;	
 	if (trigger.match(/運勢|的機率/) != null) return exports.funny.randomLuck(mainMsg) ; //占卜運氣		
 
