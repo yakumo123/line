@@ -20,6 +20,15 @@ let rplyArr = ['吉爆','爆吉','大爆吉','大吉吉','你大吉吉','這我�
 rply.text = TEXT[0] + ' ： ' + rplyArr[Math.floor((Math.random() * (rplyArr.length)) + 0)];
 return rply;
 }
+function randomYuki() {
+let rplyArr = ['\
+真的', '\
+他都喜歡欺負人', '\
+壞壞', '\
+超過分'];
+rply.text = rplyArr[Math.floor((Math.random() * (rplyArr.length)) + 0)];
+return rply;
+}
 
 function randomReply() {
 let rplyArr = ['\
@@ -360,6 +369,7 @@ function choice(input,str) {
 module.exports = {
 	BStyleFlagSCRIPTS,
 	randomReply,
+	randomYuki,
 	randomLuck,
 	RockPaperScissors,
 	MultiDrawTarot,
