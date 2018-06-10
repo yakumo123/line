@@ -24,117 +24,54 @@ function Help() {
 			"type": "carousel",
 			"columns": [
 				{
-					"title": "《基本擲骰系統》",
-					"text": "【擲骰BOT】v1.40 指令包括1D100, 5B10 ,5U10 8 9",
+					"title": "《基本系統》",
+					"text": "@吹雪,女裝",
 					"actions": [
 						{
 							"type": "message",
-							"label": "1d100擲骰範例",
-							"text": "5 1d100 示範"
+							"label": "示範《女裝》",
+							"text": "女裝吹雪"
 						},
 						{
 							"type": "message",
-							"label": "5B10擲骰範例",
-							"text": "5B10 9 不加總的擲骰,計算其中有多少粒大於9"
-						},
-						{
-							"type": "message",
-							"label": "5U10 8 9擲骰範例",
-							"text": "5U10 8 9 每骰出一粒8會有一粒獎勵骰及計算有多少粒大於9"
-						}
-
-					]
-				}, {
-					"title": "《COC 6 7版 擲骰系統》",
-					"text": "指令包括 6版ccb, 7版cc, cc(n)1~2, cc6版創角, cc7版創角, coc7角色背景",
-					"actions": [
-						{
-							"type": "message",
-							"label": "6版擲骰 技能80",
-							"text": "ccb 80 擒抱!"
-						},
-						{
-							"type": "message",
-							"label": "7版擲骰 技能80 -2懲罰",
-							"text": "ccn2 80 7版擲骰技能80 -2懲罰"
-						},
-						{
-							"type": "message",
-							"label": "cc7版創角 50歲",
-							"text": "cc7版創角 50"
+							"label": "示範《@吹雪》",
+							"text": "@吹雪"
 						}
 
 					]
 				},
 				{
-					"title": "《其他系統01》",
-					"text": "NC死靈年代記之永遠的後日談, WoD黑暗世界",
+					"title": "《人物角色背景創作》",
+					"text": "角色創作",
 					"actions": [
 						{
 							"type": "message",
-							"label": "1NC 擲骰範例",
-							"text": "2NC"
-						},
-						{
-							"type": "message",
-							"label": "NM 依戀擲骰範例",
-							"text": "nm"
-						},
-						{
-							"type": "message",
-							"label": "WOD擲骰範例",
-							"text": "5wd8 投擲5次D10 每有一粒大於8,得到一粒獎勵骰"
+							"label": "角色創作示範",
+							"text": "八雲的角色背景"
 						}
 
 					]
 				},
 				{
-					"title": "《其他系統02》",
-					"text": "DX3雙重十字 nDXc+m n=骰數 c=暴擊值 m=其他修正",
-					"actions": [
-						{
-							"type": "message",
-							"label": "DX3 擲骰範例",
-							"text": "5DX8-1+8"
-						},
-						{
-							"type": "message",
-							"label": "DX3 擲骰範例",
-							"text": "8DX+1"
-						},
-						{
-							"type": "message",
-							"label": "DX3 擲骰範例",
-							"text": "2DX5-1"
-						}
-
-					]
-				},
-				{
-					"title": "《附加功能》",
-					"text": "排序及隨機功能,D66, D66s",
+					"title": "《排序及隨機》",
+					"text": "排序及隨機功能",
 					"actions": [
 						{
 							"type": "message",
 							"label": "排序功能範例",
-							"text": "交換禮物排序 A君 C君 F君 G君"
+							"text": "可愛的式神的排序 A式神 B式神 C式神 D式神"
 						},
 						{
 							"type": "message",
 							"label": "隨機功能範例",
-							"text": "隨機收到聖誕禮物數 1 2 3 >4"
-						},
-						{
-							"type": "message",
-							"label": "D66s 骰出D66 小至大",
-							"text": "D66s 骰出D66 小至大"
+							"text": "隨機被式神打死 A君 B君 C君 D群"
 						}
 
 					]
 				},
 				{
-					"title": "《附加功能2》",
-					"text": "塔羅牌,運氣占卜,死亡FLAG. ",
+					"title": "《占卜》",
+					"text": "塔羅牌,運氣占卜",
 					"actions": [
 						{
 							"type": "message",
@@ -143,13 +80,8 @@ function Help() {
 						},
 						{
 							"type": "message",
-							"label": "死亡FLAG",
-							"text": "立Flag/死亡flag"
-						},
-						{
-							"type": "message",
-							"label": "回報問題",
-							"text": "請到 www.hktrpg.com 留言"
+							"label": "運氣占卜",
+							"text": "求抽虹卡的運勢"
 						}
 
 					]
