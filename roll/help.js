@@ -29,7 +29,7 @@ function Help() {
 					"actions": [
 						{
 							"type": "message",
-							"label": "女裝",
+							"label": "女裝示範",
 							"text": "吹雪女裝"
 						},
 						{
@@ -45,96 +45,96 @@ function Help() {
 
 					]
 				}, {
-					"title": "《COC 6 7版 擲骰系統》",
-					"text": "指令包括 6版ccb, 7版cc, cc(n)1~2, cc6版創角, cc7版創角, coc7角色背景",
+					"title": "《自創人物角色系統》",
+					"text": "角色背景",
 					"actions": [
 						{
 							"type": "message",
-							"label": "6版擲骰 技能80",
-							"text": "ccb 80 擒抱!"
+							"label": "角色背景示範",
+							"text": "八雲的角色背景"
 						},
 						{
 							"type": "message",
-							"label": "7版擲骰 技能80 -2懲罰",
-							"text": "ccn2 80 7版擲骰技能80 -2懲罰"
+							"label": "待更新",
+							"text": "萌萌八雲的角色背景"
 						},
 						{
 							"type": "message",
-							"label": "cc7版創角 50歲",
-							"text": "cc7版創角 50"
+							"label": "待更新",
+							"text": "可愛八雲的角色背景"
 						}
 
 					]
 				},
 				{
-					"title": "《其他系統01》",
+					"title": "《隨機選擇系統》",
 					"text": "NC死靈年代記之永遠的後日談, WoD黑暗世界",
 					"actions": [
 						{
 							"type": "message",
-							"label": "1NC 擲骰範例",
-							"text": "2NC"
+							"label": "隨機功能示範",
+							"text": "隨機抽中一個萌式神 A式神 B式神 C式神 D式神"
 						},
 						{
 							"type": "message",
-							"label": "NM 依戀擲骰範例",
-							"text": "nm"
+							"label": "待更新",
+							"text": "隨機抽中一個萌式神 A式神 B式神 C式神 D式神"
 						},
 						{
 							"type": "message",
-							"label": "WOD擲骰範例",
-							"text": "5wd8 投擲5次D10 每有一粒大於8,得到一粒獎勵骰"
+							"label": "待更新",
+							"text": "隨機抽中一個萌式神 A式神 B式神 C式神 D式神"
 						}
 
 					]
 				},
 				{
-					"title": "《其他系統02》",
-					"text": "DX3雙重十字 nDXc+m n=骰數 c=暴擊值 m=其他修正",
+					"title": "《排序功能系統》",
+					"text": "排序功能",
 					"actions": [
 						{
 							"type": "message",
-							"label": "DX3 擲骰範例",
-							"text": "5DX8-1+8"
+							"label": "排序功能示範",
+							"text": "群中排名次序 A八雲 B八雲 C八雲 D八雲"
 						},
 						{
 							"type": "message",
-							"label": "DX3 擲骰範例",
-							"text": "8DX+1"
+							"label": "按我",
+							"text": "我是大笨蛋 快來截我圖"
 						},
 						{
 							"type": "message",
-							"label": "DX3 擲骰範例",
-							"text": "2DX5-1"
+							"label": "待更新",
+							"text": "群中排名次序 A八雲 B八雲 C八雲 D八雲"
 						}
 
 					]
 				},
 				{
-					"title": "《附加功能》",
+					"title": "《運勢占卜功能》",
 					"text": "排序及隨機功能,D66, D66s",
 					"actions": [
 						{
 							"type": "message",
-							"label": "排序功能範例",
-							"text": "交換禮物排序 A君 C君 F君 G君"
+							"label": "運勢占卜範例",
+							"text": "求八雲運勢"
 						},
 						{
 							"type": "message",
-							"label": "隨機功能範例",
-							"text": "隨機收到聖誕禮物數 1 2 3 >4"
+							"label": "機率占卜",
+							"text": "求八雲遇到式神的機率"
 						},
 						{
 							"type": "message",
-							"label": "D66s 骰出D66 小至大",
-							"text": "D66s 骰出D66 小至大"
+							"label": "待更新",
+							"text": "八雲運勢"
 						}
 
 					]
 				},
 				{
-					"title": "《附加功能2》",
-					"text": "塔羅牌,運氣占卜,死亡FLAG. ",
+					"title": "《塔羅系統》",
+					"text": "塔羅牌",
 					"actions": [
 						{
 							"type": "message",
@@ -143,13 +143,13 @@ function Help() {
 						},
 						{
 							"type": "message",
-							"label": "死亡FLAG",
-							"text": "立Flag/死亡flag"
+							"label": "不要按我",
+							"text": "我想被轟成智障呢~~"
 						},
 						{
 							"type": "message",
-							"label": "回報問題",
-							"text": "請到 www.hktrpg.com 留言"
+							"label": "待更新",
+							"text": "單張塔羅/大十字塔羅/每日塔羅牌/時間tarot 單張,大十字,每日及時間必須放頭"
 						}
 
 					]
