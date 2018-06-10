@@ -50,7 +50,8 @@ function parseInput(rplyToken, inputStr) {
 	if (trigger.match(/@吹雪/) != null) return exports.funny.randomYuki() ;	
 	if (trigger.match(/女裝/) != null) return exports.funny.randomReply() ;	
 	if (trigger.match(/運勢|的機率/) != null) return exports.funny.randomLuck(mainMsg) ; //占卜運氣		
-
+	if (trigger.match(/鋪起來/) != null) return exports.funny.randomAOE() ;	
+	
 
 
 	/*tarot 指令
