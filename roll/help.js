@@ -24,23 +24,23 @@ function Help() {
 			"type": "carousel",
 			"columns": [
 				{
-					"title": "《基本擲骰系統》",
-					"text": "【擲骰BOT】v1.40 指令包括1D100, 5B10 ,5U10 8 9",
+					"title": "《女裝吹雪系統》",
+					"text": "女裝",
 					"actions": [
 						{
 							"type": "message",
-							"label": "1d100擲骰範例",
-							"text": "5 1d100 示範"
+							"label": "女裝",
+							"text": "吹雪女裝"
 						},
 						{
 							"type": "message",
-							"label": "5B10擲骰範例",
-							"text": "5B10 9 不加總的擲骰,計算其中有多少粒大於9"
+							"label": "待更新",
+							"text": "吹雪女裝"
 						},
 						{
 							"type": "message",
-							"label": "5U10 8 9擲骰範例",
-							"text": "5U10 8 9 每骰出一粒8會有一粒獎勵骰及計算有多少粒大於9"
+							"label": "待更新",
+							"text": "吹雪女裝"
 						}
 
 					]
