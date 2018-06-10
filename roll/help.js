@@ -36,6 +36,11 @@ function Help() {
 							"type": "message",
 							"label": "示範《@吹雪》",
 							"text": "@吹雪"
+						};
+						{
+							"type": "message",
+							"label": "示範《@吹雪》",
+							"text": "@吹雪"
 						}
 
 					]
@@ -44,6 +49,11 @@ function Help() {
 					"title": "《人物角色背景創作》",
 					"text": "角色創作",
 					"actions": [
+						{
+							"type": "message",
+							"label": "角色創作示範",
+							"text": "八雲的角色背景"
+						};
 						{
 							"type": "message",
 							"label": "角色創作示範",
@@ -65,6 +75,11 @@ function Help() {
 							"type": "message",
 							"label": "排序功能範例",
 							"text": "可愛的式神的排序 A式神 B式神 C式神 D式神"
+						};
+						{
+							"type": "message",
+							"label": "隨機功能範例",
+							"text": "隨機被式神打死 A君 B君 C君 D群"
 						};
 						{
 							"type": "message",
