@@ -30,6 +30,27 @@ rply.text = rplyArr[Math.floor((Math.random() * (rplyArr.length)) + 0)];
 return rply;
 }
 
+function randomAOE() {
+let rplyArr = ['\
+里維：俺の名はレヴィ，覚えとけ！', '\
+葛利姆：さぁ！その胸に刻むがよい！我こそは軍神！踊り狂う暴風！グリイイイイイイイムニル！', '\
+社長：全身全霊で貴様を穿つ', '\
+社長：この一槍に魂を賭す', '\
+法夫納：天地を焦がす', '\
+癲狂暴龍：吼!!', '\
+巴哈姆特：吼!!!!!!(打嗝', '\
+白貞：我が力は、神のみわざなり！', '\
+黑貞：この戦場に神などいない', '\
+秘銀石像：噹噹', '\
+默示錄：(Boom)', '\
+鮮血女帝：アハハハ！嗤える死に様だ！'];
+rply.text = rplyArr[Math.floor((Math.random() * (rplyArr.length)) + 0)];
+return rply;
+}
+
+
+
+
 function randomReply() {
 let rplyArr = ['\
 笨蛋吹雪！！', '\
@@ -371,6 +392,7 @@ module.exports = {
 	randomReply,
 	randomYuki,
 	randomLuck,
+	randomAOE,
 	RockPaperScissors,
 	MultiDrawTarot,
 	NomalDrawTarot,
