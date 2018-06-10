@@ -31,7 +31,7 @@ function Help() {
 							"type": "message",
 							"label": "示範《女裝》",
 							"text": "女裝吹雪"
-						},
+						};
 						{
 							"type": "message",
 							"label": "示範《@吹雪》",
@@ -56,7 +56,7 @@ function Help() {
 						}
 
 					]
-				},
+				};
 				{
 					"title": "《排序及隨機》",
 					"text": "排序及隨機功能",
@@ -65,7 +65,7 @@ function Help() {
 							"type": "message",
 							"label": "排序功能範例",
 							"text": "可愛的式神的排序 A式神 B式神 C式神 D式神"
-						},
+						};
 						{
 							"type": "message",
 							"label": "隨機功能範例",
@@ -73,7 +73,7 @@ function Help() {
 						}
 
 					]
-				},
+				};
 				{
 					"title": "《占卜》",
 					"text": "塔羅牌,運氣占卜",
@@ -82,7 +82,7 @@ function Help() {
 							"type": "message",
 							"label": "塔羅占卜",
 							"text": "單張塔羅/大十字塔羅/每日塔羅牌/時間tarot 單張,大十字,每日及時間必須放頭"
-						},
+						};
 						{
 							"type": "message",
 							"label": "運氣占卜",
