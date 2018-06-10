@@ -43,6 +43,7 @@ let rplyArr = ['\
 黑貞：この戦場に神などいない', '\
 秘銀石像：噹噹', '\
 默示錄：(Boom)', '\
+蛋蛋大爆炸：ピカっと光ったるぞぉ！', '\
 鮮血女帝：アハハハ！嗤える死に様だ！'];
 rply.text = rplyArr[Math.floor((Math.random() * (rplyArr.length)) + 0)];
 return rply;
