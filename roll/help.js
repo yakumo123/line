@@ -55,7 +55,7 @@ function Help() {
 				},
 				{
 					"title": "《隨機選擇系統》",
-					"text": "NC死靈年代記之永遠的後日談, WoD黑暗世界",
+					"text": "隨機選擇功能",
 					"actions": [
 						{
 							"type": "message",
@@ -99,7 +99,7 @@ function Help() {
 				},
 				{
 					"title": "《運勢占卜功能》",
-					"text": "排序及隨機功能,D66, D66s",
+					"text": "占卜功能",
 					"actions": [
 						{
 							"type": "message",
