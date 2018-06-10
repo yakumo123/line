@@ -24,7 +24,7 @@ function parseInput(rplyToken, inputStr) {
 	//普通ROLL擲骰判定在此	
 	if (inputStr.match(/\w/)!=null && inputStr.toLowerCase().match(/\d+d+\d/)!=null) return exports.rollbase.nomalDiceRoller(inputStr,mainMsg[0],mainMsg[1],mainMsg[2]);
 
-	if (trigger.match(/^@help$|^@幫助$/)!= null ) return exports.help.Help();
+	if (trigger.match(/^bothelp$|^bot幫助$/)!= null ) return exports.help.Help();
 
 	//Fisher–Yates shuffle
  	//SortIt 指令開始於此
