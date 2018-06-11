@@ -121,23 +121,23 @@ function Help() {
 					]
 				},
 				{
-					"title": "《女裝吹雪系統》",
+					"title": "《女裝系統》",
 					"text": "女裝",
 					"actions": [
 						{
 							"type": "message",
 							"label": "女裝示範",
-							"text": "吹雪女裝"
+							"text": "你來女裝"
 						},
 						{
 							"type": "message",
 							"label": "待更新",
-							"text": "吹雪女裝"
+							"text": "女裝"
 						},
 						{
 							"type": "message",
 							"label": "待更新",
-							"text": "吹雪女裝"
+							"text": "女裝"
 						}
 
 					]
