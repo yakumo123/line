@@ -47,7 +47,7 @@ function CarPhoto() {
 						},
 						{
 							"type": "message",
-							"label": "奧茲",
+							"label": "銀冰龍人",
 							"text": "vr8w3j"
 						}
 
