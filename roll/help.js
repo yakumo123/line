@@ -114,8 +114,8 @@ function Help() {
 						},
 						{
 							"type": "message",
-							"label": "大爆解",
-							"text": "大爆解"
+							"label": "【關鍵字列表】",
+							"text": "CodeCommand5itv4ci42"
 						}
 
 					]
