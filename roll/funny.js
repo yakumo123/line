@@ -20,14 +20,13 @@ let rplyArr = ['吉爆','爆吉','大爆吉','大吉吉','你大吉吉','這我�
 rply.text = TEXT[0] + ' ： ' + rplyArr[Math.floor((Math.random() * (rplyArr.length)) + 0)];
 return rply;
 }
-
 function randomYuki() {
 let rplyArr = ['\
 真的', '\
 他都喜歡欺負人', '\
 壞壞', '\
 超過分'];
-rply.text = rplyArr.floor((Math.random() * (rplyArr.length)) + 0)];
+rply.text = rplyArr[Math.floor((Math.random() * (rplyArr.length)) + 0)];
 return rply;
 }
 
@@ -44,11 +43,13 @@ let rplyArr = ['\
 黑貞：この戦場に神などいない', '\
 秘銀石像：噹噹', '\
 默示錄：(Boom)', '\
-蛋蛋大爆炸：ピカっと光ったるぞぉ！', '\
 鮮血女帝：アハハハ！嗤える死に様だ！'];
 rply.text = rplyArr[Math.floor((Math.random() * (rplyArr.length)) + 0)];
 return rply;
 }
+
+
+
 
 function randomReply() {
 let rplyArr = ['\
