@@ -52,9 +52,10 @@ function parseInput(rplyToken, inputStr) {
 	if (trigger.match(/@吹雪/) != null) return exports.funny.randomYuki() ;	
 	if (trigger.match(/女裝/) != null) return exports.funny.randomReply() ;	
 	if (trigger.match(/運勢|的機率/) != null) return exports.funny.randomLuck(mainMsg) ; //占卜運氣		
-	if (trigger.match(/鋪起來|鋪滿/) != null) return exports.funny.randomAOE() ;	
-	if (trigger.match(/CodeCommand5itv4ci42/) != null) return exports.funny.CommandRequire() ;	
-	if (trigger.match(/CommandRequirementAns163/) != null) return exports.funny.CommandList() ;	
+	if (trigger.match(/鋪起來|鋪滿/) != null) return exports.funny.randomAOE() ;
+	
+	if (trigger.match(/CodeCommand5itv4ci42/) != null) return exports.funny.CommandRequire() ;
+	if (trigger.match(/CommandRequirementAns163/) != null) return exports.funny.CommandList() ;
 
 
 	/*tarot 指令
