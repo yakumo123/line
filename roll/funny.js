@@ -1,6 +1,8 @@
 var rollbase = require('./rollbase.js');
 var rply ={type : 'text'}; //type是必需的,但可以更改
 
+var yakumo = '【免責聲明】 \n【警告】本列表含有大量訊息 請勿在【群組】內使用 請使用【私訊】對本Bot使用以了解所有的指令 \n本Bot作者因方便其使用者使用本Bot而設立本指令列表 其不當使用/不跟隨以上警告所使用 所有責任不應歸其作者身上 其所有責任均在其使用者身上 本Bot作者不會對其所發生的事情負上一切責任 \n請在了解以上免責聲明後 回答以下問題以取得指令列表：5x2x10+3×21 並在答案的前方加上：CommandRequirementAns \n示範：CommandRequirementAns1234'
+
 function BStyleFlagSCRIPTS() {
 let PersonalDescriptionArr = ['神族', '魔族', '妖精族', '人族', '巨人族', '森精族', '獸人族', '天翼族', '機凱族', '魚人族', '吸血鬼族', '龍族']
 let IdeologyBeliefsArr = ['男性', '女性'];
@@ -51,8 +53,8 @@ return rply;
 }
 
 function CommandRequire() {
-let CmmeArr = ['【免責聲明】 \n【警告】本列表含有大量訊息 請勿在【群組】內使用 請使用【私訊】對本Bot使用以了解所有的指令 \n本Bot作者因方便其使用者使用本Bot而設立本指令列表 其不當使用/不跟隨以上警告所使用 所有責任不應歸其作者身上 其所有責任均在其使用者身上 本Bot作者不會對其所發生的事情負上一切責任 \n請在了解以上免責聲明後 回答以下問題以取得指令列表：5x2x10+3×21 並在答案的前方加上：CommandRequirementAns \n示範：CommandRequirementAns1234','【免責聲明】 \n【警告】本列表含有大量訊息 請勿在【群組】內使用 請使用【私訊】對本Bot使用以了解所有的指令 \n本Bot作者因方便其使用者使用本Bot而設立本指令列表 其不當使用/不跟隨以上警告所使用 所有責任不應歸其作者身上 其所有責任均在其使用者身上 本Bot作者不會對其所發生的事情負上一切責任 \n請在了解以上免責聲明後 回答以下問題以取得指令列表：5x2x10+3×21 並在答案的前方加上：CommandRequirementAns \n示範：CommandRequirementAns1234']
-rply.text = CmmeArr.floor((Math.random() * (rplyArr.length)) + 0)];
+let Cmme = yakumo
+rply.text = Cmme;
 return rply;
 }
 
