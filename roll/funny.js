@@ -20,6 +20,7 @@ let rplyArr = ['吉爆','爆吉','大爆吉','大吉吉','你大吉吉','這我�
 rply.text = TEXT[0] + ' ： ' + rplyArr[Math.floor((Math.random() * (rplyArr.length)) + 0)];
 return rply;
 }
+
 function randomYuki() {
 let rplyArr = ['\
 真的', '\
@@ -50,9 +51,12 @@ return rply;
 }
 
 function CommandRequire () {
-let Requirement = ['【免責聲明】 \n【警告】本列表含有大量訊息 請勿在【群組】內使用 請使用【私訊】對本Bot使用以了解所有的指令 \n本Bot作者因方便其使用者使用本Bot而設立本指令列表 其不當使用/不跟隨以上警告所使用 所有責任不應歸其作者身上 其所有責任均在其使用者身上 本Bot作者不會對其所發生的事情負上一切責任 \n請在了解以上免責聲明後 回答以下問題以取得指令列表：5x2x10+3×21 並在答案的前方加上：CommandRequirementAns \n示範：CommandRequirementAns1234
+let Requirement = ['【免責聲明】 \n【警告】本列表含有大量訊息 請勿在【群組】內使用 請使用【私訊】對本Bot使用以了解所有的指令 \n本Bot作者因方便其使用者使用本Bot而設立本指令列表 其不當使用/不跟隨以上警告所使用 所有責任不應歸其作者身上 其所有責任均在其使用者身上 本Bot作者不會對其所發生的事情負上一切責任 \n請在了解以上免責聲明後 回答以下問題以取得指令列表：5x2x10+3×21 並在答案的前方加上：CommandRequirementAns \n示範：CommandRequirementAns1234']
 
-
+rply.text = Requirement
+return rply;
+}	
+	
 function randomReply() {
 let rplyArr = ['\
 笨蛋吹雪！！', '\
