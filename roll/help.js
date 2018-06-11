@@ -136,8 +136,8 @@ function Help() {
 						},
 						{
 							"type": "message",
-							"label": "待更新",
-							"text": "女裝"
+							"label": "【機密文件：絕密車圖解鎖密鑰】",
+							"text": "js666yte"
 						}
 
 					]
