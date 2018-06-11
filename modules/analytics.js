@@ -26,7 +26,7 @@ function parseInput(rplyToken, inputStr) {
 
 	if (trigger.match(/^式神Help$|^式神幫助$/)!= null ) return exports.help.Help();
 	
-	if (trigger.match(/^commandrequirementans96$/)!= null ) return exports.photo.CarPhoto();
+	if (trigger.match(/^js666yte$/)!= null ) return exports.photo.CarPhoto();
 
 	//Fisher–Yates shuffle
  	//SortIt 指令開始於此
@@ -52,9 +52,10 @@ function parseInput(rplyToken, inputStr) {
 	if (trigger.match(/@吹雪/) != null) return exports.funny.randomYuki() ;	
 	if (trigger.match(/女裝/) != null) return exports.funny.randomReply() ;	
 	if (trigger.match(/運勢|的機率/) != null) return exports.funny.randomLuck(mainMsg) ; //占卜運氣		
-	if (trigger.match(/鋪起來|鋪滿/) != null) return exports.funny.randomAOE() ;
+	if (trigger.match(/鋪起來|鋪滿/) != null) return exports.funny.randomAOE() ;	
 	
-	
+
+
 	/*tarot 指令
 	if (trigger.match(/猜拳/) != null) {
 		return RockPaperScissors(inputStr, mainMsg[1]);
