@@ -22,12 +22,12 @@ function Help() {
 						{
 							"type": "message",
 							"label": "待更新",
-							"text": "吹雪女裝"
+							"text": ""
 						},
 						{
 							"type": "message",
 							"label": "待更新",
-							"text": "吹雪女裝"
+							"text": ""
 						}
 
 					]
@@ -42,13 +42,13 @@ function Help() {
 						},
 						{
 							"type": "message",
-							"label": "待更新",
-							"text": "萌萌八雲的角色背景"
+							"label": "不要按我",
+							"text": "我想被轟成智障呢~~"
 						},
 						{
 							"type": "message",
 							"label": "待更新",
-							"text": "可愛八雲的角色背景"
+							"text": ""
 						}
 
 					]
@@ -98,13 +98,13 @@ function Help() {
 					]
 				},
 				{
-					"title": "《運勢占卜功能》",
+					"title": "《運勢及塔羅占卜功能》",
 					"text": "占卜功能",
 					"actions": [
 						{
 							"type": "message",
 							"label": "運勢占卜範例",
-							"text": "求八雲運勢"
+							"text": "求八雲式神運勢"
 						},
 						{
 							"type": "message",
@@ -113,8 +113,8 @@ function Help() {
 						},
 						{
 							"type": "message",
-							"label": "待更新",
-							"text": "八雲運勢"
+							"label": "塔羅占卜",
+							"text": "單張塔羅/大十字塔羅/每日塔羅牌/時間tarot 單張,大十字,每日及時間必須放頭"
 						}
 
 					]
