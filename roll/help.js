@@ -11,27 +11,6 @@ function Help() {
 			"type": "carousel",
 			"columns": [
 				{
-					"title": "《女裝吹雪系統》",
-					"text": "女裝",
-					"actions": [
-						{
-							"type": "message",
-							"label": "女裝示範",
-							"text": "吹雪女裝"
-						},
-						{
-							"type": "message",
-							"label": "待更新",
-							"text": "吹雪女裝"
-						},
-						{
-							"type": "message",
-							"label": "待更新",
-							"text": "吹雪女裝"
-						}
-
-					]
-				}, {
 					"title": "《自創人物角色系統》",
 					"text": "角色背景",
 					"actions": [
@@ -121,22 +100,44 @@ function Help() {
 				},
 				{
 					"title": "《關鍵字回應系統》",
-					"text": "塔羅牌",
+					"text": "關鍵字例如 鋪起來, 幹, 怕, 怕爆, 大爆解, 決鬥, 衞星砲, 略過200條",
 					"actions": [
 						{
 							"type": "message",
-							"label": "塔羅占卜",
-							"text": "單張塔羅/大十字塔羅/每日塔羅牌/時間tarot 單張,大十字,每日及時間必須放頭"
+							"label": "怕",
+							"text": "怕"
 						},
 						{
 							"type": "message",
-							"label": "不要按我",
-							"text": "我想被轟成智障呢~~"
+							"label": "鋪起來",
+							"text": "鋪起來"
+						},
+						{
+							"type": "message",
+							"label": "大爆解",
+							"text": "大爆解"
+						}
+
+					]
+				},
+				{
+					"title": "《女裝吹雪系統》",
+					"text": "女裝",
+					"actions": [
+						{
+							"type": "message",
+							"label": "女裝示範",
+							"text": "吹雪女裝"
 						},
 						{
 							"type": "message",
 							"label": "待更新",
-							"text": "單張塔羅/大十字塔羅/每日塔羅牌/時間tarot 單張,大十字,每日及時間必須放頭"
+							"text": "吹雪女裝"
+						},
+						{
+							"type": "message",
+							"label": "待更新",
+							"text": "吹雪女裝"
 						}
 
 					]
