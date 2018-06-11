@@ -42,7 +42,7 @@ function CarPhoto() {
 						},
 						{
 							"type": "message",
-							"label": "伊莎貝爾",
+							"label": "奧契絲",
 							"text": "g6uy0k"
 						},
 						{
