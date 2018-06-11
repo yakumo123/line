@@ -22,12 +22,12 @@ function Help() {
 						{
 							"type": "message",
 							"label": "待更新",
-							"text": ""
+							"text": "吹雪女裝"
 						},
 						{
 							"type": "message",
 							"label": "待更新",
-							"text": ""
+							"text": "吹雪女裝"
 						}
 
 					]
@@ -48,7 +48,7 @@ function Help() {
 						{
 							"type": "message",
 							"label": "待更新",
-							"text": ""
+							"text": "八雲的角色背景"
 						}
 
 					]
@@ -120,7 +120,7 @@ function Help() {
 					]
 				},
 				{
-					"title": "《塔羅系統》",
+					"title": "《關鍵字回應系統》",
 					"text": "塔羅牌",
 					"actions": [
 						{
