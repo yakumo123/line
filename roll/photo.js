@@ -16,17 +16,17 @@ function CarPhoto() {
 						{
 							"type": "message",
 							"label": "班比",
-							"text": "5gs6k9"
+							"text": "C5gs6k9"
 						},
 						{
 							"type": "message",
 							"label": "桃樂絲",
-							"text": "2g7hds"
+							"text": "C2g7hds"
 						},
 						{
 							"type": "message",
 							"label": "露娜",
-							"text": "l4hs8w"
+							"text": "Cl4hs8w"
 						}
 
 					]
@@ -38,17 +38,17 @@ function CarPhoto() {
 						{
 							"type": "message",
 							"label": "亞莉莎",
-							"text": "56b9er"
+							"text": "C56b9er"
 						},
 						{
 							"type": "message",
 							"label": "奧契絲",
-							"text": "g6uy0k"
+							"text": "Cg6uy0k"
 						},
 						{
 							"type": "message",
 							"label": "銀冰龍人",
-							"text": "vr8w3j"
+							"text": "Cvr8w3j"
 						}
 
 					]
@@ -60,17 +60,17 @@ function CarPhoto() {
 						{
 							"type": "message",
 							"label": "伊莉雅",
-							"text": "sp65gn"
+							"text": "Csp65gn"
 						},
 						{
 							"type": "message",
 							"label": "雜圖1",
-							"text": "3pu0jd"
+							"text": "C3pu0jd"
 						},
 						{
 							"type": "message",
 							"label": "雜圖2",
-							"text": "pee8kt"
+							"text": "Cpee8kt"
 						}
 
 					]
@@ -82,17 +82,17 @@ function CarPhoto() {
 						{
 							"type": "message",
 							"label": "獸耳1",
-							"text": "s5hor"
+							"text": "Cs5hor"
 						},
 						{
 							"type": "message",
 							"label": "獸耳2",
-							"text": "21s5h9"
+							"text": "C21s5h9"
 						},
 						{
 							"type": "message",
 							"label": "獸耳3",
-							"text": "346pe7"
+							"text": "C346pe7"
 						}
 
 					]
@@ -104,17 +104,17 @@ function CarPhoto() {
 						{
 							"type": "message",
 							"label": "獸耳4",
-							"text": "4251fd"
+							"text": "C4251fd"
 						},
 						{
 							"type": "message",
 							"label": "獸耳5",
-							"text": "97jcrd"
+							"text": "C97jcrd"
 						},
 						{
 							"type": "message",
 							"label": "獸耳6",
-							"text": "3ted86"
+							"text": "C3ted86"
 						}
 
 					]
@@ -126,17 +126,17 @@ function CarPhoto() {
 						{
 							"type": "message",
 							"label": "萌1",
-							"text": "rfd7b8"
+							"text": "Crfd7b8"
 						},
 						{
 							"type": "message",
 							"label": "萌2",
-							"text": "5yv7ko"
+							"text": "C5yv7ko"
 						},
 						{
 							"type": "message",
 							"label": "大爆萌",
-							"text": "s6hr5j"
+							"text": "Cs6hr5j"
 						}
 
 					]
@@ -148,17 +148,17 @@ function CarPhoto() {
 						{
 							"type": "message",
 							"label": "【禁止X】",
-							"text": "XX23XX"
+							"text": "CXX23XX"
 						},
 						{
 							"type": "message",
 							"label": "【禁止XX】",
-							"text": "XX45XX"
+							"text": "CXX45XX"
 						},
 						{
 							"type": "message",
 							"label": "【禁止XXX】",
-							"text": "XX78XX"
+							"text": "CXX78XX"
 						}
 
 					]
