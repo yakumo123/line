@@ -5,11 +5,32 @@ var rply = { type: 'text' }; //type是必需的,但可以更改
 function Help() {
 	rply = {
 		"type": "template",
-		"altText": "【式神的教學】\
-吹雪快點女裝啦",
+		"altText": "【式神的教學】",
 		"template": {
 			"type": "carousel",
 			"columns": [
+				{
+					"title": "《更新詳情》",
+					"text": "圖片整合增加, 增加部份功能警告防止洗頻, 部分功能修正",
+					"actions": [
+						{
+							"type": "message",
+							"label": "空白訊息",
+							"text": "我是變態"
+						},
+						{
+							"type": "message",
+							"label": "空白訊息",
+							"text": "我不只是變態 我還是一個白痴"
+						},
+						{
+							"type": "message",
+							"label": "空白訊息",
+							"text": "我不當人類啦!!!"
+						}
+
+					]
+				},
 				{
 					"title": "《自創人物角色系統》",
 					"text": "角色背景",
