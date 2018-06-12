@@ -164,6 +164,28 @@ function CarPhoto() {
 					]
 				},
 				{
+					"title": "【新】《獸耳3》",
+					"text": "獸耳最高",
+					"actions": [
+						{
+							"type": "message",
+							"label": "獸耳7",
+							"text": "Cufrx5f"
+						},
+						{
+							"type": "message",
+							"label": "獸耳8",
+							"text": "C8ngfd3"
+						},
+						{
+							"type": "message",
+							"label": "獸耳9",
+							"text": "C3v5f3i"
+						}
+
+					]
+				},
+				{
 					"title": "《萌萌2頭身》",
 					"text": "萌爆",
 					"actions": [
