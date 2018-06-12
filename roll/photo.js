@@ -54,6 +54,28 @@ function CarPhoto() {
 					]
 				},
 				{
+					"title": "《SV角色3》",
+					"text": "SV整合3",
+					"actions": [
+						{
+							"type": "message",
+							"label": "法露特",
+							"text": "Cujb66d"
+						},
+						{
+							"type": "message",
+							"label": "菈米娜",
+							"text": "C52ut2h"
+						},
+						{
+							"type": "message",
+							"label": "埃忒耳",
+							"text": "Cl45fdw"
+						}
+
+					]
+				},
+				{
 					"title": "《Fate》",
 					"text": "Fate",
 					"actions": [
