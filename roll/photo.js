@@ -54,7 +54,7 @@ function CarPhoto() {
 					]
 				},
 				{
-					"title": "《SV角色3》",
+					"title": "【新】《SV角色3》",
 					"text": "SV整合3",
 					"actions": [
 						{
@@ -71,6 +71,28 @@ function CarPhoto() {
 							"type": "message",
 							"label": "埃忒耳",
 							"text": "Cl45fdw"
+						}
+
+					]
+				},
+				{
+					"title": "【新】《SV角色4》",
+					"text": "SV整合4",
+					"actions": [
+						{
+							"type": "message",
+							"label": "‧阿麗雅",
+							"text": "C8hs62h"
+						},
+						{
+							"type": "message",
+							"label": "班比2",
+							"text": "Cjdo8jr"
+						},
+						{
+							"type": "message",
+							"label": "梅杜莎",
+							"text": "Cij6hf4"
 						}
 
 					]
