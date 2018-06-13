@@ -162,4 +162,15 @@ function CarPhoto() {
 						}
 
 					]
-				},
+				}
+			]
+		}
+	};
+	return rply;
+}
+
+
+
+module.exports = {
+	CarPhoto: CarPhoto
+};
