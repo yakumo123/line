@@ -21,11 +21,6 @@ function parseInput(rplyToken, inputStr) {
 
 	if (trigger.match(/^資訊$|^比賽$|^比賽資訊$|^比賽資料$|^資料$/)!= null ) return exports.help.Help();
 
-
-	/*tarot 指令
-	if (trigger.match(/猜拳/) != null) {
-		return RockPaperScissors(inputStr, mainMsg[1]);
-	}
 */
 
   
