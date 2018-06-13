@@ -157,7 +157,7 @@ function Help() {
 						},
 						{
 							"type": "message",
-							"label": "【機密文件：絕密車圖解鎖密鑰】",
+							"label": "【車圖整合(慎用)】",
 							"text": "js666yte"
 						}
 
