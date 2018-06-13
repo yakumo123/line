@@ -26,7 +26,7 @@ function Help() {
 						{
 							"type": "message",
 							"label": "主辦單位",
-							"text": "主辦單位：  \n小學生八雲やくも  \n安妮幽"
+							"text": "主辦單位【暫定】：  \n小學生八雲やくも  \n安妮幽  \n筱亞  \n震棋  \n小楓"
 						}
 
 					]
