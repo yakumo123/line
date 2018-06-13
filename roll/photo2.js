@@ -9,7 +9,7 @@ function CarPhoto() {
 		"template": {
 			"type": "carousel",
 			"columns": [
-        {
+				{
 					"title": "【新】《蘿王的工作》",
 					"text": "小心FBI 社工跟麥當勞歡樂送",
 					"actions": [
@@ -31,7 +31,7 @@ function CarPhoto() {
 
 					]
 				},
-{
+				{
 					"title": "【新】《精選優質圖1》",
 					"text": "真的都滿讚滿可愛的",
 					"actions": [
