@@ -76,7 +76,7 @@ function CarPhoto() {
 					]
 				},
 				{
-					"title": "《SV角色4》",
+					"title": "【新】《SV角色4》",
 					"text": "SV整合4",
 					"actions": [
 						{
@@ -164,7 +164,7 @@ function CarPhoto() {
 					]
 				},
 				{
-					"title": "《獸耳3》",
+					"title": "【新】《獸耳3》",
 					"text": "獸耳最高",
 					"actions": [
 						{
@@ -203,28 +203,6 @@ function CarPhoto() {
 							"type": "message",
 							"label": "大爆萌",
 							"text": "Cs6hr5j"
-						}
-
-					]
-				},
-				{
-					"title": "【新】《蘿王的工作》",
-					"text": "小心FBI 社工跟麥當勞歡樂送",
-					"actions": [
-						{
-							"type": "message",
-							"label": "整合1",
-							"text": "Cy6f4c3"
-						},
-						{
-							"type": "message",
-							"label": "整合2",
-							"text": "Cykv5d3"
-						},
-						{
-							"type": "message",
-							"label": "整合3",
-							"text": "C96grfh"
 						}
 
 					]
