@@ -2,7 +2,7 @@ var rollbase = require('./rollbase.js');
 var funny = require('./funny.js');
 var rply = { type: 'text' }; //type是必需的,但可以更改
 
-function CarPhoto() {
+function CarPhoto2() {
 	rply = {
 		"type": "template",
 		"altText": "【式神的車圖大整合】",
@@ -172,5 +172,5 @@ function CarPhoto() {
 
 
 module.exports = {
-	CarPhoto: CarPhoto
+	CarPhoto2: CarPhoto2
 };
