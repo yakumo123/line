@@ -1,0 +1,29 @@
+// Load `*.js` under roll directory as properties
+//  i.e., `User.js` will become `exports['User']` or `exports.User`
+require('fs').readdirSync('./roll/').forEach(function(file) {
+	if (file.match(/\.js$/) !== null && file !== 'index.js') {
+	  var name = file.replace('.js', '');
+	  exports[name] = require('../roll/' + file);
+	}
+  });
+
+//用來呼叫骰組,新增骰組的話,要寫條件式到下面呼叫 
+//格式是 exports.骰組檔案名字.function名
+function parseInput(rplyToken, inputStr) {
+	//console.log('InputStr: ' + inputStr);
+	_isNaN = function(obj) 	{
+	return isNaN(parseInt(obj));  
+	}
+
+	let msgSplitor = (/\S+/ig);	
+	let mainMsg = inputStr.match(msgSplitor); //定義輸入字串
+	let trigger = mainMsg[0].toString().toLowerCase(); //指定啟動詞在第一個詞&把大階強制轉成細階
+
+	if (trigger.match(/^資訊$|^比賽$|^比賽資訊$|^比賽資料$|^資料$/)!= null ) return exports.help.Help()
+  
+}
+
+
+module.exports = {
+	parseInput:parseInput
+};
