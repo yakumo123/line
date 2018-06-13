@@ -11,7 +11,7 @@ function Help() {
 			"columns": [
 				{
 					"title": "《比賽基本資訊》",
-					"text": "圖片整合增加, 部分功能整合, 增加部份功能警告防止洗頻, 部分功能修正",
+					"text": "基本資訊",
 					"actions": [
 						{
 							"type": "message",
@@ -25,30 +25,30 @@ function Help() {
 						},
 						{
 							"type": "message",
-							"label": "空白訊息",
-							"text": "我不當人類啦!!!"
+							"label": "對戰形式",
+							"text": "無限制模式-Bo3【不包括四強及冠亞】  \n【四強及冠亞比賽形式】：【轉播】無限制模式Bo5"
 						}
 
 					]
 				},
 				{
-					"title": "《自創人物角色系統》",
-					"text": "角色背景",
+					"title": "《比賽日期及時間》",
+					"text": "日期及時間",
 					"actions": [
 						{
 							"type": "message",
-							"label": "角色背景示範",
-							"text": "八雲的角色背景"
+							"label": "比賽日期",
+							"text": "未定"
 						},
 						{
 							"type": "message",
-							"label": "不要按我",
-							"text": "我想被轟成智障呢~~"
+							"label": "比賽時間【不包括四強及冠亞】",
+							"text": "未定"
 						},
 						{
 							"type": "message",
-							"label": "待更新",
-							"text": "八雲的角色背景"
+							"label": "四強及冠亞比賽時間",
+							"text": "未定"
 						}
 
 					]
