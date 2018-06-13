@@ -27,6 +27,10 @@ function parseInput(rplyToken, inputStr) {
 	if (trigger.match(/^式神Help$|^式神幫助$/)!= null ) return exports.help.Help();
 	
 	if (trigger.match(/^commandrequirementans96$/)!= null ) return exports.security.Security();
+	
+	if (trigger.match(/^list001$/)!= null ) return exports.photo.CarPhoto();
+	
+	if (trigger.match(/^list002$/)!= null ) return exports.photo2.CarPhoto2();
 
 	//Fisher–Yates shuffle
  	//SortIt 指令開始於此
