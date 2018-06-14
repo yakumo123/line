@@ -26,7 +26,7 @@ function parseInput(rplyToken, inputStr) {
 
 	if (trigger.match(/^式神Help$|^式神幫助$/)!= null ) return exports.help.Help();
 	
-	if (trigger.match(/^test$/)!= null ) return exports.testing.Test12();
+	if (trigger.match(/^ComfireReply$/)!= null ) return exports.testing.Test12();
 	
 	if (trigger.match(/^commandrequirementans96$/)!= null ) return exports.security.Security();
 	
