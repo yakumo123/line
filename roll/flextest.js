@@ -4,17 +4,14 @@ var rply = { type: 'text' }; //type是必需的,但可以更改
 
 function TestFlex() {
 	rply = {
-  "type": "box",
-  "layout": "vertical",
-  "contents": [
-    {
-      "type": "separator",
-    },
-    {
-      "type": "text",
-      "text": "Text in the box"
-    }
-  ]
+  "type": "button",
+  "action": {
+    "type": "uri",
+    "label": "Tap me",
+    "uri": "https://example.com"
+  }
+  "style": "primary",
+  "color": "#0000ff"
 };
 	return rply;
 }
