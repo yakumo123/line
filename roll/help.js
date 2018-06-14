@@ -109,7 +109,7 @@ function Help() {
 						{
 							"type": "message",
 							"label": "機率占卜",
-							"text": "求八雲遇到式神的機率"
+							"text": "求八雲遇到式神的機率是多少"
 						},
 						{
 							"type": "message",
