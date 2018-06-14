@@ -4,40 +4,21 @@ var rply = { type: 'text' }; //type是必需的,但可以更改
 
 function Test12() {
 	rply = {
-  "type": "template",
-  "altText": "this is a image carousel template",
-  "template": {
-      "type": "image_carousel",
-      "columns": [
-          {
-            "imageUrl": "https://www.petfinder.com/wp-content/uploads/2012/11/91615172-find-a-lump-on-cats-skin-632x475.jpg",
-            "action": {
-              "type": "datetimepicker",
-              "label": "",
-              "data": "",
-              "mode": ""
-            }
-          },
-          {
-            "imageUrl": "https://www.cats.org.uk/uploads/images/featurebox_sidebar_kids/grief-and-loss.jpg",
-            "action": {
-              "type": "datetimepicker",
-              "label": "",
-              "data": "",
-              "mode": ""
-            }
-          },
-          {
-            "imageUrl": "https://static.pexels.com/photos/126407/pexels-photo-126407.jpeg",
-            "action": {
-              "type": "datetimepicker",
-              "label": "",
-              "data": "",
-              "mode": ""
-            }
-          }
-			]
-		}
+  "type": "bubble", // ①
+  "body": { // ②
+    "type": "box", // ③
+    "layout": "horizontal",　// ④
+    "contents": [ // ⑤
+      {
+        "type": "text", // ⑥
+        "text": "Hello,"
+      },
+      {
+        "type": "text", // ⑥
+        "text": "World!"
+      }
+    ]
+  }
 	};
 	return rply;
 }
