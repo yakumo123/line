@@ -136,7 +136,7 @@ function Help() {
 						{
 							"type": "message",
 							"label": "【關鍵字列表】",
-							"text": "comfirm(command)"
+							"text": "comfirmcommand"
 						}
 
 					]
@@ -158,7 +158,7 @@ function Help() {
 						{
 							"type": "message",
 							"label": "【車圖整合(慎用)】",
-							"text": "comfire(photo)"
+							"text": "comfirephoto"
 						}
 
 					]
