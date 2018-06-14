@@ -17,7 +17,7 @@ function TestFlex() {
   },
   "hero": {
     "type": "image",
-    "url": "https://example.com/flex/images/image.jpg",
+    "url": "https://1.bp.blogspot.com/-1mZFw01b99M/WyHcAmrVaiI/AAAAAAAAKqk/ryiMMs5Geag5oZfwAV8Tnby5A2udbUESgCLcBGAs/s200/005.png",
   },
   "body": {
     "type": "box",
