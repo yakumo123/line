@@ -158,7 +158,7 @@ function Help() {
 						{
 							"type": "message",
 							"label": "【車圖整合(慎用)】",
-							"text": "js666yte"
+							"text": "ComfireReply"
 						}
 
 					]
