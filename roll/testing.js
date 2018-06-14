@@ -4,22 +4,25 @@ var rply = { type: 'text' }; //type是必需的,但可以更改
 
 function Test12() {
 	rply = {
-		"type": "bubble",
-		"body": {
-			"type": "box",
-			"layout": "horizontal",
-			"contents": [
-				{
-					"type": "text",
-					"text": "Hello,"
-				},
-				{
-					"type": "text",
-					"text": "World!"
-				}
-			]
-		}
-	};
+  "type": "template",
+  "altText": "this is a confirm template",
+  "template": {
+      "type": "confirm",
+      "text": "Are you sure?",
+      "actions": [
+          {
+            "type": "message",
+            "label": "Yes",
+            "text": "yes"
+          },
+          {
+            "type": "message",
+            "label": "No",
+            "text": "no"
+          }
+      ]
+  }
+};
 	return rply;
 }
 
