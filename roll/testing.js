@@ -13,7 +13,7 @@ function Test12() {
           {
             "type": "message",
             "label": "Yes",
-            "text": "commandrequirement96"
+            "text": "photolist"
           },
           {
             "type": "message",
