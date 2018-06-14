@@ -26,11 +26,11 @@ function parseInput(rplyToken, inputStr) {
 
 	if (trigger.match(/^式神Help$|^式神幫助$/)!= null ) return exports.help.Help();
 	
-	if (trigger.match(/^comfire(photo)$/)!= null ) return exports.testing.Test12();
+	if (trigger.match(/^comfirephoto$/)!= null ) return exports.testing.Test12();
 		
-	if (trigger.match(/^comfire(command)$/)!= null ) return exports.commandlist.Cli();
+	if (trigger.match(/^comfirecommand$/)!= null ) return exports.commandlist.Cli();
 	
-	if (trigger.match(/^你是不是笨蛋$/)!= null ) return exports.kidding.joke();
+	if (trigger.match(/^你是不是笨蛋258$/)!= null ) return exports.kidding.joke();
 	
 	if (trigger.match(/^photolist$/)!= null ) return exports.security.Security();
 	
