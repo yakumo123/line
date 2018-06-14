@@ -9,7 +9,6 @@ function Test12() {
 			"type": "box",
 			"layout": "horizontal",
 			"contents": [
-      
 				{
 					"type": "text",
 					"text": "Hello,"
