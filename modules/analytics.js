@@ -28,7 +28,7 @@ function parseInput(rplyToken, inputStr) {
 	
 	if (trigger.match(/^comfirereply$/)!= null ) return exports.testing.Test12();
 	
-	if (trigger.match(/^commandrequirementans96$/)!= null ) return exports.security.Security();
+	if (trigger.match(/^photolist$/)!= null ) return exports.security.Security();
 	
 	if (trigger.match(/^list0001$/)!= null ) return exports.photo.CarPhoto();
 	
