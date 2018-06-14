@@ -4,33 +4,15 @@ var rply = { type: 'text' }; //type是必需的,但可以更改
 
 function TestFlex() {
 	rply = {
-  "type": "carousel",
+  "type": "box",
+  "layout": "vertical",
   "contents": [
     {
-      "type": "bubble",
-      "body": {
-        "type": "box",
-        "layout": "vertical",
-        "contents": [
-          {
-            "type": "text",
-            "text": "First bubble"
-          }
-        ]
-      }
+      "type": "separator",
     },
     {
-      "type": "bubble",
-      "body": {
-        "type": "box",
-        "layout": "vertical",
-        "contents": [
-          {
-            "type": "text",
-            "text": "Second bubble"
-          }
-        ]
-      }
+      "type": "text",
+      "text": "Text in the box"
     }
   ]
 };
