@@ -20,9 +20,8 @@ function Test12() {
 				}
 			]
 		}
-	}
-};
-return rply;
+	};
+	return rply;
 }
 
 
