@@ -136,7 +136,7 @@ function Help() {
 						{
 							"type": "message",
 							"label": "【關鍵字列表】",
-							"text": "CodeCommand5itv4ci42"
+							"text": "comfirm(command)"
 						}
 
 					]
@@ -158,7 +158,7 @@ function Help() {
 						{
 							"type": "message",
 							"label": "【車圖整合(慎用)】",
-							"text": "comfirereply"
+							"text": "comfire(photo)"
 						}
 
 					]
