@@ -32,8 +32,8 @@ function BotHelpYy() {
 					]
 				},
 				{
-					"title": "《自創人物角色系統》",
-					"text": "角色背景",
+					"title": "《自創人物角色系統/TRPG功能》",
+					"text": "角色背景/TRPG功能",
 					"actions": [
 						{
 							"type": "message",
@@ -47,8 +47,8 @@ function BotHelpYy() {
 						},
 						{
 							"type": "message",
-							"label": "待更新",
-							"text": "八雲的角色背景"
+							"label": "TRPG功能",
+							"text": "trpghelp"
 						}
 
 					]
