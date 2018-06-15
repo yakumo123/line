@@ -51,6 +51,8 @@ function parseInput(rplyToken, inputStr) {
 	
 	if (trigger.match(/^式神Help$|^式神幫助$/)!= null ) return exports.help.Help();
 	
+	if (trigger.match(/^trpghelp$/)!= null ) return exports.trpghelp.TRPG();
+	
 	if (trigger.match(/^comfirephoto$/)!= null ) return exports.testing.Test12();
 		
 	if (trigger.match(/^笨蛋測試$/)!= null ) return exports.kidding.joke();
