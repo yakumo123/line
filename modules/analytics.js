@@ -107,8 +107,6 @@ function parseInput(rplyToken, inputStr) {
 	
 	if (trigger.match(/立flag|死亡flag/) != null) return exports.funny.Flag() ;	
 	
-
-	//鴨霸獸指令開始於此
 	if (trigger.match(/@吹雪/) != null) return exports.funny.randomYuki() ;	
 	if (trigger.match(/女裝/) != null) return exports.funny.randomReply() ;	
 	if (trigger.match(/運勢|的機率是多少/) != null) return exports.funny.randomLuck(mainMsg) ; //占卜運氣		
