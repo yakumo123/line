@@ -64,7 +64,7 @@ function parseInput(rplyToken, inputStr) {
 
 	//鴨霸獸指令開始於此
 	if (trigger.match(/@吹雪/) != null) return exports.funny.randomYuki() ;	
-	if (trigger.match(/女裝/) != null) return exports.funny.randomReply() ;	
+	if (trigger.match(/^女裝$/) != null) return exports.funny.randomReply() ;	
 	if (trigger.match(/運勢|的機率是多少/) != null) return exports.funny.randomLuck(mainMsg) ; //占卜運氣		
 	if (trigger.match(/鋪起來|鋪滿/) != null) return exports.funny.randomAOE() ;	
 	
