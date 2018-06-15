@@ -32,6 +32,8 @@ function parseInput(rplyToken, inputStr) {
 	
 	if (trigger.match(/^情報整合$/)!= null ) return exports.button.buttontest();
 	
+	if (trigger.match(/^test$/)!= null ) return exports.mapping.imagemap();
+	
 	if (trigger.match(/^comfirecommand$/)!= null ) return exports.commandlist.Cli();
 	
 	if (trigger.match(/^photolist$/)!= null ) return exports.security.Security();
