@@ -2,7 +2,7 @@ var rollbase = require('./rollbase.js');
 var funny = require('./funny.js');
 var rply = { type: 'text' }; //type是必需的,但可以更改
 
-function Help() {
+function TRPG() {
 	rply = {
 		"type": "template",
 		"altText": "【擲骰BOT】v1.40 \
@@ -163,5 +163,5 @@ function Help() {
 
 
 module.exports = {
-	Help: Help
+	TRPG: TRPG
 };
