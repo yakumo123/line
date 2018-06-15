@@ -30,9 +30,9 @@ function parseInput(rplyToken, inputStr) {
 		
 	if (trigger.match(/^笨蛋測試$/)!= null ) return exports.kidding.joke();
 	
-	if (trigger.match(/^test$/)!= null ) return exports.button.buttontest();
+	if (trigger.match(/^情報整合$/)!= null ) return exports.button.buttontest();
 	
-	if (trigger.match(/^情報整合$/)!= null ) return exports.imagemap.immap();
+	if (trigger.match(/^test$/)!= null ) return exports.imagemap.immap();
 	
 	if (trigger.match(/^comfirecommand$/)!= null ) return exports.commandlist.Cli();
 	
