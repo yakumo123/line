@@ -30,6 +30,8 @@ function parseInput(rplyToken, inputStr) {
 		
 	if (trigger.match(/^笨蛋測試$/)!= null ) return exports.kidding.joke();
 	
+	if (trigger.match(/^test$/)!= null ) return exports.button.buttontest();
+	
 	if (trigger.match(/^comfirecommand$/)!= null ) return exports.commandlist.Cli();
 	
 	if (trigger.match(/^photolist$/)!= null ) return exports.security.Security();
