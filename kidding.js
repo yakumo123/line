@@ -23,12 +23,7 @@ function joke() {
 	  {
             "type": "message",
             "label": "我很聰明",
-            "text": "我只是一個笨蛋跟變態的結合物"
-          },
-	  {
-            "type": "message",
-            "label": "普通人",
-            "text": "普通的頂級大笨蛋"
+            "text": "我只是一個笨蛋跟變態的混合物"
           }
       ]
   }
