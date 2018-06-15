@@ -5,160 +5,151 @@ var rply = { type: 'text' }; //type是必需的,但可以更改
 function Help() {
 	rply = {
 		"type": "template",
-		"altText": "【式神的教學】",
+		"altText": "【擲骰BOT】v1.40 \
+\n 例如輸入2d6+1　攻撃！\
+\n 會輸出）2d6+1：攻撃  9[6+3]+1 = 10\
+\n 如上面一樣,在骰子數字後方隔空白位打字,可以進行發言。\
+\n 以下還有其他例子\
+\n 5 3D6 	：分別骰出5次3d6\
+\n D66 D66s ：骰出D66 s小者固定在前\
+\n 5B10：不加總的擲骰 會進行小至大排序 \
+\n 5B10 9：如上,另外計算其中有多少粒大於9 \
+\n 5U10 8：進行5D10 每骰出一粒8會有一粒獎勵骰 \
+\n 5U10 8 9：如上,另外計算其中有多少粒大於9 \
+\n Choice：啓動語choice/隨機/選項/選1\
+\n (問題)(啓動語)(問題)  (選項1) (選項2) \
+\n 例子 隨機收到聖誕禮物數 1 2 3 >4  \
+更多請到 www.hktrpg.com查詢",
 		"template": {
 			"type": "carousel",
 			"columns": [
 				{
-					"title": "《更新詳情》",
-					"text": "部份功能優化，簡單化及修正，新增查詢新卡包功能",
+					"title": "《基本擲骰系統》",
+					"text": "【擲骰BOT】v1.40 指令包括1D100, 5B10 ,5U10 8 9",
 					"actions": [
 						{
 							"type": "message",
-							"label": "空白訊息",
-							"text": "我是變態"
+							"label": "1d100擲骰範例",
+							"text": "5 1d100 示範"
 						},
 						{
 							"type": "message",
-							"label": "空白訊息",
-							"text": "我不只是變態 我還是一個白痴"
+							"label": "5B10擲骰範例",
+							"text": "5B10 9 不加總的擲骰,計算其中有多少粒大於9"
 						},
 						{
 							"type": "message",
-							"label": "空白訊息",
-							"text": "我不當人類啦!!!"
+							"label": "5U10 8 9擲骰範例",
+							"text": "5U10 8 9 每骰出一粒8會有一粒獎勵骰及計算有多少粒大於9"
+						}
+
+					]
+				}, {
+					"title": "《COC 6 7版 擲骰系統》",
+					"text": "指令包括 6版ccb, 7版cc, cc(n)1~2, cc6版創角, cc7版創角, coc7角色背景",
+					"actions": [
+						{
+							"type": "message",
+							"label": "6版擲骰 技能80",
+							"text": "ccb 80 擒抱!"
+						},
+						{
+							"type": "message",
+							"label": "7版擲骰 技能80 -2懲罰",
+							"text": "ccn2 80 7版擲骰技能80 -2懲罰"
+						},
+						{
+							"type": "message",
+							"label": "cc7版創角 50歲",
+							"text": "cc7版創角 50"
 						}
 
 					]
 				},
 				{
-					"title": "《自創人物角色系統》",
-					"text": "角色背景",
+					"title": "《其他系統01》",
+					"text": "NC死靈年代記之永遠的後日談, WoD黑暗世界",
 					"actions": [
 						{
 							"type": "message",
-							"label": "角色背景示範",
-							"text": "八雲的角色背景"
+							"label": "1NC 擲骰範例",
+							"text": "2NC"
 						},
 						{
 							"type": "message",
-							"label": "不要按我",
-							"text": "我想被轟成智障呢~~"
+							"label": "NM 依戀擲骰範例",
+							"text": "nm"
 						},
 						{
 							"type": "message",
-							"label": "待更新",
-							"text": "八雲的角色背景"
+							"label": "WOD擲骰範例",
+							"text": "5wd8 投擲5次D10 每有一粒大於8,得到一粒獎勵骰"
 						}
 
 					]
 				},
 				{
-					"title": "《隨機選擇系統》",
-					"text": "隨機選擇功能",
+					"title": "《其他系統02》",
+					"text": "DX3雙重十字 nDXc+m n=骰數 c=暴擊值 m=其他修正",
 					"actions": [
 						{
 							"type": "message",
-							"label": "隨機功能示範",
-							"text": "隨機抽中一個萌式神 A式神 B式神 C式神 D式神"
+							"label": "DX3 擲骰範例",
+							"text": "5DX8-1+8"
 						},
 						{
 							"type": "message",
-							"label": "亂數生產 (多少次eg.1,2)+D+(數字的量值eg2,3,4)",
-							"text": "3D6"
+							"label": "DX3 擲骰範例",
+							"text": "8DX+1"
 						},
 						{
 							"type": "message",
-							"label": "待更新",
-							"text": "隨機抽中一個萌式神 A式神 B式神 C式神 D式神"
+							"label": "DX3 擲骰範例",
+							"text": "2DX5-1"
 						}
 
 					]
 				},
 				{
-					"title": "《序功能系統》",
-					"text": "排序功能",
+					"title": "《附加功能》",
+					"text": "排序及隨機功能,D66, D66s",
 					"actions": [
 						{
 							"type": "message",
-							"label": "排序功能示範",
-							"text": "群中排名次序 A八雲 B八雲 C八雲 D八雲"
+							"label": "排序功能範例",
+							"text": "交換禮物排序 A君 C君 F君 G君"
 						},
 						{
 							"type": "message",
-							"label": "按我",
-							"text": "我是大笨蛋 快來截我圖"
+							"label": "隨機功能範例",
+							"text": "隨機收到聖誕禮物數 1 2 3 >4"
 						},
 						{
 							"type": "message",
-							"label": "待更新",
-							"text": "群中排名次序 A八雲 B八雲 C八雲 D八雲"
+							"label": "D66s 骰出D66 小至大",
+							"text": "D66s 骰出D66 小至大"
 						}
 
 					]
 				},
 				{
-					"title": "《運勢及塔羅占卜功能》",
-					"text": "占卜功能",
+					"title": "《附加功能2》",
+					"text": "塔羅牌,運氣占卜,死亡FLAG. ",
 					"actions": [
-						{
-							"type": "message",
-							"label": "運勢占卜範例",
-							"text": "求八雲式神運勢"
-						},
-						{
-							"type": "message",
-							"label": "機率占卜",
-							"text": "求八雲遇到式神的機率是多少"
-						},
 						{
 							"type": "message",
 							"label": "塔羅占卜",
 							"text": "單張塔羅/大十字塔羅/每日塔羅牌/時間tarot 單張,大十字,每日及時間必須放頭"
-						}
-
-					]
-				},
-				{
-					"title": "《關鍵字回應系統》",
-					"text": "關鍵字例如 鋪起來, 幹, 怕, 怕爆, 大爆解, 決鬥, 衞星砲, 略過200條",
-					"actions": [
-						{
-							"type": "message",
-							"label": "怕",
-							"text": "怕"
 						},
 						{
 							"type": "message",
-							"label": "鋪起來",
-							"text": "鋪起來"
+							"label": "死亡FLAG",
+							"text": "立Flag/死亡flag"
 						},
 						{
 							"type": "message",
-							"label": "【關鍵字列表】",
-							"text": "comfirmcommand"
-						}
-
-					]
-				},
-				{
-					"title": "《其他功能》",
-					"text": "其他功能",
-					"actions": [
-						{
-							"type": "message",
-							"label": "女裝示範",
-							"text": "你來女裝"
-						},
-						{
-							"type": "message",
-							"label": "《新卡包資訊查詢》",
-							"text": "情報整合"
-						},
-						{
-							"type": "message",
-							"label": "【車圖整合(慎用)】",
-							"text": "comfirephoto"
+							"label": "回報問題",
+							"text": "請到 www.hktrpg.com 留言"
 						}
 
 					]
