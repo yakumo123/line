@@ -42,15 +42,16 @@ function parseInput(rplyToken, inputStr) {
 	if (trigger == 'ccn1'&& mainMsg[1]<=1000) return exports.coc.coc7bp(mainMsg[1],'-1',mainMsg[2]);	
 	if (trigger == 'ccn2'&& mainMsg[1]<=1000) return exports.coc.coc7bp(mainMsg[1],'-2',mainMsg[2]);	
 	}
-			
+
+	if (trigger.match(/^式神幫助$/)!= null ) return exports.botyakumo.BotHelpYy();
+
+	
 	if (trigger.match(/(^cc7版創角$|^cc七版創角$)/) != null && mainMsg[1] != NaN )	return exports.coc.build7char(mainMsg[1]);
 	
 	if (trigger.match(/(^cc6版創角$|^cc六版創角$)/) != null && mainMsg[1] != NaN )	return exports.coc.build6char(mainMsg[1]);
 	
 	if (trigger.match(/^coc7角色背景$/)!= null ) return exports.coc.PcBG();
-	
-	if (trigger.match(/^式神幫助$/)!= null ) return exports.bothelp.Helllp();
-	
+		
 	if (trigger.match(/^trpghelp$/)!= null ) return exports.trpghelp.TRPG();
 	
 	if (trigger.match(/^comfirephoto$/)!= null ) return exports.testing.Test12();
