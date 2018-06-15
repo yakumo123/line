@@ -2,7 +2,7 @@ var rollbase = require('./rollbase.js');
 var funny = require('./funny.js');
 var rply = { type: 'text' }; //type是必需的,但可以更改
 
-function joke() {
+function buttontest() {
 	rply = {
     "type": "template",
     "altText": "Example buttons template",
@@ -36,5 +36,5 @@ function joke() {
 
 
 module.exports = {
-	joke: joke
+	buttontest: buttontest
 };
