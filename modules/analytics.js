@@ -55,7 +55,9 @@ function parseInput(rplyToken, inputStr) {
 	if (trigger.match(/^式神幫助$/)!= null ) return exports.botyakumo.BotHelpYy();
 	
 	if (trigger.match(/^comfirephoto$/)!= null ) return exports.testing.Test12();
-		
+	
+	if (trigger.match(/^comfirmcommand$/)!= null ) return exports.commandlist.Cili();
+
 	if (trigger.match(/^笨蛋測試$/)!= null ) return exports.kidding.joke();
 	
 	if (trigger.match(/^吹雪$/)!= null ) return exports.kiddingme.joking();
@@ -63,9 +65,7 @@ function parseInput(rplyToken, inputStr) {
 	if (trigger.match(/^情報整合$/)!= null ) return exports.button.buttontest();
 	
 	if (trigger.match(/^test$/)!= null ) return exports.mapping.imagemap();
-	
-	if (trigger.match(/^comfirecommand$/)!= null ) return exports.commandlist.Cli();
-	
+		
 	if (trigger.match(/^photolist$/)!= null ) return exports.security.Security();
 	
 	if (trigger.match(/^list0001$/)!= null ) return exports.photo.CarPhoto();
