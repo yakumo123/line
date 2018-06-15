@@ -28,7 +28,7 @@ function parseInput(rplyToken, inputStr) {
 	
 	if (trigger.match(/^comfirephoto$/)!= null ) return exports.testing.Test12();
 		
-	if (trigger.match(/^test66$/)!= null ) return exports.flextest.TestFlex();
+	if (trigger.match(/^笨蛋測試$/)!= null ) return exports.flextest.joke();
 	
 	if (trigger.match(/^comfirecommand$/)!= null ) return exports.commandlist.Cli();
 	
