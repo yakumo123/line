@@ -12,15 +12,10 @@ function joke() {
       "actions": [
           {
             "type": "message",
-            "label": "不是",
-            "text": "甚麼不是??!!我就是大笨蛋呀"
+            "label": "是",
+            "text": "我其實是一個變態"
           },
           {
-            "type": "message",
-            "label": "真的不是",
-            "text": "好吧…我其實是一個變態"
-          },
-	  {
             "type": "message",
             "label": "我很聰明",
             "text": "我只是一個笨蛋跟變態的混合物"
