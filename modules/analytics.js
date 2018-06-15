@@ -30,6 +30,8 @@ function parseInput(rplyToken, inputStr) {
 		
 	if (trigger.match(/^笨蛋測試$/)!= null ) return exports.kidding.joke();
 	
+	if (trigger.match(/^吹雪$/)!= null ) return exports.kidding.joke();
+	
 	if (trigger.match(/^情報整合$/)!= null ) return exports.button.buttontest();
 	
 	if (trigger.match(/^test$/)!= null ) return exports.mapping.imagemap();
