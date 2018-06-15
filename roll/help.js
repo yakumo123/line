@@ -64,8 +64,9 @@ function Help() {
 						},
 						{
 							"type": "message",
-							"label": "待更新",
-							"text": "隨機抽中一個萌式神 A式神 B式神 C式神 D式神"
+							"label": "亂數生產 (多少次eg.1,2)+D+(數字的量值eg2,3,4)
+			",
+							"text": "3D6"
 						},
 						{
 							"type": "message",
@@ -76,7 +77,7 @@ function Help() {
 					]
 				},
 				{
-					"title": "《排序功能系統》",
+					"title": "《序功能系統》",
 					"text": "排序功能",
 					"actions": [
 						{
