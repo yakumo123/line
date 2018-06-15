@@ -142,8 +142,8 @@ function Help() {
 					]
 				},
 				{
-					"title": "《女裝系統》",
-					"text": "女裝",
+					"title": "《其他功能》",
+					"text": "其他功能",
 					"actions": [
 						{
 							"type": "message",
@@ -152,8 +152,8 @@ function Help() {
 						},
 						{
 							"type": "message",
-							"label": "待更新",
-							"text": "女裝"
+							"label": "《新卡包資訊查詢》",
+							"text": "情報整合"
 						},
 						{
 							"type": "message",
