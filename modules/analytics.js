@@ -43,7 +43,7 @@ function parseInput(rplyToken, inputStr) {
 	if (trigger == 'ccn2'&& mainMsg[1]<=1000) return exports.coc.coc7bp(mainMsg[1],'-2',mainMsg[2]);	
 	}
 
-	if (trigger.match(/^式神幫助$/)!= null ) return exports.botyakumo.BotHelpYy();
+	if (trigger.match(/^test55$/)!= null ) return exports.botyakumo.BotHelpYy();
 
 	
 	if (trigger.match(/(^cc7版創角$|^cc七版創角$)/) != null && mainMsg[1] != NaN )	return exports.coc.build7char(mainMsg[1]);
@@ -52,7 +52,7 @@ function parseInput(rplyToken, inputStr) {
 	
 	if (trigger.match(/^coc7角色背景$/)!= null ) return exports.coc.PcBG();
 		
-	if (trigger.match(/^trpghelp$/)!= null ) return exports.trpghelp.TRPG();
+	if (trigger.match(/^式神幫助$/)!= null ) return exports.botyakumo.BotHelpYy();
 	
 	if (trigger.match(/^comfirephoto$/)!= null ) return exports.testing.Test12();
 		
