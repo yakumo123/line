@@ -20,12 +20,57 @@ let rplyArr = ['吉爆','爆吉','大爆吉','大吉吉','你大吉吉','這我�
 rply.text = TEXT[0] + ' ： ' + rplyArr[Math.floor((Math.random() * (rplyArr.length)) + 0)];
 return rply;
 }
+
 function randomYuki() {
 let rplyArr = ['\
 真的', '\
 他都喜歡欺負人', '\
 壞壞', '\
 超過分'];
+rply.text = rplyArr[Math.floor((Math.random() * (rplyArr.length)) + 0)];
+return rply;
+}
+
+function randomYakumo() {
+let rplyArr = ['\
+喵??', '\
+誰叫我??', '\
+八雲參上！！！', '\
+怎了??', '\
+喵喵喵喵~~~', '\
+萌爆八雲參上', '\
+呀呢呢~~', '\
+(盯', '\
+再說一次吧', '\
+聽不到啦！！大聲點！！', '\
+窩甚麼也看不到', '\
+救命呀！！！！', '\
+閣下的呼喚 暫時未能傳遞 請晚點再呼喚一次~', '\
+大召喚儀式 八雲……召喚！！', '\
+叫誰???', '\
+嘟嘟嚕嘟 嘟嘟嚕嘟 嘟嘟嚕督大大', '\
+嗯姆~', '\
+暗黑召喚！！', '\
+亡者召返99 \n八雲召喚成功', '\
+๛ก(ｰ̀ωｰ́ก) ', '\
+(謎之聲)你能付出多少代價?', '\
+大聲點啦！！！！', '\
+你在大聲甚麼啦！！！！', '\
+現充爆炸吧！！(鬧事', '\
+其實………你在叫八雲(???', '\
+你…已經死了！  \n【謎之聲】：甚麼！！？？', '\
+(亮刀', '\
+你是誰？？？別過來呀！！！(尖叫', '\
+你就算得到我的身體 你也不會得到我的心的！', '\
+三 小 啦 ！ ！', '\
+嗯？', '\
+說！你想幹嘛！你別過來', '\
+走開！不要接近我', '\
+我……才不想被你叫呢！哼！', '\
+我看你有多少能耐', '\
+我的鮮血 我感覺到他在沸騰中', '\
+別接近我！！我怕我控制不到寄宿在我右手的力量(呀！！！！！', '\
+喵喵喵！'];
 rply.text = rplyArr[Math.floor((Math.random() * (rplyArr.length)) + 0)];
 return rply;
 }
@@ -391,6 +436,7 @@ module.exports = {
 	BStyleFlagSCRIPTS,
 	randomReply,
 	randomYuki,
+	randomYakumo,
 	randomLuck,
 	randomAOE,
 	RockPaperScissors,
