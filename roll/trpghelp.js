@@ -5,7 +5,7 @@ var rply = { type: 'text' }; //type是必需的,但可以更改
 function TRPG() {
 	rply = {
 		"type": "template",
-		"altText": "【擲骰BOT】v1.40 \
+		"altText": "【TRPGBOT】 \
 \n 例如輸入2d6+1　攻撃！\
 \n 會輸出）2d6+1：攻撃  9[6+3]+1 = 10\
 \n 如上面一樣,在骰子數字後方隔空白位打字,可以進行發言。\
@@ -25,7 +25,7 @@ function TRPG() {
 			"columns": [
 				{
 					"title": "《基本擲骰系統》",
-					"text": "【擲骰BOT】v1.40 指令包括1D100, 5B10 ,5U10 8 9",
+					"text": "【TRPGBOT】v1.40 指令包括1D100, 5B10 ,5U10 8 9",
 					"actions": [
 						{
 							"type": "message",
@@ -112,44 +112,22 @@ function TRPG() {
 				},
 				{
 					"title": "《附加功能》",
-					"text": "排序及隨機功能,D66, D66s",
+					"text": "Flag, D66, D66s",
 					"actions": [
 						{
 							"type": "message",
-							"label": "排序功能範例",
-							"text": "交換禮物排序 A君 C君 F君 G君"
+							"label": "死亡FLAG",
+							"text": "死亡flag"
 						},
 						{
 							"type": "message",
-							"label": "隨機功能範例",
-							"text": "隨機收到聖誕禮物數 1 2 3 >4"
+							"label": "立Flag",
+							"text": "立flag"
 						},
 						{
 							"type": "message",
 							"label": "D66s 骰出D66 小至大",
 							"text": "D66s 骰出D66 小至大"
-						}
-
-					]
-				},
-				{
-					"title": "《附加功能2》",
-					"text": "塔羅牌,運氣占卜,死亡FLAG. ",
-					"actions": [
-						{
-							"type": "message",
-							"label": "塔羅占卜",
-							"text": "單張塔羅/大十字塔羅/每日塔羅牌/時間tarot 單張,大十字,每日及時間必須放頭"
-						},
-						{
-							"type": "message",
-							"label": "死亡FLAG",
-							"text": "立Flag/死亡flag"
-						},
-						{
-							"type": "message",
-							"label": "回報問題",
-							"text": "請到 www.hktrpg.com 留言"
 						}
 
 					]
