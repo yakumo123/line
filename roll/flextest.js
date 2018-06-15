@@ -2,31 +2,36 @@ var rollbase = require('./rollbase.js');
 var funny = require('./funny.js');
 var rply = { type: 'text' }; //type是必需的,但可以更改
 
-function TestFlex() {
+function joke() {
 	rply = {
-  "richMenuId": "{richMenuId}",
-  "size": {
-    "width": 2500,
-    "height": 1686
-  },
-  "selected": false,
-  "name": "Nice richmenu",
-  "chatBarText": "Tap to open",
-  "areas": [
-    {
-      "bounds": {
-        "x": 0,
-        "y": 0,
-        "width": 2500,
-        "height": 1686
-      },
-      "action": {
-        "type": "postback",
-        "label":"Buy",
-        "data": "action=buy&itemid=123"
-      }
-    }
-  ]
+  "type": "template",
+  "altText": "笨蛋",
+  "template": {
+      "type": "confirm",
+      "text": "你是不是一個大笨蛋",
+      "actions": [
+          {
+            "type": "message",
+            "label": "不是",
+            "text": "甚麼不是??!!我就是大笨蛋呀"
+          },
+          {
+            "type": "message",
+            "label": "真的不是",
+            "text": "好吧…我其實是一個變態"
+          },
+	  {
+            "type": "message",
+            "label": "我很聰明",
+            "text": "我只是一個笨蛋跟變態的結合物"
+          },
+	  {
+            "type": "message",
+            "label": "普通人",
+            "text": "普通的頂級大笨蛋"
+          }
+      ]
+  }
 };
 	return rply;
 }
@@ -34,5 +39,5 @@ function TestFlex() {
 
 
 module.exports = {
-	TestFlex: TestFlex
+	joke: joke
 };
