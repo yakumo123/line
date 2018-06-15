@@ -2,7 +2,7 @@ var rollbase = require('./rollbase.js');
 var funny = require('./funny.js');
 var rply = { type: 'text' }; //type是必需的,但可以更改
 
-function Cli() {
+function Cili() {
 	rply = {
 		"type": "template",
 		"altText": "確定",
@@ -29,5 +29,5 @@ function Cli() {
 
 
 module.exports = {
-	Cli: Cli
+	Cili: Cili
 };
