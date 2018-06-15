@@ -9,7 +9,7 @@ function buttontest() {
     "template": {
         "type": "buttons",
         "thumbnailImageUrl": "https://i.ytimg.com/vi/G8O2TSRilkg/maxresdefault.jpg",
-        "title": "Example Menu",
+        "title": "新卡包情報",
         "text": "所有情報",
         "actions": [
             {
