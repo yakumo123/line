@@ -49,7 +49,7 @@ function parseInput(rplyToken, inputStr) {
 	
 	if (trigger.match(/^coc7角色背景$/)!= null ) return exports.coc.PcBG();
 	
-	if (trigger.match(/^式神Help$|^式神幫助$/)!= null ) return exports.help.Help();
+	if (trigger.match(/^式神幫助$/)!= null ) return exports.help.Help();
 	
 	if (trigger.match(/^trpghelp$/)!= null ) return exports.trpghelp.TRPG();
 	
