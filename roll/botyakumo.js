@@ -64,7 +64,7 @@ function BotHelpYy() {
 						},
 						{
 							"type": "message",
-							"label": "亂數生產 (多少次eg.1,2)+D+(數字的量值eg2,3,4)",
+							"label": "亂數生產",
 							"text": "3D6"
 						},
 						{
