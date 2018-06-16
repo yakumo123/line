@@ -95,6 +95,26 @@ let rplyArr = ['\
 喵??', '\
 誰叫我??', '\
 八雲參上！！！', '\
+{
+  "type": "template",
+  "altText": "八雲",
+  "template": {
+      "type": "confirm",
+      "text": "八雲可愛嗎",
+      "actions": [
+          {
+            "type": "message",
+            "label": "可愛",
+            "text": "八雲很可愛"
+          },
+          {
+            "type": "message",
+            "label": "超可愛",
+            "text": "八雲超可愛"
+          }
+      ]
+  }
+}', '\
 怎了??', '\
 喵喵喵喵~~~', '\
 萌爆八雲參上', '\
