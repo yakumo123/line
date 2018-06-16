@@ -13,12 +13,12 @@ function joking() {
           {
             "type": "message",
             "label": "要",
-            "text": "要"
+            "text": "我要愛護吹雪"
           },
           {
             "type": "message",
             "label": "要",
-            "text": "要"
+            "text": "我要愛護吹雪"
           }
       ]
   }
