@@ -5,20 +5,20 @@ var rply = { type: 'text' }; //type是必需的,但可以更改
 function joking() {
 	rply = {
   "type": "template",
-  "altText": "請問你要不要摸吹雪？",
+  "altText": "吹雪",
   "template": {
       "type": "confirm",
-      "text": "請問你要不要摸吹雪？",
+      "text": "你要愛護吹雪嗎？",
       "actions": [
           {
             "type": "message",
             "label": "要",
-            "text": "摸吹雪"
+            "text": "要"
           },
           {
             "type": "message",
             "label": "要",
-            "text": "摸吹雪"
+            "text": "要"
           }
       ]
   }
