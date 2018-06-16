@@ -38,17 +38,17 @@ function Help() {
 						{
 							"type": "message",
 							"label": "比賽日期",
-							"text": "比賽日期：  \n未定"
+							"text": "比賽日期：  \n6月22號 - 6月24號"
 						},
 						{
 							"type": "message",
 							"label": "比賽時間【不包括四強及冠亞】",
-							"text": "比賽時間【不包括四強及冠亞】：  \n未定"
+							"text": "比賽時間【不包括四強及冠亞】：  \n晚上8:00-10:00 \n■預定每天3輪 (視乎參賽者人數而定)■"
 						},
 						{
 							"type": "message",
 							"label": "四強及冠亞比賽時間",
-							"text": "四強及冠亞比賽時間：  \n未定"
+							"text": "四強及冠亞比賽時間：  \n6月24號 晚上8:00~11：00 \n■四強只會隨機抽選其中一組轉播■"
 						}
 
 					]
@@ -87,12 +87,12 @@ function Help() {
 						{
 							"type": "message",
 							"label": "報名方法",
-							"text": "報名方法：  \n未定"
+							"text": "報名方法：  \n使用Callonge報名【https://challonge.com/yjh2dwsa】 \n請在比賽開始前30分鐘內報到(6月22號 7:30p.m-8:00p.m之間"
 						},
 						{
 							"type": "message",
 							"label": "分數回報方法",
-							"text": "分數回報方法:  \n未定"
+							"text": "分數回報方法:  \n請勝方在【https://challonge.com/yjh2dwsa】直接回報分數"
 						}
 
 					]
