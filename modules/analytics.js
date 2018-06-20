@@ -60,7 +60,7 @@ function parseInput(rplyToken, inputStr) {
 
 	if (trigger.match(/^笨蛋測試$/)!= null ) return exports.kidding.joke();
 	
-	if (trigger.match(/^吹雪$/)!= null ) return exports.kiddingme.joking();
+	if (trigger.match(/^八雲該退坑嗎$/)!= null ) return exports.kiddingme.joking();
 	
 	if (trigger.match(/^情報整合$/)!= null ) return exports.button.buttontest();
 	
