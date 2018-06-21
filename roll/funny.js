@@ -135,6 +135,15 @@ rply.text = rplyArr[Math.floor((Math.random() * (rplyArr.length)) + 0)];
 return rply;
 }
 
+function randomLulla() {
+let rplyArr = ['\
+I very vegetable' ,'\
+(問號)' ,'\
+????'];
+rply.text = rplyArr[Math.floor((Math.random() * (rplyArr.length)) + 0)];
+return rply;
+}
+
 function randomAOE() {
 let rplyArr = ['\
 里維：俺の名はレヴィ，覚えとけ！', '\
@@ -498,6 +507,7 @@ module.exports = {
 	randomReply,
 	randomYuki,
 	randomYakumo,
+	randomLulla,
 	randomLuck,
 	randomAOE,
 	RockPaperScissors,
