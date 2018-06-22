@@ -144,6 +144,31 @@ rply.text = rplyArr[Math.floor((Math.random() * (rplyArr.length)) + 0)];
 return rply;
 }
 
+function randomAnt() {
+let rplyArr = ['\
+嘶嘶嘶' ,'\
+騷爆 \n不 我是說很有個性' ,'\
+甲 甲 大 爆 射' ,'\
+吃我的超巨型破魔蟲吧' ,'\
+你渴望力♂量嗎' ,'\
+八雲我的 \n【八雲】：八雲不屬於任何人的!!!!' ,'\
+大爆射' ,'\
+安特之長槍使用權限 解除 \n發射！' ,'\
+怎都沒人摸安特' ,'\
+我也要吹雪姐姐摸摸頭' ,'\
+我不只會妖精 我更會哲♂學' ,'\
+要加鳳梨嗎?' ,'\
+被橫刀奪愛了' ,'\
+有種婆 叫別人的老婆' ,'\
+LUL' ,'\
+騷爆' ,'\
+好了叫我' ,'\
+快揉爆' ,'\
+你不是也愛男的ㄇ'];
+rply.text = rplyArr[Math.floor((Math.random() * (rplyArr.length)) + 0)];
+return rply;
+}
+
 function randomAOE() {
 let rplyArr = ['\
 里維：俺の名はレヴィ，覚えとけ！', '\
@@ -511,6 +536,7 @@ module.exports = {
 	randomYuki,
 	randomYakumo,
 	randomLulla,
+	randomAnt,
 	randomLuck,
 	randomAOE,
 	RockPaperScissors,
