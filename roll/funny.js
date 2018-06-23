@@ -190,8 +190,38 @@ rply.text = rplyArr[Math.floor((Math.random() * (rplyArr.length)) + 0)];
 return rply;
 }
 
+function randomChick() {
+let rplyArr = ['\
+樓上大雞雞', '\
+雞雞大爆炸', '\
+你才大雞雞', '\
+要被拔雞雞?', '\
+我沒有雞雞啦', '\
+想被割掉嗎???', '\
+摸摸吹雪', '\
+你想被燒嗎?', '\
+八雲沒有雞雞', '\
+安的女友大雞雞', '\
+當你的雞雞不在視線內 他是處於一個沒有雞雞 跟有大雞雞的狀態 當你觀察的時候 才會固定在大雞雞的一個狀態 此定律我們稱之為薛丁格之雞', '\
+八雲裙子裡沒怪獸啦！！', '\
+嗯…(不敢直視'];
+rply.text = rplyArr[Math.floor((Math.random() * (rplyArr.length)) + 0)];
+return rply;
+}
 
-
+function randomSnow() {
+let rplyArr = ['\
+吹雪姐姐~~~', '\
+吹雪快女裝！', '\
+我愛吹雪', '\
+感謝吹雪 讚嘆吹雪', '\
+摸摸吹雪', '\
+吹雪我婆', '\
+請問你要愛護吹雪嗎??', '\
+為何吹雪都不女裝'];
+rply.text = rplyArr[Math.floor((Math.random() * (rplyArr.length)) + 0)];
+return rply;
+}
 
 function randomReply() {
 let rplyArr = ['\
@@ -539,6 +569,8 @@ module.exports = {
 	randomAnt,
 	randomLuck,
 	randomAOE,
+	randomChick,
+	randomSnow,
 	RockPaperScissors,
 	MultiDrawTarot,
 	NomalDrawTarot,
