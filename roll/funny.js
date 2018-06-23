@@ -81,16 +81,6 @@ rply.text = TEXT[0] + ' ： ' + rplyArr[Math.floor((Math.random() * (rplyArr.len
 return rply;
 }
 
-function randomYuki() {
-let rplyArr = ['\
-真的', '\
-他都喜歡欺負人', '\
-壞壞', '\
-超過分'];
-rply.text = rplyArr[Math.floor((Math.random() * (rplyArr.length)) + 0)];
-return rply;
-}
-
 function randomYakumo() {
 let rplyArr = ['\
 喵??', '\
@@ -218,6 +208,8 @@ let rplyArr = ['\
 摸摸吹雪', '\
 吹雪我婆', '\
 請問你要愛護吹雪嗎??', '\
+吹雪都喜歡欺負人', '\
+吹雪壞壞' ,'\
 為何吹雪都不女裝'];
 rply.text = rplyArr[Math.floor((Math.random() * (rplyArr.length)) + 0)];
 return rply;
@@ -563,7 +555,6 @@ module.exports = {
 	Flag,
 	BStyleFlagSCRIPTS,
 	randomReply,
-	randomYuki,
 	randomYakumo,
 	randomLulla,
 	randomAnt,
