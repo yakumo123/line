@@ -107,6 +107,7 @@ function parseInput(rplyToken, inputStr) {
 	
 	if (trigger.match(/立flag|死亡flag/) != null) return exports.funny.Flag() ;	
 	
+	
 	if (trigger.match(/^吹雪$|^@震棋$/) != null) return exports.funny.randomSnow() ;	
 	if (trigger.match(/女裝/) != null) return exports.funny.randomReply() ;	
 	if (trigger.match(/運勢|的機率是多少/) != null) return exports.funny.randomLuck(mainMsg) ; //占卜運氣		
