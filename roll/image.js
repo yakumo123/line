@@ -2,7 +2,7 @@ var rollbase = require('./rollbase.js');
 var funny = require('./funny.js');
 var rply = { type: 'text' }; //type是必需的,但可以更改
 
-function buttontest() {
+function questionMark() {
 	rply = {
     "type": "template",
     "altText": "this is a image carousel template",
@@ -23,8 +23,15 @@ function buttontest() {
               "type": "message",
               "label": "白人問號",
               "text": "白人問號"
-            }
-          }
+	  }
+	}
       ]
-  }
+};
+	return rply;
 }
+
+
+
+module.exports = {
+	questionMark: questionMark
+};
