@@ -10,7 +10,7 @@ function joking() {
       "type": "image_carousel",
       "columns": [
           {
-            "imageUrl": "https://i.imgur.com/EJf8CZ3.jpg",
+            "imageUrl": "https://i.imgur.com/wODPWY8.jpg",
             "action": {
               "type": "datetimepicker",
               "label": "選日期",
@@ -28,7 +28,7 @@ function joking() {
             }
           },
           {
-            "imageUrl": "https://static.pexels.com/photos/126407/pexels-photo-126407.jpeg",
+            "imageUrl": "https://i.imgur.com/EJf8CZ3.jpg",
             "action": {
               "type": "datetimepicker",
               "label": "選日期時間",
