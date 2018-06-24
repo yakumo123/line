@@ -115,8 +115,8 @@ function parseInput(rplyToken, inputStr) {
 	if (trigger.match(/ㄐㄐ|雞雞/) != null) return exports.funny.randomChick() ;	
 	if (trigger.match(/^八雲$|^@小學生八雲やくも$/) != null) return exports.funny.randomYakumo() ;	
 	if (trigger.match(/^lullaby$|^露菈$/) != null) return exports.funny.randomLulla() ;	
-	if (trigger.match(/^安特$|^@鄧昱信(Ant)$/) != null) return exports.funny.randomAnt() ;	
-
+	if (trigger.match(/^安特$|^@鄧昱信(ant)$/) != null) return exports.funny.randomAnt() ;	
+	if (trigger.match(/^筱亞$|^@筱亞叔叔$|^洨亞$/) != null) return exports.funny.randomAnt() ;	
 	
 	/*tarot 指令
 	if (trigger.match(/猜拳/) != null) {
