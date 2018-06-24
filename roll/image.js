@@ -5,27 +5,19 @@
       "type": "image_carousel",
       "columns": [
           {
-            "imageUrl": "https://example.com/bot/images/item1.jpg",
-            "action": {
-              "type": "postback",
-              "label": "Buy",
-              "data": "action=buy&itemid=111"
-            }
-          },
-          {
-            "imageUrl": "https://example.com/bot/images/item2.jpg",
+            "imageUrl": "http://imgur.com/gallery/fwhOc79",
             "action": {
               "type": "message",
-              "label": "Yes",
-              "text": "yes"
+              "label": "黑人問號",
+              "text": "黑人問號"
             }
           },
           {
-            "imageUrl": "https://example.com/bot/images/item3.jpg",
+            "imageUrl": "http://imgur.com/gallery/xBRN0dO",
             "action": {
-              "type": "uri",
-              "label": "View detail",
-              "uri": "http://example.com/page/222"
+              "type": "message",
+              "label": "白人問號",
+              "text": "白人問號"
             }
           }
       ]
