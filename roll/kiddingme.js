@@ -12,28 +12,25 @@ function joking() {
           {
             "imageUrl": "https://i.imgur.com/wODPWY8.jpg",
             "action": {
-              "type": "datetimepicker",
-              "label": "選日期",
-              "data": "q1",
-              "mode": "date"
+              "type": "message",
+              "label": "黑人問號",
+              "text": "黑人問號"
             }
           },
           {
-            "imageUrl": "https://www.cats.org.uk/uploads/images/featurebox_sidebar_kids/grief-and-loss.jpg",
+            "imageUrl": "https://i.imgur.com/VIpVQRd.png",
             "action": {
-              "type": "datetimepicker",
-              "label": "選時間",
-              "data": "q2",
-              "mode": "time"
+              "type": "message",
+              "label": "八雲問號",
+              "text": "八雲問號"
             }
           },
           {
             "imageUrl": "https://i.imgur.com/EJf8CZ3.jpg",
             "action": {
               "type": "datetimepicker",
-              "label": "選日期時間",
-              "data": "q3",
-              "mode": "datetime"
+              "label": "白人問號",
+              "text": "白人問號"
             }
           }
       ]
