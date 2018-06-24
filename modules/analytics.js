@@ -124,6 +124,9 @@ function parseInput(rplyToken, inputStr) {
 	
 	if (trigger.match(/小妹|叔叔/) != null) return exports.funny.randomShit() ;	
 	
+	if (trigger.match(/黑人問號|白人問號|？？？？|????/)!= null ) return exports.image.questionMark();
+	
+	
 	
 	/*tarot 指令
 	if (trigger.match(/猜拳/) != null) {
