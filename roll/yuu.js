@@ -12,25 +12,28 @@ function questiontest() {
           {
             "imageUrl": "https://i.imgur.com/EJf8CZ3.jpg",
             "action": {
-              "type": "postback",
-              "label": "Buy",
-              "data": "action=buy&itemid=111"
+              "type": "datetimepicker",
+              "label": "選日期",
+              "data": "q1",
+              "mode": "date"
             }
           },
           {
             "imageUrl": "https://i.imgur.com/EJf8CZ3.jpg",
             "action": {
-              "type": "message",
-              "label": "Yes",
-              "text": "yes"
+              "type": "datetimepicker",
+              "label": "選時間",
+              "data": "q2",
+              "mode": "time"
             }
           },
           {
             "imageUrl": "https://i.imgur.com/EJf8CZ3.jpg",
             "action": {
-              "type": "uri",
-              "label": "View detail",
-              "uri": "http://example.com/page/222"
+              "type": "datetimepicker",
+              "label": "選日期時間",
+              "data": "q3",
+              "mode": "datetime"
             }
           }
       ]
