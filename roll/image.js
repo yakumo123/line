@@ -25,9 +25,10 @@ function questionMark() {
 						"text": "白人問號"
 					}
 				}
-				}
+			]
+		}
 
-				};
+	};
 	return rply;
 }
 
