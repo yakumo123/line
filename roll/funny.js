@@ -81,11 +81,7 @@ rply.text = TEXT[0] + ' ： ' + rplyArr[Math.floor((Math.random() * (rplyArr.len
 return rply;
 }
 
-function randomShit() {
-let ree = '自稱小妹的通常是一個大叔 自稱大叔的在此刻也是一名大叔';
-rply.text = ree
-return rply;
-}
+
 
 function randomYakumo() {
 let rplyArr = ['\
@@ -291,6 +287,12 @@ MudaMudaMudaMuda', '\
 不要', '\
 走開'];
 rply.text = rplyArr[Math.floor((Math.random() * (rplyArr.length)) + 0)];
+return rply;
+}
+
+function randomShit() {
+let ree = '自稱小妹的通常是一個大叔 自稱大叔的在此刻也是一名大叔';
+rply.text = ree
 return rply;
 }
 
