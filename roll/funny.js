@@ -81,6 +81,12 @@ rply.text = TEXT[0] + ' ： ' + rplyArr[Math.floor((Math.random() * (rplyArr.len
 return rply;
 }
 
+function randomShit() {
+let ree = '自稱小妹的通常是一個大叔 自稱大叔的在此刻也是一名大叔';
+rply.text = ree
+return rply;
+}
+
 function randomYakumo() {
 let rplyArr = ['\
 喵??', '\
@@ -575,6 +581,7 @@ module.exports = {
 	randomLulla,
 	randomAnt,
 	randomLuck,
+	randomShit,
 	randomAOE,
 	randomChick,
 	randomSnow,
