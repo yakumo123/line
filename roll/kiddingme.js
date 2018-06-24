@@ -13,8 +13,7 @@ function joking() {
             "imageUrl": "https://i.imgur.com/wODPWY8.jpg",
             "action": {
               "type": "message",
-              "label": "黑人問號",
-              "text": ""
+              "label": "黑人問號"
             }
           },
           {
