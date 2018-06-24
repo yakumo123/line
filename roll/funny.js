@@ -215,6 +215,22 @@ rply.text = rplyArr[Math.floor((Math.random() * (rplyArr.length)) + 0)];
 return rply;
 }
 
+function randomFrog() {
+let rplyArr = ['\
+有沒有萌萌的感覺', '\
+筱亞：呱！ (眾人：呱三小！(拿武器', '\
+有沒有人看到我的內褲', '\
+這樣就是 乖保持着這樣 對！就是這樣！ 嗯 這樣就剛剛好', '\
+其實沒有人會想Tag筱亞 ', '\
+聽說line名自叔叔都是蘿莉 唯獨筱亞不是', '\
+我來幫樓上名字加個開頭 \n開頭就加"狗幹"這2個字好了', '\
+不要 我快受不了..', '\
+不要' ,'\
+小妹屁股賣5000'];
+rply.text = rplyArr[Math.floor((Math.random() * (rplyArr.length)) + 0)];
+return rply;
+}
+
 function randomReply() {
 let rplyArr = ['\
 笨蛋吹雪！！', '\
@@ -562,6 +578,7 @@ module.exports = {
 	randomAOE,
 	randomChick,
 	randomSnow,
+	randomFrog,
 	RockPaperScissors,
 	MultiDrawTarot,
 	NomalDrawTarot,
