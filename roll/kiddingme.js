@@ -28,7 +28,7 @@ function joking() {
           {
             "imageUrl": "https://i.imgur.com/EJf8CZ3.jpg",
             "action": {
-              "type": "datetimepicker",
+              "type": "message",
               "label": "白人問號",
               "text": "白人問號"
             }
