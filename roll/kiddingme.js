@@ -14,7 +14,7 @@ function joking() {
             "action": {
               "type": "message",
               "label": "黑人問號",
-              "text": "黑人問號"
+              "text": ""
             }
           },
           {
