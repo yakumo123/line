@@ -5,7 +5,7 @@ var rply = { type: 'text' }; //type是必需的,但可以更改
 function questionMark() {
 	rply = {
 		"type": "template",
-		"altText": "this is a image carousel template",
+		"altText": "問號",
 		"template": {
 			"type": "image_carousel", 
 			"columns": [
