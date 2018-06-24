@@ -14,7 +14,7 @@ function joking() {
             "action": {
               "type": "message",
               "label": "黑人問號",
-              "text": "黑人：問號"
+              "text": "！！！∑(°Д°ノ)ノ"
             }
           },
           {
@@ -22,7 +22,7 @@ function joking() {
             "action": {
               "type": "message",
               "label": "八雲問號",
-              "text": "八雲：問號"
+              "text": "！！！∑(°Д°ノ)ノ"
             }
           },
           {
@@ -30,7 +30,7 @@ function joking() {
             "action": {
               "type": "message",
               "label": "白人問號",
-              "text": "白人：問號"
+              "text": "！！！∑(°Д°ノ)ノ"
             }
           }
       ]
