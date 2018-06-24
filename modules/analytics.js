@@ -113,10 +113,11 @@ function parseInput(rplyToken, inputStr) {
 	if (trigger.match(/運勢|的機率是多少/) != null) return exports.funny.randomLuck(mainMsg) ; //占卜運氣		
 	if (trigger.match(/鋪起來|鋪滿/) != null) return exports.funny.randomAOE() ;	
 	if (trigger.match(/ㄐㄐ|雞雞/) != null) return exports.funny.randomChick() ;	
+	if (trigger.match(/小妹|叔叔/) != null) return exports.funny.randomShit() ;	
 	if (trigger.match(/^八雲$|^@小學生八雲やくも$/) != null) return exports.funny.randomYakumo() ;	
 	if (trigger.match(/^lullaby$|^露菈$/) != null) return exports.funny.randomLulla() ;	
 	if (trigger.match(/^安特$|^@鄧昱信(ant)$/) != null) return exports.funny.randomAnt() ;	
-	if (trigger.match(/^筱亞$|^@筱亞叔叔$|^洨亞$/) != null) return exports.funny.randomAnt() ;	
+	if (trigger.match(/^筱亞$|^@筱亞叔叔$|^洨亞$/) != null) return exports.funny.randomFrog() ;	
 	
 	/*tarot 指令
 	if (trigger.match(/猜拳/) != null) {
