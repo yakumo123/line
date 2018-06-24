@@ -5,20 +5,36 @@ var rply = { type: 'text' }; //type是必需的,但可以更改
 function joking() {
 	rply = {
   "type": "template",
-  "altText": "八雲抽不到月兔該退坑嗎?",
+  "altText": "this is a image carousel template",
   "template": {
-      "type": "confirm",
-      "text": "八雲抽不到月兔該退坑嗎?",
-      "actions": [
+      "type": "image_carousel",
+      "columns": [
           {
-            "type": "message",
-            "label": "要",
-            "text": "八雲快退坑吧"
+            "imageUrl": "https://www.petfinder.com/wp-content/uploads/2012/11/91615172-find-a-lump-on-cats-skin-632x475.jpg",
+            "action": {
+              "type": "datetimepicker",
+              "label": "選日期",
+              "data": "q1",
+              "mode": "date"
+            }
           },
           {
-            "type": "message",
-            "label": "一定要",
-            "text": "八雲快退坑吧"
+            "imageUrl": "https://www.cats.org.uk/uploads/images/featurebox_sidebar_kids/grief-and-loss.jpg",
+            "action": {
+              "type": "datetimepicker",
+              "label": "選時間",
+              "data": "q2",
+              "mode": "time"
+            }
+          },
+          {
+            "imageUrl": "https://static.pexels.com/photos/126407/pexels-photo-126407.jpeg",
+            "action": {
+              "type": "datetimepicker",
+              "label": "選日期時間",
+              "data": "q3",
+              "mode": "datetime"
+            }
           }
       ]
   }
