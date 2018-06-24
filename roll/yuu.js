@@ -10,7 +10,7 @@ function questiontest() {
       "type": "image_carousel",
       "columns": [
           {
-            "imageUrl": "https://example.com/bot/images/item1.jpg",
+            "imageUrl": "https://i.imgur.com/EJf8CZ3.jpg",
             "action": {
               "type": "postback",
               "label": "Buy",
@@ -18,7 +18,7 @@ function questiontest() {
             }
           },
           {
-            "imageUrl": "https://example.com/bot/images/item2.jpg",
+            "imageUrl": "https://i.imgur.com/EJf8CZ3.jpg",
             "action": {
               "type": "message",
               "label": "Yes",
@@ -26,7 +26,7 @@ function questiontest() {
             }
           },
           {
-            "imageUrl": "https://example.com/bot/images/item3.jpg",
+            "imageUrl": "https://i.imgur.com/EJf8CZ3.jpg",
             "action": {
               "type": "uri",
               "label": "View detail",
