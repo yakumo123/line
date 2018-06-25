@@ -119,9 +119,11 @@ function parseInput(rplyToken, inputStr) {
 	if (trigger.match(/^吹雪$|^@震棋$/) != null) return exports.funny.randomSnow() ;	
 	if (trigger.match(/^八雲$|^@小學生八雲やくも$/) != null) return exports.funny.randomYakumo() ;	
 	if (trigger.match(/^lullaby$|^露菈$/) != null) return exports.funny.randomLulla() ;	
-	if (trigger.match(/^安特$|@鄧昱信(/) != null) return exports.funny.randomAnt() ;	
+	if (trigger.match(/^安特$/) != null) return exports.funny.randomAnt() ;	
+	if (trigger.match(/@鄧昱信/) != null) return exports.funny.randomAnt() ;	
 	if (trigger.match(/^筱亞$|^@筱亞叔叔$|^洨亞$/) != null) return exports.funny.randomFrog() ;	
 	if (trigger.match(/^兔子$|燻兔肉佐/) != null) return exports.funny.randomRabbit() ;	
+	if (trigger.match(/燻兔肉佐/) != null) return exports.funny.randomRabbit() ;	
 	
 	
 	if (trigger.match(/小妹|叔叔/) != null) return exports.funny.randomShit() ;	
