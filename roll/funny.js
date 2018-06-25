@@ -201,6 +201,25 @@ rply.text = rplyArr[Math.floor((Math.random() * (rplyArr.length)) + 0)];
 return rply;
 }
 
+function randomRabbit() {
+let rplyArr = ['\
+在他還不是變態的時候，他叫兔子 \n\n現在他叫變態兔子', '\
+鬼爆兔子菇', '\
+我叫兔子，是名變態', '\
+露出的笑容逐漸母湯', '\
+荸薺白醬淹兔子', '\
+兔子他自己94大麻', '\
+ㄎㄧㄤ~~~~~爆', '\
+已經好久沒聽過這個名字了', '\
+兔子沒有人會tag 所以tag他不會有反應', '\
+(被系統邊緣中', '\
+好遜', '\
+超不好用', '\
+喔等等'];
+rply.text = rplyArr[Math.floor((Math.random() * (rplyArr.length)) + 0)];
+return rply;
+}
+
 function randomSnow() {
 let rplyArr = ['\
 吹雪姐姐~~~', '\
@@ -586,6 +605,7 @@ module.exports = {
 	randomLuck,
 	randomAOE,
 	randomChick,
+	randomRabbit,
 	randomSnow,
 	randomFrog,
 	randomShit,
