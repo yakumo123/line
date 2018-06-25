@@ -60,7 +60,7 @@ function parseInput(rplyToken, inputStr) {
 
 	if (trigger.match(/笨蛋測試/)!= null ) return exports.kidding.joke();
 	
-	if (trigger.match(/問號|到底/)!= null ) return exports.kiddingme.joking();
+	if (trigger.match(/問號/)!= null ) return exports.kiddingme.joking();
 	
 	if (trigger.match(/^情報整合$/)!= null ) return exports.button.buttontest();
 	
@@ -121,6 +121,8 @@ function parseInput(rplyToken, inputStr) {
 	if (trigger.match(/^lullaby$|^露菈$/) != null) return exports.funny.randomLulla() ;	
 	if (trigger.match(/^安特$|^@鄧昱信(ant)$/) != null) return exports.funny.randomAnt() ;	
 	if (trigger.match(/^筱亞$|^@筱亞叔叔$|^洨亞$/) != null) return exports.funny.randomFrog() ;	
+	if (trigger.match(/^兔子$/) != null) return exports.funny.randomRabbit() ;	
+	
 	
 	if (trigger.match(/小妹|叔叔/) != null) return exports.funny.randomShit() ;	
 	
