@@ -106,7 +106,7 @@ function parseInput(rplyToken, inputStr) {
 	
 	if (trigger.match(/運勢|的機率是多少/) != null) return exports.funny.randomLuck(mainMsg) ; //占卜運氣		
 	
-	if (trigger.match(/角色背景/) != null) return exports.funny.BStyleFlagSCRIPTS() ;	
+	if (trigger.match(/角色背景/) != null) return exports.funny.BStyleFlagSCRIPTS(mainMsg) ;	
 	
 	if (trigger.match(/立flag|死亡flag/) != null) return exports.funny.Flag() ;	
 	
