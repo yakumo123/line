@@ -131,7 +131,7 @@ function parseInput(rplyToken, inputStr) {
 	
 	if (trigger.match(/摸吹雪/) != null) return exports.imagetwo.immsnow() ;	
 	
-	if (trigger.match(/聽歌/) != null) return exports.video.immsong() ;	
+	if (trigger.match(/聽歌/) != null) return exports.video.mushroomcloud() ;	
 	
 	
 	/*tarot 指令
