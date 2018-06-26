@@ -22,7 +22,7 @@ function joking() {
             "action": {
               "type": "message",
               "label": "八雲問號",
-              "text": "！！！∑(°Д°ノ)ノ"
+              "text": "Σ( ° △ °|||)︴"
             }
           },
           {
@@ -30,7 +30,23 @@ function joking() {
             "action": {
               "type": "message",
               "label": "白人問號",
-              "text": "！！！∑(°Д°ノ)ノ"
+              "text": " Σ(っ °Д °;)っ"
+	    }
+	  },
+          {
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/d/dd/Achtung.svg",
+            "action": {
+              "type": "message",
+              "label": "感嘆號",
+              "text": "我智障到分不清問號跟感嘆號"
+	    }
+	  },
+	      {
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/59/Triangle_warning_sign_%28red_and_white%29.svg",
+            "action": {
+              "type": "message",
+              "label": "感嘆號沒感嘆",
+              "text": "……??"
             }
           }
       ]
