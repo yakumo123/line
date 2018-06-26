@@ -38,7 +38,7 @@ function joking() {
             "action": {
               "type": "message",
               "label": "感嘆號",
-              "text": "我智障到分不清問號跟感嘆號"
+              "text": "我智障到醫生說無可救藥…"
 	    }
 	  },
 	      {
