@@ -130,6 +130,8 @@ function parseInput(rplyToken, inputStr) {
 	
 	if (trigger.match(/舔吹雪/) != null) return exports.image.imsnow() ;	
 	
+	if (trigger.match(/摸吹雪/) != null) return exports.imagetwo.immsnow() ;	
+	
 	
 	/*tarot 指令
 	if (trigger.match(/猜拳/) != null) {
