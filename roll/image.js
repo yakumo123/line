@@ -7,4 +7,12 @@ function imsnow() {
     "type": "image",
     "originalContentUrl": "https://example.com/original.jpg",
     "previewImageUrl": "https://example.com/preview.jpg"
+};
+	return rply;
 }
+
+
+
+module.exports = {
+	imsnow: imsnow
+};
