@@ -133,6 +133,9 @@ function parseInput(rplyToken, inputStr) {
 	if (trigger.match(/摸吹雪/) != null) return exports.imagetwo.immsnow() ;	
 	
 	
+	if (trigger.match(/蘑菇雲/) != null) return exports.video.mushroomcloud() ;	
+	
+	
 	/*tarot 指令
 	if (trigger.match(/猜拳/) != null) {
 		return RockPaperScissors(inputStr, mainMsg[1]);
