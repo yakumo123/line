@@ -125,15 +125,13 @@ function parseInput(rplyToken, inputStr) {
 	if (trigger.match(/^兔子$|燻兔肉佐/) != null) return exports.funny.randomRabbit() ;	
 	if (trigger.match(/燻兔肉佐/) != null) return exports.funny.randomRabbit() ;	
 	
-	
 	if (trigger.match(/小妹|叔叔/) != null) return exports.funny.randomShit() ;	
 	
 	if (trigger.match(/舔吹雪/) != null) return exports.image.imsnow() ;	
 	
 	if (trigger.match(/摸吹雪/) != null) return exports.imagetwo.immsnow() ;	
 	
-	
-	if (trigger.match(/聽歌/) != null) return exports.video.song() ;	
+	if (trigger.match(/聽歌/) != null) return exports.video.immsong() ;	
 	
 	
 	/*tarot 指令
