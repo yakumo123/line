@@ -6,7 +6,7 @@ function mushroomcloud() {
 	rply = {
     "type": "video",
     "originalContentUrl": "https://drive.google.com/uc?export=download&id=1h7GhClMfoCxXCXdjVV8wiFylaMz-_IIk",
-    "previewImageUrl": "https://i.kinja-img.com/gawker-media/image/upload/s--2Ps5CmqS--/c_fill,fl_progressive,g_center,h_900,q_80,w_1600/1813aqov5wc2jjpg.jpg"
+    "previewImageUrl": "https://pic.dmyy.cc/Uploads/vod/2014-08-17/sxdd.jpg"
 };
 	return rply;
 }
