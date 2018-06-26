@@ -127,7 +127,7 @@ function parseInput(rplyToken, inputStr) {
 	if (trigger.match(/燻兔肉佐/) != null) return exports.funny.randomRabbit() ;	
 	
 	
-	if (trigger.match(/小妹|叔叔/) != null) return exports.funny.randomShit() ;	
+	if (trigger.match(/叔叔/) != null) return exports.funny.randomShit() ;	
 	
 	if (trigger.match(/舔吹雪/) != null) return exports.image.imsnow() ;	
 	
