@@ -133,6 +133,7 @@ function parseInput(rplyToken, inputStr) {
 	
 	if (trigger.match(/聽歌/) != null) return exports.video.mushroomcloud() ;	
 	
+	if (trigger.match(/鳳梨/) != null) return exports.imagepie.PieIm() ;	
 	
 	/*tarot 指令
 	if (trigger.match(/猜拳/) != null) {
