@@ -1,6 +1,15 @@
 var rollbase = require('./rollbase.js');
 var rply ={type : 'text'}; //type是必需的,但可以更改
 
+function FoodChoices(TEXT) {
+
+let rplyArr = ['蕎麥麵 ','小籠包','拉麵','瓜仔肉','壽司','刺身','炸雞','排骨飯','意大利麵','滷肉飯','銅鑼燒','米粉炒','肉燥飯','不吃','吃土','八雲','吃雪','安特','牛丼','親子丼','麵包','麥當勞','漢堡','KFC','銅鑼燒','鹽酥雞','胡椒餅','鍋貼','粽子','披薩','烤雞','烤肉','石頭鍋飯','羊肉爐','麻油雞','肉羹','擔仔麵','排骨麵','蔥抓餅','刈包','薑汁番茄','生煎包','蚵仔煎','肉粽','炸雞排','烤玉米、烤番薯','烤香腸','蔥油餅','臭豆腐','肉圓','蚵仔麵線','筒仔米糕','豬血糕','蛋包飯'];
+
+rply.text = TEXT[0] + ' ： ' + rplyArr[Math.floor((Math.random() * (rplyArr.length)) + 0)];
+
+return rply;
+
+}
 
 function Flag() {
 let rplyArr = ['\
@@ -597,6 +606,7 @@ function choice(input,str) {
  }
 
 module.exports = {
+	FoodChoices,
 	Flag,
 	BStyleFlagSCRIPTS,
 	randomReply,
