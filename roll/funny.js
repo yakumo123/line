@@ -146,6 +146,18 @@ rply.text = rplyArr[Math.floor((Math.random() * (rplyArr.length)) + 0)];
 return rply;
 }
 
+function randomSmileFace() {
+let rplyArr = ['\
+安妮後援會會長' ,'\
+偽娘笑臉' ,'\
+跑出來的笑臉' ,'\
+笑臉逐漸母湯中' ,'\
+都被露菈打爆' ,'\
+'];
+rply.text = rplyArr[Math.floor((Math.random() * (rplyArr.length)) + 0)];
+return rply;
+}
+
 function randomAnt() {
 let rplyArr = ['\
 嘶嘶嘶' ,'\
@@ -612,6 +624,7 @@ module.exports = {
 	randomReply,
 	randomYakumo,
 	randomLulla,
+	randomSmileFace,
 	randomAnt,
 	randomLuck,
 	randomAOE,
