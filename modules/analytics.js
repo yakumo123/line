@@ -87,7 +87,7 @@ function parseInput(rplyToken, inputStr) {
 	
 	if (trigger.match(/^班比幫助$/)!= null ) return exports.botyakumo.BotHelpYy();
 	
-	if (trigger.match(/^班比測驗$/)!= null ) return exports.button.buttontest();
+	if (trigger.match(/^班比測驗$|^班比測試$/)!= null ) return exports.button.buttontest();
 
 	
 	if (trigger.match(/角色背景/) != null) return exports.funny.Character(mainMsg) ;	
