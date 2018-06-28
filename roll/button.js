@@ -5,27 +5,27 @@ var rply = { type: 'text' }; //type是必需的,但可以更改
 function buttontest() {
 	rply = {
     "type": "template",
-    "altText": "情報整合",
+    "altText": "你認為班比愛你嗎??",
     "template": {
         "type": "buttons",
-        "thumbnailImageUrl": "https://i.ytimg.com/vi/G8O2TSRilkg/maxresdefault.jpg",
-        "title": "新卡包情報",
-        "text": "所有情報",
+        "thumbnailImageUrl": "https://drive.google.com/uc?export=download&id=1RXsvfEyhCamuHD2yEkWgNJ82KmHHlrWJ",
+        "title": "你認為班比愛你嗎??",
+        "text": "這選擇",
         "actions": [
             {
-                "type": "uri",
-                "label": "新卡包整合貼【創作者：LM】",
-                "uri": "https://m.gamer.com.tw/forum/C.php?bsn=29330&snA=14020&bpage=1&top=9&ltype="
+                "type": "message",
+                "label": "班比愛你",
+                "text": "班比不會愛我這種臭酸肥宅"
             },
             {
-                "type": "uri",
-                "label": "官方宣傳片",
-                "uri": "https://youtu.be/G8O2TSRilkg"
+                "type": "message",
+                "label": "班比不愛你",
+                "text": "我變態所以班比不會愛上我"
             },
             {
-                "type": "uri",
-                "label": "官網",
-                "uri": "https://shadowverse.com/sp/cht/cardpack/brigadeofthesky/"
+                "type": "message",
+                "label": "不知道",
+                "text": "我只是一名被邊緣的變態臭酸肥宅"
             }
         ]
     }
