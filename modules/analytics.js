@@ -83,6 +83,7 @@ function parseInput(rplyToken, inputStr) {
 	}
 
 	//FLAG指令開始於此
+	if (trigger.match(/問號/)!= null ) return exports.kiddingme.joking();
 	
 	if (trigger.match(/^班比幫助$/)!= null ) return exports.botyakumo.BotHelpYy();
 	
