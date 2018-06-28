@@ -94,7 +94,7 @@ function parseInput(rplyToken, inputStr) {
 	
 	if (trigger.match(/運勢|的機率是多少/) != null) return exports.funny.randomLuck(mainMsg) ; //占卜運氣		
 	
-	if (trigger.match(/^八雲$|^@小學生八雲やくも$/) != null) return exports.funny.BStyleFlagSCRIPTS() ;	
+	if (trigger.match(/八雲/) != null) return exports.funny.BStyleFlagSCRIPTS() ;	
 	
 	if (trigger.match(/班比/) != null) return exports.funny.randomReply() ;	
 	
