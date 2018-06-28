@@ -49,7 +49,7 @@ function parseInput(rplyToken, inputStr) {
 	
 	if (trigger.match(/^5gu$/)!= null ) return exports.coc.PcBG();
   
-	if (trigger.match(/^比賽$|^資訊$|^比賽資訊$/)!= null ) return exports.help.Help();
+	if (trigger.match(/^eifjfieu$/)!= null ) return exports.help.Help();
 	
 	
 	//nc指令開始於此 來自Rainsting/TarotLineBot 
@@ -73,7 +73,6 @@ function parseInput(rplyToken, inputStr) {
 
 	
 	//choice 指令開始於此
-	if (trigger.match(/隨機|選1/)!= null && mainMsg.length >= 3) return exports.funny.choice(inputStr,mainMsg);
 	if (trigger.match(/排序|次序/)!= null && mainMsg.length >= 3) return exports.funny.SortIt(inputStr,mainMsg);
  	if (trigger.match(/^d66$/)!= null ) return exports.advroll.d66(mainMsg[1]);
 	if (trigger.match(/^d66s$/)!= null ) return exports.advroll.d66s(mainMsg[1]);
