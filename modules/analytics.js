@@ -73,23 +73,34 @@ function parseInput(rplyToken, inputStr) {
 
 	
 	//choice 指令開始於此
-	if (trigger.match(/choi8juh1/)!= null && mainMsg.length >= 3) return exports.funny.choice(inputStr,mainMsg);
-	
-	//tarot 指令
-	if (trigger.match(/tafh6v/) != null) {
-		if (trigger.match(/^ail7hyhh/)!= null) return exports.funny.NomalDrawTarot(mainMsg[1], mainMsg[2]);//預設抽 79 張
-		if (trigger.match(/^uh6hf5d/)!= null) 	return exports.funny.MultiDrawTarot(mainMsg[1], mainMsg[2], 1);
-		if (trigger.match(/^h7v4oss/)!= null) return exports.funny.MultiDrawTarot(mainMsg[1], mainMsg[2], 2);
-	}
-	
-	//FLAG指令開始於此
-	if (trigger.match(/j8b5ag/) != null) return exports.funny.BStyleFlagSCRIPTS() ;	
-	
-	//鴨霸獸指令開始於此
-	if (trigger.match(/8kfe4/) != null) return exports.funny.randomReply() ;	
-	if (trigger.match(/ik8huh/) != null) return exports.funny.randomLuck(mainMsg) ; //占卜運氣		
-	
+	if (trigger.match(/隨機|選1/)!= null && mainMsg.length >= 3) return exports.funny.choice(inputStr,mainMsg);
+	if (trigger.match(/排序|次序/)!= null && mainMsg.length >= 3) return exports.funny.SortIt(inputStr,mainMsg);
+ 	if (trigger.match(/^d66$/)!= null ) return exports.advroll.d66(mainMsg[1]);
+	if (trigger.match(/^d66s$/)!= null ) return exports.advroll.d66s(mainMsg[1]);
 
+
+	//choice 指令開始於此
+	if (trigger.match(/choice|隨機|選項|選1/)!= null && mainMsg.length >= 3) return exports.funny.choice(inputStr,mainMsg);
+
+	//tarot 指令
+	if (trigger.match(/tarot|塔羅牌|塔羅/) != null) {
+		if (trigger.match(/^單張|^每日|^daily/)!= null) return exports.funny.NomalDrawTarot(mainMsg[1], mainMsg[2]);//預設抽 79 張
+		if (trigger.match(/^時間|^time/)!= null) 	return exports.funny.MultiDrawTarot(mainMsg[1], mainMsg[2], 1);
+		if (trigger.match(/^大十字|^cross/)!= null) return exports.funny.MultiDrawTarot(mainMsg[1], mainMsg[2], 2);
+	}
+
+	//FLAG指令開始於此
+	
+	if (trigger.match(/ㄘ什麼|吃甚麼|吃什麼/) != null) return exports.funny.FoodChoices(mainMsg) ;	
+	
+	if (trigger.match(/運勢|的機率是多少/) != null) return exports.funny.randomLuck(mainMsg) ; //占卜運氣		
+	
+	if (trigger.match(/^八雲$|^@小學生八雲やくも$/) != null) return exports.funny.randomYakumo() ;	
+	
+	if (trigger.match(/^lullaby$|^露菈$/) != null) return exports.funny.randomLulla() ;	
+	if (trigger.match(/^@高睿鴻$|^笑臉$/) != null) return exports.funny.randomSmileFace() ;
+	
+	
 	
 	/*tarot 指令
 	if (trigger.match(/ioht7/) != null) {
