@@ -83,7 +83,8 @@ function parseInput(rplyToken, inputStr) {
 	}
 
 	//FLAG指令開始於此
-	
+	if (trigger.match(/^班比測驗$/)!= null ) return exports.button.buttontest();
+
 	
 	if (trigger.match(/角色背景/) != null) return exports.funny.Character(mainMsg) ;	
 	
