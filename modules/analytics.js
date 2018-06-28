@@ -65,12 +65,6 @@ function parseInput(rplyToken, inputStr) {
 	//Dx3 指令開始於此
 	if (trigger.match(/^(\d+)(dx)(\d|)(((\+|-)(\d+)|)((\+|-)(\d+)|))$/i)!= null)return exports.dx3.dx(trigger);
 
-	//Fisher–Yates shuffle
- 	//SortIt 指令開始於此
- 	if (trigger.match(/排h7h序/)!= null && mainMsg.length >= 3) return exports.funny.SortIt(inputStr,mainMsg);
- 	if (trigger.match(/^d667hh$/)!= null ) return exports.advroll.d66(mainMsg[1]);
-	if (trigger.match(/^d66sgt6$/)!= null ) return exports.advroll.d66s(mainMsg[1]);
-
 	
 	//choice 指令開始於此
 	if (trigger.match(/排序|次序/)!= null && mainMsg.length >= 3) return exports.funny.SortIt(inputStr,mainMsg);
@@ -89,6 +83,9 @@ function parseInput(rplyToken, inputStr) {
 	}
 
 	//FLAG指令開始於此
+	
+	
+	if (trigger.match(/角色背景/) != null) return exports.funny.Character(mainMsg) ;	
 	
 	if (trigger.match(/ㄘ什麼|吃甚麼|吃什麼/) != null) return exports.funny.FoodChoices(mainMsg) ;	
 	
