@@ -105,7 +105,41 @@ let rplyArr = ['超吉','超級上吉','大吉','吉','中吉','小吉','吉','�
 rply.text = TEXT[0] + ' ： ' + rplyArr[Math.floor((Math.random() * (rplyArr.length)) + 0)];
 return rply;
 }
-	
+
+function randomLulla() {
+let rplyArr = ['\
+I very vegetable' ,'\
+(問號)' ,'\
+????'];
+rply.text = rplyArr[Math.floor((Math.random() * (rplyArr.length)) + 0)];
+return rply;
+}
+
+function randomSmileFace() {
+let rplyArr = ['\
+安妮後援會會長' ,'\
+偽娘笑臉' ,'\
+跑出來的笑臉' ,'\
+笑臉逐漸母湯中' ,'\
+都被露菈打爆'];
+rply.text = rplyArr[Math.floor((Math.random() * (rplyArr.length)) + 0)];
+return rply;
+}
+
+function randomShame() {
+let rplyArr = ['\
+你給我去罰寫班比100次' ,'\
+你媽才斑比' ,'\
+你當我小鹿斑比喔' ,'\
+斑 你 妹 啦！！' ,'\
+啥??我給機會你再說一次' ,'\
+班啦幹' ,'\
+你中文能力是不是差成這樣 班跟斑也分不清' ,'\
+我班比今天要打死你這個分不清 班 跟 斑 的文盲'];
+rply.text = rplyArr[Math.floor((Math.random() * (rplyArr.length)) + 0)];
+return rply;
+}
+
 	
 ////////////////////////////////////////
 //////////////// Funny
@@ -391,6 +425,9 @@ module.exports = {
 	BStyleFlagSCRIPTS,
 	randomReply,
 	randomLuck,
+	randomLulla,
+	randomSmileFace,
+	randomShame,
 	RockPaperScissors,
 	MultiDrawTarot,
 	NomalDrawTarot,
