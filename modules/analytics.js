@@ -94,7 +94,7 @@ function parseInput(rplyToken, inputStr) {
 	
 	if (trigger.match(/ㄘ什麼|吃甚麼|吃什麼/) != null) return exports.funny.FoodChoices(mainMsg) ;	
 	
-	if (trigger.match(/運氣|的機率是多少/) != null) return exports.funny.randomLuck(mainMsg) ; //占卜運氣		
+	if (trigger.match(/運氣|的機率是多少|運勢/) != null) return exports.funny.randomLuck(mainMsg) ; //占卜運氣		
 	
 	if (trigger.match(/八雲/) != null) return exports.funny.BStyleFlagSCRIPTS() ;	
 	
