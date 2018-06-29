@@ -15,12 +15,12 @@ function buttontest() {
             {
                 "type": "message",
                 "label": "班比愛你",
-                "text": "班比不會愛我這種臭酸肥宅"
+                "text": "沒有人會愛我這種臭酸肥宅"
             },
             {
                 "type": "message",
                 "label": "班比不愛你",
-                "text": "我變態所以班比不會愛上我"
+                "text": "我變態所以沒有人會愛上我"
             },
             {
                 "type": "message",
