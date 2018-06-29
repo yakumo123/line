@@ -101,6 +101,10 @@ function parseInput(rplyToken, inputStr) {
 	if (trigger.match(/班比/) != null) return exports.funny.randomReply() ;	
 	
 	if (trigger.match(/斑比/) != null) return exports.funny.randomShame() ;	
+	if (trigger.match(/聽歌/) != null) return exports.video.mushroomcloud() ;	
+	
+	if (trigger.match(/鳳梨/) != null) return exports.imagepie.PieIm() ;	
+	
 	
 	
 	if (trigger.match(/^lullaby$|^露菈$/) != null) return exports.funny.randomLulla() ;	
