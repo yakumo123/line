@@ -116,14 +116,14 @@ function parseInput(rplyToken, inputStr) {
 	
 	if (trigger.match(/3張傳說禁卡/) != null) {
 		if (trigger.match(/^血鬼/)!= null) return exports.bancardbloodrainbowthreelimit.MultiDrawBan(mainMsg[1], mainMsg[2], 2);
-		if (trigger.match(/^妖精/)!= null) return exports.bancardbloodrainbowthreelimit.MultiDrawBan(mainMsg[1], mainMsg[2], 2);
-		if (trigger.match(/^復仇者/)!= null) return exports.bancardbloodrainbowthreelimit.MultiDrawBan(mainMsg[1], mainMsg[2], 2);
-		if (trigger.match(/^中立/)!= null) return exports.bancardbloodrainbowthreelimit.MultiDrawBan(mainMsg[1], mainMsg[2], 2);
-		if (trigger.match(/^巫師/)!= null) return exports.bancardbloodrainbowthreelimit.MultiDrawBan(mainMsg[1], mainMsg[2], 2);
-		if (trigger.match(/^龍族/)!= null) return exports.bancardbloodrainbowthreelimit.MultiDrawBan(mainMsg[1], mainMsg[2], 2);
-		if (trigger.match(/^死靈/)!= null) return exports.bancardbloodrainbowthreelimit.MultiDrawBan(mainMsg[1], mainMsg[2], 2);
-		if (trigger.match(/^皇家/)!= null) return exports.bancardbloodrainbowthreelimit.MultiDrawBan(mainMsg[1], mainMsg[2], 2);
-		if (trigger.match(/^主教/)!= null) return exports.bancardbloodrainbowthreelimit.MultiDrawBan(mainMsg[1], mainMsg[2], 2);
+		if (trigger.match(/^妖精/)!= null) return exports.bancardelfrainbowthreelimit.MultiDrawBan(mainMsg[1], mainMsg[2], 2);
+		if (trigger.match(/^復仇者/)!= null) return exports.bancardportalrainbowthreelimit.MultiDrawBan(mainMsg[1], mainMsg[2], 2);
+		if (trigger.match(/^中立/)!= null) return exports.bancardbalancerainbowthreelimit.MultiDrawBan(mainMsg[1], mainMsg[2], 2);
+		if (trigger.match(/^巫師/)!= null) return exports.bancardrunerainbowthreelimit.MultiDrawBan(mainMsg[1], mainMsg[2], 2);
+		if (trigger.match(/^龍族/)!= null) return exports.bancarddragonrainbowthreelimit.MultiDrawBan(mainMsg[1], mainMsg[2], 2);
+		if (trigger.match(/^死靈/)!= null) return exports.bancardshadowrainbowthreelimit.MultiDrawBan(mainMsg[1], mainMsg[2], 2);
+		if (trigger.match(/^皇家/)!= null) return exports.bancardroyalrainbowthreelimit.MultiDrawBan(mainMsg[1], mainMsg[2], 2);
+		if (trigger.match(/^主教/)!= null) return exports.bancardhavenrainbowthreelimit.MultiDrawBan(mainMsg[1], mainMsg[2], 2);
 	}
 		
 	if (trigger.match(/禁卡/) != null) {
