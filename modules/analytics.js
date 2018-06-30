@@ -103,8 +103,7 @@ function parseInput(rplyToken, inputStr) {
 	}
 	
 	if (trigger.match(/禁卡/) != null) {
-		if (trigger.match(/^死靈/)!= null) return exports.bancardshadow.MultiDrawBan(mainMsg[1], mainMsg[2], 2);
-		if (trigger.match(/^皇家/)!= null) return exports.bancardrayol.MultiDrawBan(mainMsg[1], mainMsg[2], 2);
+		if (trigger.match(/^血鬼/)!= null) return exports.bancardblood.MultiDrawBan(mainMsg[1], mainMsg[2], 2);
 		if (trigger.match(/^主教/)!= null) return exports.bancardhaven.MultiDrawBan(mainMsg[1], mainMsg[2], 2);
 	}
 	
