@@ -166,7 +166,7 @@ function BanCardReply(count) {
 	if (count == 41) returnStr = '血源探索-銀';
 	if (count == 42) returnStr = '銀鎖的使徒-銀';
 	if (count == 43) returnStr = '雙石惡魔-銀';
-	if (count == 44) returnStr = '縛命之鎖銀';
+	if (count == 44) returnStr = '縛命之鎖-銀';
 	if (count == 45) returnStr = '瓦沙克-銀';
 	if (count == 46) returnStr = '格蘿德-銅';
 	if (count == 47) returnStr = '惡魔追獵者-銅';
