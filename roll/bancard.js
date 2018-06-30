@@ -1,4 +1,4 @@
-function MultiDrawTarot(CardToCal, text, type) {
+function MultiDrawBan(CardToCal, text, type) {
 	let returnStr = '';
 	var tmpcard = 0;
 	var cards = [];
@@ -7,7 +7,7 @@ function MultiDrawTarot(CardToCal, text, type) {
 
 	if (type == 1) //時間之流
 	{
-	cards[0] = rollbase.FunnyDice(79); //先抽第0張
+	cards[0] = rollbase.FunnyDice(74); //先抽第0張
 	revs[0] = rollbase.FunnyDice(2);
 
 	for (i = 1; i < 3; i++) {
@@ -93,7 +93,7 @@ function MultiDrawTarot(CardToCal, text, type) {
 	return rply;
 }
 
-function NomalDrawTarot(CardToCal, text) {
+function NomalDrawBan(CardToCal, text) {
 	let returnStr = '';
 
 	if (text == null)
@@ -106,7 +106,7 @@ function NomalDrawTarot(CardToCal, text) {
 
 
 
-function tarotCardReply(count) {
+function BanCardReply(count) {
 	let returnStr = '';
 	if (count == 0) returnStr = '白雪公主-虹';
 	if (count == 1) returnStr = '白貞(323)-虹';
@@ -154,39 +154,35 @@ function tarotCardReply(count) {
 	if (count == 43) returnStr = '聖獅神殿-銀';
 	if (count == 44) returnStr = '詠唱：蛇神之宴-銀';
 	if (count == 45) returnStr = '天譴神父-銀';
-	if (count == 46) returnStr = '聖杯侍者';
-	if (count == 47) returnStr = '聖杯騎士';
-	if (count == 48) returnStr = '聖杯皇后';
-	if (count == 49) returnStr = '聖杯國王';
-	if (count == 50) returnStr = '寶劍一';
-	if (count == 51) returnStr = '寶劍二';
-	if (count == 52) returnStr = '寶劍三';
-	if (count == 53) returnStr = '寶劍四';
-	if (count == 54) returnStr = '寶劍五';
-	if (count == 55) returnStr = '寶劍六';
-	if (count == 56) returnStr = '寶劍七';
-	if (count == 57) returnStr = '寶劍八';
-	if (count == 58) returnStr = '寶劍九';
-	if (count == 59) returnStr = '寶劍十';
-	if (count == 60) returnStr = '寶劍侍者';
-	if (count == 61) returnStr = '寶劍騎士';
-	if (count == 62) returnStr = '寶劍皇后';
-	if (count == 63) returnStr = '寶劍國王';
-	if (count == 64) returnStr = '錢幣一';
-	if (count == 65) returnStr = '錢幣二';
-	if (count == 66) returnStr = '錢幣三';
-	if (count == 67) returnStr = '錢幣四';
-	if (count == 68) returnStr = '錢幣五';
-	if (count == 69) returnStr = '錢幣六';
-	if (count == 70) returnStr = '錢幣七';
-	if (count == 71) returnStr = '錢幣八';
-	if (count == 72) returnStr = '錢幣九';
-	if (count == 73) returnStr = '錢幣十';
-	if (count == 74) returnStr = '錢幣侍者';
-	if (count == 75) returnStr = '錢幣騎士';
-	if (count == 76) returnStr = '錢幣皇后';
-	if (count == 77) returnStr = '錢幣國王';
-	if (count == 78) returnStr = '空白牌';
+	if (count == 46) returnStr = '偉大的女修士-銅';
+	if (count == 47) returnStr = '信仰的天使像-銅-銅';
+	if (count == 48) returnStr = '破邪聖光-銅';
+	if (count == 49) returnStr = '聖潔的僧侶-銅';
+	if (count == 50) returnStr = '追逐繁星的精靈-銅';
+	if (count == 51) returnStr = '誓言之翼-銅';
+	if (count == 52) returnStr = '戰士萊卡翁-銅';
+	if (count == 53) returnStr = '育鳥的使徒-銅';
+	if (count == 54) returnStr = '詠唱：白龍降臨-銅';
+	if (count == 55) returnStr = '內向的月兔妖-銅';
+	if (count == 56) returnStr = '愚神禮讚-銅';
+	if (count == 57) returnStr = '聖獸白虎-銅';
+	if (count == 58) returnStr = '懲戒的修女-銅';
+	if (count == 59) returnStr = '詠唱：寶石之甲-銅';
+	if (count == 60) returnStr = '炎熔鐵靴-銅';
+	if (count == 61) returnStr = '肅清的聖堂-銅';
+	if (count == 62) returnStr = '漆黑法典-銅';
+	if (count == 63) returnStr = '聖獅結晶-銅';
+	if (count == 64) returnStr = '風之僧侶‧海森-銅';
+	if (count == 65) returnStr = '詠唱：聖獸之誓-銅';
+	if (count == 66) returnStr = '崇高的教義-銅';
+	if (count == 67) returnStr = '死鐮修女-銅';
+	if (count == 68) returnStr = '蛇神女祭司-銅';
+	if (count == 69) returnStr = '星辰主教-銅';
+	if (count == 70) returnStr = '劍刃修女-銅';
+	if (count == 71) returnStr = '被封印的法典-銅';
+	if (count == 72) returnStr = '詠唱：召喚天馬-銅';
+	if (count == 73) returnStr = '詠唱：真翼沙漏-銅';
+
 	return returnStr;
 	//return rply;
 
@@ -194,7 +190,7 @@ function tarotCardReply(count) {
 
 
 module.exports = {
-	MultiDrawTarot,
-	NomalDrawTarot,
-	tarotCardReply	
+	MultiDrawBan,
+	NomalDrawBan,
+	BanCardReply	
 };
