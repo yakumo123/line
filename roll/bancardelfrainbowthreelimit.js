@@ -1,0 +1,11 @@
+if (count == 0) returnStr = '王者巨象-虹';
+if (count == 1) returnStr = '翠嵐的大斧手-虹';
+	if (count == 2) returnStr = '世界樹-虹';
+	if (count == 3) returnStr = '白鬃聖猿-虹';
+	if (count == 4) returnStr = '卡西歐佩亞-虹';
+	if (count == 5) returnStr = '美女與野獸-虹';
+	if (count == 6) returnStr = '弒神獵人‧塞爾文-虹';
+	if (count == 7) returnStr = '絢麗的紡織者‧歌露瓦-虹';
+if (count == 8) returnStr = '先導者妖精公主‧阿麗雅-虹';
+if (count == 9) returnStr = '昆蟲王-虹';
+if (count == 10) returnStr = '妖精龍-虹';
