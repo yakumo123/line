@@ -55,10 +55,10 @@ function MultiDrawBan(CardToCal, text, type) {
 	if (text != null)
 		returnStr += text + ': \n';
 
-	for (i = 0; i < 15; i++) {
+	for (i = 0; i < 25; i++) {
 		if (i == 0) returnStr += '1: ' + BanCardReply(cards[i]) + ' ' + '\n';
 		if (i == 1) {
-		if (revs[i] == 0) //正位
+		if (revs[i] == 0)
 			returnStr += '2: ' + BanCardReply(cards[i]) + ' ' + '\n';
 		else
 			returnStr += '2: ' + BanCardReply(cards[i]) + ' ' + '\n';
@@ -74,13 +74,23 @@ function MultiDrawBan(CardToCal, text, type) {
 		if (i == 10) returnStr += '11: ' + BanCardReply(cards[i]) + ' ' + '\n';
 		if (i == 11) returnStr += '12: ' + BanCardReply(cards[i]) + ' ' + '\n';
 		if (i == 12) returnStr += '13: ' + BanCardReply(cards[i]) + ' ' + '\n';
-		if (i == 13) {
+		if (i == 13) returnStr += '14: ' + BanCardReply(cards[i]) + ' ' + '\n';
+		if (i == 14) returnStr += '15: ' + BanCardReply(cards[i]) + ' ' + '\n';
+		if (i == 15) returnStr += '16: ' + BanCardReply(cards[i]) + ' ' + '\n';
+		if (i == 16) returnStr += '17: ' + BanCardReply(cards[i]) + ' ' + '\n';
+		if (i == 17) returnStr += '18: ' + BanCardReply(cards[i]) + ' ' + '\n';
+		if (i == 18) returnStr += '19: ' + BanCardReply(cards[i]) + ' ' + '\n';
+		if (i == 19) returnStr += '20: ' + BanCardReply(cards[i]) + ' ' + '\n';
+		if (i == 20) returnStr += '21: ' + BanCardReply(cards[i]) + ' ' + '\n';
+		if (i == 21) returnStr += '22: ' + BanCardReply(cards[i]) + ' ' + '\n';
+		if (i == 22) returnStr += '23: ' + BanCardReply(cards[i]) + ' ' + '\n';
+		if (i == 23) {
 		if (revs[i] == 0) 
-			returnStr += '14: ' + BanCardReply(cards[i]) + ' ' + '\n';
+			returnStr += '24: ' + BanCardReply(cards[i]) + ' ' + '\n';
 		else
-			returnStr += '14: ' + BanCardReply(cards[i]) + ' ' + '\n';
+			returnStr += '24: ' + BanCardReply(cards[i]) + ' ' + '\n';
 		}
-		if (i == 14) returnStr += '15: ' + BanCardReply(cards[i]) + ' ' ;
+		if (i == 14) returnStr += '25: ' + BanCardReply(cards[i]) + ' ' ;
 
 	}
 
