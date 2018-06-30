@@ -1,0 +1,11 @@
+	if (count == 0) returnStr = '天空指揮官‧榭莉亞-虹';
+	if (count == 1) returnStr = '仙杜瑞拉-虹';
+	if (count == 2) returnStr = '沉默的炎將‧瑪爾斯-虹';
+	if (count == 3) returnStr = '斯巴達克斯-虹';
+	if (count == 4) returnStr = '黑暗劍士‧梅麗莎-虹';
+	if (count == 5) returnStr = '巴巴羅薩-虹';
+	if (count == 6) returnStr = '鮮紅的穿光‧瑟塔-虹';
+	if (count == 7) returnStr = '騎士王‧亞瑟-虹';
+	if (count == 8) returnStr = '遠古英雄-虹';
+	if (count == 9) returnStr = '高潔的騎士‧雷瑟姆-虹';
+	if (count == 10) returnStr = '空天城塞-虹';
