@@ -169,7 +169,7 @@ function BanCardReply(count) {
 	if (count == 44) returnStr = '詠唱：蛇神之宴-銀';
 	if (count == 45) returnStr = '天譴神父-銀';
 	if (count == 46) returnStr = '偉大的女修士-銅';
-	if (count == 47) returnStr = '信仰的天使像-銅-銅';
+	if (count == 47) returnStr = '信仰的天使像-銅';
 	if (count == 48) returnStr = '破邪聖光-銅';
 	if (count == 49) returnStr = '聖潔的僧侶-銅';
 	if (count == 50) returnStr = '追逐繁星的精靈-銅';
