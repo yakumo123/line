@@ -114,6 +114,29 @@ function parseInput(rplyToken, inputStr) {
 		if (trigger.match(/^主教/)!= null) return exports.bancardhaven.MultiDrawBan(mainMsg[1], mainMsg[2], 2);
 	}
 	
+	if (trigger.match(/5張傳說禁卡/) != null) {
+		if (trigger.match(/^血鬼/)!= null) return exports.bancardbloodrainbowfivelimit.MultiDrawBan(mainMsg[1], mainMsg[2], 2);
+		if (trigger.match(/^妖精/)!= null) return exports.bancardelfrainbowfivelimit.MultiDrawBan(mainMsg[1], mainMsg[2], 2);
+		if (trigger.match(/^復仇者/)!= null) return exports.bancardportalrainbowfivelimit.MultiDrawBan(mainMsg[1], mainMsg[2], 2);
+		if (trigger.match(/^中立/)!= null) return exports.bancardbalancefivelimit.MultiDrawBan(mainMsg[1], mainMsg[2], 2);
+		if (trigger.match(/^巫師/)!= null) return exports.bancardrunerainbowfivelimit.MultiDrawBan(mainMsg[1], mainMsg[2], 2);
+		if (trigger.match(/^龍族/)!= null) return exports.bancarddragonrainbowfivelimit.MultiDrawBan(mainMsg[1], mainMsg[2], 2);
+		if (trigger.match(/^死靈/)!= null) return exports.bancardshadowrainbowfivelimit.MultiDrawBan(mainMsg[1], mainMsg[2], 2);
+		if (trigger.match(/^皇家/)!= null) return exports.bancardrayolrainbowfivelimit.MultiDrawBan(mainMsg[1], mainMsg[2], 2);
+		if (trigger.match(/^主教/)!= null) return exports.bancardhavenrainbowfivelimit.MultiDrawBan(mainMsg[1], mainMsg[2], 2);
+	}
+	
+	if (trigger.match(/3張傳說禁卡/) != null) {
+		if (trigger.match(/^血鬼/)!= null) return exports.bancardbloodrainbowthreelimit.MultiDrawBan(mainMsg[1], mainMsg[2], 2);
+		if (trigger.match(/^妖精/)!= null) return exports.bancardbloodrainbowthreelimit.MultiDrawBan(mainMsg[1], mainMsg[2], 2);
+		if (trigger.match(/^復仇者/)!= null) return exports.bancardbloodrainbowthreelimit.MultiDrawBan(mainMsg[1], mainMsg[2], 2);
+		if (trigger.match(/^中立/)!= null) return exports.bancardbloodrainbowthreelimit.MultiDrawBan(mainMsg[1], mainMsg[2], 2);
+		if (trigger.match(/^巫師/)!= null) return exports.bancardbloodrainbowthreelimit.MultiDrawBan(mainMsg[1], mainMsg[2], 2);
+		if (trigger.match(/^龍族/)!= null) return exports.bancardbloodrainbowthreelimit.MultiDrawBan(mainMsg[1], mainMsg[2], 2);
+		if (trigger.match(/^死靈/)!= null) return exports.bancardbloodrainbowthreelimit.MultiDrawBan(mainMsg[1], mainMsg[2], 2);
+		if (trigger.match(/^皇家/)!= null) return exports.bancardbloodrainbowthreelimit.MultiDrawBan(mainMsg[1], mainMsg[2], 2);
+		if (trigger.match(/^主教/)!= null) return exports.bancardbloodrainbowthreelimit.MultiDrawBan(mainMsg[1], mainMsg[2], 2);
+	}
 		
 	
 	//FLAG指令開始於此
