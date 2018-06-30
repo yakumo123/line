@@ -56,40 +56,40 @@ function MultiDrawBan(CardToCal, text, type) {
 		returnStr += text + ': \n';
 
 	for (i = 0; i < 15; i++) {
-		if (i == 0) returnStr += '1: ' + BanCardReply(cards[i]) + ' ' + BanRevReply(revs[i]) + '\n';
+		if (i == 0) returnStr += '1: ' + BanCardReply(cards[i]) + ' ' + '\n';
 		if (i == 1) {
 		if (revs[i] == 0) //正位
-			returnStr += '2: ' + BanCardReply(cards[i]) + ' ' + BanRevReply(revs[i]) + '\n';
+			returnStr += '2: ' + BanCardReply(cards[i]) + ' ' + '\n';
 		else
-			returnStr += '2: ' + BanCardReply(cards[i]) + ' ' + BanRevReply(revs[i]) + '\n';
+			returnStr += '2: ' + BanCardReply(cards[i]) + ' ' + '\n';
 		}
-		if (i == 2) returnStr += '3: ' + BanCardReply(cards[i]) + ' ' + BanRevReply(revs[i]) + '\n';
-		if (i == 3) returnStr += '4: ' + BanCardReply(cards[i]) + ' ' + BanRevReply(revs[i]) + '\n';
-		if (i == 4) returnStr += '5: ' + BanCardReply(cards[i]) + ' ' + BanRevReply(revs[i]) + '\n';
-		if (i == 5) returnStr += '6: ' + BanCardReply(cards[i]) + ' ' + BanRevReply(revs[i]) + '\n';
-		if (i == 6) returnStr += '7: ' + BanCardReply(cards[i]) + ' ' + BanRevReply(revs[i]) + '\n';
-		if (i == 7) returnStr += '8: ' + BanCardReply(cards[i]) + ' ' + BanRevReply(revs[i]) + '\n';
-		if (i == 8) returnStr += '9: ' + BanCardReply(cards[i]) + ' ' + BanRevReply(revs[i]) + '\n';
-		if (i == 9) returnStr += '10: ' + BanCardReply(cards[i]) + ' ' + BanRevReply(revs[i]) + '\n';
-		if (i == 10) returnStr += '11: ' + BanCardReply(cards[i]) + ' ' + BanRevReply(revs[i]) + '\n';
-		if (i == 11) returnStr += '12: ' + BanCardReply(cards[i]) + ' ' + BanRevReply(revs[i]) + '\n';
-		if (i == 12) returnStr += '13: ' + BanCardReply(cards[i]) + ' ' + BanRevReply(revs[i]) + '\n';
+		if (i == 2) returnStr += '3: ' + BanCardReply(cards[i]) + ' ' + '\n';
+		if (i == 3) returnStr += '4: ' + BanCardReply(cards[i]) + ' ' + '\n';
+		if (i == 4) returnStr += '5: ' + BanCardReply(cards[i]) + ' ' + '\n';
+		if (i == 5) returnStr += '6: ' + BanCardReply(cards[i]) + ' ' + '\n';
+		if (i == 6) returnStr += '7: ' + BanCardReply(cards[i]) + ' ' + '\n';
+		if (i == 7) returnStr += '8: ' + BanCardReply(cards[i]) + ' ' + '\n';
+		if (i == 8) returnStr += '9: ' + BanCardReply(cards[i]) + ' ' + '\n';
+		if (i == 9) returnStr += '10: ' + BanCardReply(cards[i]) + ' ' + '\n';
+		if (i == 10) returnStr += '11: ' + BanCardReply(cards[i]) + ' ' + '\n';
+		if (i == 11) returnStr += '12: ' + BanCardReply(cards[i]) + ' ' + '\n';
+		if (i == 12) returnStr += '13: ' + BanCardReply(cards[i]) + ' ' + '\n';
 		if (i == 13) {
 		if (revs[i] == 0) 
-			returnStr += '14: ' + BanCardReply(cards[i]) + ' ' + BanRevReply(revs[i]) + '\n';
+			returnStr += '14: ' + BanCardReply(cards[i]) + ' ' + '\n';
 		else
-			returnStr += '14: ' + BanCardReply(cards[i]) + ' ' + BanRevReply(revs[i]) + '\n';
+			returnStr += '14: ' + BanCardReply(cards[i]) + ' ' + '\n';
 		}
-		if (i == 14) returnStr += '15: ' + BanCardReply(cards[i]) + ' ' + BanRevReply(revs[i]);
+		if (i == 14) returnStr += '15: ' + BanCardReply(cards[i]) + ' ' ;
 
 	}
 
 	} else {
 
 	if (text == null)
-		returnStr = BanCardReply(rollbase.FunnyDice(74)) + ' ' + BanRevReply(rollbase.FunnyDice(2));
+		returnStr = BanCardReply(rollbase.FunnyDice(74)) + ' ' ;
 	else
-		returnStr = BanCardReply(rollbase.FunnyDice(74)) + ' ' + BanRevReply(rollbase.FunnyDice(2)) + ' ; ' + text;
+		returnStr = BanCardReply(rollbase.FunnyDice(74)) + ' ' + ' ; ' + text;
 	}
 
 
@@ -102,22 +102,13 @@ function NomalDrawBan(CardToCal, text) {
 	let returnStr = '';
 
 	if (text == null)
-	returnStr = BanCardReply(rollbase.FunnyDice(22)) + ' ' + BanRevReply(rollbase.FunnyDice(2));
+	returnStr = BanCardReply(rollbase.FunnyDice(22)) + ' ' ;
 	else
-	returnStr = BanCardReply(rollbase.FunnyDice(22)) + ' ' + BanRevReply(rollbase.FunnyDice(2)) + ' ; ' + text;
+	returnStr = BanCardReply(rollbase.FunnyDice(22)) + ' ' + ' ; ' + text;
 	rply.text = returnStr;
 	return rply;
 }
 
-function BanRevReply(count) {
-	let returnStr = '';
-
-	if (count == 0) returnStr = '！';
-	if (count == 1) returnStr = '！';
-
-	return returnStr;
-	//return rply;
-}
 
 function BanCardReply(count) {
 	let returnStr = '';
@@ -205,6 +196,5 @@ function BanCardReply(count) {
 module.exports = {
 	MultiDrawBan,
 	NomalDrawBan,
-	BanRevReply,
 	BanCardReply	
 };
