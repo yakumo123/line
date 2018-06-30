@@ -1,4 +1,3 @@
-
 var rollbase = require('./rollbase.js');
 var rply ={type : 'text'}; //type是必需的,但可以更改
 
@@ -41,7 +40,7 @@ function MultiDrawBan(CardToCal, text, type) {
 	cards[0] = rollbase.FunnyDice(10);
 	revs[0] = rollbase.FunnyDice(2);
 
-for (i = 1; i < 7; i++) {
+	for (i = 1; i < 7; i++) {
 		for (;;) {
 		tmpcard = rollbase.FunnyDice(10);
 		if (cards.indexOf(tmpcard) === -1) //沒有重複，就這張了
@@ -73,7 +72,6 @@ for (i = 1; i < 7; i++) {
 	}
 
 
-
 	} else {
 
 	if (text == null)
@@ -101,20 +99,16 @@ function NomalDrawBan(CardToCal, text) {
 
 function BanCardReply(count) {
 	let returnStr = '';
-		if (count == 0) returnStr = '魔海女王-虹';
-		if (count == 1) returnStr = '原初的巴哈姆特-虹';
-		if (count == 2) returnStr = '柯羅諾斯-虹';
-		if (count == 3) returnStr = '洛基-虹';
-		if (count == 4) returnStr = '不可思議的探求者‧愛麗絲-虹';
-		if (count == 5) returnStr = '黃道天魔-虹';
-		if (count == 6) returnStr = '馬爾杜克-虹';
-		if (count == 7) returnStr = '月與日-虹';
-		if (count == 8) returnStr = '芭依波卡赫-虹';
-		if (count == 9) returnStr = '傳奇劍鬥士-虹';
-
-
-
-
+	if (count == 0) returnStr = '魔海女王-虹';
+	if (count == 1) returnStr = '原初的巴哈姆特-虹';
+	if (count == 2) returnStr = '柯羅諾斯-虹';
+	if (count == 3) returnStr = '洛基-虹';
+	if (count == 4) returnStr = '不可思議的探求者‧愛麗絲-虹';
+	if (count == 5) returnStr = '黃道天魔-虹';
+	if (count == 6) returnStr = '馬爾杜克-虹';
+	if (count == 7) returnStr = '月與日-虹';
+	if (count == 8) returnStr = '芭依波卡赫-虹';
+	if (count == 9) returnStr = '傳奇劍鬥士-虹';
 
 
 	return returnStr;
