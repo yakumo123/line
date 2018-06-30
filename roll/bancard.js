@@ -112,18 +112,18 @@ function NomalDrawBan(CardToCal, text) {
 
 function BanCardReply(count) {
 	let returnStr = '';
-	if (count == 0) returnStr = '白雪公主-虹';
-	if (count == 1) returnStr = '白貞(323)-虹';
-	if (count == 2) returnStr = '鹿-虹';
-	if (count == 3) returnStr = '白翼守護神-虹';
+	if (count == 0) returnStr = '月與日-虹';
+	if (count == 1) returnStr = '白雪公主-虹';
+	if (count == 2) returnStr = '希望引導者‧聖女貞德-虹';
+	if (count == 3) returnStr = '刻律涅-虹';
 	if (count == 4) returnStr = '圖坦卡門-虹';
-	if (count == 5) returnStr = '七寶石之姫-虹';
+	if (count == 5) returnStr = '白翼守護神‧埃忒耳-虹';
 	if (count == 6) returnStr = '邪教化身-虹';
-	if (count == 7) returnStr = '天曜盾甲-虹';
-	if (count == 8) returnStr = '白貞(855)-虹';
-	if (count == 9) returnStr = '神盾(855)-虹';
-	if (count == 10) returnStr = '黃金獅-虹';
-	if (count == 11) returnStr = '烈風之翼神-虹';
+	if (count == 7) returnStr = '七寶石公主‧蕾菲爾-虹';
+	if (count == 8) returnStr = '天曜戰騎-虹';
+	if (count == 9) returnStr = '神之盾‧布羅蒂雅-虹';
+	if (count == 10) returnStr = '黃金鄉聖獅-虹';
+	if (count == 11) returnStr = '烈風翼神‧迦樓羅-虹';
 	if (count == 12) returnStr = '星導天球儀-金';
 	if (count == 13) returnStr = '峰頂的教會-金';
 	if (count == 14) returnStr = '赤枝聖騎士‧諾榭-金';
