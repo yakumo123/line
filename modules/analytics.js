@@ -110,7 +110,7 @@ function parseInput(rplyToken, inputStr) {
 		if (trigger.match(/^巫師/)!= null) return exports.bancardrunerainbowsevenlimit.MultiDrawBan(mainMsg[1], mainMsg[2], 2);
 		if (trigger.match(/^龍族/)!= null) return exports.bancarddragonrainbowsevenlimit.MultiDrawBan(mainMsg[1], mainMsg[2], 2);
 		if (trigger.match(/^死靈/)!= null) return exports.bancardshadowrainbowsevenlimit.MultiDrawBan(mainMsg[1], mainMsg[2], 2);
-		if (trigger.match(/^皇家/)!= null) return exports.bancardrayolrainbowsevenlimit.MultiDrawBan(mainMsg[1], mainMsg[2], 2);
+		if (trigger.match(/^皇家/)!= null) return exports.bancardroyalrainbowsevenlimit.MultiDrawBan(mainMsg[1], mainMsg[2], 2);
 		if (trigger.match(/^主教/)!= null) return exports.bancardhavenrainbowsevenlimit.MultiDrawBan(mainMsg[1], mainMsg[2], 2);
 	}
 	
@@ -122,7 +122,7 @@ function parseInput(rplyToken, inputStr) {
 		if (trigger.match(/^巫師/)!= null) return exports.bancardrunerainbowfivelimit.MultiDrawBan(mainMsg[1], mainMsg[2], 2);
 		if (trigger.match(/^龍族/)!= null) return exports.bancarddragonrainbowfivelimit.MultiDrawBan(mainMsg[1], mainMsg[2], 2);
 		if (trigger.match(/^死靈/)!= null) return exports.bancardshadowrainbowfivelimit.MultiDrawBan(mainMsg[1], mainMsg[2], 2);
-		if (trigger.match(/^皇家/)!= null) return exports.bancardrayolrainbowfivelimit.MultiDrawBan(mainMsg[1], mainMsg[2], 2);
+		if (trigger.match(/^皇家/)!= null) return exports.bancardroyalrainbowfivelimit.MultiDrawBan(mainMsg[1], mainMsg[2], 2);
 		if (trigger.match(/^主教/)!= null) return exports.bancardhavenrainbowfivelimit.MultiDrawBan(mainMsg[1], mainMsg[2], 2);
 	}
 	
