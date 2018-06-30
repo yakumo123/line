@@ -173,7 +173,7 @@ function parseInput(rplyToken, inputStr) {
 		if (trigger.match(/^皇家/)!= null) return exports.bancardroyalrainbowthreelimit.MultiDrawBan(mainMsg[1], mainMsg[2], 2);
 		if (trigger.match(/^主教/)!= null) return exports.bancardhavenrainbowthreelimit.MultiDrawBan(mainMsg[1], mainMsg[2], 2);
 	}
-		if (trigger.match(/15張全卡禁卡|15張全卡限卡|15張全卡/) != null) {
+	if (trigger.match(/15張全卡禁卡|15張全卡限卡|15張全卡/) != null) {
 		if (trigger.match(/^血鬼/)!= null) return exports.bancardbloodof.MultiDrawBan(mainMsg[1], mainMsg[2], 2);
 		if (trigger.match(/^妖精/)!= null) return exports.bancardelfof.MultiDrawBan(mainMsg[1], mainMsg[2], 2);
 		if (trigger.match(/^復仇者/)!= null) return exports.bancardportalof.MultiDrawBan(mainMsg[1], mainMsg[2], 2);
