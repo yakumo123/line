@@ -11,12 +11,12 @@ function MultiDrawBan(CardToCal, text, type) {
 
 	if (type == 1) //時間之流
 	{
-	cards[0] = rollbase.FunnyDice(74); //先抽第0張
+	cards[0] = rollbase.FunnyDice(73); //先抽第0張
 	revs[0] = rollbase.FunnyDice(2);
 
 	for (i = 1; i < 3; i++) {
 		for (;;) {
-		tmpcard = rollbase.FunnyDice(74);
+		tmpcard = rollbase.FunnyDice(73);
 		if (cards.indexOf(tmpcard) === -1) //沒有重複，就這張了
 		{
 			cards.push(tmpcard);
@@ -37,12 +37,12 @@ function MultiDrawBan(CardToCal, text, type) {
 
 	} else if (type == 2) //塞爾特大十字
 	{
-	cards[0] = rollbase.FunnyDice(74); //先抽第0張
+	cards[0] = rollbase.FunnyDice(73); //先抽第0張
 	revs[0] = rollbase.FunnyDice(2);
 
 	for (i = 1; i < 15; i++) {
 		for (;;) {
-		tmpcard = rollbase.FunnyDice(74);
+		tmpcard = rollbase.FunnyDice(73);
 		if (cards.indexOf(tmpcard) === -1) //沒有重複，就這張了
 		{
 			cards.push(tmpcard);
@@ -87,9 +87,9 @@ function MultiDrawBan(CardToCal, text, type) {
 	} else {
 
 	if (text == null)
-		returnStr = BanCardReply(rollbase.FunnyDice(74)) + ' ' ;
+		returnStr = BanCardReply(rollbase.FunnyDice(73)) + ' ' ;
 	else
-		returnStr = BanCardReply(rollbase.FunnyDice(74)) + ' ' + ' ; ' + text;
+		returnStr = BanCardReply(rollbase.FunnyDice(73)) + ' ' + ' ; ' + text;
 	}
 
 
@@ -112,7 +112,7 @@ function NomalDrawBan(CardToCal, text) {
 
 function BanCardReply(count) {
 	let returnStr = '';
-	if (count == 0) returnStr = '月與日-虹';
+	if (count == 0) returnStr = '詠唱：真翼沙漏-銅';
 	if (count == 1) returnStr = '白雪公主-虹';
 	if (count == 2) returnStr = '希望引導者‧聖女貞德-虹';
 	if (count == 3) returnStr = '刻律涅-虹';
@@ -185,7 +185,6 @@ function BanCardReply(count) {
 	if (count == 70) returnStr = '劍刃修女-銅';
 	if (count == 71) returnStr = '被封印的法典-銅';
 	if (count == 72) returnStr = '詠唱：召喚天馬-銅';
-	if (count == 73) returnStr = '詠唱：真翼沙漏-銅';
 
 	return returnStr;
 	//return rply;
