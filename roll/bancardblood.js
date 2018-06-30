@@ -91,7 +91,7 @@ function MultiDrawBan(CardToCal, text, type) {
 		else
 			returnStr += '24: ' + BanCardReply(cards[i]) + ' ' + '\n';
 		}
-		if (i == 14) returnStr += '25: ' + BanCardReply(cards[i]) + ' ' ;
+		if (i == 24) returnStr += '25: ' + BanCardReply(cards[i]) + ' ' ;
 
 	}
 
