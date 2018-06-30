@@ -106,7 +106,7 @@ function parseInput(rplyToken, inputStr) {
 		if (trigger.match(/^血鬼/)!= null) return exports.bancardbloodrainbowsevenlimit.MultiDrawBan(mainMsg[1], mainMsg[2], 2);
 		if (trigger.match(/^妖精/)!= null) return exports.bancardelfrainbowsevenlimit.MultiDrawBan(mainMsg[1], mainMsg[2], 2);
 		if (trigger.match(/^復仇者/)!= null) return exports.bancardportalrainbowsevenlimit.MultiDrawBan(mainMsg[1], mainMsg[2], 2);
-		if (trigger.match(/^中立/)!= null) return exports.bancardbalancesevenlimit.MultiDrawBan(mainMsg[1], mainMsg[2], 2);
+		if (trigger.match(/^中立/)!= null) return exports.bancardbalancerainbowsevenlimit.MultiDrawBan(mainMsg[1], mainMsg[2], 2);
 		if (trigger.match(/^巫師/)!= null) return exports.bancardrunerainbowsevenlimit.MultiDrawBan(mainMsg[1], mainMsg[2], 2);
 		if (trigger.match(/^龍族/)!= null) return exports.bancarddragonrainbowsevenlimit.MultiDrawBan(mainMsg[1], mainMsg[2], 2);
 		if (trigger.match(/^死靈/)!= null) return exports.bancardshadowrainbowsevenlimit.MultiDrawBan(mainMsg[1], mainMsg[2], 2);
