@@ -10,15 +10,15 @@ function MultiDrawBan(CardToCal, text, type) {
 	var revs = [];
 	var i = 0;
 
-	if (type == 1) //時間之流
+	if (type == 1) 
 	{
-	cards[0] = rollbase.FunnyDice(73); //先抽第0張
+	cards[0] = rollbase.FunnyDice(73); 
 	revs[0] = rollbase.FunnyDice(2);
 
 	for (i = 1; i < 3; i++) {
 		for (;;) {
 		tmpcard = rollbase.FunnyDice(73);
-		if (cards.indexOf(tmpcard) === -1) //沒有重複，就這張了
+		if (cards.indexOf(tmpcard) === -1) 
 		{
 			cards.push(tmpcard);
 			revs[i] = rollbase.FunnyDice(2);
@@ -31,17 +31,17 @@ function MultiDrawBan(CardToCal, text, type) {
 		returnStr += text + ': \n';
 
 	for (i = 0; i < 3; i++) {
-		if (i == 0) returnStr += '過去: ' + BanCardReply(cards[i]) + ' ' + BanRevReply(revs[i]) + '\n';
-		if (i == 1) returnStr += '現在: ' + BanCardReply(cards[i]) + ' ' + BanRevReply(revs[i]) + '\n';
-		if (i == 2) returnStr += '未來: ' + BanCardReply(cards[i]) + ' ' + BanRevReply(revs[i]);
+		if (i == 0) returnStr += '1: ' + BanCardReply(cards[i]) + ' ' + BanRevReply(revs[i]) + '\n';
+		if (i == 1) returnStr += '1: ' + BanCardReply(cards[i]) + ' ' + BanRevReply(revs[i]) + '\n';
+		if (i == 2) returnStr += '1: ' + BanCardReply(cards[i]) + ' ' + BanRevReply(revs[i]);
 	}
 
-	} else if (type == 2) //塞爾特大十字
+	} else if (type == 2) 
 	{
-	cards[0] = rollbase.FunnyDice(73); //先抽第0張
+	cards[0] = rollbase.FunnyDice(73);
 	revs[0] = rollbase.FunnyDice(2);
 
-	for (i = 1; i < 15; i++) {
+	for (i = 1; i < 25; i++) {
 		for (;;) {
 		tmpcard = rollbase.FunnyDice(73);
 		if (cards.indexOf(tmpcard) === -1) //沒有重複，就這張了
@@ -56,10 +56,10 @@ function MultiDrawBan(CardToCal, text, type) {
 	if (text != null)
 		returnStr += text + ': \n';
 
-	for (i = 0; i < 15; i++) {
+	for (i = 0; i < 25; i++) {
 		if (i == 0) returnStr += '1: ' + BanCardReply(cards[i]) + ' ' + '\n';
 		if (i == 1) {
-		if (revs[i] == 0) //正位
+		if (revs[i] == 0)
 			returnStr += '2: ' + BanCardReply(cards[i]) + ' ' + '\n';
 		else
 			returnStr += '2: ' + BanCardReply(cards[i]) + ' ' + '\n';
@@ -75,13 +75,23 @@ function MultiDrawBan(CardToCal, text, type) {
 		if (i == 10) returnStr += '11: ' + BanCardReply(cards[i]) + ' ' + '\n';
 		if (i == 11) returnStr += '12: ' + BanCardReply(cards[i]) + ' ' + '\n';
 		if (i == 12) returnStr += '13: ' + BanCardReply(cards[i]) + ' ' + '\n';
-		if (i == 13) {
+		if (i == 13) returnStr += '14: ' + BanCardReply(cards[i]) + ' ' + '\n';
+		if (i == 14) returnStr += '15: ' + BanCardReply(cards[i]) + ' ' + '\n';
+		if (i == 15) returnStr += '16: ' + BanCardReply(cards[i]) + ' ' + '\n';
+		if (i == 16) returnStr += '17: ' + BanCardReply(cards[i]) + ' ' + '\n';
+		if (i == 17) returnStr += '18: ' + BanCardReply(cards[i]) + ' ' + '\n';
+		if (i == 18) returnStr += '19: ' + BanCardReply(cards[i]) + ' ' + '\n';
+		if (i == 19) returnStr += '20: ' + BanCardReply(cards[i]) + ' ' + '\n';
+		if (i == 20) returnStr += '21: ' + BanCardReply(cards[i]) + ' ' + '\n';
+		if (i == 21) returnStr += '22: ' + BanCardReply(cards[i]) + ' ' + '\n';
+		if (i == 22) returnStr += '23: ' + BanCardReply(cards[i]) + ' ' + '\n';
+		if (i == 23) {
 		if (revs[i] == 0) 
-			returnStr += '14: ' + BanCardReply(cards[i]) + ' ' + '\n';
+			returnStr += '24: ' + BanCardReply(cards[i]) + ' ' + '\n';
 		else
-			returnStr += '14: ' + BanCardReply(cards[i]) + ' ' + '\n';
+			returnStr += '24: ' + BanCardReply(cards[i]) + ' ' + '\n';
 		}
-		if (i == 14) returnStr += '15: ' + BanCardReply(cards[i]) + ' ' ;
+		if (i == 14) returnStr += '25: ' + BanCardReply(cards[i]) + ' ' ;
 
 	}
 
