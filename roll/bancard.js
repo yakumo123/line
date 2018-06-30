@@ -69,14 +69,14 @@ function MultiDrawTarot(CardToCal, text, type) {
 		if (i == 9) returnStr += '10: ' + tarotCardReply(cards[i]) + ' ' + tarotRevReply(revs[i]) + '\n';
 		if (i == 10) returnStr += '11: ' + tarotCardReply(cards[i]) + ' ' + tarotRevReply(revs[i]) + '\n';
 		if (i == 11) returnStr += '12: ' + tarotCardReply(cards[i]) + ' ' + tarotRevReply(revs[i]) + '\n';
-		if (i == 13) returnStr += '13: ' + tarotCardReply(cards[i]) + ' ' + tarotRevReply(revs[i]) + '\n';
-		{
+		if (i == 12) returnStr += '13: ' + tarotCardReply(cards[i]) + ' ' + tarotRevReply(revs[i]) + '\n';
+		if (i == 13) {
 		if (revs[i] == 0) 
-			returnStr += '9: ' + tarotCardReply(cards[i]) + ' ' + tarotRevReply(revs[i]) + '\n';
+			returnStr += '14: ' + tarotCardReply(cards[i]) + ' ' + tarotRevReply(revs[i]) + '\n';
 		else
-			returnStr += '9: ' + tarotCardReply(cards[i]) + ' ' + tarotRevReply(revs[i]) + '\n';
+			returnStr += '14: ' + tarotCardReply(cards[i]) + ' ' + tarotRevReply(revs[i]) + '\n';
 		}
-		if (i == 9) returnStr += '10: ' + tarotCardReply(cards[i]) + ' ' + tarotRevReply(revs[i]);
+		if (i == 14) returnStr += '15: ' + tarotCardReply(cards[i]) + ' ' + tarotRevReply(revs[i]);
 
 	}
 
