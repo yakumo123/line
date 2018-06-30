@@ -101,6 +101,10 @@ function parseInput(rplyToken, inputStr) {
 		if (trigger.match(/^時間|^time/)!= null) 	return exports.funny.MultiDrawTarot(mainMsg[1], mainMsg[2], 1);
 		if (trigger.match(/^大十字|^cross/)!= null) return exports.funny.MultiDrawTarot(mainMsg[1], mainMsg[2], 2);
 	}
+	
+	if (trigger.match(/禁卡/) != null) {
+		if (trigger.match(/^主教/)!= null) return exports.bancard.MultiDrawBan(mainMsg[1], mainMsg[2], 2);
+	}
 
 	//FLAG指令開始於此
 	
