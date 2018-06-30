@@ -51,27 +51,32 @@ function MultiDrawTarot(CardToCal, text, type) {
 	if (text != null)
 		returnStr += text + ': \n';
 
-	for (i = 0; i < 10; i++) {
-		if (i == 0) returnStr += '現況: ' + tarotCardReply(cards[i]) + ' ' + tarotRevReply(revs[i]) + '\n';
+	for (i = 0; i < 15; i++) {
+		if (i == 0) returnStr += '1: ' + tarotCardReply(cards[i]) + ' ' + tarotRevReply(revs[i]) + '\n';
 		if (i == 1) {
 		if (revs[i] == 0) //正位
-			returnStr += '助力: ' + tarotCardReply(cards[i]) + ' ' + tarotRevReply(revs[i]) + '\n';
+			returnStr += '2: ' + tarotCardReply(cards[i]) + ' ' + tarotRevReply(revs[i]) + '\n';
 		else
-			returnStr += '阻力: ' + tarotCardReply(cards[i]) + ' ' + tarotRevReply(revs[i]) + '\n';
+			returnStr += '2: ' + tarotCardReply(cards[i]) + ' ' + tarotRevReply(revs[i]) + '\n';
 		}
-		if (i == 2) returnStr += '目標: ' + tarotCardReply(cards[i]) + ' ' + tarotRevReply(revs[i]) + '\n';
-		if (i == 3) returnStr += '基礎: ' + tarotCardReply(cards[i]) + ' ' + tarotRevReply(revs[i]) + '\n';
-		if (i == 4) returnStr += '過去: ' + tarotCardReply(cards[i]) + ' ' + tarotRevReply(revs[i]) + '\n';
-		if (i == 5) returnStr += '未來: ' + tarotCardReply(cards[i]) + ' ' + tarotRevReply(revs[i]) + '\n';
-		if (i == 6) returnStr += '自我: ' + tarotCardReply(cards[i]) + ' ' + tarotRevReply(revs[i]) + '\n';
-		if (i == 7) returnStr += '環境: ' + tarotCardReply(cards[i]) + ' ' + tarotRevReply(revs[i]) + '\n';
-		if (i == 8) {
-		if (revs[i] == 0) //正位
-			returnStr += '希望: ' + tarotCardReply(cards[i]) + ' ' + tarotRevReply(revs[i]) + '\n';
+		if (i == 2) returnStr += '3: ' + tarotCardReply(cards[i]) + ' ' + tarotRevReply(revs[i]) + '\n';
+		if (i == 3) returnStr += '4: ' + tarotCardReply(cards[i]) + ' ' + tarotRevReply(revs[i]) + '\n';
+		if (i == 4) returnStr += '5: ' + tarotCardReply(cards[i]) + ' ' + tarotRevReply(revs[i]) + '\n';
+		if (i == 5) returnStr += '6: ' + tarotCardReply(cards[i]) + ' ' + tarotRevReply(revs[i]) + '\n';
+		if (i == 6) returnStr += '7: ' + tarotCardReply(cards[i]) + ' ' + tarotRevReply(revs[i]) + '\n';
+		if (i == 7) returnStr += '8: ' + tarotCardReply(cards[i]) + ' ' + tarotRevReply(revs[i]) + '\n';
+		if (i == 8) returnStr += '9: ' + tarotCardReply(cards[i]) + ' ' + tarotRevReply(revs[i]) + '\n';
+		if (i == 9) returnStr += '10: ' + tarotCardReply(cards[i]) + ' ' + tarotRevReply(revs[i]) + '\n';
+		if (i == 10) returnStr += '11: ' + tarotCardReply(cards[i]) + ' ' + tarotRevReply(revs[i]) + '\n';
+		if (i == 11) returnStr += '12: ' + tarotCardReply(cards[i]) + ' ' + tarotRevReply(revs[i]) + '\n';
+		if (i == 13) returnStr += '13: ' + tarotCardReply(cards[i]) + ' ' + tarotRevReply(revs[i]) + '\n';
+		{
+		if (revs[i] == 0) 
+			returnStr += '9: ' + tarotCardReply(cards[i]) + ' ' + tarotRevReply(revs[i]) + '\n';
 		else
-			returnStr += '恐懼: ' + tarotCardReply(cards[i]) + ' ' + tarotRevReply(revs[i]) + '\n';
+			returnStr += '9: ' + tarotCardReply(cards[i]) + ' ' + tarotRevReply(revs[i]) + '\n';
 		}
-		if (i == 9) returnStr += '結論: ' + tarotCardReply(cards[i]) + ' ' + tarotRevReply(revs[i]);
+		if (i == 9) returnStr += '10: ' + tarotCardReply(cards[i]) + ' ' + tarotRevReply(revs[i]);
 
 	}
 
@@ -99,16 +104,6 @@ function NomalDrawTarot(CardToCal, text) {
 	return rply;
 }
 
-
-function tarotRevReply(count) {
-	let returnStr = '';
-
-	if (count == 0) returnStr = '＋';
-	if (count == 1) returnStr = '－';
-
-	return returnStr;
-	//return rply;
-}
 
 
 function tarotCardReply(count) {
@@ -197,3 +192,10 @@ function tarotCardReply(count) {
 	//return rply;
 
 }
+
+
+module.exports = {
+	MultiDrawTarot,
+	NomalDrawTarot,
+	tarotCardReply	
+};
