@@ -1,0 +1,14 @@
+	if (count == 0) returnStr = '巨天金牛-金';
+	if (count == 1) returnStr = '忒彌斯的肅清-金';
+	if (count == 2) returnStr = '星導天球儀-金';
+	if (count == 3) returnStr = '峰頂的教會-金';
+	if (count == 4) returnStr = '赤枝聖騎士‧諾榭-金';
+	if (count == 5) returnStr = '安朵美達-金';
+	if (count == 6) returnStr = '寶石巫女-金';
+	if (count == 7) returnStr = '聖光牧師‧蘿蕾娜-金';
+	if (count == 8) returnStr = '愛麗絲的冒險-金';
+	if (count == 9) returnStr = '詠唱：白牙神殿-金';
+	if (count == 10) returnStr = '天馬騎士杜拉漢-金';
+	if (count == 11) returnStr = '詠唱：遠古守護者-金';
+	if (count == 12) returnStr = '天狐之社-金';
+	if (count == 13) returnStr = '白天鵝‧奧德蒂-金';
