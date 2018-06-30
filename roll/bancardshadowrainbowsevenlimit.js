@@ -61,7 +61,7 @@ function MultiDrawBan(CardToCal, text, type) {
 		if (i == 1) returnStr += '2: ' + BanCardReply(cards[i]) + ' ' + '\n';
 		if (i == 2) returnStr += '3: ' + BanCardReply(cards[i]) + ' ' + '\n';
     if (i == 3) returnStr += '4: ' + BanCardReply(cards[i]) + ' ' + '\n';
-    if (i == 4) returnStr += '3: ' + BanCardReply(cards[i]) + ' ' + '\n';
+    if (i == 4) returnStr += '5: ' + BanCardReply(cards[i]) + ' ' + '\n';
 		if (i == 5) {
 		if (revs[i] == 0) 
 			returnStr += '6: ' + BanCardReply(cards[i]) + ' ' + '\n';
