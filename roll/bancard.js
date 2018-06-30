@@ -12,7 +12,7 @@ function MultiDrawBan(CardToCal, text, type) {
 
 	for (i = 1; i < 3; i++) {
 		for (;;) {
-		tmpcard = rollbase.FunnyDice(79);
+		tmpcard = rollbase.FunnyDice(74);
 		if (cards.indexOf(tmpcard) === -1) //沒有重複，就這張了
 		{
 			cards.push(tmpcard);
@@ -33,12 +33,12 @@ function MultiDrawBan(CardToCal, text, type) {
 
 	} else if (type == 2) //塞爾特大十字
 	{
-	cards[0] = rollbase.FunnyDice(79); //先抽第0張
+	cards[0] = rollbase.FunnyDice(74); //先抽第0張
 	revs[0] = rollbase.FunnyDice(2);
 
 	for (i = 1; i < 10; i++) {
 		for (;;) {
-		tmpcard = rollbase.FunnyDice(79);
+		tmpcard = rollbase.FunnyDice(74);
 		if (cards.indexOf(tmpcard) === -1) //沒有重複，就這張了
 		{
 			cards.push(tmpcard);
@@ -83,9 +83,9 @@ function MultiDrawBan(CardToCal, text, type) {
 	} else {
 
 	if (text == null)
-		returnStr = tarotCardReply(rollbase.FunnyDice(79)) + ' ' + tarotRevReply(rollbase.FunnyDice(2));
+		returnStr = tarotCardReply(rollbase.FunnyDice(74)) + ' ' + tarotRevReply(rollbase.FunnyDice(2));
 	else
-		returnStr = tarotCardReply(rollbase.FunnyDice(79)) + ' ' + tarotRevReply(rollbase.FunnyDice(2)) + ' ; ' + text;
+		returnStr = tarotCardReply(rollbase.FunnyDice(74)) + ' ' + tarotRevReply(rollbase.FunnyDice(2)) + ' ; ' + text;
 	}
 
 
