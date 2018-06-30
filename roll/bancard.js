@@ -93,15 +93,6 @@ function MultiDrawBan(CardToCal, text, type) {
 	return rply;
 }
 
-function BanRevReply(count) {
-	let returnStr = '';
-
-	if (count == 0) returnStr = '！';
-	if (count == 1) returnStr = '！';
-
-	return returnStr;
-	//return rply;
-}
 
 function NomalDrawBan(CardToCal, text) {
 	let returnStr = '';
@@ -114,7 +105,15 @@ function NomalDrawBan(CardToCal, text) {
 	return rply;
 }
 
+function BanRevReply(count) {
+	let returnStr = '';
 
+	if (count == 0) returnStr = '！';
+	if (count == 1) returnStr = '！';
+
+	return returnStr;
+	//return rply;
+}
 
 function BanCardReply(count) {
 	let returnStr = '';
