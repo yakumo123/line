@@ -43,7 +43,7 @@ function MultiDrawBan(CardToCal, text, type) {
 
 for (i = 1; i < 7; i++) {
 		for (;;) {
-		tmpcard = rollbase.FunnyDice(11);
+		tmpcard = rollbase.FunnyDice(10);
 		if (cards.indexOf(tmpcard) === -1) //沒有重複，就這張了
 		{
 			cards.push(tmpcard);
