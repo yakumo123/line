@@ -1,3 +1,7 @@
+var rollbase = require('./rollbase.js');
+var rply ={type : 'text'}; //type是必需的,但可以更改
+
+
 function MultiDrawBan(CardToCal, text, type) {
 	let returnStr = '';
 	var tmpcard = 0;
