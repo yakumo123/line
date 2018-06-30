@@ -195,9 +195,9 @@ function BanCardReply(count) {
 	if (count == 70) returnStr = '機動翼劍士-銅';
 	if (count == 71) returnStr = '古代機械兵-銅';
 	if (count == 72) returnStr = '次元斷-銅';
-if (count == 73) returnStr = '人偶少女‧奧契絲-虹';
+	if (count == 73) returnStr = '人偶少女‧奧契絲-虹';
 	if (count == 74) returnStr = '神偉的遺物-虹';
-	if (count == 75) returnStr = '奮勉的俊秀‧席爾瓦-虹;
+	if (count == 75) returnStr = '奮勉的俊秀‧席爾瓦-虹';
 	if (count == 76) returnStr = '魔導電磁巨犀-虹';
 
 	return returnStr;
