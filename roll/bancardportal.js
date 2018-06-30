@@ -126,11 +126,11 @@ function BanCardReply(count) {
 	if (count == 1) returnStr = '機械降神-虹';
 	if (count == 2) returnStr = '神祕守門人‧絲碧涅-虹';
 	if (count == 3) returnStr = '小小布偶師‧洛可可-虹';
-	if (count == 4) returnStr = '天威劍士-虹';
-	if (count == 5) returnStr = '殺戮人偶‧枷薇-虹';
-	if (count == 6) returnStr = '神彈巨像-虹';
-	if (count == 7) returnStr = '被賦生的獸人‧紗妃拉-虹';
-	if (count == 8) returnStr = '創造物激光炮-虹';
+	if (count == 4) returnStr = '天威劍士-金';
+	if (count == 5) returnStr = '殺戮人偶‧枷薇-金';
+	if (count == 6) returnStr = '神彈巨像-金';
+	if (count == 7) returnStr = '被賦生的獸人‧紗妃拉-金';
+	if (count == 8) returnStr = '創造物激光炮-金';
 	if (count == 9) returnStr = '生命量產-金';
 	if (count == 10) returnStr = '虛數物體-金';
 	if (count == 11) returnStr = '帕拉塞爾蘇斯-金';
