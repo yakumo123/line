@@ -41,7 +41,7 @@ function MultiDrawBan(CardToCal, text, type) {
 	cards[0] = rollbase.FunnyDice(11);
 	revs[0] = rollbase.FunnyDice(2);
 
-	for (i = 1; i < 5; i++) {
+	for (i = 1; i < 7; i++) {
 		for (;;) {
 		tmpcard = rollbase.FunnyDice(11);
 		if (cards.indexOf(tmpcard) === -1) //沒有重複，就這張了
@@ -53,27 +53,25 @@ function MultiDrawBan(CardToCal, text, type) {
 		}
 	}
 
-	if (text != null)
+		if (text != null)
 		returnStr += text + ': \n';
 
-	for (i = 0; i < 5; i++) {
+	for (i = 0; i < 7; i++) {
 		if (i == 0) returnStr += '1: ' + BanCardReply(cards[i]) + ' ' + '\n';
-		if (i == 1) {
-		if (revs[i] == 0)
-			returnStr += '2: ' + BanCardReply(cards[i]) + ' ' + '\n';
-		else
-			returnStr += '2: ' + BanCardReply(cards[i]) + ' ' + '\n';
-		}
+		if (i == 1) returnStr += '2: ' + BanCardReply(cards[i]) + ' ' + '\n';
 		if (i == 2) returnStr += '3: ' + BanCardReply(cards[i]) + ' ' + '\n';
-		if (i == 3) {
+    if (i == 3) returnStr += '4: ' + BanCardReply(cards[i]) + ' ' + '\n';
+    if (i == 4) returnStr += '3: ' + BanCardReply(cards[i]) + ' ' + '\n';
+		if (i == 5) {
 		if (revs[i] == 0) 
-			returnStr += '4: ' + BanCardReply(cards[i]) + ' ' + '\n';
+			returnStr += '6: ' + BanCardReply(cards[i]) + ' ' + '\n';
 		else
-			returnStr += '4: ' + BanCardReply(cards[i]) + ' ' + '\n';
+			returnStr += '6: ' + BanCardReply(cards[i]) + ' ' + '\n';
 		}
-		if (i == 4) returnStr += '5: ' + BanCardReply(cards[i]) + ' ' ;
+		if (i == 6) returnStr += '7: ' + BanCardReply(cards[i]) + ' ' ;
 
 	}
+
 
 	} else {
 
