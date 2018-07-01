@@ -110,7 +110,7 @@ if (count == 0) returnStr = '給僕從的禮物-金';
 	if (count == 8) returnStr = '轟雷的惡魔-金';
 	if (count == 9) returnStr = '血脈之王-金';
 	if (count == 10) returnStr = '幻影貓-金';
-	if (count == 14) returnStr = '巨大惡魔掌-金';
+	if (count == 11) returnStr = '巨大惡魔掌-金';
 	if (count == 12) returnStr = '惡魔巡查官‧亞梅拉達-金';
 	if (count == 13) returnStr = '斯忒諾-金';
 
