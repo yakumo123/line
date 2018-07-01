@@ -190,7 +190,7 @@ function parseInput(rplyToken, inputStr) {
 	}
 	
 	if (trigger.match(/職業|職業建議/) != null) {
-		if (trigger.match(/^隨機/)!= null) return exports.bancardbloodrainbowsevenlimit.MultiDrawBan(mainMsg[1], mainMsg[2], 2);
+		if (trigger.match(/^隨機/)!= null) return exports.careerchoice.MultiDrawBan(mainMsg[1], mainMsg[2], 2);
 	}
 	
 	
