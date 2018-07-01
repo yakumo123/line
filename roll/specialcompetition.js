@@ -2,7 +2,7 @@ var rollbase = require('./rollbase.js');
 var funny = require('./funny.js');
 var rply = { type: 'text' }; //type是必需的,但可以更改
 
-function BotHelpYy() {
+function SCList() {
 	rply = {
 		"type": "template",
 		"altText": "特殊賽制",
@@ -106,5 +106,5 @@ function BotHelpYy() {
 
 
 module.exports = {
-	BotHelpYy: BotHelpYy
+	SCList: SCList
 };
