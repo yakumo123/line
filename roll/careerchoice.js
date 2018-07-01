@@ -57,7 +57,7 @@ function MultiDrawBan(CardToCal, text, type) {
 		returnStr += text + ': \n';
 
 	for (i = 0; i < 3; i++) {
-		if (i == 0) returnStr += '【隨機職業建議】 \n 第1: ' + BanCardReply(cards[i]) + ' ' + '\n';
+		if (i == 0) returnStr += '【隨機職業建議】 \n第1: ' + BanCardReply(cards[i]) + ' ' + '\n';
 		if (i == 1) {
 		if (revs[i] == 0) 
 			returnStr += '第2: ' + BanCardReply(cards[i]) + ' ' + '\n';
