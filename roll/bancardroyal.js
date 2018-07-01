@@ -121,7 +121,8 @@ function NomalDrawBan(CardToCal, text) {
 
 
 function BanCardReply(count) {
-	let returnStr = '';	if (count == 0) returnStr = '天空指揮官‧榭莉亞-虹';
+	let returnStr = '';	
+	if (count == 0) returnStr = '天空指揮官‧榭莉亞-虹';
 	if (count == 1) returnStr = '仙杜瑞拉-虹';
 	if (count == 2) returnStr = '沉默的炎將‧瑪爾斯-虹';
 	if (count == 3) returnStr = '斯巴達克斯-虹';
@@ -191,7 +192,7 @@ function BanCardReply(count) {
 	if (count == 67) returnStr = '疾風怒濤-銅';
 	if (count == 68) returnStr = '凱旋的騎士-銅';
 	if (count == 69) returnStr = '兔耳親衛官-銅';
-	if (count == 70) returnStr = 星錘騎士'-銅';
+	if (count == 70) returnStr = '星錘騎士-銅';
 	if (count == 71) returnStr = '商販女孩-銅';
 	if (count == 72) returnStr = '武士宗師-銅';
 
