@@ -94,7 +94,6 @@ function SCList() {
 							"label": "按我",
 							"text": "我是大笨蛋 快來截我圖"
 						}
-
 					]
 				}
 			]
