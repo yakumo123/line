@@ -15,8 +15,8 @@ function BotHelpYy() {
 					"actions": [
 						{
 							"type": "message",
-							"label": "指定模式禁用虹卡(3張/5張/7張)",
-							"text": "例子:血鬼指定3虹 \n使用方法:職業/中立+指定+3/5/7+虹 或 職業/中立+指定+3/5/7+虹卡+禁卡/限卡"						},
+							"label": "空白訊息",
+-							"text": "我是變態"
 						},
 						{
 							"type": "message",
