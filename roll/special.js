@@ -5,17 +5,17 @@ var rply = { type: 'text' }; //type是必需的,但可以更改
 function ComEit() {
 	rply = {
 		"type": "template",
-		"altText": "【式神的特殊賽制】",
+		"altText": "【式神的教學】",
 		"template": {
 			"type": "carousel",
 			"columns": [
 				{
-					"title": "特殊賽制列表-指定模式",
-					"text": "職業隨機限用或禁用虹卡/金卡/全卡",
+					"title": "《更新詳情》",
+					"text": "新增特殊賽制功能",
 					"actions": [
 						{
 							"type": "message",
-							"label": "指定模式禁用虹卡(3張/5張/7張)",
+							"label": "空白訊息",
 							"text": "我是變態"
 						},
 						{
@@ -172,5 +172,5 @@ function ComEit() {
 
 
 module.exports = {
-	BotHelpYy: BotHelpYy
+	ComEit: ComEit
 };
