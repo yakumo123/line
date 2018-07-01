@@ -82,7 +82,7 @@ function BotHelpYy() {
 						{
 							"type": "message",
 							"label": "特殊賽制列表",
-							"text": "N/A"
+							"text": "specialcompetition:list982"
 						},
 						{
 							"type": "message",
