@@ -104,10 +104,10 @@ function parseInput(rplyToken, inputStr) {
 	
 	
 	if (trigger.match(/7張金卡禁卡|7張金卡限卡|7張金卡/) != null) {
-		if (trigger.match(/^血鬼/)!= null) return exports.bancardbloodgoldsevenlimit.MultiDrawBan(mainMsg[1], mainMsg[2], 2);
+		if (trigger.match(/^血鬼|^吸血鬼/)!= null) return exports.bancardbloodgoldsevenlimit.MultiDrawBan(mainMsg[1], mainMsg[2], 2);
 		if (trigger.match(/^妖精/)!= null) return exports.bancardelfgoldsevenlimit.MultiDrawBan(mainMsg[1], mainMsg[2], 2);
-		if (trigger.match(/^復仇者/)!= null) return exports.bancardportalgoldsevenlimit.MultiDrawBan(mainMsg[1], mainMsg[2], 2);
-		if (trigger.match(/^巫師/)!= null) return exports.bancardrunegoldsevenlimit.MultiDrawBan(mainMsg[1], mainMsg[2], 2);
+		if (trigger.match(/^復仇者|^復仇/)!= null) return exports.bancardportalgoldsevenlimit.MultiDrawBan(mainMsg[1], mainMsg[2], 2);
+		if (trigger.match(/^巫師|^法師/)!= null) return exports.bancardrunegoldsevenlimit.MultiDrawBan(mainMsg[1], mainMsg[2], 2);
 		if (trigger.match(/^龍族/)!= null) return exports.bancarddragongoldsevenlimit.MultiDrawBan(mainMsg[1], mainMsg[2], 2);
 		if (trigger.match(/^死靈/)!= null) return exports.bancardshadowgoldsevenlimit.MultiDrawBan(mainMsg[1], mainMsg[2], 2);
 		if (trigger.match(/^皇家/)!= null) return exports.bancardroyalgoldsevenlimit.MultiDrawBan(mainMsg[1], mainMsg[2], 2);
@@ -115,10 +115,10 @@ function parseInput(rplyToken, inputStr) {
 	}
 	
 	if (trigger.match(/5張金卡禁卡|5張金卡限卡|5張金卡/) != null) {
-		if (trigger.match(/^血鬼/)!= null) return exports.bancardbloodgoldfivelimit.MultiDrawBan(mainMsg[1], mainMsg[2], 2);
+		if (trigger.match(/^血鬼|^吸血鬼/)!= null) return exports.bancardbloodgoldfivelimit.MultiDrawBan(mainMsg[1], mainMsg[2], 2);
 		if (trigger.match(/^妖精/)!= null) return exports.bancardelfgoldfivelimit.MultiDrawBan(mainMsg[1], mainMsg[2], 2);
-		if (trigger.match(/^復仇者/)!= null) return exports.bancardportalgoldfivelimit.MultiDrawBan(mainMsg[1], mainMsg[2], 2);
-		if (trigger.match(/^巫師/)!= null) return exports.bancardrunegoldfivelimit.MultiDrawBan(mainMsg[1], mainMsg[2], 2);
+		if (trigger.match(/^復仇者|^復仇/)!= null) return exports.bancardportalgoldfivelimit.MultiDrawBan(mainMsg[1], mainMsg[2], 2);
+		if (trigger.match(/^巫師|^法師/)!= null) return exports.bancardrunegoldfivelimit.MultiDrawBan(mainMsg[1], mainMsg[2], 2);
 		if (trigger.match(/^龍族/)!= null) return exports.bancarddragongoldfivelimit.MultiDrawBan(mainMsg[1], mainMsg[2], 2);
 		if (trigger.match(/^死靈/)!= null) return exports.bancardshadowgoldfivelimit.MultiDrawBan(mainMsg[1], mainMsg[2], 2);
 		if (trigger.match(/^皇家/)!= null) return exports.bancardroyalgoldfivelimit.MultiDrawBan(mainMsg[1], mainMsg[2], 2);
@@ -126,10 +126,10 @@ function parseInput(rplyToken, inputStr) {
 	}
 	
 	if (trigger.match(/10張金卡禁卡|10張金卡限卡|10張金卡/) != null) {
-		if (trigger.match(/^血鬼/)!= null) return exports.bancardbloodgoldtenlimit.MultiDrawBan(mainMsg[1], mainMsg[2], 2);
+		if (trigger.match(/^血鬼|^吸血鬼/)!= null) return exports.bancardbloodgoldtenlimit.MultiDrawBan(mainMsg[1], mainMsg[2], 2);
 		if (trigger.match(/^妖精/)!= null) return exports.bancardelfgoldtenlimit.MultiDrawBan(mainMsg[1], mainMsg[2], 2);
-		if (trigger.match(/^復仇者/)!= null) return exports.bancardportalgoldtenlimit.MultiDrawBan(mainMsg[1], mainMsg[2], 2);
-		if (trigger.match(/^巫師/)!= null) return exports.bancardrunegoldtenlimit.MultiDrawBan(mainMsg[1], mainMsg[2], 2);
+		if (trigger.match(/^復仇者|^復仇/)!= null) return exports.bancardportalgoldtenlimit.MultiDrawBan(mainMsg[1], mainMsg[2], 2);
+		if (trigger.match(/^巫師|^法師/)!= null) return exports.bancardrunegoldtenlimit.MultiDrawBan(mainMsg[1], mainMsg[2], 2);
 		if (trigger.match(/^龍族/)!= null) return exports.bancarddragongoldtenlimit.MultiDrawBan(mainMsg[1], mainMsg[2], 2);
 		if (trigger.match(/^死靈/)!= null) return exports.bancardshadowgoldtenlimit.MultiDrawBan(mainMsg[1], mainMsg[2], 2);
 		if (trigger.match(/^皇家/)!= null) return exports.bancardroyalgoldtenlimit.MultiDrawBan(mainMsg[1], mainMsg[2], 2);
@@ -139,11 +139,11 @@ function parseInput(rplyToken, inputStr) {
 	
 	
 	if (trigger.match(/7張虹卡禁卡|7張虹卡限卡|7張虹卡/) != null) {
-		if (trigger.match(/^血鬼/)!= null) return exports.bancardbloodrainbowsevenlimit.MultiDrawBan(mainMsg[1], mainMsg[2], 2);
+		if (trigger.match(/^血鬼|^吸血鬼/)!= null) return exports.bancardbloodrainbowsevenlimit.MultiDrawBan(mainMsg[1], mainMsg[2], 2);
 		if (trigger.match(/^妖精/)!= null) return exports.bancardelfrainbowsevenlimit.MultiDrawBan(mainMsg[1], mainMsg[2], 2);
-		if (trigger.match(/^復仇者/)!= null) return exports.bancardportalrainbowsevenlimit.MultiDrawBan(mainMsg[1], mainMsg[2], 2);
+		if (trigger.match(/^復仇者|^復仇/)!= null) return exports.bancardportalrainbowsevenlimit.MultiDrawBan(mainMsg[1], mainMsg[2], 2);
 		if (trigger.match(/^中立/)!= null) return exports.bancardbalancerainbowsevenlimit.MultiDrawBan(mainMsg[1], mainMsg[2], 2);
-		if (trigger.match(/^巫師/)!= null) return exports.bancardrunerainbowsevenlimit.MultiDrawBan(mainMsg[1], mainMsg[2], 2);
+		if (trigger.match(/^巫師|^法師/)!= null) return exports.bancardrunerainbowsevenlimit.MultiDrawBan(mainMsg[1], mainMsg[2], 2);
 		if (trigger.match(/^龍族/)!= null) return exports.bancarddragonrainbowsevenlimit.MultiDrawBan(mainMsg[1], mainMsg[2], 2);
 		if (trigger.match(/^死靈/)!= null) return exports.bancardshadowrainbowsevenlimit.MultiDrawBan(mainMsg[1], mainMsg[2], 2);
 		if (trigger.match(/^皇家/)!= null) return exports.bancardroyalrainbowsevenlimit.MultiDrawBan(mainMsg[1], mainMsg[2], 2);
@@ -151,11 +151,11 @@ function parseInput(rplyToken, inputStr) {
 	}
 	
 	if (trigger.match(/5張虹卡禁卡|5張虹卡限卡|5張虹卡/) != null) {
-		if (trigger.match(/^血鬼/)!= null) return exports.bancardbloodrainbowfivelimit.MultiDrawBan(mainMsg[1], mainMsg[2], 2);
+		if (trigger.match(/^血鬼|^吸血鬼/)!= null) return exports.bancardbloodrainbowfivelimit.MultiDrawBan(mainMsg[1], mainMsg[2], 2);
 		if (trigger.match(/^妖精/)!= null) return exports.bancardelfrainbowfivelimit.MultiDrawBan(mainMsg[1], mainMsg[2], 2);
-		if (trigger.match(/^復仇者/)!= null) return exports.bancardportalrainbowfivelimit.MultiDrawBan(mainMsg[1], mainMsg[2], 2);
+		if (trigger.match(/^復仇者|^復仇/)!= null) return exports.bancardportalrainbowfivelimit.MultiDrawBan(mainMsg[1], mainMsg[2], 2);
 		if (trigger.match(/^中立/)!= null) return exports.bancardbalancefivelimit.MultiDrawBan(mainMsg[1], mainMsg[2], 2);
-		if (trigger.match(/^巫師/)!= null) return exports.bancardrunerainbowfivelimit.MultiDrawBan(mainMsg[1], mainMsg[2], 2);
+		if (trigger.match(/^巫師|^法師/)!= null) return exports.bancardrunerainbowfivelimit.MultiDrawBan(mainMsg[1], mainMsg[2], 2);
 		if (trigger.match(/^龍族/)!= null) return exports.bancarddragonrainbowfivelimit.MultiDrawBan(mainMsg[1], mainMsg[2], 2);
 		if (trigger.match(/^死靈/)!= null) return exports.bancardshadowrainbowfivelimit.MultiDrawBan(mainMsg[1], mainMsg[2], 2);
 		if (trigger.match(/^皇家/)!= null) return exports.bancardroyalrainbowfivelimit.MultiDrawBan(mainMsg[1], mainMsg[2], 2);
@@ -163,11 +163,11 @@ function parseInput(rplyToken, inputStr) {
 	}
 	
 	if (trigger.match(/3張虹卡禁卡|3張虹卡限卡|3張虹卡/) != null) {
-		if (trigger.match(/^血鬼/)!= null) return exports.bancardbloodrainbowthreelimit.MultiDrawBan(mainMsg[1], mainMsg[2], 2);
+		if (trigger.match(/^血鬼|^吸血鬼/)!= null) return exports.bancardbloodrainbowthreelimit.MultiDrawBan(mainMsg[1], mainMsg[2], 2);
 		if (trigger.match(/^妖精/)!= null) return exports.bancardelfrainbowthreelimit.MultiDrawBan(mainMsg[1], mainMsg[2], 2);
-		if (trigger.match(/^復仇者/)!= null) return exports.bancardportalrainbowthreelimit.MultiDrawBan(mainMsg[1], mainMsg[2], 2);
+		if (trigger.match(/^復仇者|^復仇/)!= null) return exports.bancardportalrainbowthreelimit.MultiDrawBan(mainMsg[1], mainMsg[2], 2);
 		if (trigger.match(/^中立/)!= null) return exports.bancardbalancerainbowthreelimit.MultiDrawBan(mainMsg[1], mainMsg[2], 2);
-		if (trigger.match(/^巫師/)!= null) return exports.bancardrunerainbowthreelimit.MultiDrawBan(mainMsg[1], mainMsg[2], 2);
+		if (trigger.match(/^巫師|^法師/)!= null) return exports.bancardrunerainbowthreelimit.MultiDrawBan(mainMsg[1], mainMsg[2], 2);
 		if (trigger.match(/^龍族/)!= null) return exports.bancarddragonrainbowthreelimit.MultiDrawBan(mainMsg[1], mainMsg[2], 2);
 		if (trigger.match(/^死靈/)!= null) return exports.bancardshadowrainbowthreelimit.MultiDrawBan(mainMsg[1], mainMsg[2], 2);
 		if (trigger.match(/^皇家/)!= null) return exports.bancardroyalrainbowthreelimit.MultiDrawBan(mainMsg[1], mainMsg[2], 2);
@@ -177,12 +177,12 @@ function parseInput(rplyToken, inputStr) {
 		
 
 
-	if (trigger.match(/禁卡/) != null) {
-		if (trigger.match(/^血鬼/)!= null) return exports.bancardblood.MultiDrawBan(mainMsg[1], mainMsg[2], 2);
+	if (trigger.match(/25張禁卡|25張限卡|禁卡|限卡/) != null) {
+		if (trigger.match(/^血鬼|^吸血鬼/)!= null) return exports.bancardblood.MultiDrawBan(mainMsg[1], mainMsg[2], 2);
 		if (trigger.match(/^妖精/)!= null) return exports.bancardelf.MultiDrawBan(mainMsg[1], mainMsg[2], 2);
-		if (trigger.match(/^復仇者/)!= null) return exports.bancardportal.MultiDrawBan(mainMsg[1], mainMsg[2], 2);
+		if (trigger.match(/^復仇者|^復仇/)!= null) return exports.bancardportal.MultiDrawBan(mainMsg[1], mainMsg[2], 2);
 		if (trigger.match(/^中立/)!= null) return exports.bancardbalance.MultiDrawBan(mainMsg[1], mainMsg[2], 2);
-		if (trigger.match(/^巫師/)!= null) return exports.bancardrune.MultiDrawBan(mainMsg[1], mainMsg[2], 2);
+		if (trigger.match(/^巫師|^法師/)!= null) return exports.bancardrune.MultiDrawBan(mainMsg[1], mainMsg[2], 2);
 		if (trigger.match(/^龍族/)!= null) return exports.bancarddragon.MultiDrawBan(mainMsg[1], mainMsg[2], 2);
 		if (trigger.match(/^死靈/)!= null) return exports.bancardshadow.MultiDrawBan(mainMsg[1], mainMsg[2], 2);
 		if (trigger.match(/^皇家/)!= null) return exports.bancardrayol.MultiDrawBan(mainMsg[1], mainMsg[2], 2);
