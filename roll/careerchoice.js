@@ -93,7 +93,7 @@ function NomalDrawBan(CardToCal, text) {
 	return rply;
 }
 
-function BanCatdReply(count) {
+function BanCardReply(count) {
 	let returnStr = '';
 	if (count == 0) returnStr = '妖精';
 	if (count == 1) returnStr = '皇家';
