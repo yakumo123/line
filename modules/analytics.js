@@ -177,7 +177,7 @@ function parseInput(rplyToken, inputStr) {
 		
 
 
-	if (trigger.match(/25張禁卡|25張限卡|禁卡|限卡/) != null) {
+	if (trigger.match(/禁卡|限卡/) != null) {
 		if (trigger.match(/^血鬼|^吸血鬼/)!= null) return exports.bancardblood.MultiDrawBan(mainMsg[1], mainMsg[2], 2);
 		if (trigger.match(/^妖精/)!= null) return exports.bancardelf.MultiDrawBan(mainMsg[1], mainMsg[2], 2);
 		if (trigger.match(/^復仇者|^復仇/)!= null) return exports.bancardportal.MultiDrawBan(mainMsg[1], mainMsg[2], 2);
