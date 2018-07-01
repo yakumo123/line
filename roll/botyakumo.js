@@ -10,23 +10,23 @@ function HelpYy() {
 			"type": "carousel",
 			"columns": [
 				{
-					"title": "《更新詳情》",
-					"text": "新增特殊賽制功能",
+					"title": "特殊賽制列表-指定模式",
+					"text": "職業隨機限用或禁用虹卡/金卡/全卡",
 					"actions": [
 						{
 							"type": "message",
-							"label": "空白訊息",
-							"text": "我是變態"
+							"label": "指定模式禁用虹卡(3張/5張/7張)",
+							"text": "123"
 						},
 						{
 							"type": "message",
-							"label": "空白訊息",
-							"text": "我不只是變態 我還是一個白痴"
+							"label": "指定模式禁用金卡(5張/7張/10張)(不包含中立)",
+							"text": "123"
 						},
 						{
 							"type": "message",
-							"label": "空白訊息",
-							"text": "我不當人類啦!!!"
+							"label": "指定模式禁用全卡(25張)",
+							"text": "123"
 						}
 
 					]
