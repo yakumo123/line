@@ -16,7 +16,7 @@ function BotHelpYy() {
 						{
 							"type": "message",
 							"label": "空白訊息",
--							"text": "我是變態"
+							"text": "我是變態"
 						},
 						{
 							"type": "message",
@@ -82,7 +82,7 @@ function BotHelpYy() {
 						{
 							"type": "message",
 							"label": "特殊賽制列表",
-							"text": "scle865"
+							"text": "specialcompetitionlist982"
 						},
 						{
 							"type": "message",
