@@ -11,7 +11,7 @@ function BotHelpYy() {
 			"columns": [
 				{
 					"title": "《更新詳情》",
-					"text": "部份功能優化，簡單化及修正，新增查詢新卡包功能",
+					"text": "新增特殊賽制功能",
 					"actions": [
 						{
 							"type": "message",
