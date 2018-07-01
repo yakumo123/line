@@ -189,6 +189,11 @@ function parseInput(rplyToken, inputStr) {
 		if (trigger.match(/^主教/)!= null) return exports.bancardhaven.MultiDrawBan(mainMsg[1], mainMsg[2], 2);
 	}
 	
+	if (trigger.match(/職業|職業建議/) != null) {
+		if (trigger.match(/^隨機/)!= null) return exports.bancardbloodrainbowsevenlimit.MultiDrawBan(mainMsg[1], mainMsg[2], 2);
+	}
+	
+	
 	//FLAG指令開始於此
 	
 	if (trigger.match(/ㄘ什麼|吃甚麼|吃什麼/) != null) return exports.funny.FoodChoices(mainMsg) ;	
