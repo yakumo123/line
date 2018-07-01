@@ -53,7 +53,8 @@ function parseInput(rplyToken, inputStr) {
 	if (trigger.match(/^coc7角色背景$/)!= null ) return exports.coc.PcBG();
 		
 	if (trigger.match(/^式神幫助$/)!= null ) return exports.botyakumo.BotHelpYy();
-	if (trigger.match(/^specialcompetitionlist982$/)!= null ) return exports.specialcompetition.SCList();
+	
+	if (trigger.match(/^sclrc$/)!= null ) return exports.speci.SCList();
 	
 	if (trigger.match(/^comfirephoto$/)!= null ) return exports.testing.Test12();
 	
