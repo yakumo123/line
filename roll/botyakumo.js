@@ -2,7 +2,7 @@ var rollbase = require('./rollbase.js');
 var funny = require('./funny.js');
 var rply = { type: 'text' }; //type是必需的,但可以更改
 
-function BotHelpYy() {
+function HelpYy() {
 	rply = {
 		"type": "template",
 		"altText": "【式神的教學】",
@@ -172,5 +172,5 @@ function BotHelpYy() {
 
 
 module.exports = {
-	BotHelpYy: BotHelpYy
+	HelpYy: HelpYy
 };
