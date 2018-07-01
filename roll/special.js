@@ -5,7 +5,7 @@ var rply = { type: 'text' }; //type是必需的,但可以更改
 function ComEit() {
 	rply = {
 		"type": "template",
-		"altText": "【式神的教學】",
+		"altText": "【式神的特殊賽制】",
 		"template": {
 			"type": "carousel",
 			"columns": [
@@ -20,57 +20,57 @@ function ComEit() {
 						},
 						{
 							"type": "message",
-							"label": "空白訊息",
-							"text": "我不只是變態 我還是一個白痴"
+							"label": "指定模式禁用金卡(5張/7張/10張)(不包含中立)",
+							"text": "例子:妖精指定5金 \n使用方法:職業+指定+5/7/10+金 或  職業+指定+3/5/7+金卡+禁卡/限卡"
 						},
 						{
 							"type": "message",
-							"label": "空白訊息",
-							"text": "我不當人類啦!!!"
+							"label": "指定模式禁用全卡(25張)",
+							"text": "例子:血鬼指定全禁卡 \n使用方法:職業+指定全禁卡/指定全限卡"
 						}
 
 					]
 				},
 				{
-					"title": "《自創人物角色系統/TRPG功能》",
-					"text": "角色背景/TRPG功能",
+					"title": "無限制模式",
+					"text": "職業隨機限用或禁用虹卡/金卡/全卡",
 					"actions": [
 						{
 							"type": "message",
-							"label": "角色背景示範",
-							"text": "八雲的角色背景"
+							"label": "無限制模式禁用虹卡(5張/7張/10張)",
+							"text": "例子:巫師無限制7虹 \n使用方法:職業/中立+無限制+5/7/10+虹 或 職業/中立+無限制+5/7/10+虹卡+禁卡/限卡"
 						},
 						{
 							"type": "message",
-							"label": "不要按我",
-							"text": "我想被轟成智障呢~~"
+							"label": "無限制模式禁用金卡(7張/10張/15張/20張)(包含中立)",
+							"text": "例子:主教無限制10金 \n使用方法:職業+無限制+7/10/15/20+金 或  職業+無限制+7/10/15/20+金卡+禁卡/限卡"
 						},
 						{
 							"type": "message",
-							"label": "TRPG功能",
-							"text": "trpghelp"
+							"label": "N/A",
+							"text": "N/A"
 						}
 
 					]
 				},
 				{
-					"title": "《隨機選擇/生產亂數及排序系統》",
-					"text": "隨機選擇功能",
+					"title": "隨機職業生產",
+					"text": "隨機職業生產",
 					"actions": [
 						{
 							"type": "message",
-							"label": "隨機功能示範",
-							"text": "隨機抽中一個萌式神 A式神 B式神 C式神 D式神"
+							"label": "隨機職業生產",
+							"text": "隨機職業"
 						},
 						{
 							"type": "message",
-							"label": "亂數生產",
-							"text": "3D6"
+							"label": "N/A",
+							"text": "N/A"
 						},
 						{
 							"type": "message",
-							"label": "排序功能",
-							"text": "群中排名次序 A八雲 B八雲 C八雲 D八雲"
+							"label": "N/A",
+							"text": "N/A"
 						}
 
 					]
