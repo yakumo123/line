@@ -54,8 +54,6 @@ function parseInput(rplyToken, inputStr) {
 		
 	if (trigger.match(/^式神幫助$/)!= null ) return exports.botyakumo.BotHelpYy();
 	
-	if (trigger.match(/^scle865$/)!= null ) return exports.speci.ComEit();
-	
 	if (trigger.match(/^comfirephoto$/)!= null ) return exports.testing.Test12();
 	
 	if (trigger.match(/^comfirmcommand$/)!= null ) return exports.commandlist.Cili();
