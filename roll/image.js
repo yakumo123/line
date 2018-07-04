@@ -6,8 +6,7 @@ function imsnow() {
 	event.reply([
   { type: 'text', text: 'Hello, world 1' },
   { type: 'text', text: 'Hello, world 2' }
-]);	
-	return reply;
+])
 }
 
 
