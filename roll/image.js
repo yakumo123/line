@@ -7,11 +7,6 @@ function imsnow() {
 		"type": "image",
 		"originalContentUrl": "https://i.imgur.com/5zrj83B.png",
 		"previewImageUrl": "https://i.imgur.com/5zrj83B.png"
-		},
-		{
-		"type": "image",
-		"originalContentUrl": "https://i.imgur.com/5zrj83B.png",
-		"previewImageUrl": "https://i.imgur.com/5zrj83B.png"
 		}
 };
 	return rply;
