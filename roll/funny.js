@@ -339,7 +339,7 @@ rply.text = ree
 return rply;
 }
 
-function 八雲是拿來疼愛的() {
+function randomYakumoKii() {
 let rplyArr = ['\
 都來疼愛八雲妹妹吧(´▽｀)(´▽｀)', '\
 喵~~~', '\
