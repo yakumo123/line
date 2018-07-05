@@ -29,9 +29,7 @@ function imsnow() {
       }
     }
   ]
-}
-
-;
+};
 	return.rply	
 }
 
