@@ -4,7 +4,6 @@ var rply = { type: 'text' };
 
 function Remessage() {
 rply = {
-    "replyToken":"nHuyWiB7yP5Zw52FIkcQobQuGDXCTA",
     "messages":[
         {
             "type":"text",
