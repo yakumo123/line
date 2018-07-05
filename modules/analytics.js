@@ -45,8 +45,6 @@ function parseInput(rplyToken, inputStr) {
 
 	if (trigger.match(/^trpghelp$/)!= null ) return exports.trpghelp.TRPG();
 
-	if (trigger.match(/test123/)!=null) return exports.replymessage.Remessage();
-
 
 	if (trigger.match(/(^cc7版創角$|^cc七版創角$)/) != null && mainMsg[1] != NaN )	return exports.coc.build7char(mainMsg[1]);
 	
