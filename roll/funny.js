@@ -1,5 +1,7 @@
 var rollbase = require('./rollbase.js');
 var rply ={type : 'text'}; //type是必需的,但可以更改
+var imageyu = {"type": "image",  "originalContentUrl", "https://i.imgur.com/5zrj83B.png", "previewImageUrl": "https://i.imgur.com/5zrj83B.png" }
+
 
 function FoodChoices(TEXT) {
 
