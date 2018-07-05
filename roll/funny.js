@@ -339,6 +339,22 @@ rply.text = ree
 return rply;
 }
 
+function 八雲是拿來疼愛的() {
+let rplyArr = ['\
+都來疼愛八雲妹妹吧(´▽｀)(´▽｀)', '\
+喵~~~', '\
+我……我才不要被你摸呢！哼！', '\
+嗯…別…嗯……這…這樣…', '\
+(舒服', '\
+八雲是拿來疼愛的', '\
+八雲是拿來愛護的', '\
+別再摸啦！！', '\
+我快受不了…喵……', '\
+不要！！…嗯……'];
+rply.text = rplyArr[Math.floor((Math.random() * (rplyArr.length)) + 0)];
+return rply;
+}
+
 ////////////////////////////////////////
 //////////////// Funny
 ////////////////////////////////////////
@@ -634,6 +650,7 @@ module.exports = {
 	randomSnow,
 	randomFrog,
 	randomShit,
+	randomYakumoKii,
 	RockPaperScissors,
 	MultiDrawTarot,
 	NomalDrawTarot,
