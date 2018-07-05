@@ -45,7 +45,7 @@ function parseInput(rplyToken, inputStr) {
 
 	if (trigger.match(/^trpghelp$/)!= null ) return exports.trpghelp.TRPG();
 
-	if (trigger.match(/摸八雲/) != null) return exports.funny.randomYakumoKii() ;	
+	if (trigger.match(/摸八雲|摸爆八雲/) != null) return exports.funny.randomYakumoKii() ;	
 	
 	
 	if (trigger.match(/(^cc7版創角$|^cc七版創角$)/) != null && mainMsg[1] != NaN )	return exports.coc.build7char(mainMsg[1]);
