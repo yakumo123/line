@@ -3,32 +3,18 @@ var funny = require('./funny.js');
 var rply = { type: 'text' }; //type是必需的,但可以更改
 
 function imsnow() {
-	rply = {
-  "events": [
-    {
-      "replyToken": "0f3779fba3b349968c5d07db31eab56f",
-      "type": "message",
-      "timestamp": 1462629479859,
-      "source": {
-        "type": "user",
-        "userId": "U4af4980629..."
+	rply = {  
+   "message":"The request body has 2 error(s)",
+   "details":[  
+      {  
+         "message":"May not be empty",
+         "property":"messages[0].text"
       },
-      "message": {
-        "id": "325708",
-        "type": "text",
-        "text": "Hello, world"
+      {  
+         "message":"Must be one of the following values: [text, image, video, audio, location, sticker, template, imagemap]",
+         "property":"messages[1].type"
       }
-    },
-    {
-      "replyToken": "8cf9239d56244f4197887e939187e19e",
-      "type": "follow",
-      "timestamp": 1462629479859,
-      "source": {
-        "type": "user",
-        "userId": "U4af4980629..."
-      }
-    }
-  ]
+   ]
 };
 	return.rply	
 }
