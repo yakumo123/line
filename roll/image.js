@@ -6,7 +6,7 @@ var rplymuti = [{type : 'text'}, {type : 'text'}];
 
 function imsnow() {
 	rplymuti = {
-    "type": "message",
+    "type": "text",
     "text": "123",
 		},
 		{
