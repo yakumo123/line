@@ -1,7 +1,7 @@
 var rollbase = require('./rollbase.js');
 var funny = require('./funny.js');
 var rply = { type: 'text' };
-var rplymuti = {type : 'text'}, {type : 'text'};
+var rplymuti = [{type : 'text'}, {type : 'text'}];
 
 
 function imsnow() {
