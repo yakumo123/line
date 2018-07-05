@@ -1,13 +1,11 @@
 var rollbase = require('./rollbase.js');
 var funny = require('./funny.js');
 var rply = { type: 'text' };
-var rplymuti = ([{type : 'text'}, {type : 'text'}]);
+var rplymuti = {type : 'text'}, {type : 'text'};
 
 
 function imsnow() {
-	rplymuti = ([
-		"messages": [
-		{
+	rplymuti = {
     "type": "image",
     "originalContentUrl": "https://i.imgur.com/5zrj83B.png",
     "previewImageUrl": "https://i.imgur.com/5zrj83B.png"
@@ -16,9 +14,7 @@ function imsnow() {
     "type": "image",
     "originalContentUrl": "https://i.imgur.com/5zrj83B.png",
     "previewImageUrl": "https://i.imgur.com/5zrj83B.png"
-		}
-		]
-		    ]);
+		};
 
 	return rplymuti; 
 	
