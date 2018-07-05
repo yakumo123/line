@@ -1,10 +1,11 @@
 var rollbase = require('./rollbase.js');
 var funny = require('./funny.js');
-var rply = [{ type: 'text'},{ type: 'text' }];
+var rply = {[{ type: 'text'},{ type: 'text' }]};
 
 
 function imsnow() {
-	rply = [
+	rply = {
+		[
   {
 	  type: 'text',
 	  text: 'Hello, world 1'
@@ -13,7 +14,8 @@ function imsnow() {
 	  type: 'text',
 	  text: 'Hello, world 2'
   }
-];
+]
+	};
 
 	return rply; 
 	
