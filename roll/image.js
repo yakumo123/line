@@ -1,14 +1,20 @@
 var rollbase = require('./rollbase.js');
 var funny = require('./funny.js');
-var rply = { type: 'text' };
+var rply = [{ type: 'text'},{ type: 'text' }
+]
 
 
 function imsnow() {
-	rply = {
-    "type": "image",
-    "originalContentUrl": "https://i.imgur.com/5zrj83B.png",
-    "previewImageUrl": "https://i.imgur.com/5zrj83B.png"
-};
+	rply = [
+  {
+	  type: 'text',
+	  text: 'Hello, world 1'
+  },
+  { 
+	  type: 'text',
+	  text: 'Hello, world 2'
+  }
+];
 
 	return rply; 
 	
