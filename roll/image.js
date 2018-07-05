@@ -6,15 +6,14 @@ var rplymuti = [{type : 'text'}, {type : 'text'}];
 
 function imsnow() {
 	rplymuti = {
-    "type": "image",
-    "originalContentUrl": "https://i.imgur.com/5zrj83B.png",
-    "previewImageUrl": "https://i.imgur.com/5zrj83B.png"
-},
+    "type": "message",
+    "text": "123",
+		},
 		{
     "type": "image",
     "originalContentUrl": "https://i.imgur.com/5zrj83B.png",
     "previewImageUrl": "https://i.imgur.com/5zrj83B.png"
-		};
+};
 
 	return rplymuti; 
 	
