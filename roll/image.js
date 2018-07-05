@@ -5,7 +5,8 @@ var rplymuti = [{type : 'text'}, {type : 'text'}];
 
 
 function imsnow() {
-	rplymuti = [
+	rplymuti = {
+		[
 		"messages": [
 		{
     "type": "image",
@@ -18,7 +19,8 @@ function imsnow() {
     "previewImageUrl": "https://i.imgur.com/5zrj83B.png"
 		}
 		]
-	];
+	]
+	};
 
 	return rplymuti; 
 	
