@@ -8,7 +8,15 @@ function imsnow() {
     "originalContentUrl": "https://i.imgur.com/5zrj83B.png",
     "previewImageUrl": "https://i.imgur.com/5zrj83B.png"
 };
-	return rply;
+	rply34 = {
+    "type": "image",
+    "originalContentUrl": "https://i.imgur.com/5zrj83B.png",
+    "previewImageUrl": "https://i.imgur.com/5zrj83B.png"
+};
+
+	return rply; 
+	reture rply34;
+	
 }
 
 
