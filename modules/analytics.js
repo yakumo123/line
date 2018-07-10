@@ -318,6 +318,9 @@ function parseInput(rplyToken, inputStr) {
 	if (trigger.match(/聽歌/) != null) return exports.video.mushroomcloud() ;	
 	
 	if (trigger.match(/鳳梨/) != null) return exports.imagepie.PieIm() ;	
+	
+	if (trigger.match(/ㄎㄧㄤ|ㄎㄧㄠ/) != null) return exports.crazy.ircra() ;	
+	
 
 	if (trigger.match(/並沒有/) != null) return exports.nothing.irnothing() ;	
 	
