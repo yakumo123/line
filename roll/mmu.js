@@ -11,9 +11,9 @@ function ummm() {
 
     "type": "image",
 
-    "originalContentUrl": "https://drive.google.com/uc?export=download&id=1lhv1EdOJmMacaw4tTgomhhM-saIB-a7mhttps://drive.google.com/uc?export=download&id=1NXC7gY9CMKp5UbduwhPvFlkry7mYMQq2",
+    "originalContentUrl": "https://i.imgur.com/p7c2LbE.png",
 
-    "previewImageUrl": "https://drive.google.com/uc?export=download&id=1lhv1EdOJmMacaw4tTgomhhM-saIB-a7mhttps://drive.google.com/uc?export=download&id=1NXC7gY9CMKp5UbduwhPvFlkry7mYMQq2"
+    "previewImageUrl": "https://i.imgur.com/p7c2LbE.png"
 
 };
 
