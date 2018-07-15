@@ -11,24 +11,12 @@ rply.text = TEXT[0] + ' ： ' + rplyArr[Math.floor((Math.random() * (rplyArr.len
 return rply;
 
 }
-	
 
 function randomYula() {
 let rplyArr = ['\
-♤✢✞☬筱啦幹☬✞✢♤', '\
-卐✞✜筱啦幹✜✞卍', '\
-☬✠☶✠筱啦幹✠☶✠☬', '\
-☬✠✟☪筱啦幹☪✟✠☬', '\
-0o✟✡~筱啦幹~✡✟o0', '\
-✟☬✟筱啦幹✟☬✟', '\
-☬0o✠✟☪♚✡~筱啦幹~✡♚☪✟✠o0☬', '\
-♤✢✞☬三上悠亞喔？☬✞✢♤', '\
-卐✞✜三上悠亞喔？✜✞卍', '\
-☬✠☶✠三上悠亞喔？✠☶✠☬', '\
-☬✠✟☪三上悠亞喔？☪✟✠☬', '\
-0o✟✡~三上悠亞喔？~✡✟o0', '\
-✟☬✟三上悠亞喔？✟☬✟', '\
-☬0o✠✟☪♚✡~三上悠亞喔？~✡♚☪✟✠o0☬'];
+筱啦幹', '\
+筱啦幹 你這個文盲', '\
+那是三上悠亞'];
 rply.text = rplyArr[Math.floor((Math.random() * (rplyArr.length)) + 0)];
 return rply;
 }
