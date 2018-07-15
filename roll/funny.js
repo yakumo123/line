@@ -11,6 +11,16 @@ rply.text = TEXT[0] + ' ： ' + rplyArr[Math.floor((Math.random() * (rplyArr.len
 return rply;
 
 }
+	
+
+function randomYula(TEXT) {
+let rplyArr = ['\
+筱啦幹', '\
+筱啦幹 你這個文盲', '\
+那是三上悠亞'];
+rply.text = '【' + TEXT[0] + '】' + '->' + rplyArr[Math.floor((Math.random() * (rplyArr.length)) + 0)];
+return rply;
+}
 
 function Flag() {
 let rplyArr = ['\
@@ -649,6 +659,7 @@ function choice(input,str) {
 
 module.exports = {
 	FoodChoices,
+	randomYula,
 	Flag,
 	BStyleFlagSCRIPTS,
 	randomReply,
