@@ -284,6 +284,8 @@ function parseInput(rplyToken, inputStr) {
 	
 	//FLAG指令開始於此
 	
+	if (trigger.match(/悠亞/) != null) return exports.funny.randomYula(mainMsg) ;	
+	
 	if (trigger.match(/ㄘ什麼|吃甚麼|吃什麼/) != null) return exports.funny.FoodChoices(mainMsg) ;	
 	
 	if (trigger.match(/運勢|的機率是多少/) != null) return exports.funny.randomLuck(mainMsg) ; //占卜運氣		
