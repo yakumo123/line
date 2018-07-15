@@ -80,6 +80,15 @@ rply.text = rplyArr[Math.floor((Math.random() * (rplyArr.length)) + 0)];
 return rply;
 }
 
+function BlackHistory(TEXT) {
+let actionArr = ['幹上了', '捏死了', '打爆了', '愛上了', '抱住了', '上了', '變成了', '成為了', '吃了', '拉了', '睡了', 'NTR了', '每天都親']
+let targetArr = ['一個偽娘', '偽娘八雲', '玩具', '異形', '外星人', '可愛的八雲', '萌萌的八雲', '八雲妹妹', '吹雪姐姐', '女裝八雲', '女裝吹雪', '萌萌的吹雪', '偽娘吹雪', '偽男', '扶他', '扶他吹雪', '安特', '瘟疫安特', '大叔吹雪', '被父愛如山的安', '筱亞叔叔', '肌肉魔法少女~☆', '血小板', '別人的老公', '一個布偶', '自己', '吹雪的大雞雞', '破魔蟲', '神', '奶油蒼蠅', '白血球', '史萊姆', '式神', 'LM', '小魚', '土耳其火雞', '鳳梨披薩', '八爪魚', '一根木棒', '一隻火雞', '女生', '12歲的女孩', '蘿莉', 'BBA', '老太婆', 'FBI隊員', '一隻手機', '一張光碟', '貓娘', '狐娘', '魔王', '爆肌男', '獸人', '妖精', '吸血鬼', '魔法使']
+let consequenceArr = ['令他懷孕了', '令他哭了', '令他變姓了', '被羈押了', '快樂地和他生活下去', '和他永不分離', '和他結婚了', '得了不女裝就會死的病', '喜歡上女裝', '每天都女裝', '當上了一個偽娘', '變成了扶他', '變了大叔控', '變了蘿莉控', '變了老太婆控', '變了獸人控', '變了獸耳控', '變了御姐控', '令吹雪懷孕了']
+
+rply.text = TEXT[0] + ': \n' + actionArr[Math.floor((Math.random() * (actionArr.length)) + 0)] + targetArr[Math.floor((Math.random() * (targetArr.length)) + 0)] + '。\n從而' +  consequenceArr[Math.floor((Math.random() * (consequenceArr.length)) + 0)] + '\n這就是'  +  TEXT[0] ;
+return rply;
+}
+
 function BStyleFlagSCRIPTS(TEXT) {
 let PersonalDescriptionArr = ['神族', '魔族', '妖精族', '人族', '巨人族', '森精族', '獸人族', '天翼族', '機凱族', '魚人族', '吸血鬼族', '龍族']
 let IdeologyBeliefsArr = ['男性', '女性'];
@@ -660,6 +669,7 @@ module.exports = {
 	FoodChoices,
 	randomYula,
 	Flag,
+	BlackHistory,
 	BStyleFlagSCRIPTS,
 	randomReply,
 	randomYakumo,
