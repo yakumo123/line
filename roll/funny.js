@@ -13,12 +13,12 @@ return rply;
 }
 	
 
-function randomYula(TEXT) {
+function randomYula() {
 let rplyArr = ['\
 筱啦幹', '\
 筱啦幹 你這個文盲', '\
 那是三上悠亞'];
-rply.text = '【' + TEXT[0] + '】' + '->' + rplyArr[Math.floor((Math.random() * (rplyArr.length)) + 0)];
+rply.text = '☬0o✠✟☪♚✡~' + rplyArr[Math.floor((Math.random() * (rplyArr.length)) + 0)] + '~✡♚☪✟✠o0☬';
 return rply;
 }
 
