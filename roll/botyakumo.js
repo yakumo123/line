@@ -152,8 +152,8 @@ function BotHelpYy() {
 						},
 						{
 							"type": "message",
-							"label": "《新卡包資訊查詢》",
-							"text": "情報整合"
+							"label": "黑歷史隨機生產",
+							"text": "萌式神的黑歷史"
 						},
 						{
 							"type": "message",
