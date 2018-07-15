@@ -284,6 +284,8 @@ function parseInput(rplyToken, inputStr) {
 	
 	//FLAG指令開始於此
 	
+	if (trigger.match(/吵架/) != null) return exports.mmu.ummm() ;	
+	
 	if (trigger.match(/悠亞/) != null) return exports.funny.randomYula() ;	
 	
 	if (trigger.match(/ㄘ什麼|吃甚麼|吃什麼/) != null) return exports.funny.FoodChoices(mainMsg) ;	
