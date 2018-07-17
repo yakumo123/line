@@ -283,9 +283,9 @@ function parseInput(rplyToken, inputStr) {
 	
 	
 	//FLAG指令開始於此
-	if (trigger.match(/再次|再一次/) != null) return exports.funny.mot() ;	
+	if (trigger.match(/再次|再一次|再啦幹/) != null) return exports.funny.mot() ;	
 	
-	if (trigger.match(/在次|在一次/) != null) return exports.funny.moo() ;	
+	if (trigger.match(/在次|在一次|在啦幹/) != null) return exports.funny.moo() ;	
 	
 	if (trigger.match(/吵架/) != null) return exports.mmu.ummm() ;	
 	
