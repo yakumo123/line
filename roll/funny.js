@@ -693,7 +693,7 @@ function choice(input,str) {
 	a[randomIndex] = a[i];
 	a[i] = itemAtIndex;
 	}
-	rply.text = mainMsg[0] + ' → ['+ a + ']' ;
+	rply.text = mainMsg[0] + ' \n\n→ ['+ a + ']' ;
 	return rply;
  }
 
