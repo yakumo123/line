@@ -30,7 +30,18 @@ function MultiDrawBan(CardToCal, text, type) {
 	if (text != null)
 		returnStr += text + ': \n';
 
-for (i = 1; i < 10; i++) {
+	for (i = 0; i < 3; i++) {
+		if (i == 0) returnStr += '1: ' + BanCardReply(cards[i]) + ' ' + BanRevReply(revs[i]) + '\n';
+		if (i == 1) returnStr += '1: ' + BanCardReply(cards[i]) + ' ' + BanRevReply(revs[i]) + '\n';
+		if (i == 2) returnStr += '1: ' + BanCardReply(cards[i]) + ' ' + BanRevReply(revs[i]);
+	}
+
+	} else if (type == 2) 
+	{
+	cards[0] = rollbase.FunnyDice(14);
+	revs[0] = rollbase.FunnyDice(2);
+
+	for (i = 1; i < 10; i++) {
 		for (;;) {
 		tmpcard = rollbase.FunnyDice(10);
 		if (cards.indexOf(tmpcard) === -1) //沒有重複，就這張了
@@ -89,6 +100,9 @@ function NomalDrawBan(CardToCal, text) {
 	rply.text = returnStr;
 	return rply;
 }
+
+function BanCardReply(count) {
+	let returnStr = '';
 
 function BanCardReply(count) {
 	let returnStr = '';
