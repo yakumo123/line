@@ -77,6 +77,8 @@ function MultiDrawBan(CardToCal, text, type) {
 	
 
 		}
+
+
 	} else {
 
 	if (text == null)
@@ -104,6 +106,7 @@ function NomalDrawBan(CardToCal, text) {
 
 function BanCardReply(count) {
 	let returnStr = '';
+
 	if (count == 0) returnStr = '諾娃的炎彈-金';
 	if (count == 1) returnStr = '暴虐的巨像-金';
 	if (count == 2) returnStr = '馬納歷亞學生會長‧漢娜-金';
@@ -118,6 +121,7 @@ function BanCardReply(count) {
 	if (count == 11) returnStr = '冰刺槍擊-金';
 	if (count == 12) returnStr = '開闢的鍊金術師‧卡莉歐斯托蘿-金';
 	if (count == 13) returnStr = '魯納爾的魔法師‧普麗絲-金';
+
 
 
 
