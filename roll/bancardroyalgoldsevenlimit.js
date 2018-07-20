@@ -60,8 +60,8 @@ function MultiDrawBan(CardToCal, text, type) {
 		if (i == 0) returnStr += '1: ' + BanCardReply(cards[i]) + ' ' + '\n';
 		if (i == 1) returnStr += '2: ' + BanCardReply(cards[i]) + ' ' + '\n';
 		if (i == 2) returnStr += '3: ' + BanCardReply(cards[i]) + ' ' + '\n';
-    if (i == 3) returnStr += '4: ' + BanCardReply(cards[i]) + ' ' + '\n';
-    if (i == 4) returnStr += '5: ' + BanCardReply(cards[i]) + ' ' + '\n';
+if (i == 3) returnStr += '4: ' + BanCardReply(cards[i]) + ' ' + '\n';
+if (i == 4) returnStr += '5: ' + BanCardReply(cards[i]) + ' ' + '\n';
 		if (i == 5) {
 		if (revs[i] == 0) 
 			returnStr += '6: ' + BanCardReply(cards[i]) + ' ' + '\n';
@@ -71,6 +71,7 @@ function MultiDrawBan(CardToCal, text, type) {
 		if (i == 6) returnStr += '7: ' + BanCardReply(cards[i]) + ' ' ;
 
 	}
+
 
 	} else {
 
@@ -113,6 +114,8 @@ function BanCardReply(count) {
 	if (count == 11) returnStr = '逆境處理-金';
 	if (count == 12) returnStr = '銀嶺的秘劍士-金';
 	if (count == 13) returnStr = '龍騎士的集結-金';
+
+
 
 
 
