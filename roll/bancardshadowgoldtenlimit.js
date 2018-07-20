@@ -54,12 +54,7 @@ for (i = 1; i < 10; i++) {
 		if (i == 5) returnStr += '6: ' + BanCardReply(cards[i]) + ' ' + '\n';
 		if (i == 6) returnStr += '7: ' + BanCardReply(cards[i]) + ' ' + '\n';
 		if (i == 7) returnStr += '8: ' + BanCardReply(cards[i]) + ' ' + '\n';
-		if (i == 8) {
-		if (revs[i] == 0) 
-			returnStr += '9: ' + BanCardReply(cards[i]) + ' ' + '\n';
-		else
-			returnStr += '9: ' + BanCardReply(cards[i]) + ' ' + '\n';
-		}
+		if (i == 8) returnStr += '9: ' + BanCardReply(cards[i]) + ' ' + '\n';
 		if (i == 9) returnStr += '10: ' + BanCardReply(cards[i]) + ' ' ;
 
 	}
