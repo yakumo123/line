@@ -77,6 +77,8 @@ function MultiDrawBan(CardToCal, text, type) {
 	
 
 		}
+
+
 	} else {
 
 	if (text == null)
