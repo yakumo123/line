@@ -100,7 +100,6 @@ function NomalDrawBan(CardToCal, text) {
 
 function BanCardReply(count) {
 	let returnStr = '';
-
 	if (count == 0) returnStr = '諾娃的炎彈-金';
 	if (count == 1) returnStr = '暴虐的巨像-金';
 	if (count == 2) returnStr = '馬納歷亞學生會長‧漢娜-金';
