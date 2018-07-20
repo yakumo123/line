@@ -60,8 +60,8 @@ function MultiDrawBan(CardToCal, text, type) {
 		if (i == 0) returnStr += '1: ' + BanCardReply(cards[i]) + ' ' + '\n';
 		if (i == 1) returnStr += '2: ' + BanCardReply(cards[i]) + ' ' + '\n';
 		if (i == 2) returnStr += '3: ' + BanCardReply(cards[i]) + ' ' + '\n';
-    if (i == 3) returnStr += '4: ' + BanCardReply(cards[i]) + ' ' + '\n';
-    if (i == 4) returnStr += '5: ' + BanCardReply(cards[i]) + ' ' + '\n';
+if (i == 3) returnStr += '4: ' + BanCardReply(cards[i]) + ' ' + '\n';
+if (i == 4) returnStr += '5: ' + BanCardReply(cards[i]) + ' ' + '\n';
 		if (i == 5) {
 		if (revs[i] == 0) 
 			returnStr += '6: ' + BanCardReply(cards[i]) + ' ' + '\n';
@@ -71,6 +71,7 @@ function MultiDrawBan(CardToCal, text, type) {
 		if (i == 6) returnStr += '7: ' + BanCardReply(cards[i]) + ' ' ;
 
 	}
+
 
 	} else {
 
@@ -99,6 +100,7 @@ function NomalDrawBan(CardToCal, text) {
 
 function BanCardReply(count) {
 	let returnStr = '';
+
 	if (count == 0) returnStr = '諾娃的炎彈-金';
 	if (count == 1) returnStr = '暴虐的巨像-金';
 	if (count == 2) returnStr = '馬納歷亞學生會長‧漢娜-金';
