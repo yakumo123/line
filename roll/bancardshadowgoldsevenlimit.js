@@ -1,6 +1,6 @@
 
 var rollbase = require('./rollbase.js');
-var rply ={type : 'text'}; //type是必需的,但可以更改
+var rply ={type : 'text'}; 
 
 
 function MultiDrawBan(CardToCal, text, type) {
@@ -30,10 +30,21 @@ function MultiDrawBan(CardToCal, text, type) {
 	if (text != null)
 		returnStr += text + ': \n';
 
+	for (i = 0; i < 3; i++) {
+		if (i == 0) returnStr += '1: ' + BanCardReply(cards[i]) + ' ' + BanRevReply(revs[i]) + '\n';
+		if (i == 1) returnStr += '1: ' + BanCardReply(cards[i]) + ' ' + BanRevReply(revs[i]) + '\n';
+		if (i == 2) returnStr += '1: ' + BanCardReply(cards[i]) + ' ' + BanRevReply(revs[i]);
+	}
+
+	} else if (type == 2) 
+	{
+	cards[0] = rollbase.FunnyDice(14);
+	revs[0] = rollbase.FunnyDice(2);
+
 	for (i = 1; i < 7; i++) {
 		for (;;) {
 		tmpcard = rollbase.FunnyDice(10);
-		if (cards.indexOf(tmpcard) === -1) //沒有重複，就這張了
+		if (cards.indexOf(tmpcard) === -1)
 		{
 			cards.push(tmpcard);
 			revs[i] = rollbase.FunnyDice(2);
@@ -60,7 +71,6 @@ function MultiDrawBan(CardToCal, text, type) {
 		if (i == 6) returnStr += '7: ' + BanCardReply(cards[i]) + ' ' ;
 
 	}
-
 
 	} else {
 
