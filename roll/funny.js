@@ -694,7 +694,7 @@ function tarotCardReply(count) {
 ////////////////////////////////////////
 function choice(input,str) {
 	let a = input.replace(str[0], '').match(/\S+/ig);
-	rply.text = str[0] + '['+ a + '] \n\n→ ' + a[rollbase.Dice(a.length)-1];
+	rply.text = str[0] + '\n' + '['+ a + '] \n→ ' + a[rollbase.Dice(a.length)-1];
 	return rply;
 }
 
@@ -708,7 +708,7 @@ function choice(input,str) {
 	a[randomIndex] = a[i];
 	a[i] = itemAtIndex;
 	}
-	rply.text = mainMsg[0] + ' → ['+ a + ']' ;
+	rply.text = mainMsg[0] + '\n' + ' → ['+ a + ']' ;
 	return rply;
  }
 
