@@ -2,6 +2,17 @@ var rollbase = require('./rollbase.js');
 var rply ={type : 'text'}; //type是必需的,但可以更改
 var rplymuti = [{type : 'text'}, {type : 'text'}];
 
+function randomCuteSnow() {
+let rplyArr = ['\
+萌萌女僕吹雪向主人請安', '\
+主人有甚麼吩咐也可以和吹雪我說喔~♡', '\
+主人今天要來和萌萌吹雪玩遊戲嗎??', '\
+獸耳女僕吹雪登場！', '\
+我是可愛又萌萌的魔法少女 吹雪醬~☆'];
+rply.text = rplyArr[Math.floor((Math.random() * (rplyArr.length)) + 0)];
+return rply;
+}
+
 function moo() {	
 rply.text = '再啦幹';
 return rply;
@@ -698,6 +709,7 @@ function choice(input,str) {
  }
 
 module.exports = {
+	randomCuteSnow,
 	moo,
 	mot,
 	FoodChoices,
