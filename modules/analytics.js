@@ -295,6 +295,8 @@ function parseInput(rplyToken, inputStr) {
 	
 	if (trigger.match(/ㄘ什麼|吃甚麼|吃什麼/) != null) return exports.funny.FoodChoices(mainMsg) ;	
 	
+	if (trigger.match(/喝甚麼|喝什麼/) != null) return exports.funny.randomDrink(mainMsg) ;	
+	
 	if (trigger.match(/運勢|的機率是多少/) != null) return exports.funny.randomLuck(mainMsg) ; //占卜運氣		
 	
 	if (trigger.match(/角色背景|人設/) != null) return exports.funny.BStyleFlagSCRIPTS(mainMsg) ;	
