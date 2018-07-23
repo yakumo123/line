@@ -49,6 +49,8 @@ function parseInput(rplyToken, inputStr) {
 
 	if (trigger.match(/摸八雲|摸爆八雲/) != null) return exports.funny.randomYakumoKii() ;	
 	
+	if (trigger.match(/(^test$)/) != null && mainMsg[1] != NaN )	return exports.character.build7char(mainMsg[1]);
+	
 	
 	if (trigger.match(/(^cc7版創角$|^cc七版創角$)/) != null && mainMsg[1] != NaN )	return exports.coc.build7char(mainMsg[1]);
 	
