@@ -2,10 +2,12 @@ var rollbase = require('./rollbase.js');
 var rply ={type : 'text'}; //type是必需的,但可以更改
 
 
-	
+////////////////////////////////////////
+//////////////// COC7傳統創角
+////////////////////////////////////////		
 function build7char(text01){
 	let old ="";
-	let ReStr = text01[0] + '年齡設為：';
+	let ReStr = '年齡設為：';
 	if (text01 == undefined) {
 	old = 18;
 	ReStr = ReStr + old + '(沒有填寫使用預設值)\n';
@@ -31,27 +33,6 @@ function build7char(text01){
 		AppDebuff = AppDebuffArr[i];
 		EDUinc = EDUincArr[i];
 	}
-	ReStr = ReStr + '\n';
-	if (level < 10) ReStr = ReStr + 'test1' ;
-	else
-		if (level >= 10 && level <20) ReStr = ReStr + 'test2' ;
-	else
-		if (level >= 20 && level <30)	ReStr = ReStr + 'test3' ;
-	else
-		if (level >= 30 && level <40)	ReStr = ReStr + 'test4' ;
-	else
-		if (level >= 40 && level <50)	ReStr = ReStr + 'test5' ;
-	else
-		if (level >= 50 && level <60)	ReStr = ReStr + 'test6' ;
-	else
-		if (level >= 60 && level <70)	ReStr = ReStr + 'test7' ;
-	else
-		if (level >= 70 && level <80)	ReStr = ReStr + 'test8' ;
-	else
-		if (level >= 80 && level <90)	ReStr = ReStr + 'test9' ;
-	else
-		if (level >= 90 && level <100)	ReStr = ReStr + 'test4' ;
-	else ReStr = ReStr + 'test11' ;
 	ReStr = ReStr + '\n==' + '\n【等級】：' + level + '\n【力量】：';
 	if (level < 10) ReStr = ReStr + rollbase.BuildDiceCal('1d10*2') ;
 	if (level >= 10 && level <20) ReStr = ReStr + rollbase.BuildDiceCal('1d15*2') ;
@@ -150,28 +131,28 @@ function build7char(text01){
 	if (level >= 100 ) ReStr = ReStr + rollbase.BuildDiceCal('1d70*3') ;
 	ReStr = ReStr + '\n【血量】：' ;	
 	if (level < 10) ReStr = ReStr + rollbase.BuildDiceCal('1d100') ;
-	if (level >= 10 && level <20) ReStr = ReStr + rollbase.BuildDiceCal('1d200') ;
-	if (level >= 20 && level <30)	ReStr = ReStr + rollbase.BuildDiceCal('1d200*2') ;
-	if (level >= 30 && level <40)	ReStr = ReStr + rollbase.BuildDiceCal('1d300*2') ;
-	if (level >= 40 && level <50)	ReStr = ReStr + rollbase.BuildDiceCal('1d300*3') ;
-	if (level >= 50 && level <60)	ReStr = ReStr + rollbase.BuildDiceCal('1d400*3') ;
-	if (level >= 60 && level <70)	ReStr = ReStr + rollbase.BuildDiceCal('1d400*4') ;
-	if (level >= 70 && level <80)	ReStr = ReStr + rollbase.BuildDiceCal('1d400*5') ;
-	if (level >= 80 && level <90)	ReStr = ReStr + rollbase.BuildDiceCal('1d450*7') ;
-	if (level >= 90 && level <100)	ReStr = ReStr + rollbase.BuildDiceCal('1d500*9') ;
-	if (level >= 100 ) ReStr = ReStr + rollbase.BuildDiceCal('1d700*11') ;
+	if (level >= 10 && level <20) ReStr = ReStr + rollbase.BuildDiceCal('2d100') ;
+	if (level >= 20 && level <30)	ReStr = ReStr + rollbase.BuildDiceCal('2d100*2') ;
+	if (level >= 30 && level <40)	ReStr = ReStr + rollbase.BuildDiceCal('3d100*2') ;
+	if (level >= 40 && level <50)	ReStr = ReStr + rollbase.BuildDiceCal('3d300*3') ;
+	if (level >= 50 && level <60)	ReStr = ReStr + rollbase.BuildDiceCal('4d100*3') ;
+	if (level >= 60 && level <70)	ReStr = ReStr + rollbase.BuildDiceCal('4d100*4') ;
+	if (level >= 70 && level <80)	ReStr = ReStr + rollbase.BuildDiceCal('4d100*5') ;
+	if (level >= 80 && level <90)	ReStr = ReStr + rollbase.BuildDiceCal('4d150*7') ;
+	if (level >= 90 && level <100)	ReStr = ReStr + rollbase.BuildDiceCal('5d150*9') ;
+	if (level >= 100 ) ReStr = ReStr + rollbase.BuildDiceCal('7d100*11') ;
 	ReStr = ReStr + '\n【魔力】：' ;	
 	if (level < 10) ReStr = ReStr + rollbase.BuildDiceCal('1d100') ;
-	if (level >= 10 && level <20) ReStr = ReStr + rollbase.BuildDiceCal('1d200') ;
-	if (level >= 20 && level <30)	ReStr = ReStr + rollbase.BuildDiceCal('1d200*2') ;
-	if (level >= 30 && level <40)	ReStr = ReStr + rollbase.BuildDiceCal('1d300*2') ;
-	if (level >= 40 && level <50)	ReStr = ReStr + rollbase.BuildDiceCal('1d300*3') ;
-	if (level >= 50 && level <60)	ReStr = ReStr + rollbase.BuildDiceCal('1d400*3') ;
-	if (level >= 60 && level <70)	ReStr = ReStr + rollbase.BuildDiceCal('1d400*4') ;
-	if (level >= 70 && level <80)	ReStr = ReStr + rollbase.BuildDiceCal('1d400*5') ;
-	if (level >= 80 && level <90)	ReStr = ReStr + rollbase.BuildDiceCal('1d450*7') ;
-	if (level >= 90 && level <100)	ReStr = ReStr + rollbase.BuildDiceCal('1d500*9') ;
-	if (level >= 100 ) ReStr = ReStr + rollbase.BuildDiceCal('1d700*11') ;
+	if (level >= 10 && level <20) ReStr = ReStr + rollbase.BuildDiceCal('2d100') ;
+	if (level >= 20 && level <30)	ReStr = ReStr + rollbase.BuildDiceCal('2d100*2') ;
+	if (level >= 30 && level <40)	ReStr = ReStr + rollbase.BuildDiceCal('3d100*2') ;
+	if (level >= 40 && level <50)	ReStr = ReStr + rollbase.BuildDiceCal('3d300*3') ;
+	if (level >= 50 && level <60)	ReStr = ReStr + rollbase.BuildDiceCal('4d100*3') ;
+	if (level >= 60 && level <70)	ReStr = ReStr + rollbase.BuildDiceCal('4d100*4') ;
+	if (level >= 70 && level <80)	ReStr = ReStr + rollbase.BuildDiceCal('4d100*5') ;
+	if (level >= 80 && level <90)	ReStr = ReStr + rollbase.BuildDiceCal('4d150*7') ;
+	if (level >= 90 && level <100)	ReStr = ReStr + rollbase.BuildDiceCal('5d150*9') ;
+	if (level >= 100 ) ReStr = ReStr + rollbase.BuildDiceCal('7d100*11') ;
 
 
 
