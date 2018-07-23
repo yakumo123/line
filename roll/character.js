@@ -54,7 +54,7 @@ function build7char(text01){
 	else
 		if (level >= 90 && level <100)	ReStr = ReStr + 'test4' ;
 	else ReStr = ReStr + 'test11' ;
-	ReStr = ReStr + '\n==' + '\n【等級】' + level + '\n【力量】：';
+	ReStr = ReStr + '\n==' + '\n【等級】：' + level + '\n【力量】：';
 	if (level < 10) ReStr = ReStr + 'test1' ;
 	if (level >= 10 && level <20) ReStr = ReStr + 'test2' ;
 	if (level >= 20 && level <30)	ReStr = ReStr + 'test3' ;
@@ -65,7 +65,7 @@ function build7char(text01){
 	if (level >= 70 && level <80)	ReStr = ReStr + 'test8' ;
 	if (level >= 80 && level <90)	ReStr = ReStr + 'test9' ;
 	if (level >= 90 && level <100)	ReStr = ReStr + 'test4' ;
-	if (level =100 ) ReStr = ReStr + 'test1' ;
+	if (level >= 100 ) ReStr = ReStr + 'test1' ;
 	ReStr = ReStr + '\n【敏捷】：' ;
 	if (level>=50) ReStr = ReStr + rollbase.BuildDiceCal('3d6*10') ;
 	if (level<50) ReStr = ReStr + rollbase.BuildDiceCal('3d6*5') ;
