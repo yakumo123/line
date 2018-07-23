@@ -216,11 +216,15 @@ function ability(TEXT){
 	ReStr = ReStr + '\n【生命力】：' + life ;
 	if (afc >= 50 && eu >= 50)	ReStr = ReStr + '\n【非洲之力】：' + '100' + '\n【歐皇之力】：' + '0' ; 
 	else
-		if (afc >= 60 && eu <= 40)	ReStr = ReStr + '\n【非洲之力】：' + afc + '\n【歐皇之力】：' + '0' ; 
-else
+	if (afc >= 60 && eu <= 40)	ReStr = ReStr + '\n【非洲之力】：' + afc + '\n【歐皇之力】：' + '0' ; 
+	else
 	if (afc <= 40 && eu >= 60)	ReStr = ReStr + '\n【非洲之力】：' + '0' + '\n【歐皇之力】：' + eu ; 
 	else
 	if (afc <= 50 && eu <= 50)	ReStr = ReStr + '\n【非洲之力】：' + '100' + '\n【歐皇之力】：' + '0' ; 
+	else
+	if (afc > 50 && eu < 50)	ReStr = ReStr + '\n【非洲之力】：' + afc + '\n【歐皇之力】：' + eu ; 
+	else
+	if (afc < 50 && eu > 50)	ReStr = ReStr + '\n【非洲之力】：' + afc + '\n【歐皇之力】：' + eu ; 
 	ReStr = ReStr + '\n\n【八雲點評】：' ;
 	if (man >= 50 && girl >= 50)	ReStr = ReStr + '偽娘跟偽男你也很適合當喔~' ; 
 	if (man >= 50 && girl < 50)	ReStr = ReStr + '你很適合當一個偽男喔~如果你是男的，我會推薦你去做變性手術變成女的再當偽男~~' ; 
@@ -251,6 +255,10 @@ else
 	if (afc <= 40 && eu >= 60)	ReStr = ReStr + '你這個歐洲人今天就會被我大八雲燒死！' ; 
 	else
 	if (afc <= 50 && eu <= 50)	ReStr = ReStr + '頂級非洲人沒得救了…' ; 
+	else
+	if (afc > 50 && eu < 50)	ReStr = ReStr + '你是一個非洲人呢~' ; 
+	else
+	if (afc < 50 && eu > 50)	ReStr = ReStr + '你這個歐洲人今天就會被我大八雲燒死！' ; 
 
 	
 
