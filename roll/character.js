@@ -238,7 +238,7 @@ else
 	ReStr = ReStr + '嗯…' ;
 	if (life >= 50 && money < 50)	ReStr = ReStr + '你的生命力還滿強的嘛~就算你沒財力，以你這生命力來說每餐都吃土也能活下去的。' ; 
 	else
-	if (life < 50 && money < 50)	ReStr = ReStr + '沒生命力又沒錢……好慘…(用同情的眼神吃着名貴的食物遠望' ; 
+	if (life < 50 && money < 50)	ReStr = ReStr + '沒生命力又沒錢……好慘…(用同情的眼神吃着名貴的食物遠望中)。' ; 
 	else
 	if (life >= 50)	ReStr = ReStr + '你的生命力還滿強的嘛~' ; 
 	else
