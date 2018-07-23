@@ -17,21 +17,14 @@ function build7char(text01){
 	old = text01;
 	ReStr = ReStr + old + '\n';
 	}
-	//設定 因年齡減少的點數 和 EDU加骰次數
 	let Debuff = 0;
-	let AppDebuff = 0;
-	let EDUinc = 0;
 	let levelArr = [0,10,20,30,40,50,60,70,80,90,100]
 	let level = levelArr[Math.floor((Math.random() * (levelArr.length)) + 0)];
 	let oldArr = [15,20,40,50,60,70,80]
-	let DebuffArr = [5,0,5,10,20,40,80]
-	let AppDebuffArr = [0,0,5,10,15,20,25]
-	let EDUincArr = [0,1,2,3,4,4,4]
+	let DebuffaRR = [0,1,2,3,4,4,4]
 	
 	for ( i=0 ; level >= levelArr[i] ; i ++){
 		Debuff = DebuffArr[i];
-		AppDebuff = AppDebuffArr[i];
-		EDUinc = EDUincArr[i];
 	}
 	ReStr = ReStr + '==\n';
 	if (level < 10) ReStr = ReStr + 'test1' ;
@@ -53,7 +46,7 @@ function build7char(text01){
 		if (level >= 80 && level <90)	ReStr = ReStr + 'test9' ;
 	else
 		if (level >= 90 && level <100)	ReStr = ReStr + 'test4' ;
-	else ReStr = ReStr + '年齡調整：可做' + EDUinc + '次EDU的成長擲骰。' ;
+	else ReStr = ReStr + 'test11' ;
 	ReStr = ReStr + '\n==';
 	if (level>=40) ReStr = ReStr ;
 	if (level<20) ReStr = ReStr ;
