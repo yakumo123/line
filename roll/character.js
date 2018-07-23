@@ -62,46 +62,45 @@ function build7char(text01){
 	ReStr = ReStr + old + '\n';
 	}
 	//設定 因年齡減少的點數 和 EDU加骰次數
+	let level = 0;
 	let Debuff = 0;
 	let AppDebuff = 0;
 	let EDUinc = 0;
+	let levelArr = [0,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,82,84,85,86,87,88,89,90,91,92,93,94,95,96,97,98,99,100]
 	let oldArr = [15,20,40,50,60,70,80]
 	let DebuffArr = [5,0,5,10,20,40,80]
 	let AppDebuffArr = [0,0,5,10,15,20,25]
 	let EDUincArr = [0,1,2,3,4,4,4]
-
-	if (old < 15) rply.text = ReStr + '等等，核心規則沒有適用小於15歲的人物哦。';	
-	if (old >= 90) rply.text = ReStr + '等等，核心規則沒有適用於90歲以上的人物哦。'; 
-
-	for ( i=0 ; old >= oldArr[i] ; i ++){
+	
+	for ( i=0 ; level >= levelArr[i] ; i ++){
 		Debuff = DebuffArr[i];
 		AppDebuff = AppDebuffArr[i];
 		EDUinc = EDUincArr[i];
 	}
 	ReStr = ReStr + '==\n';
-	if (old < 20 && old >= 10) ReStr = ReStr + '年齡調整：從STR、SIZ擇一減去' + Debuff + '點\n（請自行手動選擇計算）。\n將EDU減去5點。LUK可擲兩次取高。' ;
+	if (level < 20 && level >= 10) ReStr = ReStr + '年齡調整：從STR、SIZ擇一減去' + Debuff + '點\n（請自行手動選擇計算）。\n將EDU減去5點。LUK可擲兩次取高。' ;
 	else
-		if (old < 10) ReStr = ReStr + '年齡調整：從手動選擇計算）。\n將EDU減去5點。LUK可擲兩次取高。' ;
+		if (level < 10) ReStr = ReStr + '年齡調整：從手動選擇計算）。\n將EDU減去5點。LUK可擲兩次取高。' ;
 	else
-		if (old >= 40)	ReStr = ReStr + '年齡調整：從STR、CON或DEX中「總共」減去' + Debuff + '點\n（請自行手動選擇計算）。\n將APP減去' + AppDebuff +'點。可做' + EDUinc + '次EDU的成長擲骰。' ;
+		if (level >= 40)	ReStr = ReStr + '年齡調整：從STR、CON或DEX中「總共」減去' + Debuff + '點\n（請自行手動選擇計算）。\n將APP減去' + AppDebuff +'點。可做' + EDUinc + '次EDU的成長擲骰。' ;
 	else ReStr = ReStr + '年齡調整：可做' + EDUinc + '次EDU的成長擲骰。' ;
 	ReStr = ReStr + '\n==';
-	if (old>=40) ReStr = ReStr + '\n（以下箭號三項，自選共減' + Debuff + '點。）' ;
-	if (old<20) ReStr = ReStr + '\n（以下箭號兩項，擇一減去' + Debuff + '點。）' ;
+	if (level>=40) ReStr = ReStr + '\n（以下箭號三項，自選共減' + Debuff + '點。）' ;
+	if (level<20) ReStr = ReStr + '\n（以下箭號兩項，擇一減去' + Debuff + '點。）' ;
 	ReStr = ReStr + '\nＳＴＲ：' + rollbase.BuildDiceCal('3d6*5');
-	if (old>=40) ReStr = ReStr + ' ← 共減' + Debuff ;
-	if (old<20) ReStr = ReStr + ' ←擇一減' + Debuff ;
+	if (level>=40) ReStr = ReStr + ' ← 共減' + Debuff ;
+	if (level<20) ReStr = ReStr + ' ←擇一減' + Debuff ;
 	ReStr = ReStr + '\nＣＯＮ：' + rollbase.BuildDiceCal('3d6*5');
-	if (old>=40) ReStr = ReStr + ' ← 共減' + Debuff;
+	if (level>=40) ReStr = ReStr + ' ← 共減' + Debuff;
 	ReStr = ReStr + '\nＤＥＸ：' + rollbase.BuildDiceCal('3d6*5');
-	if (old>=40) ReStr = ReStr + ' ← 共減' + Debuff ;
-	if (old>=40) ReStr = ReStr + '\nＡＰＰ：' + rollbase.BuildDiceCal('3d6*5-' + AppDebuff);
+	if (level>=40) ReStr = ReStr + ' ← 共減' + Debuff ;
+	if (level>=40) ReStr = ReStr + '\nＡＰＰ：' + rollbase.BuildDiceCal('3d6*5-' + AppDebuff);
 	else ReStr = ReStr + '\nＡＰＰ：' + rollbase.BuildDiceCal('3d6*5');
 	ReStr = ReStr + '\nＰＯＷ：' + rollbase.BuildDiceCal('3d6*5');
 	ReStr = ReStr + '\nＳＩＺ：' + rollbase.BuildDiceCal('(2d6+6)*5');
-	if (old<20) ReStr = ReStr + ' ←擇一減' + Debuff ;
+	if (level<20) ReStr = ReStr + ' ←擇一減' + Debuff ;
 	ReStr = ReStr + '\nＩＮＴ：' + rollbase.BuildDiceCal('(2d6+6)*5');	
-	if (old<20) ReStr = ReStr + '\nＥＤＵ：' + rollbase.BuildDiceCal('3d6*5-5');
+	if (level<20) ReStr = ReStr + '\nＥＤＵ：' + rollbase.BuildDiceCal('3d6*5-5');
 	else {
 		let firstEDU = '(' + rollbase.BuildRollDice('2d6') + '+6)*5';
 		ReStr = ReStr + '\n==';
@@ -127,7 +126,7 @@ function build7char(text01){
 	ReStr = ReStr + '\n==';
 
 	ReStr = ReStr + '\nＬＵＫ：' + rollbase.BuildDiceCal('3d6*5');	
-	if (old<20) ReStr = ReStr + '\nＬＵＫ加骰：' + rollbase.BuildDiceCal('3D6*5');
+	if (level<20) ReStr = ReStr + '\nＬＵＫ加骰：' + rollbase.BuildDiceCal('3D6*5');
 
 
 	rply.text = ReStr;
