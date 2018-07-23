@@ -51,8 +51,7 @@ function ArrMax (Arr){
 ////////////////////////////////////////		
 function build7char(text01){
 	let old ="";
-	let levelArr = [0','2','3','4','5','6','7','8','9','10','11','12','13','14','15','16','17','18','19','20','21','22','23','24'];
-	let level = levelArr[Math.floor((Math.random() * (levelArr.length)) + 0)];
+	let level = rollbase.BuildDiceCal('1d100*')
 	let ReStr = '年齡設為：';
 	if (text01 == undefined) {
 	old = 18;
