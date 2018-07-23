@@ -215,8 +215,11 @@ function ability(TEXT){
 	ReStr = ReStr + '\n【財力】：' + money ;	
 	ReStr = ReStr + '\n【生命力】：' + life ;
 	if (afc >= 50 && eu >= 50)	ReStr = ReStr + '\n【非洲之力】：' + '100' + '\n【歐皇之力】：' + '0' ; 
-	if (afc >= 60 && eu <= 40)	ReStr = ReStr + '\n【非洲之力】：' + afc + '\n【歐皇之力】：' + '0' ; 
+	else
+		if (afc >= 60 && eu <= 40)	ReStr = ReStr + '\n【非洲之力】：' + afc + '\n【歐皇之力】：' + '0' ; 
+else
 	if (afc <= 40 && eu >= 60)	ReStr = ReStr + '\n【非洲之力】：' + '0' + '\n【歐皇之力】：' + eu ; 
+	else
 	if (afc <= 50 && eu <= 50)	ReStr = ReStr + '\n【非洲之力】：' + '100' + '\n【歐皇之力】：' + '0' ; 
 	ReStr = ReStr + '\n\n【八雲點評】：' ;
 	if (man >= 50 && girl >= 50)	ReStr = ReStr + '偽娘跟偽男你也很適合當喔~' ; 
@@ -234,13 +237,19 @@ function ability(TEXT){
 	if (money < 50)	ReStr = ReStr + '財力不高也沒差啦~你還有信用卡可以課金嘛~~刷爆了你還有家人的卡可以刷嘛~~人生不課金，那這人生還有意義嗎？' ; 
 	ReStr = ReStr + '嗯…' ;
 	if (life >= 50 && money < 50)	ReStr = ReStr + '你的生命力還滿強的嘛~就算你沒財力，以你這生命力來說每餐都吃土也能活下去的。' ; 
+	else
 	if (life < 50 && money < 50)	ReStr = ReStr + '沒生命力又沒錢……好慘…(用同情的眼神吃着名貴的食物遠望' ; 
+	else
 	if (life >= 50)	ReStr = ReStr + '你的生命力還滿強的嘛~' ; 
+	else
 	if (life < 50)	ReStr = ReStr + '你這樣的生命力…記得好好享受人生喔!' ; 
 	ReStr = ReStr + '在你的運氣方面…' ;
 	if (afc >= 50 && eu >= 50)	ReStr = ReStr + '頂級非洲人沒得救了…' ; 
+	else
 	if (afc >= 60 && eu <= 40)	ReStr = ReStr + '原來你是非洲大酋長喔…' ; 
+	else
 	if (afc <= 40 && eu >= 60)	ReStr = ReStr + '你這個歐洲人今天就會被我大八雲燒死！' ; 
+	else
 	if (afc <= 50 && eu <= 50)	ReStr = ReStr + '頂級非洲人沒得救了…' ; 
 
 	
