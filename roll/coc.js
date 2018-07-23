@@ -165,7 +165,7 @@ function build7char(text01){
 	if (old>=40) ReStr = ReStr + ' ← 共減' + Debuff ;
 	if (old>=40) ReStr = ReStr + '\nＡＰＰ：' + rollbase.BuildDiceCal('3d6*5-' + AppDebuff);
 	else ReStr = ReStr + '\nＡＰＰ：' + rollbase.BuildDiceCal('3d6*5');
-	ReStr = ReStr + '\nＰＯＷ：' + rollbase.BuildDiceCal('3d6*oldArr');
+	ReStr = ReStr + '\nＰＯＷ：' + rollbase.BuildDiceCal('3d6*5');
 	ReStr = ReStr + '\nＳＩＺ：' + rollbase.BuildDiceCal('(2d6+6)*5');
 	if (old<20) ReStr = ReStr + ' ←擇一減' + Debuff ;
 	ReStr = ReStr + '\nＩＮＴ：' + rollbase.BuildDiceCal('(2d6+6)*5');	
