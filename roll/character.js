@@ -2,12 +2,10 @@ var rollbase = require('./rollbase.js');
 var rply ={type : 'text'}; //type是必需的,但可以更改
 
 
-////////////////////////////////////////
-//////////////// COC7傳統創角
-////////////////////////////////////////		
+	
 function build7char(text01){
 	let old ="";
-	let ReStr = '年齡設為：';
+	let ReStr = text01[0] + '年齡設為：';
 	if (text01 == undefined) {
 	old = 18;
 	ReStr = ReStr + old + '(沒有填寫使用預設值)\n';
@@ -33,7 +31,7 @@ function build7char(text01){
 		AppDebuff = AppDebuffArr[i];
 		EDUinc = EDUincArr[i];
 	}
-	ReStr = ReStr + '==\n';
+	ReStr = ReStr + '\n';
 	if (level < 10) ReStr = ReStr + 'test1' ;
 	else
 		if (level >= 10 && level <20) ReStr = ReStr + 'test2' ;
