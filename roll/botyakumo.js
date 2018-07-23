@@ -120,23 +120,45 @@ function BotHelpYy() {
 					]
 				},
 				{
-					"title": "《關鍵字回應系統》",
-					"text": "關鍵字例如 鋪起來, 幹, 怕, 怕爆, 大爆解, 決鬥, 衞星砲, 略過200條",
+					"title": "《隨機生成》",
+					"text": "隨機生成",
 					"actions": [
 						{
 							"type": "message",
-							"label": "怕",
-							"text": "怕"
+							"label": "能力值生成(可不加歲數)",
+							"text": "式神的能力值 18歲"
 						},
 						{
 							"type": "message",
-							"label": "鋪起來",
-							"text": "鋪起來"
+							"label": "綜合分數生成",
+							"text": "式神的綜合分數"
 						},
 						{
 							"type": "message",
-							"label": "【關鍵字列表】",
-							"text": "comfirmcommand"
+							"label": "黑歷史隨機生產",
+							"text": "萌式神的黑歷史"
+						}
+
+					]
+				},
+				{
+					"title": "《隨機建議生成》",
+					"text": "隨機生成",
+					"actions": [
+						{
+							"type": "message",
+							"label": "吃甚麼",
+							"text": "式神晚餐吃甚麼"
+						},
+						{
+							"type": "message",
+							"label": "喝甚麼",
+							"text": "式神待會喝甚麼"
+						},
+						{
+							"type": "message",
+							"label": "土",
+							"text": "我要吃…"
 						}
 
 					]
@@ -152,8 +174,8 @@ function BotHelpYy() {
 						},
 						{
 							"type": "message",
-							"label": "黑歷史隨機生產",
-							"text": "萌式神的黑歷史"
+							"label": "【關鍵字列表】",
+							"text": "comfirmcommand"
 						},
 						{
 							"type": "message",
