@@ -56,7 +56,7 @@ function build7char(text01){
 	ReStr = ReStr + '\n==';
 	if (level>=40) ReStr = ReStr + '【力量】：' + rollbase.BuildDiceCal('3d6*10') ;
 	if (level<20) ReStr = ReStr + '【力量】：' + rollbase.BuildDiceCal('3d6*5') ;
-	ReStr = ReStr;
+	ReStr = ReStr + '\n';
 	if (level>=40) ReStr = ReStr + ' ← 共減' + Debuff ;
 	if (level<20) ReStr = ReStr + ' ←擇一減' + Debuff ;
 	ReStr = ReStr + '\nＣＯＮ：' + rollbase.BuildDiceCal('3d6*5') + level;
