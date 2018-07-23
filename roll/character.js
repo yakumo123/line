@@ -28,18 +28,31 @@ function build7char(text01){
 	let AppDebuffArr = [0,0,5,10,15,20,25]
 	let EDUincArr = [0,1,2,3,4,4,4]
 	let BasicSkillOTArr = ['裝死【效果：沒屁用】','尖叫【效果：傷聲帶用】','爬行【效果：移動速度減慢】','賣萌【效果：單純賣萌】','道具合成【效果：可以用繩索把東西合成一起】']
+	let BasicSkillOT = BasicSkillOTArr[Math.floor((Math.random() * (BasicSkillOTArr.length)) + 0)];
 	let AdvSkillOTArr = ['原來如此【效果：每一次回應中只說“原來如此”來胡弄人，但不具備迴避仇恨功能】','簡訊迴避【效果：能在下班無視老闆一切的簡訊，但不能迴避老闆的怒火】','星期一振作【效果：於每個星期一也能去除不想上班的感情，社畜專用】','抽卡感情排解【效果：當抽卡大爆死是能對遊戲附上無法解除安裝功能】']
+	let AdvSkillOT = AdvSkillOTArr[Math.floor((Math.random() * (AdvSkillOTArr.length)) + 0)];
 	let BasicSkillTFArr = ['裝傻【效果：騙人】','吼叫【效果：給予敵人威嚇】','潛行【效果：移動速度減慢，但能隱藏其氣息】','賣萌【效果：萌死人】','道具調和【效果：能合成道具】']
+	let BasicSkillTF = BasicSkillTFArr[Math.floor((Math.random() * (BasicSkillTFArr.length)) + 0)];
 	let AdvSkillTFArr = ['對！是的！我明白了！【效果：每一次回應中只說“對！是的！我明白了！”來胡弄人，配合其臉部真誠的表情在對方心中留下好印象，但實際你完全不知道對方在說甚麼】','編寫簡訊秒讀及回應機器人【效果：能在下班以機器人回應老闆一切的簡訊】','星期一放假【效果：成功爭取4天工作周】','課金抽卡【效果：以財力去戰勝機率】']
+	let AdvSkillTF = AdvSkillTFArr[Math.floor((Math.random() * (AdvSkillTFArr.length)) + 0)];
 	let BasicSkillFEArr = ['索敵【效果：感知附近敵人】','潛行【效果：隱藏自己氣息】','背刺【效果：在未被敵人發現時，攻擊力上升500%】','衝鋒【效果：20秒內速度上升300%】','意志【效果10秒內攻擊力上升200%】']
+	let BasicSkillFE = BasicSkillFEArr[Math.floor((Math.random() * (BasicSkillFEArr.length)) + 0)];
 	let AdvSkillFEArr = ['箭雨風暴 【效果：高速連續射擊】','暗殺者之刃【效果：致命的攻擊並且使對手中毒】','火焰箭【效果：能射出火焰箭矢】','憤怒攻擊 【效果：有機率集暈對手】','龍鱗之甲【效果被動閃躲物理或法術攻擊】','沉默之刃【效果：有機率使對方沉默】','聖性光環【效果：使附近隊友獲得緩慢的回血回魔能力】','振氣之歌【效果：使附近隊友攻擊力上升】']
+	let AdvSkillFE = AdvSkillFEArr[Math.floor((Math.random() * (AdvSkillFEArr.length)) + 0)];
+
 	
 	for ( i=0 ; level >= levelArr[i] ; i ++){
 		Debuff = DebuffArr[i];
 		AppDebuff = AppDebuffArr[i];
 		EDUinc = EDUincArr[i];
 	}
-	ReStr = ReStr + '\n==' + '\n【等級】：' + level + '\n【力量】：';
+	ReStr = ReStr + '\n==' + '\n【等級】：' + level ;
+	if (level < 30) ReStr = ReStr + '\n【基本技能】' + BasicSkillOT + '\n【進階技能】' + AdvSkillOT ;
+	if (level >= 30 && level <50)	ReStr = ReStr + '\n【基本技能】' + BasicSkillTF + '\n【進階技能】' + AdvSkillTF ;
+	if (level >= 50 && level <80)	ReStr = ReStr + '\n【基本技能】' + BasicSkillFE + '\n【進階技能】' + AdvSkillFE ;
+	if (level >= 80)	ReStr = ReStr + '\n【基本技能】' + BasicSkillFE + '\n【進階技能】' + AdvSkillFE + '\n【奧義】八雲Fly踢';
+
+	ReStr = ReStr + '\n【力量】：';
 	if (level < 10) ReStr = ReStr + rollbase.BuildDiceCal('1d10*2+10') ;
 	if (level >= 10 && level <20) ReStr = ReStr + rollbase.BuildDiceCal('1d15*2+30') ;
 	if (level >= 20 && level <30)	ReStr = ReStr + rollbase.BuildDiceCal('1d20*2+40') ;
