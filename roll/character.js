@@ -207,13 +207,6 @@ function ability(TEXT){
 		Debuff = DebuffArr[i];
 		AppDebuff = AppDebuffArr[i];
 		EDUinc = EDUincArr[i];
-		man = manArr[i];
-		girl = girlArr[i];
-		cute = cuteArr[i];
-		money = moneyArr[i];
-		life = lifeArr[i];
-		afc = afcArr[i];
-		eu = euArr[i];
 	}
 	ReStr = ReStr + '\n【男子力】：' + man ;
 	ReStr = ReStr + '\n【女子力】：' + girl ;
