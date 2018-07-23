@@ -87,10 +87,10 @@ function build7char(text01){
 	ReStr = ReStr + '\n==';
 	if (level>=40) ReStr = ReStr + '\n（以下箭號三項，自選共減' + Debuff + '點。）' ;
 	if (level<20) ReStr = ReStr + '\n（以下箭號兩項，擇一減去' + Debuff + '點。）' ;
-	ReStr = ReStr + '\nＳＴＲ：' + rollbase.BuildDiceCal('3d6*5');
+	ReStr = ReStr + '\nＳＴＲ：' + rollbase.BuildDiceCal('3d6*5') + level;
 	if (level>=40) ReStr = ReStr + ' ← 共減' + Debuff ;
 	if (level<20) ReStr = ReStr + ' ←擇一減' + Debuff ;
-	ReStr = ReStr + '\nＣＯＮ：' + rollbase.BuildDiceCal('3d6*5');
+	ReStr = ReStr + '\nＣＯＮ：' + rollbase.BuildDiceCal('3d6*5') + level;
 	if (level>=40) ReStr = ReStr + ' ← 共減' + Debuff;
 	ReStr = ReStr + '\nＤＥＸ：' + rollbase.BuildDiceCal('3d6*5');
 	if (level>=40) ReStr = ReStr + ' ← 共減' + Debuff ;
@@ -126,7 +126,7 @@ function build7char(text01){
 	ReStr = ReStr + '\n==';
 
 	ReStr = ReStr + '\nＬＵＫ：' + rollbase.BuildDiceCal('3d6*5') + level;	
-	if (level<20) ReStr = ReStr + '\nＬＵＫ加骰：' + rollbase.BuildDiceCal('3D6*5') = + level;
+	if (level<20) ReStr = ReStr + '\nＬＵＫ加骰：' + rollbase.BuildDiceCal('3D6*5') + level;
 
 
 	rply.text = ReStr;
