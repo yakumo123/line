@@ -51,6 +51,8 @@ function parseInput(rplyToken, inputStr) {
 	
 	if (trigger.match(/(能力值$)/) != null && mainMsg[1] != NaN )	return exports.character.build7char(mainMsg[1]);
 	
+	if (trigger.match(/test/) != null) return exports.character.ability(mainMsg) ;	
+
 	
 	if (trigger.match(/(^cc7版創角$|^cc七版創角$)/) != null && mainMsg[1] != NaN )	return exports.coc.build7char(mainMsg[1]);
 	
