@@ -7,7 +7,7 @@ var rply ={type : 'text'}; //type是必需的,但可以更改
 ////////////////////////////////////////		
 function build7char(text01){
 	let old ="";
-	let ReStr = '【年齡】：';
+	let ReStr = '年齡設為：';
 	if (text01 == undefined) {
 	old = 18;
 	ReStr = ReStr + old + '(沒有填寫使用預設值)\n';
@@ -15,8 +15,9 @@ function build7char(text01){
 	else 
 	{
 	old = text01;
-	ReStr = ReStr + old + '\n【等級】：' + level;
+	ReStr = ReStr + old + '\n';
 	}
+	//設定 因年齡減少的點數 和 EDU加骰次數
 	let Debuff = 0;
 	let AppDebuff = 0;
 	let EDUinc = 0;
@@ -32,7 +33,7 @@ function build7char(text01){
 		AppDebuff = AppDebuffArr[i];
 		EDUinc = EDUincArr[i];
 	}
-	ReStr = ReStr + '\n' + ;
+	ReStr = ReStr + '==\n';
 	if (level < 10) ReStr = ReStr + 'test1' ;
 	else
 		if (level >= 10 && level <20) ReStr = ReStr + 'test2' ;
@@ -51,12 +52,12 @@ function build7char(text01){
 	else
 		if (level >= 80 && level <90)	ReStr = ReStr + 'test9' ;
 	else
-		if (level >= 90 && level <100)	ReStr = ReStr + 'test10' ;
-	else ReStr = ReStr + 'test11' ;
+		if (level >= 90 && level <100)	ReStr = ReStr + 'test4' ;
+	else ReStr = ReStr + '年齡調整：可做' + EDUinc + '次EDU的成長擲骰。' ;
 	ReStr = ReStr + '\n==';
-	if (level>=40) ReStr = ReStr + '【力量】：' + rollbase.BuildDiceCal('3d6*10') ;
-	if (level<20) ReStr = ReStr + '【力量】：' + rollbase.BuildDiceCal('3d6*5') ;
-	ReStr = ReStr + '\n';
+	if (level>=40) ReStr = ReStr + '\n（以下箭號三項，自選共減' + Debuff + '點。）' ;
+	if (level<20) ReStr = ReStr + '\n（以下箭號兩項，擇一減去' + Debuff + '點。）' ;
+	ReStr = ReStr + '\nＳＴＲ：' + rollbase.BuildDiceCal('3d6*5') + level;
 	if (level>=40) ReStr = ReStr + ' ← 共減' + Debuff ;
 	if (level<20) ReStr = ReStr + ' ←擇一減' + Debuff ;
 	ReStr = ReStr + '\nＣＯＮ：' + rollbase.BuildDiceCal('3d6*5') + level;
