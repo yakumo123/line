@@ -51,12 +51,10 @@ function ArrMax (Arr){
 ////////////////////////////////////////		
 function build7char(text01){
 	let old ="";
-	let level = rollbase.BuildDiceCal('1d100*')
 	let ReStr = '年齡設為：';
 	if (text01 == undefined) {
 	old = 18;
 	ReStr = ReStr + old + '(沒有填寫使用預設值)\n';
-	ReStr = ReStr + level;
 	}
 	else 
 	{
