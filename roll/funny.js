@@ -2,11 +2,6 @@ var rollbase = require('./rollbase.js');
 var rply ={type : 'text'}; //type是必需的,但可以更改
 var rplymuti = [{type : 'text'}, {type : 'text'}];
 
-function Abiliy() {
-	rply.text = rollbase.BuildDiceCal
-	reture rply;
-}
-
 function randomCuteSnow() {
 let rplyArr = ['\
 萌萌女僕吹雪向主人請安', '\
@@ -772,7 +767,6 @@ function choice(input,str) {
  }
 
 module.exports = {
-	Abiliy,
 	eato,
 	drinko,
 	randomCuteSnow,
