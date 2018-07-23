@@ -35,7 +35,9 @@ function build7char(text01){
 	let BasicSkillFE = BasicSkillFEArr[Math.floor((Math.random() * (BasicSkillFEArr.length)) + 0)];
 	let AdvSkillFEArr = ['Z水濺躍【效果：Z！Z！Z！然後，什麼事都沒發生】','命運抉擇-聖誕老公公的禮物【效果：若是發動時間在12/24當天晚上則可以將禮物轉化為『命運抉擇的禮物』，並擇一。命運抉擇禮物-黑色馴鹿的蛋、白色馴鹿的蛋】','仙人跳【效果：龍王級跳費】','八雲的喵喵叫【效果：(問號)】','上上下下左左右右AB【效果：發出按鈕的聲音(?)】']
 	let AdvSkillFE = AdvSkillFEArr[Math.floor((Math.random() * (AdvSkillFEArr.length)) + 0)];
-
+	let SuperSkillArr = ['八雲Fly踢~','火遁最高奧義-火炎焱燚','水遁最高奧義-水沝淼㵘','甲到爆拉','基德的按摩術','月光族的荷包']
+	let SuperSkill = SuperSkillArr[Math.floor((Math.random() * (SuperSkillArr.length)) + 0)];
+	
 	
 	for ( i=0 ; level >= levelArr[i] ; i ++){
 		Debuff = DebuffArr[i];
@@ -45,8 +47,8 @@ function build7char(text01){
 	ReStr = ReStr + '\n==' + '\n【等級】：' + level ;
 	if (level < 30) ReStr = ReStr + '\n【基本技能】' + BasicSkillOT + '\n【進階技能】' + AdvSkillOT ;
 	if (level >= 30 && level <50)	ReStr = ReStr + '\n【基本技能】' + BasicSkillTF + '\n【進階技能】' + AdvSkillTF ;
-	if (level >= 50 && level <80)	ReStr = ReStr + '\n【基本技能】' + BasicSkillFE + '\n【進階技能】' + AdvSkillFE ;
-	if (level >= 80)	ReStr = ReStr + '\n【基本技能】' + BasicSkillFE + '\n【進階技能】' + AdvSkillFE + '\n【奧義】八雲Fly踢';
+	if (level >= 50 && level <60)	ReStr = ReStr + '\n【基本技能】' + BasicSkillFE + '\n【進階技能】' + AdvSkillFE ;
+	if (level >= 60)	ReStr = ReStr + '\n【基本技能】' + BasicSkillFE + '\n【進階技能】' + AdvSkillFE + '\n【奧義】：';
 
 	ReStr = ReStr + '\n【力量】：';
 	if (level < 10) ReStr = ReStr + rollbase.BuildDiceCal('1d10*2') ;
