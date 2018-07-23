@@ -31,9 +31,9 @@ function build7char(text01){
 	let BasicSkillTF = BasicSkillTFArr[Math.floor((Math.random() * (BasicSkillTFArr.length)) + 0)];
 	let AdvSkillTFArr = ['對！是的！我明白了！【效果：每一次回應中只說“對！是的！我明白了！”來胡弄人，配合其臉部真誠的表情在對方心中留下好印象，但實際你完全不知道對方在說甚麼】','編寫簡訊秒讀及回應機器人【效果：能在下班以機器人回應老闆一切的簡訊】','星期一放假【效果：成功爭取4天工作周】','課金抽卡【效果：以財力去戰勝機率】']
 	let AdvSkillTF = AdvSkillTFArr[Math.floor((Math.random() * (AdvSkillTFArr.length)) + 0)];
-	let BasicSkillFEArr = ['索敵【效果：感知附近敵人】','潛行【效果：隱藏自己氣息】','背刺【效果：在未被敵人發現時，攻擊力上升500%】','衝鋒【效果：20秒內速度上升300%】','意志【效果10秒內攻擊力上升200%】']
+	let BasicSkillFEArr = ['生病【效果：八雲又生病了…】','易容術【效果：讓自己變得跟偽娘笑臉一樣，征服全場男性對手】','融融的生財之道【效果：可以哄抬自己商品的價格，並且強制買家接受】','I very vegetable【效果：召喚露菈到場上煮飯】','水濺躍【效果：什麼事都沒發生】','聖誕老公公的禮物【效果：獲得禮物-馴鹿的蛋】','母湯的笑臉【效果：用母湯的笑臉笑到你心寒】']
 	let BasicSkillFE = BasicSkillFEArr[Math.floor((Math.random() * (BasicSkillFEArr.length)) + 0)];
-	let AdvSkillFEArr = ['箭雨風暴 【效果：高速連續射擊】','暗殺者之刃【效果：致命的攻擊並且使對手中毒】','火焰箭【效果：能射出火焰箭矢】','憤怒攻擊 【效果：有機率集暈對手】','龍鱗之甲【效果被動閃躲物理或法術攻擊】','沉默之刃【效果：有機率使對方沉默】','聖性光環【效果：使附近隊友獲得緩慢的回血回魔能力】','振氣之歌【效果：使附近隊友攻擊力上升】']
+	let AdvSkillFEArr = ['Z水濺躍【效果：Z！Z！Z！然後，什麼事都沒發生】','命運抉擇-聖誕老公公的禮物【效果：若是發動時間在12/24當天晚上則可以將禮物轉化為『命運抉擇的禮物』，並擇一。命運抉擇禮物-黑色馴鹿的蛋、白色馴鹿的蛋】','仙人跳【效果：龍王級跳費】','八雲的喵喵叫【效果：(問號)】','上上下下左左右右AB【效果：發出按鈕的聲音(?)】']
 	let AdvSkillFE = AdvSkillFEArr[Math.floor((Math.random() * (AdvSkillFEArr.length)) + 0)];
 
 	
