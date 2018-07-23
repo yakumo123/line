@@ -66,9 +66,6 @@ function build7char(text01){
 	if (level >= 80 && level <90)	ReStr = ReStr + 'test9' ;
 	if (level >= 90 && level <100)	ReStr = ReStr + 'test4' ;
 	if (level =100 ) ReStr = ReStr + 'test1' ;
-
-	if (level>=50) ReStr = ReStr + rollbase.BuildDiceCal('3d6*10') ;
-	if (level<50) ReStr = ReStr + rollbase.BuildDiceCal('3d6*5') ;
 	ReStr = ReStr + '\n【敏捷】：' ;
 	if (level>=50) ReStr = ReStr + rollbase.BuildDiceCal('3d6*10') ;
 	if (level<50) ReStr = ReStr + rollbase.BuildDiceCal('3d6*5') ;
