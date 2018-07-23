@@ -54,7 +54,7 @@ function build7char(text01){
 	else
 		if (level >= 90 && level <100)	ReStr = ReStr + 'test4' ;
 	else ReStr = ReStr + 'test11' ;
-	ReStr = ReStr + '\n== \n【力量】：';
+	ReStr = ReStr + '\n==' + '\n【等級】' + level + '\n【力量】：';
 	if (level < 10) ReStr = ReStr + 'test1' ;
 	if (level >= 10 && level <20) ReStr = ReStr + 'test2' ;
 	if (level >= 20 && level <30)	ReStr = ReStr + 'test3' ;
@@ -70,14 +70,10 @@ function build7char(text01){
 	if (level>=50) ReStr = ReStr + rollbase.BuildDiceCal('3d6*10') ;
 	if (level<50) ReStr = ReStr + rollbase.BuildDiceCal('3d6*5') ;
 	ReStr = ReStr + '\n【速度】：';
-	if (level>=40) ReStr = ReStr + ' ← 共減' + Debuff;
-	ReStr = ReStr + '\n【物攻】';
-	if (level>=40) ReStr = ReStr + ' ← 共減' + Debuff ;
-	if (level>=40) ReStr = ReStr + '\nＡＰＰ：' + rollbase.BuildDiceCal('3d6*5-' + AppDebuff);
-	ReStr = ReStr + '\n【物防】' ;
+	ReStr = ReStr + '\n【物攻】：';
+	ReStr = ReStr + '\n【物防】：' ;
 	ReStr = ReStr + '\n【魔攻】：' + rollbase.BuildDiceCal('3d6*5');
 	ReStr = ReStr + '\n【魔防】：' + rollbase.BuildDiceCal('(2d6+6)*5');
-	if (level<20) ReStr = ReStr + ' ←擇一減' + Debuff ;
 	ReStr = ReStr + '\n【幸運(暴擊率)】：' + rollbase.BuildDiceCal('(2d6+6)*5');	
 	ReStr = ReStr + '\n【血量】：' + rollbase.BuildDiceCal('(2d6+6)*5');	
 	ReStr = ReStr + '\n【魔力】：' + rollbase.BuildDiceCal('(2d6+6)*5');	
