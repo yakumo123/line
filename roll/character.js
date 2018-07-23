@@ -23,7 +23,7 @@ function build7char(text01){
 	let DebuffArr = [5,0,5,10,20,40,80]
 	let AppDebuffArr = [0,0,5,10,15,20,25]
 	let EDUincArr = [0,1,2,3,4,4,4]
-	let BasicSkillOTArr = ['裝死【效果：沒屁用】','尖叫【效果：傷聲帶用】','爬行【效果：移動速度減慢】','賣萌【效果：單純賣萌】','道具合成【效果：可以用繩索把東西合成一起】']
+	let BasicSkillOTArr = ['裝死【效果：沒屁用】','在非洲的一分鐘【效果：在非洲待了60秒引致世界上的人渡過了1/60小時】','尖叫【效果：傷聲帶用】','爬行【效果：移動速度減慢】','賣萌【效果：單純賣萌】','道具合成【效果：可以用繩索把東西合成一起】']
 	let BasicSkillOT = BasicSkillOTArr[Math.floor((Math.random() * (BasicSkillOTArr.length)) + 0)];
 	let AdvSkillOTArr = ['原來如此【效果：每一次回應中只說“原來如此”來胡弄人，但不具備迴避仇恨功能】','簡訊迴避【效果：能在下班無視老闆一切的簡訊，但不能迴避老闆的怒火】','星期一振作【效果：於每個星期一也能去除不想上班的感情，社畜專用】','抽卡感情排解【效果：當抽卡大爆死時能對遊戲附上無法解除安裝功能】']
 	let AdvSkillOT = AdvSkillOTArr[Math.floor((Math.random() * (AdvSkillOTArr.length)) + 0)];
