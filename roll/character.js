@@ -55,48 +55,36 @@ function build7char(text01){
 		if (level >= 90 && level <100)	ReStr = ReStr + 'test4' ;
 	else ReStr = ReStr + 'test11' ;
 	ReStr = ReStr + '\n== \n【力量】：';
+	if (level < 10) ReStr = ReStr + 'test1' ;
+	if (level >= 10 && level <20) ReStr = ReStr + 'test2' ;
+	if (level >= 20 && level <30)	ReStr = ReStr + 'test3' ;
+	if (level >= 30 && level <40)	ReStr = ReStr + 'test4' ;
+	if (level >= 40 && level <50)	ReStr = ReStr + 'test5' ;
+	if (level >= 50 && level <60)	ReStr = ReStr + 'test6' ;
+	if (level >= 60 && level <70)	ReStr = ReStr + 'test7' ;
+	if (level >= 70 && level <80)	ReStr = ReStr + 'test8' ;
+	if (level >= 80 && level <90)	ReStr = ReStr + 'test9' ;
+	if (level >= 90 && level <100)	ReStr = ReStr + 'test4' ;
+	if (level =100 ) ReStr = ReStr + 'test1' ;
+
 	if (level>=50) ReStr = ReStr + rollbase.BuildDiceCal('3d6*10') ;
 	if (level<50) ReStr = ReStr + rollbase.BuildDiceCal('3d6*5') ;
-	ReStr = ReStr + '\n' ;
-	if (level>=40) ReStr = ReStr + ' ← 共減' + Debuff ;
-	if (level<20) ReStr = ReStr + ' ←擇一減' + Debuff ;
-	ReStr = ReStr + '\nＣＯＮ：' + rollbase.BuildDiceCal('3d6*5') + level;
+	ReStr = ReStr + '\n【敏捷】：' ;
+	if (level>=50) ReStr = ReStr + rollbase.BuildDiceCal('3d6*10') ;
+	if (level<50) ReStr = ReStr + rollbase.BuildDiceCal('3d6*5') ;
+	ReStr = ReStr + '\n【速度】：';
 	if (level>=40) ReStr = ReStr + ' ← 共減' + Debuff;
-	ReStr = ReStr + '\nＤＥＸ：' + rollbase.BuildDiceCal('3d6*5');
+	ReStr = ReStr + '\n【物攻】';
 	if (level>=40) ReStr = ReStr + ' ← 共減' + Debuff ;
 	if (level>=40) ReStr = ReStr + '\nＡＰＰ：' + rollbase.BuildDiceCal('3d6*5-' + AppDebuff);
-	else ReStr = ReStr + '\nＡＰＰ：' + rollbase.BuildDiceCal('3d6*5');
-	ReStr = ReStr + '\nＰＯＷ：' + rollbase.BuildDiceCal('3d6*5');
-	ReStr = ReStr + '\nＳＩＺ：' + rollbase.BuildDiceCal('(2d6+6)*5');
+	ReStr = ReStr + '\n【物防】' ;
+	ReStr = ReStr + '\n【魔攻】：' + rollbase.BuildDiceCal('3d6*5');
+	ReStr = ReStr + '\n【魔防】：' + rollbase.BuildDiceCal('(2d6+6)*5');
 	if (level<20) ReStr = ReStr + ' ←擇一減' + Debuff ;
-	ReStr = ReStr + '\nＩＮＴ：' + rollbase.BuildDiceCal('(2d6+6)*5');	
-	if (level<20) ReStr = ReStr + '\nＥＤＵ：' + rollbase.BuildDiceCal('3d6*5-5');
-	else {
-		let firstEDU = '(' + rollbase.BuildRollDice('2d6') + '+6)*5';
-		ReStr = ReStr + '\n==';
-		ReStr = ReStr + '\nＥＤＵ初始值：' + firstEDU + ' = ' + eval(firstEDU);
-		
-		let tempEDU = eval(firstEDU);
+	ReStr = ReStr + '\n【幸運(暴擊率)】：' + rollbase.BuildDiceCal('(2d6+6)*5');	
+	ReStr = ReStr + '\n【血量】：' + rollbase.BuildDiceCal('(2d6+6)*5');	
+	ReStr = ReStr + '\n【魔力】：' + rollbase.BuildDiceCal('(2d6+6)*5');	
 
-		for (i = 1 ; i <= EDUinc ; i++){
-	let EDURoll = rollbase.Dice(100);
-	ReStr = ReStr + '\n第' + i + '次EDU成長 → ' + EDURoll;
-	if (EDURoll>tempEDU) {
-	let EDUplus = rollbase.Dice(10);
-	ReStr = ReStr + ' → 成長' + EDUplus +'點';
-	tempEDU = tempEDU + EDUplus;
-	}
-	else{
-	ReStr = ReStr + ' → 沒有成長';		
-	}
-		}
-		ReStr = ReStr + '\n';
-		ReStr = ReStr + '\nＥＤＵ最終值：' +tempEDU;
-	}
-	ReStr = ReStr + '\n==';
-
-	ReStr = ReStr + '\nＬＵＫ：' + rollbase.BuildDiceCal('3d6*5') + level;	
-	if (level<20) ReStr = ReStr + '\nＬＵＫ加骰：' + rollbase.BuildDiceCal('3D6*5') + level;
 
 
 	rply.text = ReStr;
