@@ -220,8 +220,32 @@ function ability(TEXT){
 	if (afc <= 50 && eu <= 50)	ReStr = ReStr + '\n【非洲之力】：' + '100' + '\n【歐皇之力】：' + '0' ; 
 	if (afc > 50 && eu < 50)	ReStr = ReStr + '\n【非洲之力】：' + afc + '\n【歐皇之力】：' + eu ; 
 	if (afc < 50 && eu > 50)	ReStr = ReStr + '\n【非洲之力】：' + afc + '\n【歐皇之力】：' + eu ; 
-	ReStr = ReStr + '\n【非洲之力】：' ;
-	ReStr = ReStr + '\n【歐皇之力】：' ;
+	ReStr = ReStr + '\n【八雲點評】：' ;
+	if (man >= 50 && girl >= 50)	ReStr = ReStr + '偽娘跟偽男你也很適合當喔~' ; 
+	if (man >= 50 && girl < 50)	ReStr = ReStr + '你很適合當一個偽男喔~如果你是男的,我會推薦你去做變性手術變成女的再當偽男~~' ; 
+	if (man < 50 && girl >= 50)	ReStr = ReStr + '你很適合當一個偽娘喔~如果你是女的,我會推薦你去做變性手術變成男的再當偽娘~~' ; 
+	if (man < 50 && girl < 50)	ReStr = ReStr + '你很沒魅力呃…' ; 
+	ReStr = ReStr + '在你的萌力方面，' ;
+	if (cute >= 50)	ReStr = ReStr + '你很適合去賣萌喔~一定有人說你可愛的' ; 
+	if (cute < 50)	ReStr = ReStr + '我還是建議你別去做出賣萌的行為，會嚇到人的' ; 
+	ReStr = ReStr + '我' ;
+	if (cook >= 50)	ReStr = ReStr + '看你的廚藝的分數滿高的~可以煮東西給八雲吃嗎？' ; 
+	if (cook < 50)	ReStr = ReStr + '看你的廚藝分數…嗯…還可以啦……記得別進廚房喔……你很危… 不！廚房很危險的，我為了你安全着想你還是別進廚房吧！' ; 
+	ReStr = ReStr + '然後，' ;
+	if (money >= 50)	ReStr = ReStr + '你財力那麽高，你很有做課長的天賦喔！' ; 
+	if (money < 50)	ReStr = ReStr + '財力不高也沒差啦~你還有信用卡可以課金嘛~~刷爆了你還有家人的卡可以刷嘛~~人生不課金，那這人生還有意義嗎？' ; 
+	ReStr = ReStr + '嗯…' ;
+	if (life >= 50 && money < 50)	ReStr = ReStr + '你的生命力還滿強的嘛~就算你沒財力，以你這生命力來說每餐都吃土也能活下去的。' ; 
+	if (life < 50 && money < 50)	ReStr = ReStr + '沒生命力又沒錢……好慘…(用同情的眼神吃着名貴的食物遠望' ; 
+	if (life >= 50)	ReStr = ReStr + '你的生命力還滿強的嘛' ; 
+	if (life < 50)	ReStr = ReStr + '你這樣的生命力…記得好好享受人生喔' ; 
+	
+	
+
+
+	
+
+
 	
 
 
