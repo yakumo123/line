@@ -1,7 +1,6 @@
 var rollbase = require('./rollbase.js');
 var rply ={type : 'text'}; //type是必需的,但可以更改
-let levelArr = [0,10,20,30,40,50,60,70,80,90,100]
-let level = levelArr[Math.floor((Math.random() * (levelArr.length)) + 0)];
+
 
 ////////////////////////////////////////
 //////////////// COC7傳統創角
@@ -22,6 +21,8 @@ function build7char(text01){
 	let Debuff = 0;
 	let AppDebuff = 0;
 	let EDUinc = 0;
+	let levelArr = [0,10,20,30,40,50,60,70,80,90,100]
+	let level = levelArr[Math.floor((Math.random() * (levelArr.length)) + 0)];
 	let oldArr = [15,20,40,50,60,70,80]
 	let DebuffArr = [5,0,5,10,20,40,80]
 	let AppDebuffArr = [0,0,5,10,15,20,25]
@@ -33,11 +34,25 @@ function build7char(text01){
 		EDUinc = EDUincArr[i];
 	}
 	ReStr = ReStr + '==\n';
-	if (level < 20 && level >= 10) ReStr = ReStr + '年齡調整：從STR、SIZ擇一減去' + Debuff + '點\n（請自行手動選擇計算）。\n將EDU減去5點。LUK可擲兩次取高。' ;
+	if (level < 10) ReStr = ReStr + 'test1' ;
 	else
-		if (level < 10) ReStr = ReStr + '年齡調整：從手動選擇計算）。\n將EDU減去5點。LUK可擲兩次取高。' ;
+		if (level >= 10 && level <20) ReStr = ReStr + 'test2' ;
 	else
-		if (level >= 40)	ReStr = ReStr + '年齡調整：從STR、CON或DEX中「總共」減去' + Debuff + '點\n（請自行手動選擇計算）。\n將APP減去' + AppDebuff +'點。可做' + EDUinc + '次EDU的成長擲骰。' ;
+		if (level >= 20 && level <30)	ReStr = ReStr + 'test3' ;
+	else
+		if (level >= 30 && level <40)	ReStr = ReStr + 'test4' ;
+	else
+		if (level >= 40 && level <50)	ReStr = ReStr + 'test5' ;
+	else
+		if (level >= 50 && level <60)	ReStr = ReStr + 'test6' ;
+	else
+		if (level >= 60 && level <70)	ReStr = ReStr + 'test7' ;
+	else
+		if (level >= 70 && level <80)	ReStr = ReStr + 'test8' ;
+	else
+		if (level >= 80 && level <90)	ReStr = ReStr + 'test9' ;
+	else
+		if (level >= 90 && level <100)	ReStr = ReStr + 'test4' ;
 	else ReStr = ReStr + '年齡調整：可做' + EDUinc + '次EDU的成長擲骰。' ;
 	ReStr = ReStr + '\n==';
 	if (level>=40) ReStr = ReStr + '\n（以下箭號三項，自選共減' + Debuff + '點。）' ;
