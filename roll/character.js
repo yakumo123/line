@@ -55,9 +55,9 @@ function build7char(text01){
 		if (level >= 90 && level <100)	ReStr = ReStr + 'test4' ;
 	else ReStr = ReStr + 'test11' ;
 	ReStr = ReStr + '\n== \n【力量】：';
-	if (level>=40) ReStr = ReStr + '\n（以下箭號三項，自選共減' + Debuff + '點。）' ;
-	if (level<20) ReStr = ReStr + '\n（以下箭號兩項，擇一減去' + Debuff + '點。）' ;
-	ReStr = ReStr + '\nＳＴＲ：' + rollbase.BuildDiceCal('3d6*5') ;
+	if (level>=50) ReStr = ReStr + rollbase.BuildDiceCal('3d6*10') ;
+	if (level<50) ReStr = ReStr + rollbase.BuildDiceCal('3d6*5') ;
+	ReStr = ReStr + '\n' ;
 	if (level>=40) ReStr = ReStr + ' ← 共減' + Debuff ;
 	if (level<20) ReStr = ReStr + ' ←擇一減' + Debuff ;
 	ReStr = ReStr + '\nＣＯＮ：' + rollbase.BuildDiceCal('3d6*5') + level;
