@@ -82,7 +82,7 @@ function BotHelpYy() {
 						{
 							"type": "message",
 							"label": "隨機功能示範",
-							"text": "隨機抽中一個萌式神 A式神 B式神 C式神 D式神"
+							"text": "萌式神選項 A式神 B式神 C式神 D式神"
 						},
 						{
 							"type": "message",
