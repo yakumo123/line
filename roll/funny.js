@@ -773,6 +773,7 @@ function choice(input,str) {
  }
 
 module.exports = {
+	randomColour,
 	eato,
 	drinko,
 	randomCuteSnow,
