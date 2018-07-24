@@ -99,7 +99,7 @@ function parseInput(rplyToken, inputStr) {
 
 
 	//choice 指令開始於此
-	if (trigger.match(/choice|隨機|選項|選1/)!= null && mainMsg.length >= 3) return exports.funny.choice(inputStr,mainMsg);
+	if (trigger.match(/choice|選項|選1/)!= null && mainMsg.length >= 3) return exports.funny.choice(inputStr,mainMsg);
 
 	//tarot 指令
 	if (trigger.match(/tarot|塔羅牌|塔羅/) != null) {
@@ -282,7 +282,8 @@ function parseInput(rplyToken, inputStr) {
 		if (trigger.match(/^主教/)!= null) return exports.bancardhaven.MultiDrawBan(mainMsg[1], mainMsg[2], 2);
 	}
 	
-	
+	if (trigger.match(/隨機顏色|幸運顏色/) != null) return exports.funny.randomColour(mainMsg) ;	
+
 	
 	if (trigger.match(/隨機職業/) != null) return exports.careerchoice.MultiDrawBan(mainMsg[1], mainMsg[2], 2);
 	
@@ -299,8 +300,8 @@ function parseInput(rplyToken, inputStr) {
 	
 	if (trigger.match(/吵架/) != null) return exports.mmu.ummm() ;	
 	
-	if (trigger.match(/悠亞/) != null) return exports.funny.randomYula() ;	
-	
+	if (trigger.match(/悠亞/) != null) return exports.funny.randomYula() ;	 
+		
 	if (trigger.match(/ㄘ什麼|吃甚麼|吃什麼/) != null) return exports.funny.FoodChoices(mainMsg) ;	
 	
 	if (trigger.match(/喝甚麼|喝什麼/) != null) return exports.funny.randomDrink(mainMsg) ;	
