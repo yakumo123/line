@@ -48,7 +48,7 @@ function build7char(text01){
 	if (level < 30) ReStr = ReStr + '\n【基本技能】' + BasicSkillOT + '\n【進階技能】' + AdvSkillOT ;
 	if (level >= 30 && level <50)	ReStr = ReStr + '\n【基本技能】' + BasicSkillTF + '\n【進階技能】' + AdvSkillTF ;
 	if (level >= 50 && level <60)	ReStr = ReStr + '\n【基本技能】' + BasicSkillFE + '\n【進階技能】' + AdvSkillFE ;
-	if (level >= 60)	ReStr = ReStr + '\n【基本技能】' + BasicSkillFE + '\n【進階技能】' + AdvSkillFE + '\n【奧義】：';
+	if (level >= 60)	ReStr = ReStr + '\n【基本技能】' + BasicSkillFE + '\n【進階技能】' + AdvSkillFE + '\n【奧義】：' + SuperSkill ;
 
 	ReStr = ReStr + '\n【力量】：';
 	if (level < 10) ReStr = ReStr + rollbase.BuildDiceCal('1d10*2') ;
