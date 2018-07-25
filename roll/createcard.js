@@ -122,8 +122,8 @@ function build7char(text01){
 		AppDebuff = AppDebuffArr[i];
 		EDUinc = EDUincArr[i];
 	}
+	
 	ReStr = ReStr + '【職業】：' + craft + '【稀有度】：' + rure + '\n';
-	if (Depend = 1) {
 	ReStr = ReStr + '【類型】：從者 【費用】：' + level ;
 	ReStr = ReStr + '\n【攻擊力】：' ;
 	if (level = 1) ReStr = ReStr + ATOne + '【血量】：' + HEOne + '\n' ;
@@ -685,22 +685,7 @@ function build7char(text01){
 	if (abilty = 52) ReStr = ReStr + '【激奏' + RTTen + '】' + RushEffect + '\n' + '【進化時】' + EvolutionEffect ;
 	if (abilty = 53) ReStr = ReStr + '【進化時】' + EvolutionEffect ;
 	if (abilty = 54) ReStr = ReStr ;
-	};
-	else
-	if (Depend = 2) {
-	ReStr = ReStr + '【類型】：法術 【費用】：' + level ;
-	ReStr = ReStr + '\n' + RushEffect;
-	};
-	else
-	if (Depend = 3)	{
-	ReStr = ReStr + '【類型】：法術 【費用】：' + level + '\n【倒數：' + Shadow + '】' ;
-	if (ConditionThree = 1) ReStr = ReStr + '【入場曲】' + EnterEffect ;
-	if (ConditionThree = 2) ReStr = ReStr + '【謝幕曲】' + DeathEffect ;
-	if (ConditionThree = 3) ReStr = ReStr + '【入場曲】【死靈術' + Shadow + '】' + EnterShadow ;
-	if (ConditionThree = 4) ReStr = ReStr + '【謝幕曲】【死靈術' + Shadow + '】 ;
-	if (ConditionThree = 5) ReStr = ReStr + '【入場曲】【死靈術' + Shadow + '】' + EnterShadow + '\n' + '【謝幕曲】' + DeathEffect ;
-	if (ConditionThree = 6) ReStr = ReStr + '【入場曲】' + EnterEffect + '\n' + '【謝幕曲】【死靈術' + Shadow + '】 ;
-	};
+	
 
 	rply.text = ReStr;
 	return rply;
