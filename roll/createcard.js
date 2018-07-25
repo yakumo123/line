@@ -671,16 +671,16 @@ function build7char(text01){
 	if (level == 10 && abilty == 52) ReStr = ReStr + '【激奏' + RTTen + '】' + RushEffect + '\n' + '【進化時】' + EvolutionEffect ;
 	if (level == 10 && abilty == 53) ReStr = ReStr + '【進化時】' + EvolutionEffect ;
 
-	if (Depend == 1 && level == 11) ReStr = ReStr + '【類型】：法術 【費用】：' + level + '\n' + RushEffect ;
-	if (Depend == 2 && level == 11) ReStr = ReStr + '【類型】：法術 【費用】：' + level + '\n' + RushEffect ;
-	if (Depend == 3 && level == 11) ReStr = ReStr + '【類型】：法術 【費用】：' + level + '\n' + RushEffect ;
-	if (Depend == 4 && level == 11) ReStr = ReStr + '【類型】：法術 【費用】：' + level + '\n' + RushEffect ;
-	if (Depend == 5 && level == 11) ReStr = ReStr + '【類型】：護符 【費用】：' + level + '\n' + '【入場曲】' + EnterEffect ;
-	if (Depend == 6 && level == 11) ReStr = ReStr + '【類型】：護符 【費用】：' + level + '\n' + '【謝幕曲】' + DeathEffect ;
-	if (Depend == 7 && level == 11) ReStr = ReStr + '【類型】：護符 【費用】：' + level + '\n' + '【入場曲】【死靈術' + Shadow + '】' + EnterShadow ;
-	if (Depend == 8 && level == 11) ReStr = ReStr + '【類型】：護符 【費用】：' + level + '\n' + '【謝幕曲】【死靈術' + Shadow + '】' + EnterShadow ;
-	if (Depend == 9 && level == 11) ReStr = ReStr + '【類型】：護符 【費用】：' + level + '\n' + '【入場曲】【死靈術' + Shadow + '】' + EnterShadow + '\n' + '【謝幕曲】' + DeathEffect ;
-	if (Depend == 10 && level == 11) ReStr = ReStr + '【類型】：護符 【費用】：' + level + '\n' + '【入場曲】' + EnterEffect + '\n' + '【謝幕曲】【死靈術' + Shadow + '】' + EnterShadow ;
+	if (Depend == 1 && level == 11) ReStr = ReStr + '【類型】：法術 【費用】：' + Depend + '\n' + RushEffect ;
+	if (Depend == 2 && level == 11) ReStr = ReStr + '【類型】：法術 【費用】：' + Depend + '\n' + RushEffect ;
+	if (Depend == 3 && level == 11) ReStr = ReStr + '【類型】：法術 【費用】：' + Depend + '\n' + RushEffect ;
+	if (Depend == 4 && level == 11) ReStr = ReStr + '【類型】：法術 【費用】：' + Depend + '\n' + RushEffect ;
+	if (Depend == 5 && level == 11) ReStr = ReStr + '【類型】：護符 【費用】：' + Depend + '\n' + '【入場曲】' + EnterEffect ;
+	if (Depend == 6 && level == 11) ReStr = ReStr + '【類型】：護符 【費用】：' + Depend + '\n' + '【謝幕曲】' + DeathEffect ;
+	if (Depend == 7 && level == 11) ReStr = ReStr + '【類型】：護符 【費用】：' + Depend + '\n' + '【入場曲】【死靈術' + Shadow + '】' + EnterShadow ;
+	if (Depend == 8 && level == 11) ReStr = ReStr + '【類型】：護符 【費用】：' + Depend + '\n' + '【謝幕曲】【死靈術' + Shadow + '】' + EnterShadow ;
+	if (Depend == 9 && level == 11) ReStr = ReStr + '【類型】：護符 【費用】：' + Depend + '\n' + '【入場曲】【死靈術' + Shadow + '】' + EnterShadow + '\n' + '【謝幕曲】' + DeathEffect ;
+	if (Depend == 10 && level == 11) ReStr = ReStr + '【類型】：護符 【費用】：' + Depend + '\n' + '【入場曲】' + EnterEffect + '\n' + '【謝幕曲】【死靈術' + Shadow + '】' + EnterShadow ;
 
 
 
