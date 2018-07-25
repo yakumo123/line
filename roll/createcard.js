@@ -116,7 +116,7 @@ function build7char(text01){
 	
 	
 	
-	for ( i=0 ; abilty = abiltyArr[i] ; i ++){
+	for ( i=0 ; abilty >= abiltyArr[i] ; i ++){
 		Debuff = DebuffArr[i];
 		AppDebuff = AppDebuffArr[i];
 		EDUinc = EDUincArr[i];
@@ -126,11 +126,11 @@ function build7char(text01){
 	ReStr = ReStr + '【類型】：從者 【費用】：' + level ;
 	ReStr = ReStr + '\n【攻擊力】：' ;
 	ReStr = ReStr + ATOne + '【血量】：' + HEOne + '\n' ;
-	if (abilty = 1) ReStr = ReStr + BasicEffect + '\n' + '【入場曲】' + EnterEffect ;
-	if (abilty = 2) ReStr = ReStr + BasicEffect + '\n' + '【謝幕曲】' + DeathEffect ;
-	if (abilty = 3) ReStr = ReStr + '【激奏' + RTOne + '】' + RushEffect + '\n' + BasicEffect;
-	if (abilty = 4) ReStr = ReStr + BasicEffect + '\n' + '回合結束時' + EndEffect ;
-	if (abilty = 5) ReStr = ReStr + BasicEffect + '\n' + '【入場曲】【死靈術' + Shadow + '】' + EnterShadow ;
+	if (abilty < 1) ReStr = ReStr + BasicEffect + '\n' + '【入場曲】' + EnterEffect ;
+	if (abilty < 2) ReStr = ReStr + BasicEffect + '\n' + '【謝幕曲】' + DeathEffect ;
+	if (abilty < 3) ReStr = ReStr + '【激奏' + RTOne + '】' + RushEffect + '\n' + BasicEffect;
+	if (abilty < 4) ReStr = ReStr + BasicEffect + '\n' + '回合結束時' + EndEffect ;
+	if (abilty < 5) ReStr = ReStr + BasicEffect + '\n' + '【入場曲】【死靈術' + Shadow + '】' + EnterShadow ;
 	if (abilty = 6) ReStr = ReStr + BasicEffect + '\n' + '【謝幕曲】【死靈術' + Shadow + '】' + DeathShadow ;
 	if (abilty = 7) ReStr = ReStr + '【入場曲】' + '\n' + EnterEffect + '【謝幕曲】' + DeathEffect ;
 	if (abilty = 8) ReStr = ReStr + '【激奏' + RTOne + '】' + RushEffect + '\n' + '【入場曲】' + EnterEffect ;
