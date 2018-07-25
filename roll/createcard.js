@@ -27,12 +27,10 @@ function build7char(text01){
 	let Shadow = ShadowArr[Math.floor((Math.random() * (ShadowArr.length)) + 0)];
 	let DependArr = [1,2,3]	
 	let Depend = DependArr[Math.floor((Math.random() * (DependArr.length)) + 0)];
-	let abiltyArr = [1,2]
+	let abiltyArr = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54]	
 	let abilty = abiltyArr[Math.floor((Math.random() * (abiltyArr.length)) + 0)];
 	let levelArr = [0,1,2,3,4,5,6,7,8,9,10]
 	let level = levelArr[Math.floor((Math.random() * (levelArr.length)) + 0)];
-	let levArr = [0,1,2,3,4,5,6,7,8,9,10]
-	let lev = levArr[Math.floor((Math.random() * (levArr.length)) + 0)];
 	let ATOneArr = [0,1]
 	let ATOne = ATOneArr[Math.floor((Math.random() * (ATOneArr.length)) + 0)];
 	let ATTwoArr = [0,1,2]
@@ -129,9 +127,61 @@ function build7char(text01){
 	ReStr = ReStr + '【類型】：從者 【費用】：' + level ;
 	ReStr = ReStr + '\n【攻擊力】：' ;
 	ReStr = ReStr + ATOne + '【血量】：' + HEOne + '\n' ;
-	if (abilty = 1) ReStr = ReStr + BasicEffect ;
-	if (abilty = 2) ReStr = ReStr + BasicEffect ;
-
+	if (abilty = 1) ReStr = ReStr + BasicEffect + '\n' + '【入場曲】' + EnterEffect ;
+	if (abilty = 2) ReStr = ReStr + BasicEffect + '\n' + '【謝幕曲】' + DeathEffect ;
+	if (abilty = 3) ReStr = ReStr + '【激奏' + RTOne + '】' + RushEffect + '\n' + BasicEffect;
+	if (abilty = 4) ReStr = ReStr + BasicEffect + '\n' + '回合結束時' + EndEffect ;
+	if (abilty = 5) ReStr = ReStr + BasicEffect + '\n' + '【入場曲】【死靈術' + Shadow + '】' + EnterShadow ;
+	if (abilty = 6) ReStr = ReStr + BasicEffect + '\n' + '【謝幕曲】【死靈術' + Shadow + '】' + DeathShadow ;
+	if (abilty = 7) ReStr = ReStr + '【入場曲】' + '\n' + EnterEffect + '【謝幕曲】' + DeathEffect ;
+	if (abilty = 8) ReStr = ReStr + '【激奏' + RTOne + '】' + RushEffect + '\n' + '【入場曲】' + EnterEffect ;
+	if (abilty = 9) ReStr = ReStr + '【入場曲】' + EnterEffect + '\n' + '回合結束時' + EndEffect ;
+	if (abilty = 10) ReStr = ReStr + '【入場曲】' + EnterEffect + '\n' + '【謝幕曲】【死靈術' + Shadow + '】' + DeathShadow ; ;
+	if (abilty = 11) ReStr = ReStr + '【激奏' + RTOne + '】' + RushEffect + '\n' + '【謝幕曲】' + DeathEffect ;
+	if (abilty = 12) ReStr = ReStr + '回合結束時' + EndEffect + '\n' + '【謝幕曲】' + DeathEffect ;	
+	if (abilty = 13) ReStr = ReStr + '【入場曲】【死靈術' + Shadow + '】' + EnterShadow + '\n' + '【謝幕曲】' + DeathEffect ;
+	if (abilty = 14) ReStr = ReStr + '【激奏' + RTOne + '】' + RushEffect + '\n' + '回合結束時' + EndEffect ;
+	if (abilty = 15) ReStr = ReStr + '【激奏' + RTOne + '】' + RushEffect + '\n' + '【入場曲】【死靈術' + Shadow + '】' + EnterShadow ;
+	if (abilty = 16) ReStr = ReStr + '【激奏' + RTOne + '】' + RushEffect + '\n' + '【謝幕曲】【死靈術' + Shadow + '】' + DeathShadow ;
+	if (abilty = 17) ReStr = ReStr + '【入場曲】【死靈術' + Shadow + '】' + EnterShadow + '\n' + '回合結束時' + EndEffect ;
+	if (abilty = 18) ReStr = ReStr + '回合結束時' + EndEffect + '\n' + '【謝幕曲】【死靈術' + Shadow + '】' + DeathShadow;
+	if (abilty = 19) ReStr = ReStr + '入場死靈 謝幕死靈' + '\n' + '【謝幕曲】【死靈術' + Shadow + '】' + DeathShadow ;
+	if (abilty = 20) ReStr = ReStr + Sheld ;
+	if (abilty = 21) ReStr = ReStr + '【入場曲】' + EnterEffect + '\n' + '【交戰時】' + InteractionEffect ;	
+	if (abilty = 22) ReStr = ReStr + '【交戰時】' + InteractionEffect + '\n' + '【謝幕曲】' + DeathEffect ;
+	if (abilty = 23) ReStr = ReStr + '【激奏' + RTOne + '】' + RushEffect + '\n' + '【交戰時】' + InteractionEffect ;
+	if (abilty = 24) ReStr = ReStr + '【交戰時】' + InteractionEffect + '\n' + '回合結束時' + EndEffect  ;
+	if (abilty = 25) ReStr = ReStr + '【入場曲】【死靈術' + Shadow + '】' + EnterShadow + '\n' + '【交戰時】' + InteractionEffect ;
+	if (abilty = 26) ReStr = ReStr + '【交戰時】' + InteractionEffect + '\n' + '【謝幕曲】【死靈術' + Shadow + '】' + DeathShadow  ;
+	if (abilty = 27) ReStr = ReStr + '【入場曲】' + EnterEffect + '\n' + '【攻擊時】' + AttactEffect ;
+	if (abilty = 28) ReStr = ReStr + '【攻擊時】' + AttactEffect + '\n' + '【謝幕曲】' + DeathEffect ;
+	if (abilty = 29) ReStr = ReStr + '【激奏' + RTOne + '】' + RushEffect + '\n' + '【攻擊時】' + AttactEffect ;
+	if (abilty = 30) ReStr = ReStr + + '【攻擊時】' + AttactEffect + '回合結束時' + EndEffect ;
+	if (abilty = 31) ReStr = ReStr + '【入場曲】【死靈術' + Shadow + '】' + EnterShadow + '\n' + '【攻擊時】' + AttactEffect ;
+	if (abilty = 32) ReStr = ReStr + '【攻擊時】' + AttactEffect + '\n' + '【謝幕曲】【死靈術' + Shadow + '】' + DeathShadow ;
+	if (abilty = 33) ReStr = ReStr + BasicEffect + '\n' + '【攻擊時】' + AttactEffect ;
+	if (abilty = 34) ReStr = ReStr + BasicEffect + '\n' + '【交戰時】' + InteractionEffect ;
+	if (abilty = 35) ReStr = ReStr + BasicEffect ;
+	if (abilty = 36) ReStr = ReStr + '【入場曲】' + EnterEffect ;
+	if (abilty = 37) ReStr = ReStr + '【謝幕曲】' + DeathEffect ;
+	if (abilty = 38) ReStr = ReStr + '回合結束時' + EndEffect ;
+	if (abilty = 39) ReStr = ReStr + '【入場曲】【死靈術' + Shadow + '】' + EnterShadow ;
+	if (abilty = 40) ReStr = ReStr + '【謝幕曲】【死靈術' + Shadow + '】' ;
+	if (abilty = 41) ReStr = ReStr + '【攻擊時】' + AttactEffect ;
+	if (abilty = 42) ReStr = ReStr + '【交戰時】' + InteractionEffect ;
+	if (abilty = 43) ReStr = ReStr + '【激奏' + RTOne + '】' + RushEffect ;
+	if (abilty = 44) ReStr = ReStr + BasicEffect + '\n' + '【進化時】' + EvolutionEffect ;
+	if (abilty = 45) ReStr = ReStr + '【入場曲】' + EnterEffect + '\n' + '【進化時】' + EvolutionEffect ;
+	if (abilty = 46) ReStr = ReStr + '【進化時】' + EvolutionEffect + '\n' + '【謝幕曲】' + DeathEffect ;
+	if (abilty = 47) ReStr = ReStr + '回合結束時' + EndEffect + '\n' + '【進化時】' + EvolutionEffect ;
+	if (abilty = 48) ReStr = ReStr + '【入場曲】【死靈術' + Shadow + '】' + EnterShadow + '\n' + '【進化時】' + EvolutionEffect ;
+	if (abilty = 49) ReStr = ReStr + '【進化時】' + EvolutionEffect + '\n' + '【謝幕曲】【死靈術' + Shadow + '】' + DeathShadow ;
+	if (abilty = 50) ReStr = ReStr + '【交戰時】' + InteractionEffect + '\n' + '【進化時】' + EvolutionEffect ;
+	if (abilty = 51) ReStr = ReStr + '【攻擊時】' + AttactEffect + '\n' + '【進化時】' + EvolutionEffect ;
+	if (abilty = 52) ReStr = ReStr + '【激奏' + RTOne + '】' + RushEffect + '\n' + '【進化時】' + EvolutionEffect ;
+	if (abilty = 53) ReStr = ReStr + '【進化時】' + EvolutionEffect ;
+	ReStr = ReStr + '\n';
+	
 
 	rply.text = ReStr;
 	return rply;
