@@ -20,7 +20,7 @@ function build7char(text01){
 	let DependArr = [1,2,3]	
 	let Depend = DependArr[Math.floor((Math.random() * (DependArr.length)) + 0)];
 	let abiltyArr = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20]	
-	let abiltyArr = abiltyArr[Math.floor((Math.random() * (abiltyArr.length)) + 0)];
+	let abilty = abiltyArr[Math.floor((Math.random() * (abiltyArr.length)) + 0)];
 	let levelArr = [0,1,2,3,4,5,6,7,8,9,10]
 	let level = levelArr[Math.floor((Math.random() * (levelArr.length)) + 0)];
 	let ATOneArr = [0,1]
@@ -58,6 +58,28 @@ function build7char(text01){
 	ReStr = ReStr + '\n==' + '\n【等級】：' + level ;
 	if (Depend = 1) ReStr = ReStr + '【從者】' + BasicSkillOT + '\n【進階技能】' + AdvSkillOT ;
 	ReStr = ReStr + '\n' ;
+	if (abilty = 1) ReStr = ReStr + '' ;
+	if (abilty = 2) ReStr = ReStr + '' ;
+	if (abilty = 3) ReStr = ReStr + '' ;
+	if (abilty = 4) ReStr = ReStr + '' ;
+	if (abilty = 5) ReStr = ReStr + '' ;
+	if (abilty = 6) ReStr = ReStr + '' ;
+	if (abilty = 7) ReStr = ReStr + '' ;
+	if (abilty = 8) ReStr = ReStr + '' ;
+	if (abilty = 9) ReStr = ReStr + '' ;
+	if (abilty = 10) ReStr = ReStr + '' ;
+	if (abilty = 11) ReStr = ReStr + '' ;
+	if (abilty = 12) ReStr = ReStr + '' ;	
+	if (abilty = 13) ReStr = ReStr + '' ;
+	if (abilty = 14) ReStr = ReStr + '' ;
+	if (abilty = 15) ReStr = ReStr + '' ;
+	if (abilty = 16) ReStr = ReStr + '' ;
+	if (abilty = 17) ReStr = ReStr + '' ;
+	if (abilty = 18) ReStr = ReStr + '' ;
+	if (abilty = 19) ReStr = ReStr + '' ;
+	if (abilty = 20) ReStr = ReStr + '' ;
+
+
 	
 	else
 	if (Depend = 2)	ReStr = ReStr + '\n【基本技能】' + BasicSkillTF + '\n【進階技能】' + AdvSkillTF ;
