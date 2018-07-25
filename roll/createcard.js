@@ -11,7 +11,7 @@ function build7char(text01){
 	else 
 	{
 	old = text01;
-	ReStr = ReStr + old + '】';
+	ReStr = ReStr + old + '】\n';
 	}
 	
 	let Debuff = 0;
