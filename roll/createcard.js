@@ -29,7 +29,7 @@ function build7char(text01){
 	let Depend = DependArr[Math.floor((Math.random() * (DependArr.length)) + 0)];
 	let abiltyArr = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54]	
 	let abilty = abiltyArr[Math.floor((Math.random() * (abiltyArr.length)) + 0)];
-	let levelArr = [0,1,2,3,4,5,6,7,8,9,10]
+	let levelArr = [0,1,2]
 	let level = levelArr[Math.floor((Math.random() * (levelArr.length)) + 0)];
 	let ATOneArr = [0,1]
 	let ATOne = ATOneArr[Math.floor((Math.random() * (ATOneArr.length)) + 0)];
@@ -180,6 +180,8 @@ if (level == 1) ReStr = ReStr + ATOne + '【血量】：' + HEOne + '\n' ;
 	if (abilty == 51) ReStr = ReStr + '【攻擊時】' + AttactEffect + '\n' + '【進化時】' + EvolutionEffect ;
 	if (abilty == 52) ReStr = ReStr + '【激奏' + RTOne + '】' + RushEffect + '\n' + '【進化時】' + EvolutionEffect ;
 	if (abilty == 53) ReStr = ReStr + '【進化時】' + EvolutionEffect ;
+	ReStr = ReStr + '/n' ;
+	else
 	if (level == 2) ReStr = ReStr + ATTwo + '【血量】：' + HETwo + '\n' ;
 	if (abilty == 1) ReStr = ReStr + BasicEffect + '\n' + '【入場曲】' + EnterEffect ;
 	if (abilty == 2) ReStr = ReStr + BasicEffect + '\n' + '【謝幕曲】' + DeathEffect ;
