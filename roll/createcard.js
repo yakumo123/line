@@ -17,27 +17,29 @@ function build7char(text01){
 	let Debuff = 0;
 	let AppDebuff = 0;
 	let EDUinc = 0;
+	let DependArr = [1,2,3]	
+	let Depend = DependArr[Math.floor((Math.random() * (DependArr.length)) + 0)];
 	let levelArr = [0,1,2,3,4,5,6,7,8,9,10]
 	let level = levelArr[Math.floor((Math.random() * (levelArr.length)) + 0)];
-  let ATOneArr = [0,1]
+	let ATOneArr = [0,1]
 	let ATOne = ATOneArr[Math.floor((Math.random() * (ATOneArr.length)) + 0)];
-  let ATTwoArr = [0,1,2]
+	let ATTwoArr = [0,1,2]
 	let ATTwo = ATTwoArr[Math.floor((Math.random() * (ATTwoArr.length)) + 0)];
-  let ATThreeArr = [1,2,3]
+	let ATThreeArr = [1,2,3]
 	let ATThree = ATThreeArr[Math.floor((Math.random() * (ATThreeArr.length)) + 0)];
-  let ATFourArr = [2,3,4]
+	let ATFourArr = [2,3,4]
 	let ATFour = ATFourArr[Math.floor((Math.random() * (ATFourArr.length)) + 0)];
-  let ATFiveArr = [2,3,4,5]
+	let ATFiveArr = [2,3,4,5]
 	let ATFive = ATFiveArr[Math.floor((Math.random() * (ATFiveArr.length)) + 0)];
-  let ATSixArr = [2,3,4,5,6]
+	let ATSixArr = [2,3,4,5,6]
 	let ATSix = ATSixArr[Math.floor((Math.random() * (ATSixArr.length)) + 0)];
-  let ATSevenArr = [3,4,5,6,7]
+	let ATSevenArr = [3,4,5,6,7]
 	let ATSeven= ATSevenArr[Math.floor((Math.random() * (ATSevenArr.length)) + 0)];
-  let ATEightArr = [4,5,6,7,8]
+	let ATEightArr = [4,5,6,7,8]
 	let ATEight= ATEightArr[Math.floor((Math.random() * (ATEightArr.length)) + 0)];
-  let ATNineArr = [5,6,7,8,9]
+	let ATNineArr = [5,6,7,8,9]
 	let ATNine= ATNineArr[Math.floor((Math.random() * (ATNineArr.length)) + 0)];
-  let ATTenArr = [7,8,9,10,11,12,13]
+	let ATTenArr = [7,8,9,10,11,12,13]
 	let ATTen= ATTenArr[Math.floor((Math.random() * (ATTenArr.length)) + 0)];
 	let oldArr = [15,20,40,50,60,70,80]
 	let DebuffArr = [5,0,5,10,20,40,80]
@@ -52,11 +54,12 @@ function build7char(text01){
 		EDUinc = EDUincArr[i];
 	}
 	ReStr = ReStr + '\n==' + '\n【等級】：' + level ;
-	if (level < 30) ReStr = ReStr + '\n【基本技能】' + BasicSkillOT + '\n【進階技能】' + AdvSkillOT ;
-	if (level >= 30 && level <50)	ReStr = ReStr + '\n【基本技能】' + BasicSkillTF + '\n【進階技能】' + AdvSkillTF ;
-	if (level >= 50 && level <60)	ReStr = ReStr + '\n【基本技能】' + BasicSkillFE + '\n【進階技能】' + AdvSkillFE ;
-	if (level >= 60)	ReStr = ReStr + '\n【基本技能】' + BasicSkillFE + '\n【進階技能】' + AdvSkillFE + '\n【奧義】：' + SuperSkill ;
-
+	if (Depend = 1) ReStr = ReStr + '\n【基本技能】' + BasicSkillOT + '\n【進階技能】' + AdvSkillOT ;
+	else
+	if (Depend = 2)	ReStr = ReStr + '\n【基本技能】' + BasicSkillTF + '\n【進階技能】' + AdvSkillTF ;
+	else
+	if (Depend = 3)	ReStr = ReStr + '\n【基本技能】' + BasicSkillFE + '\n【進階技能】' + AdvSkillFE ;
+	
 	ReStr = ReStr + '\n【力量】：';
 	if (level < 10) ReStr = ReStr + rollbase.BuildDiceCal('1d10*2') ;
 	if (level >= 10 && level <20) ReStr = ReStr + rollbase.BuildDiceCal('1d15*2') ;
