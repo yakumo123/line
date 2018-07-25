@@ -157,8 +157,8 @@ function BotHelpYy() {
 						},
 						{
 							"type": "message",
-							"label": "土",
-							"text": "我要吃…"
+							"label": "生成卡片",
+							"text": "生成卡片 八雲 \n教學：生成卡片 名字"
 						}
 
 					]
