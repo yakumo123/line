@@ -674,12 +674,12 @@ function build7char(text01){
 	if (Depend == 2 && level == 11) ReStr = ReStr + '【類型】：法術 【費用】：' + Depend + '\n' + RushEffect ;
 	if (Depend == 3 && level == 11) ReStr = ReStr + '【類型】：法術 【費用】：' + Depend + '\n' + RushEffect ;
 	if (Depend == 4 && level == 11) ReStr = ReStr + '【類型】：法術 【費用】：' + Depend + '\n' + RushEffect ;
-	if (Depend == 5 && level == 11) ReStr = ReStr + '【類型】：護符 【費用】：' + Depend + '\n' + '【入場曲】' + EnterEffect ;
-	if (Depend == 6 && level == 11) ReStr = ReStr + '【類型】：護符 【費用】：' + Depend + '\n' + '【謝幕曲】' + DeathEffect ;
-	if (Depend == 7 && level == 11) ReStr = ReStr + '【類型】：護符 【費用】：' + Depend + '\n' + '【入場曲】【死靈術' + Shadow + '】' + EnterShadow ;
-	if (Depend == 8 && level == 11) ReStr = ReStr + '【類型】：護符 【費用】：' + Depend + '\n' + '【謝幕曲】【死靈術' + Shadow + '】' + EnterShadow ;
-	if (Depend == 9 && level == 11) ReStr = ReStr + '【類型】：護符 【費用】：' + Depend + '\n' + '【入場曲】【死靈術' + Shadow + '】' + EnterShadow + '\n' + '【謝幕曲】' + DeathEffect ;
-	if (Depend == 10 && level == 11) ReStr = ReStr + '【類型】：護符 【費用】：' + Depend + '\n' + '【入場曲】' + EnterEffect + '\n' + '【謝幕曲】【死靈術' + Shadow + '】' + EnterShadow ;
+	if (Depend == 5 && level == 11) ReStr = ReStr + '【類型】：護符 【費用】：' + Depend + '\n' + '【倒數：' + Shadow + '】' + '\n' + '【入場曲】' + EnterEffect ;
+	if (Depend == 6 && level == 11) ReStr = ReStr + '【類型】：護符 【費用】：' + Depend + '\n' + '【倒數：' + Shadow + '】' + '\n' + '【謝幕曲】' + DeathEffect ;
+	if (Depend == 7 && level == 11) ReStr = ReStr + '【類型】：護符 【費用】：' + Depend + '\n' + '【倒數：' + Shadow + '】' + '\n' + '【入場曲】【死靈術' + Shadow + '】' + EnterShadow ;
+	if (Depend == 8 && level == 11) ReStr = ReStr + '【類型】：護符 【費用】：' + Depend + '\n' + '【倒數：' + Shadow + '】' + '\n' + '【謝幕曲】【死靈術' + Shadow + '】' + EnterShadow ;
+	if (Depend == 9 && level == 11) ReStr = ReStr + '【類型】：護符 【費用】：' + Depend + '\n' + '【倒數：' + Shadow + '】' + '\n' + '【入場曲】【死靈術' + Shadow + '】' + EnterShadow + '\n' + '【謝幕曲】' + DeathEffect ;
+	if (Depend == 10 && level == 11) ReStr = ReStr + '【類型】：護符 【費用】：' + Depend + '\n' + '【倒數：' + Shadow + '】' + '\n' + '【入場曲】' + EnterEffect + '\n' + '【謝幕曲】【死靈術' + Shadow + '】' + EnterShadow ;
 
 
 
