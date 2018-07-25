@@ -181,7 +181,6 @@ if (level == 1) ReStr = ReStr + ATOne + '【血量】：' + HEOne + '\n' ;
 	if (abilty == 52) ReStr = ReStr + '【激奏' + RTOne + '】' + RushEffect + '\n' + '【進化時】' + EvolutionEffect ;
 	if (abilty == 53) ReStr = ReStr + '【進化時】' + EvolutionEffect ;
 	ReStr = ReStr + '/n' ;
-	else
 	if (level == 2) ReStr = ReStr + ATTwo + '【血量】：' + HETwo + '\n' ;
 	if (abilty == 1) ReStr = ReStr + BasicEffect + '\n' + '【入場曲】' + EnterEffect ;
 	if (abilty == 2) ReStr = ReStr + BasicEffect + '\n' + '【謝幕曲】' + DeathEffect ;
