@@ -28,6 +28,7 @@ function build7char(text01){
 	let DependArr = [1,2,3]	
 	let Depend = DependArr[Math.floor((Math.random() * (DependArr.length)) + 0)];
 	let abiltyArr = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54]	
+	let abilty = abiltyArr[Math.floor((Math.random() * (abiltyArr.length)) + 0)];
 	let levelArr = [0,1,2,3,4,5,6,7,8,9,10]
 	let level = levelArr[Math.floor((Math.random() * (levelArr.length)) + 0)];
 	let ATOneArr = [0,1]
@@ -126,11 +127,11 @@ function build7char(text01){
 	ReStr = ReStr + '【類型】：從者 【費用】：' + level ;
 	ReStr = ReStr + '\n【攻擊力】：' ;
 	ReStr = ReStr + ATOne + '【血量】：' + HEOne + '\n' ;
-	if (abilty < 1) ReStr = ReStr + BasicEffect + '\n' + '【入場曲】' + EnterEffect ;
-	if (abilty < 2) ReStr = ReStr + BasicEffect + '\n' + '【謝幕曲】' + DeathEffect ;
-	if (abilty < 3) ReStr = ReStr + '【激奏' + RTOne + '】' + RushEffect + '\n' + BasicEffect;
-	if (abilty < 4) ReStr = ReStr + BasicEffect + '\n' + '回合結束時' + EndEffect ;
-	if (abilty < 5) ReStr = ReStr + BasicEffect + '\n' + '【入場曲】【死靈術' + Shadow + '】' + EnterShadow ;
+	if (abilty = 1) ReStr = ReStr + BasicEffect + '\n' + '【入場曲】' + EnterEffect ;
+	if (abilty = 2) ReStr = ReStr + BasicEffect + '\n' + '【謝幕曲】' + DeathEffect ;
+	if (abilty = 3) ReStr = ReStr + '【激奏' + RTOne + '】' + RushEffect + '\n' + BasicEffect;
+	if (abilty = 4) ReStr = ReStr + BasicEffect + '\n' + '回合結束時' + EndEffect ;
+	if (abilty = 5) ReStr = ReStr + BasicEffect + '\n' + '【入場曲】【死靈術' + Shadow + '】' + EnterShadow ;
 	if (abilty = 6) ReStr = ReStr + BasicEffect + '\n' + '【謝幕曲】【死靈術' + Shadow + '】' + DeathShadow ;
 	if (abilty = 7) ReStr = ReStr + '【入場曲】' + '\n' + EnterEffect + '【謝幕曲】' + DeathEffect ;
 	if (abilty = 8) ReStr = ReStr + '【激奏' + RTOne + '】' + RushEffect + '\n' + '【入場曲】' + EnterEffect ;
