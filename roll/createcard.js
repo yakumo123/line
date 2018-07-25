@@ -17,19 +17,17 @@ function build7char(text01){
 	let Debuff = 0;
 	let AppDebuff = 0;
 	let EDUinc = 0;
-	let ConditionThreeArr = [1,2,3,4,5,6]
-	let ConditionThree = ConditionThreeArr[Math.floor((Math.random() * (ConditionThreeArr.length)) + 0)];
 	let craftArr = ['龍族','妖精','皇家','死靈','復仇者','血鬼','主教','法師'] 
 	let craft = craftArr[Math.floor((Math.random() * (craftArr.length)) + 0)];
 	let rureArr = ['青銅','白銀','黃金','傳說'] 
 	let rure = rureArr[Math.floor((Math.random() * (rureArr.length)) + 0)];
 	let ShadowArr = [1,2,3,4,5,6,7,8,9,10,11,12]
 	let Shadow = ShadowArr[Math.floor((Math.random() * (ShadowArr.length)) + 0)];
-	let DependArr = [1,2,3]	
+	let DependArr = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24]	
 	let Depend = DependArr[Math.floor((Math.random() * (DependArr.length)) + 0)];
 	let abiltyArr = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54]	
 	let abilty = abiltyArr[Math.floor((Math.random() * (abiltyArr.length)) + 0)];
-	let levelArr = [0,1,2]
+	let levelArr = [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34]
 	let level = levelArr[Math.floor((Math.random() * (levelArr.length)) + 0)];
 	let ATOneArr = [0,1]
 	let ATOne = ATOneArr[Math.floor((Math.random() * (ATOneArr.length)) + 0)];
@@ -178,7 +176,7 @@ if (level == 1) ReStr = ReStr + '【類型】：從者 【費用】：' + level 
 	if (level == 1 && abilty == 51) ReStr = ReStr + '【攻擊時】' + AttactEffect + '\n' + '【進化時】' + EvolutionEffect ;
 	if (level == 1 && abilty == 52) ReStr = ReStr + '【激奏' + RTOne + '】' + RushEffect + '\n' + '【進化時】' + EvolutionEffect ;
 	if (level == 1 && abilty == 53) ReStr = ReStr + '【進化時】' + EvolutionEffect ;
-	ReStr = ReStr + '\n' ;
+
 	if (level == 2) ReStr = ReStr + '【類型】：從者 【費用】：' + level + '\n【攻擊力】：' + ATTwo + '【血量】：' + HETwo + '\n' ;
 	if (level == 2 && abilty == 1) ReStr = ReStr + BasicEffect + '\n' + '【入場曲】' + EnterEffect ;
 	if (level == 2 && abilty == 2) ReStr = ReStr + BasicEffect + '\n' + '【謝幕曲】' + DeathEffect ;
@@ -233,7 +231,7 @@ if (level == 1) ReStr = ReStr + '【類型】：從者 【費用】：' + level 
 	if (level == 2 && abilty == 51) ReStr = ReStr + '【攻擊時】' + AttactEffect + '\n' + '【進化時】' + EvolutionEffect ;
 	if (level == 2 && abilty == 52) ReStr = ReStr + '【激奏' + RTTwo + '】' + RushEffect + '\n' + '【進化時】' + EvolutionEffect ;
 	if (level == 2 && abilty == 53) ReStr = ReStr + '【進化時】' + EvolutionEffect ;
-	ReStr = ReStr + '\n' ;
+	
 	if (level == 3) ReStr = ReStr + '【類型】：從者 【費用】：' + level + '\n【攻擊力】：' + ATThree + '【血量】：' + HEThree + '\n' ;
 	if (level == 3 && abilty == 1) ReStr = ReStr + BasicEffect + '\n' + '【入場曲】' + EnterEffect ;
 	if (level == 3 && abilty == 2) ReStr = ReStr + BasicEffect + '\n' + '【謝幕曲】' + DeathEffect ;
@@ -288,7 +286,7 @@ if (level == 1) ReStr = ReStr + '【類型】：從者 【費用】：' + level 
 	if (level == 3 && abilty == 51) ReStr = ReStr + '【攻擊時】' + AttactEffect + '\n' + '【進化時】' + EvolutionEffect ;
 	if (level == 3 && abilty == 52) ReStr = ReStr + '【激奏' + RTThree + '】' + RushEffect + '\n' + '【進化時】' + EvolutionEffect ;
 	if (level == 3 && abilty == 53) ReStr = ReStr + '【進化時】' + EvolutionEffect ;
-	ReStr = ReStr + '\n' ;
+	
 	if (level == 4) ReStr = ReStr + '【類型】：從者 【費用】：' + level + '\n【攻擊力】：' + ATFour + '【血量】：' + HEFour + '\n' ;
 	if (level == 4 && abilty == 1) ReStr = ReStr + BasicEffect + '\n' + '【入場曲】' + EnterEffect ;
 	if (level == 4 && abilty == 2) ReStr = ReStr + BasicEffect + '\n' + '【謝幕曲】' + DeathEffect ;
@@ -343,7 +341,7 @@ if (level == 1) ReStr = ReStr + '【類型】：從者 【費用】：' + level 
 	if (level == 4 && abilty == 51) ReStr = ReStr + '【攻擊時】' + AttactEffect + '\n' + '【進化時】' + EvolutionEffect ;
 	if (level == 4 && abilty == 52) ReStr = ReStr + '【激奏' + RTFour + '】' + RushEffect + '\n' + '【進化時】' + EvolutionEffect ;
 	if (level == 4 && abilty == 53) ReStr = ReStr + '【進化時】' + EvolutionEffect ;
-	ReStr = ReStr + '\n' ; 
+
 	if (level == 5) ReStr = ReStr + '【類型】：從者 【費用】：' + level + '\n【攻擊力】：' + ATFive + '【血量】：' + HEFive + '\n' ;
 	if (level == 5 && abilty == 1) ReStr = ReStr + BasicEffect + '\n' + '【入場曲】' + EnterEffect ;
 	if (level == 5 && abilty == 2) ReStr = ReStr + BasicEffect + '\n' + '【謝幕曲】' + DeathEffect ;
@@ -398,8 +396,8 @@ if (level == 1) ReStr = ReStr + '【類型】：從者 【費用】：' + level 
 	if (level == 5 && abilty == 51) ReStr = ReStr + '【攻擊時】' + AttactEffect + '\n' + '【進化時】' + EvolutionEffect ;
 	if (level == 5 && abilty == 52) ReStr = ReStr + '【激奏' + RTFive + '】' + RushEffect + '\n' + '【進化時】' + EvolutionEffect ;
 	if (level == 5 && abilty == 53) ReStr = ReStr + '【進化時】' + EvolutionEffect ;
-	ReStr = ReStr + '\n' ;
-	if (level == 6) ReStr = ReStr + ATSix + '【血量】：' + HESix + '\n' ;
+	
+	if (level == 6) ReStr = ReStr + '【類型】：從者 【費用】：' + level + '\n【攻擊力】：' + ATSix + '【血量】：' + HESix + '\n' ;
 	if (level == 6 && abilty == 1) ReStr = ReStr + BasicEffect + '\n' + '【入場曲】' + EnterEffect ;
 	if (level == 6 && abilty == 2) ReStr = ReStr + BasicEffect + '\n' + '【謝幕曲】' + DeathEffect ;
 	if (level == 6 && abilty == 3) ReStr = ReStr + '【激奏' + RTSix + '】' + RushEffect + '\n' + BasicEffect;
@@ -453,8 +451,8 @@ if (level == 1) ReStr = ReStr + '【類型】：從者 【費用】：' + level 
 	if (level == 6 && abilty == 51) ReStr = ReStr + '【攻擊時】' + AttactEffect + '\n' + '【進化時】' + EvolutionEffect ;
 	if (level == 6 && abilty == 52) ReStr = ReStr + '【激奏' + RTSix + '】' + RushEffect + '\n' + '【進化時】' + EvolutionEffect ;
 	if (level == 6 && abilty == 53) ReStr = ReStr + '【進化時】' + EvolutionEffect ;
-	ReStr = ReStr + '\n' ;
-	if (level == 7) ReStr = ReStr + ATSeven + '【血量】：' + HESeven + '\n' ;
+
+	if (level == 7) ReStr = ReStr + '【類型】：從者 【費用】：' + level + '\n【攻擊力】：' + ATSeven + '【血量】：' + HESeven + '\n' ;
 	if (level == 7 && abilty == 1) ReStr = ReStr + BasicEffect + '\n' + '【入場曲】' + EnterEffect ;
 	if (level == 7 && abilty == 2) ReStr = ReStr + BasicEffect + '\n' + '【謝幕曲】' + DeathEffect ;
 	if (level == 7 && abilty == 3) ReStr = ReStr + '【激奏' + RTSeven + '】' + RushEffect + '\n' + BasicEffect;
@@ -508,8 +506,8 @@ if (level == 1) ReStr = ReStr + '【類型】：從者 【費用】：' + level 
 	if (level == 7 && abilty == 51) ReStr = ReStr + '【攻擊時】' + AttactEffect + '\n' + '【進化時】' + EvolutionEffect ;
 	if (level == 7 && abilty == 52) ReStr = ReStr + '【激奏' + RTSeven + '】' + RushEffect + '\n' + '【進化時】' + EvolutionEffect ;
 	if (level == 7 && abilty == 53) ReStr = ReStr + '【進化時】' + EvolutionEffect ;
-	ReStr = ReStr + '\n' ;
-	if (level == 8) ReStr = ReStr + ATEight + '【血量】：' + HEEight + '\n' ;
+
+	if (level == 8) ReStr = ReStr + '【類型】：從者 【費用】：' + level + '\n【攻擊力】：' + ATEight + '【血量】：' + HEEight + '\n' ;
 	if (level == 8 && abilty == 1) ReStr = ReStr + BasicEffect + '\n' + '【入場曲】' + EnterEffect ;
 	if (level == 8 && abilty == 2) ReStr = ReStr + BasicEffect + '\n' + '【謝幕曲】' + DeathEffect ;
 	if (level == 8 && abilty == 3) ReStr = ReStr + '【激奏' + RTEight + '】' + RushEffect + '\n' + BasicEffect;
@@ -563,8 +561,8 @@ if (level == 1) ReStr = ReStr + '【類型】：從者 【費用】：' + level 
 	if (level == 8 && abilty == 51) ReStr = ReStr + '【攻擊時】' + AttactEffect + '\n' + '【進化時】' + EvolutionEffect ;
 	if (level == 8 && abilty == 52) ReStr = ReStr + '【激奏' + RTEight + '】' + RushEffect + '\n' + '【進化時】' + EvolutionEffect ;
 	if (level == 8 && abilty == 53) ReStr = ReStr + '【進化時】' + EvolutionEffect ;
-	if (level == 8 && abilty == 54) ReStr = ReStr + '\n' ;
-	if (level = 9) ReStr = ReStr + ATNine + '【血量】：' + HENine + '\n' ;
+	
+	if (level = 9) ReStr = ReStr + '【類型】：從者 【費用】：' + level + '\n【攻擊力】：' + ATNine + '【血量】：' + HENine + '\n' ;
 	if (level == 9 && abilty == 1) ReStr = ReStr + BasicEffect + '\n' + '【入場曲】' + EnterEffect ;
 	if (level == 9 && abilty == 2) ReStr = ReStr + BasicEffect + '\n' + '【謝幕曲】' + DeathEffect ;
 	if (level == 9 && abilty == 3) ReStr = ReStr + '【激奏' + RTNine + '】' + RushEffect + '\n' + BasicEffect;
@@ -618,8 +616,8 @@ if (level == 1) ReStr = ReStr + '【類型】：從者 【費用】：' + level 
 	if (level == 9 && abilty == 51) ReStr = ReStr + '【攻擊時】' + AttactEffect + '\n' + '【進化時】' + EvolutionEffect ;
 	if (level == 9 && abilty == 52) ReStr = ReStr + '【激奏' + RTNine + '】' + RushEffect + '\n' + '【進化時】' + EvolutionEffect ;
 	if (level == 9 && abilty == 53) ReStr = ReStr + '【進化時】' + EvolutionEffect ;
-	ReStr = ReStr + '\n' ;
-	if (level == 10) ReStr = ReStr + ATTen + '【血量】：' + HETen + '\n' ;
+
+	if (level == 10) ReStr = ReStr + '【類型】：從者 【費用】：' + level + '\n【攻擊力】：' + ATTen + '【血量】：' + HETen + '\n' ;
 	if (level == 10 && abilty = 1) ReStr = ReStr + BasicEffect + '\n' + '【入場曲】' + EnterEffect ;
 	if (level == 10 && abilty == 2) ReStr = ReStr + BasicEffect + '\n' + '【謝幕曲】' + DeathEffect ;
 	if (level == 10 && abilty == 3) ReStr = ReStr + '【激奏' + RTTen + '】' + RushEffect + '\n' + BasicEffect;
@@ -672,7 +670,33 @@ if (level == 1) ReStr = ReStr + '【類型】：從者 【費用】：' + level 
 	if (level == 10 && abilty == 51) ReStr = ReStr + '【攻擊時】' + AttactEffect + '\n' + '【進化時】' + EvolutionEffect ;
 	if (level == 10 && abilty == 52) ReStr = ReStr + '【激奏' + RTTen + '】' + RushEffect + '\n' + '【進化時】' + EvolutionEffect ;
 	if (level == 10 && abilty == 53) ReStr = ReStr + '【進化時】' + EvolutionEffect ;
-	ReStr = ReStr + '\n' ;
+	
+	if (Depend == 1 && level == 11) ReStr = ReStr + '【類型】：法術 【費用】：' + level + '\n' + RushEffect ;
+	if (Depend == 2 && level == 12) ReStr = ReStr + '【類型】：法術 【費用】：' + level + '\n' + RushEffect ;
+	if (Depend == 3 && level == 13) ReStr = ReStr + '【類型】：法術 【費用】：' + level + '\n' + RushEffect ;
+	if (Depend == 4 && level == 14) ReStr = ReStr + '【類型】：法術 【費用】：' + level + '\n' + RushEffect ;
+	if (Depend == 5 && level == 15) ReStr = ReStr + '【類型】：法術 【費用】：' + level + '\n' + RushEffect ;
+	if (Depend == 6 && level == 16) ReStr = ReStr + '【類型】：法術 【費用】：' + level + '\n' + RushEffect ;
+	if (Depend == 7 && level == 17) ReStr = ReStr + '【類型】：法術 【費用】：' + level + '\n' + RushEffect ;
+	if (Depend == 8 && level == 18) ReStr = ReStr + '【類型】：法術 【費用】：' + level + '\n' + RushEffect ;
+	if (Depend == 9 && level == 19) ReStr = ReStr + '【類型】：法術 【費用】：' + level + '\n' + RushEffect ;
+	if (Depend == 10 && level == 20) ReStr = ReStr + '【類型】：法術 【費用】：' + level + '\n' + RushEffect ;
+	if (Depend == 11 && level == 21) ReStr = ReStr + '【類型】：法術 【費用】：' + level + '\n' + RushEffect ;
+	if (Depend == 12 && level == 22) ReStr = ReStr + '【類型】：法術 【費用】：' + level + '\n' + RushEffect ;
+	
+	if (Depend == 13 && level == 23) ReStr = ReStr + '【入場曲】' + EnterEffect ;
+	if (Depend == 14 && level == 24) ReStr = ReStr + '【謝幕曲】' + DeathEffect ;
+	if (Depend == 15 && level == 25) ReStr = ReStr + '【入場曲】【死靈術' + Shadow + '】' + EnterShadow ;
+	if (Depend == 16 && level == 26) ReStr = ReStr + '【謝幕曲】【死靈術' + Shadow + '】 ;
+	if (Depend == 17 && level == 27) ReStr = ReStr + '【入場曲】【死靈術' + Shadow + '】' + EnterShadow + '\n' + '【謝幕曲】' + DeathEffect ;
+	if (Depend == 28 && level == 28) ReStr = ReStr + '【入場曲】' + EnterEffect + '\n' + '【謝幕曲】【死靈術' + Shadow + '】 ;
+	if (Depend == 19 && level == 29) ReStr = ReStr + '【入場曲】' + EnterEffect ;
+	if (Depend == 20 && level == 30) ReStr = ReStr + '【謝幕曲】' + DeathEffect ;
+	if (Depend == 21 && level == 31) ReStr = ReStr + '【入場曲】【死靈術' + Shadow + '】' + EnterShadow ;
+	if (Depend == 22 && level == 32) ReStr = ReStr + '【謝幕曲】【死靈術' + Shadow + '】 ;
+	if (Depend == 23 && level == 33) ReStr = ReStr + '【入場曲】【死靈術' + Shadow + '】' + EnterShadow + '\n' + '【謝幕曲】' + DeathEffect ;
+	if (Depend == 24 && level == 34) ReStr = ReStr + '【入場曲】' + EnterEffect + '\n' + '【謝幕曲】【死靈術' + Shadow + '】 ;
+
 
 
 	rply.text = ReStr;
