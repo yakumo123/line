@@ -117,7 +117,7 @@ function build7char(text01){
 	
 	
 	
-	for ( i=0 ; level >= levelArr[i] ; i ++){
+	for ( i=0 ; abilty >= abiltyArr[i] ; i ++){
 		Debuff = DebuffArr[i];
 		AppDebuff = AppDebuffArr[i];
 		EDUinc = EDUincArr[i];
@@ -232,7 +232,6 @@ function build7char(text01){
 	if (abilty = 52) ReStr = ReStr + '【激奏' + RTOne + '】' + RushEffect + '\n' + '【進化時】' + EvolutionEffect ;
 		else
 	if (abilty = 53) ReStr = ReStr + '【進化時】' + EvolutionEffect ;
-		else
 	ReStr = ReStr + '\n';
 	
 
