@@ -180,7 +180,7 @@ function build7char(text01){
 	if (abilty = 51) ReStr = ReStr + '【攻擊時】' + AttactEffect + '\n' + '【進化時】' + EvolutionEffect ;
 	if (abilty = 52) ReStr = ReStr + '【激奏' + RTOne + '】' + RushEffect + '\n' + '【進化時】' + EvolutionEffect ;
 	if (abilty = 53) ReStr = ReStr + '【進化時】' + EvolutionEffect ;
-	if (abilty = 54) ReStr = ReStr ;
+	if (abilty = 54) ReStr = ReStr + '\n' ;
 	else
 	if (level = 2) ReStr = ReStr + ATTwo + '【血量】：' + HETwo + '\n' ;
 	if (abilty = 1) ReStr = ReStr + BasicEffect + '\n' + '【入場曲】' + EnterEffect ;
@@ -236,7 +236,7 @@ function build7char(text01){
 	if (abilty = 51) ReStr = ReStr + '【攻擊時】' + AttactEffect + '\n' + '【進化時】' + EvolutionEffect ;
 	if (abilty = 52) ReStr = ReStr + '【激奏' + RTTwo + '】' + RushEffect + '\n' + '【進化時】' + EvolutionEffect ;
 	if (abilty = 53) ReStr = ReStr + '【進化時】' + EvolutionEffect ;
-	if (abilty = 54) ReStr = ReStr ;
+	if (abilty = 54) ReStr = ReStr + '\n' ;
 	else
 	if (level = 3) ReStr = ReStr + ATThree + '【血量】：' + HEThree + '\n' ;
 	if (abilty = 1) ReStr = ReStr + BasicEffect + '\n' + '【入場曲】' + EnterEffect ;
@@ -292,7 +292,7 @@ function build7char(text01){
 	if (abilty = 51) ReStr = ReStr + '【攻擊時】' + AttactEffect + '\n' + '【進化時】' + EvolutionEffect ;
 	if (abilty = 52) ReStr = ReStr + '【激奏' + RTThree + '】' + RushEffect + '\n' + '【進化時】' + EvolutionEffect ;
 	if (abilty = 53) ReStr = ReStr + '【進化時】' + EvolutionEffect ;
-	if (abilty = 54) ReStr = ReStr ;
+	if (abilty = 54) ReStr = ReStr + '\n' ;
 	else
 	if (level = 4) ReStr = ReStr + ATFour + '【血量】：' + HEFour + '\n' ;
 	if (abilty = 1) ReStr = ReStr + BasicEffect + '\n' + '【入場曲】' + EnterEffect ;
@@ -348,7 +348,7 @@ function build7char(text01){
 	if (abilty = 51) ReStr = ReStr + '【攻擊時】' + AttactEffect + '\n' + '【進化時】' + EvolutionEffect ;
 	if (abilty = 52) ReStr = ReStr + '【激奏' + RTFour + '】' + RushEffect + '\n' + '【進化時】' + EvolutionEffect ;
 	if (abilty = 53) ReStr = ReStr + '【進化時】' + EvolutionEffect ;
-	if (abilty = 54) ReStr = ReStr ;
+	if (abilty = 54) ReStr = ReStr + '\n' ;
 	else
 	if (level = 5) ReStr = ReStr + ATFive + '【血量】：' + HEFive + '\n' ;
 	if (abilty = 1) ReStr = ReStr + BasicEffect + '\n' + '【入場曲】' + EnterEffect ;
@@ -404,7 +404,7 @@ function build7char(text01){
 	if (abilty = 51) ReStr = ReStr + '【攻擊時】' + AttactEffect + '\n' + '【進化時】' + EvolutionEffect ;
 	if (abilty = 52) ReStr = ReStr + '【激奏' + RTFive + '】' + RushEffect + '\n' + '【進化時】' + EvolutionEffect ;
 	if (abilty = 53) ReStr = ReStr + '【進化時】' + EvolutionEffect ;
-	if (abilty = 54) ReStr = ReStr ;
+	if (abilty = 54) ReStr = ReStr + '\n' ;
 	else
 	if (level = 6) ReStr = ReStr + ATSix + '【血量】：' + HESix + '\n' ;
 	if (abilty = 1) ReStr = ReStr + BasicEffect + '\n' + '【入場曲】' + EnterEffect ;
@@ -460,7 +460,7 @@ function build7char(text01){
 	if (abilty = 51) ReStr = ReStr + '【攻擊時】' + AttactEffect + '\n' + '【進化時】' + EvolutionEffect ;
 	if (abilty = 52) ReStr = ReStr + '【激奏' + RTSix + '】' + RushEffect + '\n' + '【進化時】' + EvolutionEffect ;
 	if (abilty = 53) ReStr = ReStr + '【進化時】' + EvolutionEffect ;
-	if (abilty = 54) ReStr = ReStr ;
+	if (abilty = 54) ReStr = ReStr + '\n' ;
 	else
 	if (level = 7) ReStr = ReStr + ATSeven + '【血量】：' + HESeven + '\n' ;
 	if (abilty = 1) ReStr = ReStr + BasicEffect + '\n' + '【入場曲】' + EnterEffect ;
@@ -516,7 +516,7 @@ function build7char(text01){
 	if (abilty = 51) ReStr = ReStr + '【攻擊時】' + AttactEffect + '\n' + '【進化時】' + EvolutionEffect ;
 	if (abilty = 52) ReStr = ReStr + '【激奏' + RTSeven + '】' + RushEffect + '\n' + '【進化時】' + EvolutionEffect ;
 	if (abilty = 53) ReStr = ReStr + '【進化時】' + EvolutionEffect ;
-	if (abilty = 54) ReStr = ReStr ;
+	if (abilty = 54) ReStr = ReStr + '\n' ;
 	else
 	if (level = 8) ReStr = ReStr + ATEight + '【血量】：' + HEEight + '\n' ;
 	if (abilty = 1) ReStr = ReStr + BasicEffect + '\n' + '【入場曲】' + EnterEffect ;
@@ -572,7 +572,7 @@ function build7char(text01){
 	if (abilty = 51) ReStr = ReStr + '【攻擊時】' + AttactEffect + '\n' + '【進化時】' + EvolutionEffect ;
 	if (abilty = 52) ReStr = ReStr + '【激奏' + RTEight + '】' + RushEffect + '\n' + '【進化時】' + EvolutionEffect ;
 	if (abilty = 53) ReStr = ReStr + '【進化時】' + EvolutionEffect ;
-	if (abilty = 54) ReStr = ReStr ;
+	if (abilty = 54) ReStr = ReStr + '\n' ;
 	else
 	if (level = 9) ReStr = ReStr + ATNine + '【血量】：' + HENine + '\n' ;
 	if (abilty = 1) ReStr = ReStr + BasicEffect + '\n' + '【入場曲】' + EnterEffect ;
@@ -628,7 +628,7 @@ function build7char(text01){
 	if (abilty = 51) ReStr = ReStr + '【攻擊時】' + AttactEffect + '\n' + '【進化時】' + EvolutionEffect ;
 	if (abilty = 52) ReStr = ReStr + '【激奏' + RTNine + '】' + RushEffect + '\n' + '【進化時】' + EvolutionEffect ;
 	if (abilty = 53) ReStr = ReStr + '【進化時】' + EvolutionEffect ;
-	if (abilty = 54) ReStr = ReStr ;
+	if (abilty = 54) ReStr = ReStr + '\n' ;
 	else
 	if (level = 10) ReStr = ReStr + ATTen + '【血量】：' + HETen + '\n' ;
 	if (abilty = 1) ReStr = ReStr + BasicEffect + '\n' + '【入場曲】' + EnterEffect ;
@@ -684,7 +684,7 @@ function build7char(text01){
 	if (abilty = 51) ReStr = ReStr + '【攻擊時】' + AttactEffect + '\n' + '【進化時】' + EvolutionEffect ;
 	if (abilty = 52) ReStr = ReStr + '【激奏' + RTTen + '】' + RushEffect + '\n' + '【進化時】' + EvolutionEffect ;
 	if (abilty = 53) ReStr = ReStr + '【進化時】' + EvolutionEffect ;
-	if (abilty = 54) ReStr = ReStr ;
+	if (abilty = 54) ReStr = ReStr + '\n' ;
 	
 
 	rply.text = ReStr;
