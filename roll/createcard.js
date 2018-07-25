@@ -55,6 +55,7 @@ function build7char(text01){
 	}
 	ReStr = ReStr + '\n==' + '\n【等級】：' + level ;
 	if (Depend = 1) ReStr = ReStr + '\n【基本技能】' + BasicSkillOT + '\n【進階技能】' + AdvSkillOT ;
+	
 	else
 	if (Depend = 2)	ReStr = ReStr + '\n【基本技能】' + BasicSkillTF + '\n【進階技能】' + AdvSkillTF ;
 	else
