@@ -17,6 +17,10 @@ function build7char(text01){
 	let Debuff = 0;
 	let AppDebuff = 0;
 	let EDUinc = 0;
+	let craftArr = ['龍族','妖精','皇家','死靈','復仇者','血鬼','主教','法師'] 
+	let craft = craftArr[Math.floor((Math.random() * (craftArr.length)) + 0)];
+	let rureArr = ['青銅','白銀','黃金','傳說'] 
+	let rure = rureArr[Math.floor((Math.random() * (rureArr.length)) + 0)];
 	let ShadowArr = [1,2,3,4,5,6,7,8,9,10,11,12]
 	let DependArr = [1,2,3]	
 	let Depend = DependArr[Math.floor((Math.random() * (DependArr.length)) + 0)];
@@ -99,10 +103,10 @@ function build7char(text01){
 		AppDebuff = AppDebuffArr[i];
 		EDUinc = EDUincArr[i];
 	}
-	ReStr = ReStr + '\n==' + '\n【等級】：' + level ;
-	if (Depend = 1) ReStr = ReStr + '【從者】' ;
-	ReStr = ReStr + 'SIZ:';
-	if (level = 1) ReStr = ReStr + '基本 入場' ;
+	ReStr = ReStr + '【職業】：' + craft + '【稀有度】：' + rure + '\n';
+	if (Depend = 1) ReStr = ReStr + '【類型】：從者' ;
+	ReStr = ReStr + '【攻擊力】：' ;
+	if (level = 1) ReStr = ReStr + '【血量】' ;
 	if (level = 2) ReStr = ReStr + '基本 謝幕' ;
 	if (level = 3) ReStr = ReStr + '基本 激奏' ;
 	if (level = 4) ReStr = ReStr + '基本 回合結束' ;
