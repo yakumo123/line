@@ -92,6 +92,15 @@ function build7char(text01){
 	if (abilty = 32) ReStr = ReStr + '攻擊 謝幕死靈' ;
 	if (abilty = 33) ReStr = ReStr + '交戰 基本' ;
 	if (abilty = 34) ReStr = ReStr + '攻擊 基本' ;
+	if (abilty = 35) ReStr = ReStr + '基本' ;
+	if (abilty = 36) ReStr = ReStr + '入場' ;
+	if (abilty = 37) ReStr = ReStr + '謝幕' ;
+	if (abilty = 38) ReStr = ReStr + '回合結束' ;
+	if (abilty = 39) ReStr = ReStr + '入場死' ;
+	if (abilty = 40) ReStr = ReStr + '謝幕死' ;
+	if (abilty = 41) ReStr = ReStr + '攻擊時' ;
+	if (abilty = 42) ReStr = ReStr + '交戰' ;
+	if (abilty = 43) ReStr = ReStr + '激奏' ;
 
 
 
