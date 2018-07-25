@@ -169,7 +169,7 @@ function build7char(text01){
 	if (abilty = 40) ReStr = ReStr + '【謝幕曲】【死靈術' + Shadow + '】' ;
 	if (abilty = 41) ReStr = ReStr + '【攻擊時】' + AttactEffect ;
 	if (abilty = 42) ReStr = ReStr + '【交戰時】' + InteractionEffect ;
-	if (abilty = 43) ReStr = ReStr + '【激奏' + RTOne + '】' + RushEffect' ;
+	if (abilty = 43) ReStr = ReStr + '【激奏' + RTOne + '】' + RushEffect ;
 	if (abilty = 44) ReStr = ReStr + BasicEffect + '\n' + '【進化時】' + EvolutionEffect ;
 	if (abilty = 45) ReStr = ReStr + '【入場曲】' + EnterEffect + '\n' + '【進化時】' + EvolutionEffect ;
 	if (abilty = 46) ReStr = ReStr + '【進化時】' + EvolutionEffect + '\n' + '【謝幕曲】' + DeathEffect ;
