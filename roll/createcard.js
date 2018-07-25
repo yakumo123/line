@@ -78,20 +78,20 @@ function build7char(text01){
 	if (abilty = 18) ReStr = ReStr + '回合結束 謝幕死靈' ;
 	if (abilty = 19) ReStr = ReStr + '入場死靈 謝幕死靈' ;
 	if (abilty = 20) ReStr = ReStr + '天盾only' ;
-	if (abilty = 21) ReStr = ReStr + '' ;	
-	if (abilty = 22) ReStr = ReStr + '' ;
-	if (abilty = 23) ReStr = ReStr + '' ;
-	if (abilty = 24) ReStr = ReStr + '' ;
-	if (abilty = 25) ReStr = ReStr + '' ;
-	if (abilty = 26) ReStr = ReStr + '' ;
-	if (abilty = 27) ReStr = ReStr + '' ;
-	if (abilty = 28) ReStr = ReStr + '' ;
-	if (abilty = 29) ReStr = ReStr + '' ;
-	if (abilty = 30) ReStr = ReStr + '' ;
-	if (abilty = 31) ReStr = ReStr + '' ;
-	if (abilty = 32) ReStr = ReStr + '' ;
-	if (abilty = 33) ReStr = ReStr + '' ;
-	if (abilty = 34) ReStr = ReStr + '' ;
+	if (abilty = 21) ReStr = ReStr + '交戰時 入場' ;	
+	if (abilty = 22) ReStr = ReStr + '交戰 謝幕' ;
+	if (abilty = 23) ReStr = ReStr + '交戰 激奏' ;
+	if (abilty = 24) ReStr = ReStr + '交戰 回合' ;
+	if (abilty = 25) ReStr = ReStr + '交戰 入場死靈' ;
+	if (abilty = 26) ReStr = ReStr + '交戰 謝幕死靈' ;
+	if (abilty = 27) ReStr = ReStr + '攻擊 入場' ;
+	if (abilty = 28) ReStr = ReStr + '攻擊 謝幕' ;
+	if (abilty = 29) ReStr = ReStr + '攻擊 激奏' ;
+	if (abilty = 30) ReStr = ReStr + '攻擊 回合' ;
+	if (abilty = 31) ReStr = ReStr + '攻擊 入場死靈' ;
+	if (abilty = 32) ReStr = ReStr + '攻擊 謝幕死靈' ;
+	if (abilty = 33) ReStr = ReStr + '交戰 基本' ;
+	if (abilty = 34) ReStr = ReStr + '攻擊 基本' ;
 
 
 
