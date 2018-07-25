@@ -31,6 +31,8 @@ function build7char(text01){
 	let abilty = abiltyArr[Math.floor((Math.random() * (abiltyArr.length)) + 0)];
 	let levelArr = [0,1,2,3,4,5,6,7,8,9,10]
 	let level = levelArr[Math.floor((Math.random() * (levelArr.length)) + 0)];
+	let levArr = [0,1,2,3,4,5,6,7,8,9,10]
+	let lev = levArr[Math.floor((Math.random() * (levArr.length)) + 0)];
 	let ATOneArr = [0,1]
 	let ATOne = ATOneArr[Math.floor((Math.random() * (ATOneArr.length)) + 0)];
 	let ATTwoArr = [0,1,2]
@@ -127,8 +129,8 @@ function build7char(text01){
 	ReStr = ReStr + '【類型】：從者 【費用】：' + level ;
 	ReStr = ReStr + '\n【攻擊力】：' ;
 	ReStr = ReStr + ATOne + '【血量】：' + HEOne + '\n' ;
-	if (level = 1 && abilty = 1) ReStr = ReStr + BasicEffect + '\n' + '【入場曲】' + EnterEffect ;
-	if (level = 1 && abilty = 2) ReStr = ReStr + BasicEffect + '\n' + '【謝幕曲】' + DeathEffect ;
+	if (lev = 1 && abilty = 1) ReStr = ReStr + BasicEffect + '\n' + '【入場曲】' + EnterEffect ;
+	if (lev = 1 && abilty = 2) ReStr = ReStr + BasicEffect + '\n' + '【謝幕曲】' + DeathEffect ;
 
 	ReStr = ReStr + '~~' ;
 
