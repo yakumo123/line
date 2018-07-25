@@ -5,7 +5,7 @@ function build7char(text01){
 	let old ="";
 	let ReStr = '【';
 	if (text01 == undefined) {
-	old = 沒有預設值;
+	old = '八雲的未知卡片＜沒有預設＞';
 	ReStr = ReStr + old + '】';
 	}
 	else 
@@ -19,6 +19,8 @@ function build7char(text01){
 	let EDUinc = 0;
 	let DependArr = [1,2,3]	
 	let Depend = DependArr[Math.floor((Math.random() * (DependArr.length)) + 0)];
+	let abiltyArr = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20]	
+	let abiltyArr = abiltyArr[Math.floor((Math.random() * (abiltyArr.length)) + 0)];
 	let levelArr = [0,1,2,3,4,5,6,7,8,9,10]
 	let level = levelArr[Math.floor((Math.random() * (levelArr.length)) + 0)];
 	let ATOneArr = [0,1]
@@ -54,7 +56,8 @@ function build7char(text01){
 		EDUinc = EDUincArr[i];
 	}
 	ReStr = ReStr + '\n==' + '\n【等級】：' + level ;
-	if (Depend = 1) ReStr = ReStr + '\n【基本技能】' + BasicSkillOT + '\n【進階技能】' + AdvSkillOT ;
+	if (Depend = 1) ReStr = ReStr + '【從者】' + BasicSkillOT + '\n【進階技能】' + AdvSkillOT ;
+	ReStr = ReStr + '\n' ;
 	
 	else
 	if (Depend = 2)	ReStr = ReStr + '\n【基本技能】' + BasicSkillTF + '\n【進階技能】' + AdvSkillTF ;
