@@ -58,26 +58,26 @@ function build7char(text01){
 	ReStr = ReStr + '\n==' + '\n【等級】：' + level ;
 	if (Depend = 1) ReStr = ReStr + '【從者】' + BasicSkillOT + '\n【進階技能】' + AdvSkillOT ;
 	ReStr = ReStr + '\n' ;
-	if (abilty = 1) ReStr = ReStr + '' ;
-	if (abilty = 2) ReStr = ReStr + '' ;
-	if (abilty = 3) ReStr = ReStr + '' ;
-	if (abilty = 4) ReStr = ReStr + '' ;
-	if (abilty = 5) ReStr = ReStr + '' ;
-	if (abilty = 6) ReStr = ReStr + '' ;
-	if (abilty = 7) ReStr = ReStr + '' ;
-	if (abilty = 8) ReStr = ReStr + '' ;
-	if (abilty = 9) ReStr = ReStr + '' ;
-	if (abilty = 10) ReStr = ReStr + '' ;
-	if (abilty = 11) ReStr = ReStr + '' ;
-	if (abilty = 12) ReStr = ReStr + '' ;	
-	if (abilty = 13) ReStr = ReStr + '' ;
-	if (abilty = 14) ReStr = ReStr + '' ;
-	if (abilty = 15) ReStr = ReStr + '' ;
-	if (abilty = 16) ReStr = ReStr + '' ;
-	if (abilty = 17) ReStr = ReStr + '' ;
-	if (abilty = 18) ReStr = ReStr + '' ;
-	if (abilty = 19) ReStr = ReStr + '' ;
-	if (abilty = 20) ReStr = ReStr + '' ;
+	if (abilty = 1) ReStr = ReStr + '基本 入場' ;
+	if (abilty = 2) ReStr = ReStr + '基本 謝幕' ;
+	if (abilty = 3) ReStr = ReStr + '基本 激奏' ;
+	if (abilty = 4) ReStr = ReStr + '基本 回合結束' ;
+	if (abilty = 5) ReStr = ReStr + '基本 入場死靈' ;
+	if (abilty = 6) ReStr = ReStr + '基本 謝幕死靈' ;
+	if (abilty = 7) ReStr = ReStr + '入場 謝幕' ;
+	if (abilty = 8) ReStr = ReStr + '入場激奏' ;
+	if (abilty = 9) ReStr = ReStr + '入場 回合結束' ;
+	if (abilty = 10) ReStr = ReStr + '入場 謝幕死靈' ;
+	if (abilty = 11) ReStr = ReStr + '謝幕 激奏' ;
+	if (abilty = 12) ReStr = ReStr + '謝幕 回合結束' ;	
+	if (abilty = 13) ReStr = ReStr + '謝幕入場死靈' ;
+	if (abilty = 14) ReStr = ReStr + '激奏 回合結束' ;
+	if (abilty = 15) ReStr = ReStr + '激奏 入場死靈' ;
+	if (abilty = 16) ReStr = ReStr + '激奏 謝幕死靈' ;
+	if (abilty = 17) ReStr = ReStr + '回合結束 入場死靈' ;
+	if (abilty = 18) ReStr = ReStr + '回合結束 謝幕死靈' ;
+	if (abilty = 19) ReStr = ReStr + '入場死靈 謝幕死靈' ;
+	if (abilty = 20) ReStr = ReStr + '天盾only' ;
 
 
 	
