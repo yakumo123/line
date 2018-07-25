@@ -129,8 +129,8 @@ function build7char(text01){
 	ReStr = ReStr + '【類型】：從者 【費用】：' + level ;
 	ReStr = ReStr + '\n【攻擊力】：' ;
 	ReStr = ReStr + ATOne + '【血量】：' + HEOne + '\n' ;
-	if (lev = 1 && abilty = 1) ReStr = ReStr + BasicEffect + '\n' + '【入場曲】' + EnterEffect ;
-	if (lev = 1 && abilty = 2) ReStr = ReStr + BasicEffect + '\n' + '【謝幕曲】' + DeathEffect ;
+	if (abilty = 1) ReStr = ReStr + BasicEffect + '\n' + '【入場曲】' + EnterEffect ;
+	if (abilty = 2) ReStr = ReStr + BasicEffect + '\n' + '【謝幕曲】' + DeathEffect ;
 
 	ReStr = ReStr + '~~' ;
 
