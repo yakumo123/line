@@ -49,9 +49,8 @@ function build7char(text01){
 	let ATNine= ATNineArr[Math.floor((Math.random() * (ATNineArr.length)) + 0)];
 	let ATTenArr = [7,8,9,10,11,12,13]
 	let ATTen= ATTenArr[Math.floor((Math.random() * (ATTenArr.length)) + 0)];
-	let HEOneArr = [0,1]
-	let HEOne = HEOneArr[Math.floor((Math.random() * (HEOneArr.length)) + 0)];
-	let HETwoArr = [0,1,2]
+	let HEOneArr = 1;
+	let HETwoArr = [1,2]
 	let HETwo = HETwoArr[Math.floor((Math.random() * (HETwoArr.length)) + 0)];
 	let HEThreeArr = [1,2,3]
 	let HEThree = HEThreeArr[Math.floor((Math.random() * (HEThreeArr.length)) + 0)];
