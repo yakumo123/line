@@ -5,7 +5,7 @@ function build7char(text01){
 	let old ="";
 	let ReStr = '【';
 	if (text01 == undefined) {
-	old = '八雲的未知卡片＜沒有預設＞';
+	old = 0;
 	ReStr = ReStr + old + '】\n';
 	}
 	else 
