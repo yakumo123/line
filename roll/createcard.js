@@ -17,6 +17,7 @@ function build7char(text01){
 	let Debuff = 0;
 	let AppDebuff = 0;
 	let EDUinc = 0;
+	let ShadowArr = [1,2,3,4,5,6,7,8,9,10,11,12]
 	let DependArr = [1,2,3]	
 	let Depend = DependArr[Math.floor((Math.random() * (DependArr.length)) + 0)];
 	let abiltyArr = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20]	
@@ -101,7 +102,17 @@ function build7char(text01){
 	if (abilty = 41) ReStr = ReStr + '攻擊時' ;
 	if (abilty = 42) ReStr = ReStr + '交戰' ;
 	if (abilty = 43) ReStr = ReStr + '激奏' ;
-
+	if (abilty = 44) ReStr = ReStr + '進化 基本' ;
+	if (abilty = 45) ReStr = ReStr + '進化 入場' ;
+	if (abilty = 46) ReStr = ReStr + '進化 謝幕' ;
+	if (abilty = 47) ReStr = ReStr + '進化 回合結束' ;
+	if (abilty = 48) ReStr = ReStr + '進化 入場死' ;
+	if (abilty = 49) ReStr = ReStr + '進化 謝幕死' ;
+	if (abilty = 50) ReStr = ReStr + '進化 交戰' ;
+	if (abilty = 51) ReStr = ReStr + '進化 攻擊時' ;
+	if (abilty = 52) ReStr = ReStr + '進 激' ;
+	if (abilty = 53) ReStr = ReStr + '進化' ;
+	if (abilty = 54) ReStr = ReStr + '白板' ;
 
 
 	
