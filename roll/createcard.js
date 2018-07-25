@@ -6,7 +6,7 @@ function build7char(text01){
 	let ReStr = '【';
 	if (text01 == undefined) {
 	old = '八雲的未知卡片＜沒有預設＞';
-	ReStr = ReStr + old + '】';
+	ReStr = ReStr + old + '】\n';
 	}
 	else 
 	{
@@ -106,9 +106,9 @@ function build7char(text01){
 
 	
 	else
-	if (Depend = 2)	ReStr = ReStr + '\n【基本技能】' + BasicSkillTF + '\n【進階技能】' + AdvSkillTF ;
+	if (Depend = 2)	ReStr = ReStr + '【法術】'  ;
 	else
-	if (Depend = 3)	ReStr = ReStr + '\n【基本技能】' + BasicSkillFE + '\n【進階技能】' + AdvSkillFE ;
+	if (Depend = 3)	ReStr = ReStr + '\n【護符】' ;
 	
 	ReStr = ReStr + '\n【力量】：';
 	if (level < 10) ReStr = ReStr + rollbase.BuildDiceCal('1d10*2') ;
