@@ -44,6 +44,49 @@ function build7char(text01){
 	let ATNine= ATNineArr[Math.floor((Math.random() * (ATNineArr.length)) + 0)];
 	let ATTenArr = [7,8,9,10,11,12,13]
 	let ATTen= ATTenArr[Math.floor((Math.random() * (ATTenArr.length)) + 0)];
+	let HEOneArr = [0,1]
+	let HEOne = HEOneArr[Math.floor((Math.random() * (HEOneArr.length)) + 0)];
+	let HETwoArr = [0,1,2]
+	let HETwo = HETwoArr[Math.floor((Math.random() * (HETwoArr.length)) + 0)];
+	let HEThreeArr = [1,2,3]
+	let HEThree = HEThreeArr[Math.floor((Math.random() * (HEThreeArr.length)) + 0)];
+	let HEFourArr = [2,3,4]
+	let HEFour = HEFourArr[Math.floor((Math.random() * (HEFourArr.length)) + 0)];
+	let HEFiveArr = [2,3,4,5]
+	let HEFive = HEFiveArr[Math.floor((Math.random() * (HEFiveArr.length)) + 0)];
+	let HESixArr = [2,3,4,5,6]
+	let HESix = HESixArr[Math.floor((Math.random() * (HESixArr.length)) + 0)];
+	let HESevenArr = [3,4,5,6,7]
+	let HESeven= HESevenArr[Math.floor((Math.random() * (HESevenArr.length)) + 0)];
+	let HEEightArr = [4,5,6,7,8]
+	let HEEight= HEEightArr[Math.floor((Math.random() * (HEEightArr.length)) + 0)];
+	let HENineArr = [5,6,7,8,9]
+	let HENine= HENineArr[Math.floor((Math.random() * (HENineArr.length)) + 0)];
+	let HETenArr = [7,8,9,10,11,12,13]
+	let HETen= HETenArr[Math.floor((Math.random() * (HETenArr.length)) + 0)];
+	let RTThreeArr = [1,2]
+	let RTThree = RTThreeArr[Math.floor((Math.random() * (RTThreeArr.length)) + 0)];
+	let RTFourArr = [1,2,3]
+	let RTFour = RTFourArr[Math.floor((Math.random() * (RTFourArr.length)) + 0)];
+	let RTFiveArr = [1,2,3,4]
+	let RTFive = RTFiveArr[Math.floor((Math.random() * (RTFiveArr.length)) + 0)];
+	let RTSixArr = [1,2,3,4,5]
+	let RTSix = RTSixArr[Math.floor((Math.random() * (RTSixArr.length)) + 0)];
+	let RTSevenArr = [1,2,3,4,5,6]
+	let RTSeven= RTSevenArr[Math.floor((Math.random() * (RTSevenArr.length)) + 0)];
+	let RTEightArr = [1,2,3,4,5,6,7]
+	let RTEight= RTEightArr[Math.floor((Math.random() * (RTEightArr.length)) + 0)];
+	let RTNineArr = [1,2,3,4,5,6,7,8]
+	let RTNine= RTNineArr[Math.floor((Math.random() * (RTNineArr.length)) + 0)];
+	let RTTenArr = [1,2,3,4,5,6,7,8,9]
+	let RTTen= RTTenArr[Math.floor((Math.random() * (RTTenArr.length)) + 0)];
+
+
+
+
+
+
+
 	let oldArr = [15,20,40,50,60,70,80]
 	let DebuffArr = [5,0,5,10,20,40,80]
 	let AppDebuffArr = [0,0,5,10,15,20,25]
@@ -57,7 +100,18 @@ function build7char(text01){
 		EDUinc = EDUincArr[i];
 	}
 	ReStr = ReStr + '\n==' + '\n【等級】：' + level ;
-	if (Depend = 1) ReStr = ReStr + '【從者】' + BasicSkillOT + '\n【進階技能】' + AdvSkillOT ;
+	if (Depend = 1) ReStr = ReStr + '【從者】' ;
+	ReStr = ReStr + 'SIZ:';
+	if (level = 1) ReStr = ReStr + '基本 入場' ;
+	if (level = 2) ReStr = ReStr + '基本 謝幕' ;
+	if (level = 3) ReStr = ReStr + '基本 激奏' ;
+	if (level = 4) ReStr = ReStr + '基本 回合結束' ;
+	if (level = 5) ReStr = ReStr + '基本 入場死靈' ;
+	if (level = 6) ReStr = ReStr + '基本 謝幕死靈' ;
+	if (level = 7) ReStr = ReStr + '入場 謝幕' ;
+	if (level = 8) ReStr = ReStr + '入場激奏' ;
+	if (level = 9) ReStr = ReStr + '入場 回合結束' ;
+	if (level = 10) ReStr = ReStr + '入場 謝幕死靈' ;
 	ReStr = ReStr + '\n' ;
 	if (abilty = 1) ReStr = ReStr + '基本 入場' ;
 	if (abilty = 2) ReStr = ReStr + '基本 謝幕' ;
