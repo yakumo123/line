@@ -84,13 +84,6 @@ function build7char(text01){
 	let RTNine= RTNineArr[Math.floor((Math.random() * (RTNineArr.length)) + 0)];
 	let RTTenArr = [1,2,3,4,5,6,7,8,9]
 	let RTTen= RTTenArr[Math.floor((Math.random() * (RTTenArr.length)) + 0)];
-
-
-
-
-
-
-
 	let oldArr = [15,20,40,50,60,70,80]
 	let DebuffArr = [5,0,5,10,20,40,80]
 	let AppDebuffArr = [0,0,5,10,15,20,25]
@@ -106,16 +99,20 @@ function build7char(text01){
 	ReStr = ReStr + '【職業】：' + craft + '【稀有度】：' + rure + '\n';
 	if (Depend = 1) ReStr = ReStr + '【類型】：從者' ;
 	ReStr = ReStr + '【攻擊力】：' ;
-	if (level = 1) ReStr = ReStr + '【血量】' ;
-	if (level = 2) ReStr = ReStr + '基本 謝幕' ;
-	if (level = 3) ReStr = ReStr + '基本 激奏' ;
-	if (level = 4) ReStr = ReStr + '基本 回合結束' ;
-	if (level = 5) ReStr = ReStr + '基本 入場死靈' ;
-	if (level = 6) ReStr = ReStr + '基本 謝幕死靈' ;
-	if (level = 7) ReStr = ReStr + '入場 謝幕' ;
-	if (level = 8) ReStr = ReStr + '入場激奏' ;
-	if (level = 9) ReStr = ReStr + '入場 回合結束' ;
-	if (level = 10) ReStr = ReStr + '入場 謝幕死靈' ;
+	if (level = 1) ReStr = ReStr + ATOne + '【血量】：' + HEOne + '\n' ;
+	
+	else
+	if (level = 2) ReStr = ReStr + ATTwo + '【血量】：' + HETwo + '\n' ;
+	
+	
+	if (level = 3) ReStr = ReStr + ATThree + '【血量】：' + HEThree + '\n' ;
+	if (level = 4) ReStr = ReStr + ATFour + '【血量】：' + HEFour + '\n' ;
+	if (level = 5) ReStr = ReStr + ATFive + '【血量】：' + HEFive + '\n' ;
+	if (level = 6) ReStr = ReStr + ATSix + '【血量】：' + HESix + '\n' ;
+	if (level = 7) ReStr = ReStr + ATSeven + '【血量】：' + HESeven + '\n' ;
+	if (level = 8) ReStr = ReStr + ATEight + '【血量】：' + HEEight + '\n' ;
+	if (level = 9) ReStr = ReStr + ATNine + '【血量】：' + HENine + '\n' ;
+	if (level = 10) ReStr = ReStr + ATTen + '【血量】：' + HETen + '\n' ;
 	ReStr = ReStr + '\n' ;
 	if (abilty = 1) ReStr = ReStr + '基本 入場' ;
 	if (abilty = 2) ReStr = ReStr + '基本 謝幕' ;
