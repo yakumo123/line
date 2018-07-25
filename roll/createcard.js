@@ -23,11 +23,11 @@ function build7char(text01){
 	let rure = rureArr[Math.floor((Math.random() * (rureArr.length)) + 0)];
 	let ShadowArr = [1,2,3,4,5,6,7,8,9,10,11,12]
 	let Shadow = ShadowArr[Math.floor((Math.random() * (ShadowArr.length)) + 0)];
-	let DependArr = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24]	
+	let DependArr = [1,2,3,4,5,6,7,8,9,10]	
 	let Depend = DependArr[Math.floor((Math.random() * (DependArr.length)) + 0)];
 	let abiltyArr = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54]	
 	let abilty = abiltyArr[Math.floor((Math.random() * (abiltyArr.length)) + 0)];
-	let levelArr = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20]
+	let levelArr = [1,2,3,4,5,6,7,8,9,10,11,11,11,11,11,11,11,11,11,11]
 	let level = levelArr[Math.floor((Math.random() * (levelArr.length)) + 0)];
 	let ATOneArr = [0,1]
 	let ATOne = ATOneArr[Math.floor((Math.random() * (ATOneArr.length)) + 0)];
@@ -672,15 +672,15 @@ function build7char(text01){
 	if (level == 10 && abilty == 53) ReStr = ReStr + '【進化時】' + EvolutionEffect ;
 
 	if (Depend == 1 && level == 11) ReStr = ReStr + '【類型】：法術 【費用】：' + level + '\n' + RushEffect ;
-	if (Depend == 2 && level == 12) ReStr = ReStr + '【類型】：法術 【費用】：' + level + '\n' + RushEffect ;
-	if (Depend == 3 && level == 13) ReStr = ReStr + '【類型】：法術 【費用】：' + level + '\n' + RushEffect ;
-	if (Depend == 4 && level == 14) ReStr = ReStr + '【類型】：法術 【費用】：' + level + '\n' + RushEffect ;
-	if (Depend == 5 && level == 15) ReStr = ReStr + '【入場曲】' + EnterEffect ;
-	if (Depend == 6 && level == 16) ReStr = ReStr + '【謝幕曲】' + DeathEffect ;
-	if (Depend == 7 && level == 17) ReStr = ReStr + '【入場曲】【死靈術' + Shadow + '】' + EnterShadow ;
-	if (Depend == 8 && level == 18) ReStr = ReStr + '【謝幕曲】【死靈術' + Shadow + '】' ;
-	if (Depend == 9 && level == 19) ReStr = ReStr + '【入場曲】【死靈術' + Shadow + '】' + EnterShadow + '\n' + '【謝幕曲】' + DeathEffect ;
-	if (Depend == 10 && level == 20) ReStr = ReStr + '【入場曲】' + EnterEffect + '\n' + '【謝幕曲】【死靈術' + Shadow + '】' ;
+	if (Depend == 2 && level == 11) ReStr = ReStr + '【類型】：法術 【費用】：' + level + '\n' + RushEffect ;
+	if (Depend == 3 && level == 11) ReStr = ReStr + '【類型】：法術 【費用】：' + level + '\n' + RushEffect ;
+	if (Depend == 4 && level == 11) ReStr = ReStr + '【類型】：法術 【費用】：' + level + '\n' + RushEffect ;
+	if (Depend == 5 && level == 11) ReStr = ReStr + '【入場曲】' + EnterEffect ;
+	if (Depend == 6 && level == 11) ReStr = ReStr + '【謝幕曲】' + DeathEffect ;
+	if (Depend == 7 && level == 11) ReStr = ReStr + '【入場曲】【死靈術' + Shadow + '】' + EnterShadow ;
+	if (Depend == 8 && level == 11) ReStr = ReStr + '【謝幕曲】【死靈術' + Shadow + '】' ;
+	if (Depend == 9 && level == 11) ReStr = ReStr + '【入場曲】【死靈術' + Shadow + '】' + EnterShadow + '\n' + '【謝幕曲】' + DeathEffect ;
+	if (Depend == 10 && level == 11) ReStr = ReStr + '【入場曲】' + EnterEffect + '\n' + '【謝幕曲】【死靈術' + Shadow + '】' ;
 
 
 
