@@ -417,7 +417,7 @@ function build7char(text01){
 	if (level == 6 && abilty == 16) ReStr = ReStr + '【激奏' + RTSix + '】' + RushEffect + '\n' + '【謝幕曲】【死靈術' + Shadow + '】' + DeathShadow ;
 	if (level == 6 && abilty == 17) ReStr = ReStr + '【入場曲】【死靈術' + Shadow + '】' + EnterShadow + '\n' + '回合結束時' + EndEffect ;
 	if (level == 6 && abilty == 18) ReStr = ReStr + '回合結束時' + EndEffect + '\n' + '【謝幕曲】【死靈術' + Shadow + '】' + DeathShadow;
-	if (level == 6 && abilty == 19) ReStr = ReStr + '入場死靈 謝幕死靈' + '\n' + '【謝幕曲】【死靈術' + Shadow + '】' + DeathShadow ;
+	if (level == 6 && abilty == 19) ReStr = ReStr + '【入場曲】【死靈術' + Shadow + '】' + EnterShadow + '\n' + '【謝幕曲】【死靈術' + Shadow + '】' + DeathShadow ;
 	if (level == 6 && abilty == 20) ReStr = ReStr + Sheld ;
 	if (level == 6 && abilty == 21) ReStr = ReStr + '【入場曲】' + EnterEffect + '\n' + '【交戰時】' + InteractionEffect ;	
 	if (level == 6 && abilty == 22) ReStr = ReStr + '【交戰時】' + InteractionEffect + '\n' + '【謝幕曲】' + DeathEffect ;
@@ -428,7 +428,7 @@ function build7char(text01){
 	if (level == 6 && abilty == 27) ReStr = ReStr + '【入場曲】' + EnterEffect + '\n' + '【攻擊時】' + AttactEffect ;
 	if (level == 6 && abilty == 28) ReStr = ReStr + '【攻擊時】' + AttactEffect + '\n' + '【謝幕曲】' + DeathEffect ;
 	if (level == 6 && abilty == 29) ReStr = ReStr + '【激奏' + RTSix + '】' + RushEffect + '\n' + '【攻擊時】' + AttactEffect ;
-	if (level == 6 && abilty == 30) ReStr = ReStr + + '【攻擊時】' + AttactEffect + '回合結束時' + EndEffect ;
+	if (level == 6 && abilty == 30) ReStr = ReStr + '【攻擊時】' + AttactEffect + '\n' + '回合結束時' + EndEffect ;
 	if (level == 6 && abilty == 31) ReStr = ReStr + '【入場曲】【死靈術' + Shadow + '】' + EnterShadow + '\n' + '【攻擊時】' + AttactEffect ;
 	if (level == 6 && abilty == 32) ReStr = ReStr + '【攻擊時】' + AttactEffect + '\n' + '【謝幕曲】【死靈術' + Shadow + '】' + DeathShadow ;
 	if (level == 6 && abilty == 33) ReStr = ReStr + BasicEffect + '\n' + '【攻擊時】' + AttactEffect ;
