@@ -8,16 +8,6 @@ rply.text = TEXT[0] + ' ： ' + rplyArr[Math.floor((Math.random() * (rplyArr.len
 return rply;
 }
 
-function randomCuteSnow() {
-let rplyArr = ['\
-萌萌女僕吹雪向主人請安\n吹雪叫八雲改掉 但八雲偏偏就不要改 阿哈哈哈哈', '\
-主人有甚麼吩咐也可以和吹雪我說喔~♡\n吹雪叫八雲改掉 但八雲偏偏就不要改 阿哈哈哈哈', '\
-主人今天要來和萌萌吹雪玩遊戲嗎??\n吹雪叫八雲改掉 但八雲偏偏就不要改 阿哈哈哈哈', '\
-獸耳女僕吹雪登場！\n吹雪叫八雲改掉 但八雲偏偏就不要改 阿哈哈哈哈', '\
-我是可愛又萌萌的魔法少女 吹雪醬~☆\n吹雪叫八雲改掉 但八雲偏偏就不要改 阿哈哈哈哈'];
-rply.text = rplyArr[Math.floor((Math.random() * (rplyArr.length)) + 0)];
-return rply;
-}
 
 function eato() {	
 rply.text = '吃土比較適合你';
@@ -776,7 +766,6 @@ module.exports = {
 	randomColour,
 	eato,
 	drinko,
-	randomCuteSnow,
 	moo,
 	mot,
 	randomDrink,
