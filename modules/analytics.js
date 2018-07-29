@@ -318,7 +318,6 @@ function parseInput(rplyToken, inputStr) {
 	
 	if (trigger.match(/^八雲$|^@小學生八雲やくも$/) != null) return exports.funny.randomYakumo() ;	
 	
-	if (trigger.match(/吹雪女裝|女裝吹雪/) != null) return exports.funny.randomCuteSnow() ;	
 	
 	if (trigger.match(/女裝/) != null) return exports.funny.randomReply() ;	
 	
