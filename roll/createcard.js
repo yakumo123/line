@@ -5,7 +5,7 @@ function build7char(text01){
 	let name ="";
 	let ReStr = '【';
 	if (text01 == undefined) {
-	old = '八雲的未知卡片＜沒有預設值>' ;
+	name = '八雲的未知卡片＜沒有預設值>' ;
 	ReStr = ReStr + name + '】\n如要加預設值請這樣輸入： 生成卡片 八雲之怒';
 	}
 	else 
