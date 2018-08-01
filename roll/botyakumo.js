@@ -184,6 +184,28 @@ function BotHelpYy() {
 						}
 
 					]
+				},
+				{
+					"title": "《跌死功能》",
+					"text": "跌死功能",
+					"actions": [
+						{
+							"type": "message",
+							"label": "枯枝妖后式跌死",
+							"text": "枯枝妖后式跌死"
+						},
+						{
+							"type": "message",
+							"label": "枯枝妖后式跌死",
+							"text": "枯枝妖后式跌死"
+						},
+						{
+							"type": "message",
+							"label": "枯枝妖后式跌死",
+							"text": "枯枝妖后式跌死"
+						}
+
+					]
 				}
 			]
 		}
