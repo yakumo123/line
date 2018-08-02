@@ -21,7 +21,7 @@ function parseInput(rplyToken, inputStr) {
 
 	//在下面位置開始分析trigger
 
-	if (trigger.match(/安妮|妮幽|annie/) != null) return exports.null.null() ;
+	if (trigger.match(/妮|幽|annie/) != null) return exports.null.null() ;
 	
 	if (trigger.match(/霖|凜/) != null) return exports.null.null() ;
 	
