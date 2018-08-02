@@ -21,6 +21,8 @@ function parseInput(rplyToken, inputStr) {
 
 	//在下面位置開始分析trigger
 
+	if (trigger.match(/安妮|妮幽|annie/) != null) return exports.null.null() ;
+	
 	if (trigger.match(/霖|凜/) != null) return exports.null.null() ;
 	
 	//普通ROLL擲骰判定在此	
