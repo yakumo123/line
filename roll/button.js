@@ -8,7 +8,7 @@ function buttontest() {
   "altText": "SV情報",
   "template": {
     "type": "carousel",
-    "imageAspectRatio": "rectangle",
+    "imageAspectRatio": "square",
     "imageSize": "contain",
     "columns": [
       {
@@ -17,9 +17,9 @@ function buttontest() {
         "title": "SV活動情報及ShadowLogs",
         "text": "SV活動情報及ShadowLogs",
                "defaultAction": {
-          "type": "uri",
-          "label": "競技場牌組",
-          "uri": "https://i.ytimg.com/vi/G8O2TSRilkg/maxresdefault."
+          "type": "message",
+          "label": "SV活動情報及ShadowLogs",
+          "text": "SV活動情報及ShadowLogs"
         },
         "actions": [
           {
@@ -45,10 +45,10 @@ function buttontest() {
         "title": "競技場牌組",
         "text": "競技場牌組",
         "defaultAction": {
-          "type": "uri",
+               "type": "message",
           "label": "競技場牌組",
-          "uri": "https://i.ytimg.com/vi/G8O2TSRilkg/maxresdefault."
-        },
+          "text": "競技場牌組"
+	},
         "actions": [
           {
    "type": "uri",
