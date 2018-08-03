@@ -19,7 +19,7 @@ function buttontest() {
                "defaultAction": {
           "type": "message",
           "label": "SV活動情報及ShadowLogs",
-          "text": ""
+          "text": "這只是一張圖片而已～"
         },
         "actions": [
           {
@@ -47,7 +47,7 @@ function buttontest() {
         "defaultAction": {
                "type": "message",
           "label": "競技場牌組",
-          "text": ""
+          "text": "這只是一張圖片而已～"
 	},
         "actions": [
           {
