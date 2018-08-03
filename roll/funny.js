@@ -741,6 +741,13 @@ function choice(input,str) {
 	return rply;
 }
 
+function twochoice(input,str) {
+	let a = input.replace(str[0], '').match(/\S+/ig);
+	let b = input.replace(str[0], '').match(/\S+/ig);
+	rply.text = str[0] + '\n' + '['+ a + '] \n→ ' + a[rollbase.Dice(a.length)-1] + '/' + b[rollbase.Dice(a.length)-1];
+	return rply;
+}
+
  function SortIt(input,mainMsg) {	
  
  	let a = input.replace(mainMsg[0], '').match(/\S+/ig);
@@ -786,5 +793,6 @@ module.exports = {
 	SortIt,
 	tarotRevReply,
 	choice,
+	twochoice,
 	tarotCardReply	
 };
