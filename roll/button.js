@@ -8,8 +8,8 @@ function buttontest() {
   "altText": "SV情報",
   "template": {
     "type": "carousel",
-    "imageAspectRatio": "square",
-    "imageSize": "contain",
+    "imageAspectRatio": "rectangle",
+    "imageSize": "cover",
     "columns": [
       {
         "thumbnailImageUrl": "https://shadowverse.jp/news/wp-content/uploads/e0b558ba389c34594d109581059d77f1.png",
