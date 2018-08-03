@@ -9,6 +9,28 @@ function BotHelpYy() {
 		"template": {
 			"type": "carousel",
 			"columns": [
+						{
+					"title": "《妮爆安安跌死功能【太妮了】》",
+					"text": "",
+					"actions": [
+						{
+							"type": "message",
+							"label": "枯枝妖后式跌死華",
+							"text": "枯枝妖后式跌死"
+						},
+						{
+							"type": "message",
+							"label": "枯珮枝妖后式跌死",
+							"text": "枯枝妖后式跌死"
+						},
+						{
+							"type": "message",
+							"label": "枯枝妖后式跌死",
+							"text": "枯枝妖后式跌死"
+						}
+
+					]
+				},
 				{
 					"title": "特殊賽制列表-指定模式",
 					"text": "職業隨機限用或禁用虹卡 金卡 全卡",
@@ -181,28 +203,6 @@ function BotHelpYy() {
 							"type": "message",
 							"label": "【車圖整合(慎用)】",
 							"text": "comfirephoto"
-						}
-
-					]
-				},
-				{
-					"title": "《跌死功能》",
-					"text": "跌死功能",
-					"actions": [
-						{
-							"type": "message",
-							"label": "枯枝妖后式跌死",
-							"text": "枯枝妖后式跌死"
-						},
-						{
-							"type": "message",
-							"label": "枯枝妖后式跌死",
-							"text": "枯枝妖后式跌死"
-						},
-						{
-							"type": "message",
-							"label": "枯枝妖后式跌死",
-							"text": "枯枝妖后式跌死"
 						}
 
 					]
