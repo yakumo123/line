@@ -15,17 +15,17 @@ function BotHelpYy() {
 					"actions": [
 						{
 							"type": "message",
-							"label": "枯枝妖后式跌死華",
+							"label": "枯枝妖后式跌死",
 							"text": "枯枝妖后式跌死"
 						},
 						{
 							"type": "message",
-							"label": "枯珮枝妖后式跌死",
+							"label": "枯枝妖后式跌死",
 							"text": "枯枝妖后式跌死"
 						},
 						{
 							"type": "message",
-							"label": "安～別再到處亂搞了喔",
+							"label": "妮安～別再到處亂搞了喔",
 							"text": "小心引火自焚"
 						}
 
