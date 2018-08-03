@@ -17,7 +17,7 @@ function buttontest() {
         "title": "SV活動情報及ShadowLogs",
         "text": "SV活動情報及ShadowLogs",
                "defaultAction": {
-          "type": "uri,
+          "type": "uri",
           "label": "競技場牌組",
           "uri": "https://i.ytimg.com/vi/G8O2TSRilkg/maxresdefault."
         },
@@ -45,7 +45,7 @@ function buttontest() {
         "title": "競技場牌組",
         "text": "競技場牌組",
         "defaultAction": {
-          "type": "uri,
+          "type": "uri",
           "label": "競技場牌組",
           "uri": "https://i.ytimg.com/vi/G8O2TSRilkg/maxresdefault."
         },
