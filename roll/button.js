@@ -64,7 +64,7 @@ function buttontest() {
 		{
                 "type": "uri",
                 "label": "其他",
-                "uri": "https://altema.jp/shadowverse/"
+                "uri": "https://sv-knower.blogspot.com/2018/07/7.html?m=1"
             }
         ]
       }
