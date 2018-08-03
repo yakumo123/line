@@ -19,7 +19,7 @@ function buttontest() {
                "defaultAction": {
           "type": "message",
           "label": "SV活動情報及ShadowLogs",
-          "text": "SV活動情報及ShadowLogs"
+          "text": ""
         },
         "actions": [
           {
@@ -47,7 +47,7 @@ function buttontest() {
         "defaultAction": {
                "type": "message",
           "label": "競技場牌組",
-          "text": "競技場牌組"
+          "text": ""
 	},
         "actions": [
           {
