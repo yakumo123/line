@@ -7,15 +7,22 @@ function buttontest() {
   "type": "template",
   "altText": "SV情報",
   "template": {
-      "type": "carousel",
-      "columns": [			
-	      {
-		      "type": "buttons",
-		      "thumbnailImageUrl": "https://shadowverse.jp/news/wp-content/uploads/e0b558ba389c34594d109581059d77f1.png",
-		      "title": "SV活動情報",        
-		      "text": "活動情報",
-		      "actions": [
-			      {
+    "type": "carousel",
+    "imageAspectRatio": "rectangle",
+    "imageSize": "contain",
+    "columns": [
+      {
+        "thumbnailImageUrl": "https://shadowverse.jp/news/wp-content/uploads/e0b558ba389c34594d109581059d77f1.png",
+        "imageBackgroundColor": "#a8e8fb",
+        "title": "SV活動情報及ShadowLogs",
+        "text": "SV活動情報及ShadowLogs",
+               "defaultAction": {
+          "type": "uri,
+          "label": "競技場牌組",
+          "uri": "https://i.ytimg.com/vi/G8O2TSRilkg/maxresdefault."
+        },
+        "actions": [
+          {
 				      "type": "uri",
 				      "label": "Event Support情報",
 				      "uri": "https://event.shadowverse.com/cht/eventsupport/"
@@ -30,16 +37,21 @@ function buttontest() {
 				      "label": "勝率分析",
 				      "uri": "https://shadowlog.com/s/trend/"
 			      }
-		      ]
-	      },
-	      {
-		      "type": "buttons",
-		      "thumbnailImageUrl": "https://i.ytimg.com/vi/G8O2TSRilkg/maxresdefault.jpg",
-		      "title": "牌組參考",
-		      "text": "牌組參考",
-		      "actions": [
-            {
-                "type": "uri",
+        ]
+      },
+      {
+        "thumbnailImageUrl": "https://i.ytimg.com/vi/G8O2TSRilkg/maxresdefault.jpg",
+        "imageBackgroundColor": "#a8e8fb",
+        "title": "競技場牌組",
+        "text": "競技場牌組",
+        "defaultAction": {
+          "type": "uri,
+          "label": "競技場牌組",
+          "uri": "https://i.ytimg.com/vi/G8O2TSRilkg/maxresdefault."
+        },
+        "actions": [
+          {
+   "type": "uri",
                 "label": "指定牌組參考",
                 "uri": "https://altema.jp/shadowverse/saikyodeck"
             },
@@ -48,13 +60,16 @@ function buttontest() {
                 "label": "無限制牌組參考",
                 "uri": "https://altema.jp/shadowverse/anrimisaikyou"
             },	      
-			      {
+
+		{
                 "type": "uri",
                 "label": "無限制牌組參考",
                 "uri": "https://altema.jp/shadowverse/anrimisaikyou"
             }
         ]
-    }
+      }
+    ]
+  }
 };
 	return rply;
 }
