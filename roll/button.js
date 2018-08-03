@@ -33,17 +33,22 @@ function buttontest() {
 		      ]
 	      },
 	      {
-        "type": "buttons",
-        "thumbnailImageUrl": "https://i.ytimg.com/vi/G8O2TSRilkg/maxresdefault.jpg",
-        "title": "牌組參考",
-        "text": "牌組參考",
-        "actions": [
+		      "type": "buttons",
+		      "thumbnailImageUrl": "https://i.ytimg.com/vi/G8O2TSRilkg/maxresdefault.jpg",
+		      "title": "牌組參考",
+		      "text": "牌組參考",
+		      "actions": [
             {
                 "type": "uri",
                 "label": "指定牌組參考",
                 "uri": "https://altema.jp/shadowverse/saikyodeck"
             },
             {
+                "type": "uri",
+                "label": "無限制牌組參考",
+                "uri": "https://altema.jp/shadowverse/anrimisaikyou"
+            },	      
+			      {
                 "type": "uri",
                 "label": "無限制牌組參考",
                 "uri": "https://altema.jp/shadowverse/anrimisaikyou"
