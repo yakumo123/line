@@ -63,8 +63,8 @@ function buttontest() {
 
 		{
                 "type": "uri",
-                "label": "無限制牌組參考",
-                "uri": "https://altema.jp/shadowverse/anrimisaikyou"
+                "label": "其他",
+                "uri": "https://altema.jp/shadowverse/"
             }
         ]
       }
