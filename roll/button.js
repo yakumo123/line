@@ -5,27 +5,27 @@ var rply = { type: 'text' }; //type是必需的,但可以更改
 function buttontest() {
 	rply = {
     "type": "template",
-    "altText": "情報整合",
+    "altText": "SV活動情報",
     "template": {
         "type": "buttons",
         "thumbnailImageUrl": "https://i.ytimg.com/vi/G8O2TSRilkg/maxresdefault.jpg",
-        "title": "新卡包情報",
-        "text": "所有情報",
+        "title": "SV活動情報",
+        "text": "活動情報",
         "actions": [
             {
                 "type": "uri",
-                "label": "新卡包整合貼【創作者：LM】",
-                "uri": "https://m.gamer.com.tw/forum/C.php?bsn=29330&snA=14020&bpage=1&top=9&ltype="
+                "label": "Event Support情報",
+                "uri": "https://event.shadowverse.com/cht/eventsupport/"
             },
             {
                 "type": "uri",
-                "label": "官方宣傳片",
-                "uri": "https://youtu.be/G8O2TSRilkg"
+                "label": "ShadowNews",
+                "uri": "https://shadowverse.com/sp/cht/news/"
             },
             {
                 "type": "uri",
-                "label": "官網",
-                "uri": "https://shadowverse.com/sp/cht/cardpack/brigadeofthesky/"
+                "label": "勝率分析",
+                "uri": "https://shadowlog.com/s/trend/"
             }
         ]
     }
