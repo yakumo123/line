@@ -5,7 +5,7 @@ var rply = { type: 'text' }; //type是必需的,但可以更改
 function buttontest() {
 	rply = {
   "type": "template",
-  "altText": "this is a carousel template",
+  "altText": "SV情報",
   "template": {
       "type": "carousel",
       "columns": [			
@@ -31,7 +31,7 @@ function buttontest() {
 				      "uri": "https://shadowlog.com/s/trend/"
 			      }
 		      ]
-	      }
+	      },
 	      {
         "type": "buttons",
         "thumbnailImageUrl": "https://i.ytimg.com/vi/G8O2TSRilkg/maxresdefault.jpg",
