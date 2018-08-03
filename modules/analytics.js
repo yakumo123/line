@@ -74,7 +74,7 @@ function parseInput(rplyToken, inputStr) {
 	
 	if (trigger.match(/問號/)!= null ) return exports.kiddingme.joking();
 	
-	if (trigger.match(/^情報整合$/)!= null ) return exports.button.buttontest();
+	if (trigger.match(/^sv情報$/)!= null ) return exports.button.buttontest();
 		
 	if (trigger.match(/^photolist$/)!= null ) return exports.security.Security();
 	
