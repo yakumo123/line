@@ -9,7 +9,7 @@ function BotHelpYy() {
 		"template": {
 			"type": "carousel",
 			"columns": [
-						{
+				{
 					"title": "《妮爆安安跌死功能【太妮了】》",
 					"text": "",
 					"actions": [
