@@ -10,7 +10,7 @@ function BotHelpYy() {
 			"type": "carousel",
 			"columns": [
 				{
-					"title": "《妮爆安安跌死功能【太妮了】》",
+					"title": "《妮爆安安跌死功能》",
 					"text": "",
 					"actions": [
 						{
