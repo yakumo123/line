@@ -10,23 +10,23 @@ function BotHelpYy() {
 			"type": "carousel",
 			"columns": [
 				{
-					"title": "《妮爆安安跌死功能【超妮安的】》",
-					"text": "WW安☆WWW",
+					"title": "情報專區【☆新☆】",
+					"text": "情～報～專～區～哎嘿～☆",
 					"actions": [
 						{
 							"type": "message",
-							"label": "枯枝妖后式跌死",
-							"text": "枯枝妖后式跌死"
+							"label": "sv情報",
+							"text": "sv情報"
 						},
 						{
 							"type": "message",
-							"label": "枯枝妖后式跌死",
-							"text": "枯枝妖后式跌死"
+							"label": "新卡包情報【暫無】",
+							"text": "N/A"
 						},
 						{
 							"type": "message",
-							"label": "妮安～別再到處亂搞了喔",
-							"text": "小心引火自焚"
+							"label": "N/A",
+							"text": "N/A"
 						}
 
 					]
@@ -203,6 +203,28 @@ function BotHelpYy() {
 							"type": "message",
 							"label": "【車圖整合(慎用)】",
 							"text": "comfirephoto"
+						}
+
+					]
+				},
+				{
+					"title": "《妮爆安安跌死功能【超妮安的】》",
+					"text": "WW安☆WWW",
+					"actions": [
+						{
+							"type": "message",
+							"label": "枯枝妖后式跌死",
+							"text": "枯枝妖后式跌死"
+						},
+						{
+							"type": "message",
+							"label": "枯枝妖后式跌死",
+							"text": "枯枝妖后式跌死"
+						},
+						{
+							"type": "message",
+							"label": "妮安～別再到處亂搞了喔",
+							"text": "小心引火自焚"
 						}
 
 					]
