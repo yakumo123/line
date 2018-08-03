@@ -11,7 +11,7 @@ function BotHelpYy() {
 			"columns": [
 				{
 					"title": "《妮爆安安跌死功能【超妮安的】》",
-					"text": "wwww",
+					"text": "WW安☆WWW",
 					"actions": [
 						{
 							"type": "message",
