@@ -25,8 +25,8 @@ function BotHelpYy() {
 						},
 						{
 							"type": "message",
-							"label": "枯枝妖后式跌死",
-							"text": "枯枝妖后式跌死"
+							"label": "安～別再到處亂搞了喔",
+							"text": "小心引火自焚"
 						}
 
 					]
