@@ -30,7 +30,7 @@ function joking() {
             "action": {
               "type": "message",
               "label": "白人問號",
-              "text": " Σ(っ °Д °;)っ"
+              "text": "我智障到醫生說無可救藥…"
 	    }
 	  },
           {
@@ -46,7 +46,7 @@ function joking() {
             "action": {
               "type": "message",
               "label": "感嘆號沒感嘆",
-              "text": "……??"
+              "text": "我智障到醫生說無可救藥…"
             }
           }
       ]
