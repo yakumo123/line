@@ -5,26 +5,44 @@ var rply = { type: 'text' }; //type是必需的,但可以更改
 function buttontest() {
 	rply = {
   "type": "template",
-  "altText": "SV情報",
+  "altText": "比賽牌組",
   "template": {
     "type": "carousel",
     "imageAspectRatio": "rectangle",
     "imageSize": "cover",
     "columns": [
       {
-        "thumbnailImageUrl": "https://shadowverse.jp/news/wp-content/uploads/e0b558ba389c34594d109581059d77f1.png",
+        "thumbnailImageUrl": "https://i.ytimg.com/vi/G8O2TSRilkg/maxresdefault.jpg",
         "imageBackgroundColor": "#a8e8fb",
-        "title": "SV活動情報及ShadowLogs",
-        "text": "SV活動情報及ShadowLogs",
-               "defaultAction": {
-          "type": "message",
-          "label": "SV活動情報及ShadowLogs",
-          "text": "這只是一張圖片而已～"
-        },
+        "title": "八雲",
+        "text": "八雲",
         "actions": [
           {
-				      "type": "uri",
-				      "label": "Event Support情報",
-				      "uri": "https://event.shadowverse.com/cht/eventsupport/"
-			      },
-			      {
+   "type": "uri",
+                "label": "獅子",
+                "uri": "https://goo.gl/qLKGCj"
+            },
+            {
+                "type": "uri",
+                "label": "大奇",
+                "uri": "https://goo.gl/1RCeGT"
+            },	      
+
+		{
+                "type": "uri",
+                "label": "女鬼",
+                "uri": "https://goo.gl/Ehs15y"
+            }
+        ]
+      }
+    ]
+  }
+};
+	return rply;
+}
+
+
+
+module.exports = {
+	buttontest: buttontest
+};
