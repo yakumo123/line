@@ -16,11 +16,6 @@ function buttontest() {
         "imageBackgroundColor": "#a8e8fb",
         "title": "SV活動情報及ShadowLogs",
         "text": "SV活動情報及ShadowLogs",
-               "defaultAction": {
-          "type": "message",
-          "label": "SV活動情報及ShadowLogs",
-          "text": "這只是一張圖片而已～"
-        },
         "actions": [
           {
 				      "type": "uri",
@@ -44,11 +39,6 @@ function buttontest() {
         "imageBackgroundColor": "#a8e8fb",
         "title": "競技場牌組",
         "text": "競技場牌組",
-        "defaultAction": {
-               "type": "message",
-          "label": "競技場牌組",
-          "text": "這只是一張圖片而已～"
-	},
         "actions": [
           {
    "type": "uri",
