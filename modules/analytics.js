@@ -365,6 +365,8 @@ function parseInput(rplyToken, inputStr) {
 	
 	if (trigger.match(/瞎掰|騙人|屁啦/) != null) return exports.no.irno() ;	
 	
+	if (trigger.match(/^紅茶$/) != null) return exports.tea.Test12() ;	
+	
 	/*tarot 指令
 	if (trigger.match(/猜拳/) != null) {
 		return RockPaperScissors(inputStr, mainMsg[1]);
