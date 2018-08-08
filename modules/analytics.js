@@ -114,6 +114,12 @@ function parseInput(rplyToken, inputStr) {
 	if (trigger.match(/選2/)!= null && mainMsg.length >= 3) return exports.funny.twochoice(inputStr,mainMsg);
 	if (trigger.match(/選3/)!= null && mainMsg.length >= 3) return exports.funny.threechoice(inputStr,mainMsg);
 	if (trigger.match(/選4/)!= null && mainMsg.length >= 3) return exports.funny.fourchoice(inputStr,mainMsg);
+	if (trigger.match(/選5/)!= null && mainMsg.length >= 3) return exports.funny.fivechoice(inputStr,mainMsg);
+	if (trigger.match(/選6/)!= null && mainMsg.length >= 3) return exports.funny.sixchoice(inputStr,mainMsg);
+	if (trigger.match(/選7/)!= null && mainMsg.length >= 3) return exports.funny.sevenchoice(inputStr,mainMsg);
+	if (trigger.match(/選8/)!= null && mainMsg.length >= 3) return exports.funny.eightchoice(inputStr,mainMsg);
+	if (trigger.match(/選9/)!= null && mainMsg.length >= 3) return exports.funny.ninechoice(inputStr,mainMsg);
+	if (trigger.match(/選10/)!= null && mainMsg.length >= 3) return exports.funny.tenchoice(inputStr,mainMsg);
 
 	//tarot 指令
 	if (trigger.match(/tarot|塔羅牌|塔羅/) != null) {
