@@ -758,16 +758,18 @@ function threechoice(input,str) {
 	return rply;
 }
 
-function fourchoice(input,str) {
+
+function fourchoice(input,str) {	
+ 
 	let a = input.replace(str[0], '').match(/\S+/ig);
-	let b = input.replace(str[0], '').match(/\S+/ig); 
-	let c = input.replace(str[0], '').match(/\S+/ig);
-	let d = input.replace(str[0], '').match(/\S+/ig);
-	
-	
-	rply.text = str[0] + '\n' + '['+ a + '] \n→ ' + a[rollbase.Dice(a.length)-1] + '\n→' + c[rollbase.Dice(a.length)-1] + '\n→' + b[rollbase.Dice(a.length)-1] + '\n→' + d[rollbase.Dice(a.length)-1];
+	for (i = 0; i <a.length; i++) {
+ 
+	j = /* random fromi to a.length-1 */;
+	/* swap a[i] and arr[j] */;
+	}
+	rply.text = mainMsg[0] + '\n' + ' → ' + a[0] + '/' + a[1] + '/' + a[2] + '/' + a[3] ;
 	return rply;
-}
+ }
 
  function SortIt(input,mainMsg) {	
  
