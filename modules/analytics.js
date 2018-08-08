@@ -110,7 +110,7 @@ function parseInput(rplyToken, inputStr) {
 
 
 	//choice 指令開始於此
-	if (trigger.match(/choice|選項|選1/)!= null && mainMsg.length >= 3) return exports.funny.choice(inputStr,mainMsg);
+	if (trigger.match(/選1/)!= null && mainMsg.length >= 3) return exports.funny.choice(inputStr,mainMsg);
 	if (trigger.match(/選2/)!= null && mainMsg.length >= 3) return exports.funny.twochoice(inputStr,mainMsg);
 	if (trigger.match(/選3/)!= null && mainMsg.length >= 3) return exports.funny.threechoice(inputStr,mainMsg);
 	if (trigger.match(/選4/)!= null && mainMsg.length >= 3) return exports.funny.fourchoice(inputStr,mainMsg);
