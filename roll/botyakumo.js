@@ -10,7 +10,29 @@ function BotHelpYy() {
 			"type": "carousel",
 			"columns": [
 				{
-					"title": "情報專區【☆新☆】",
+					"title": "《隨機選擇/生產亂數及排序系統》",
+					"text": "隨機選擇功能",
+					"actions": [
+						{
+							"type": "message",
+							"label": "隨機功能示範",
+							"text": "萌式神選項 A式神 B式神 C式神 D式神"
+						},
+						{
+							"type": "message",
+							"label": "亂數生產",
+							"text": "3D6"
+						},
+						{
+							"type": "message",
+							"label": "排序功能",
+							"text": "群中排名次序 A八雲 B八雲 C八雲 D八雲"
+						}
+
+					]
+				},
+				{
+					"title": "情報專區",
 					"text": "情～報～專～區～哎嘿～☆",
 					"actions": [
 						{
@@ -93,28 +115,6 @@ function BotHelpYy() {
 							"type": "message",
 							"label": "TRPG功能",
 							"text": "trpghelp"
-						}
-
-					]
-				},
-				{
-					"title": "《隨機選擇/生產亂數及排序系統》",
-					"text": "隨機選擇功能",
-					"actions": [
-						{
-							"type": "message",
-							"label": "隨機功能示範",
-							"text": "萌式神選項 A式神 B式神 C式神 D式神"
-						},
-						{
-							"type": "message",
-							"label": "亂數生產",
-							"text": "3D6"
-						},
-						{
-							"type": "message",
-							"label": "排序功能",
-							"text": "群中排名次序 A八雲 B八雲 C八雲 D八雲"
 						}
 
 					]
