@@ -744,7 +744,28 @@ function choice(input,str) {
 function twochoice(input,str) {
 	let a = input.replace(str[0], '').match(/\S+/ig);
 	let b = input.replace(str[0], '').match(/\S+/ig);
-	rply.text = str[0] + '\n' + '['+ a + '] \n→ ' + a[rollbase.Dice(a.length)-1] + '/' + b[rollbase.Dice(a.length)-1];
+	rply.text = str[0] + '\n' + '['+ a + '] \n→ ' + a[rollbase.Dice(a.length)-1] + '\n→' + b[rollbase.Dice(a.length)-1];
+	return rply;
+}
+
+function threechoice(input,str) {
+	let a = input.replace(str[0], '').match(/\S+/ig);
+	let b = input.replace(str[0], '').match(/\S+/ig); 
+	let c = input.replace(str[0], '').match(/\S+/ig);
+	
+	
+	rply.text = str[0] + '\n' + '['+ a + '] \n→ ' + a[rollbase.Dice(a.length)-1] + '\n→' + c[rollbase.Dice(a.length)-1] + '\n→' + b[rollbase.Dice(a.length)-1];
+	return rply;
+}
+
+function fourchoice(input,str) {
+	let a = input.replace(str[0], '').match(/\S+/ig);
+	let b = input.replace(str[0], '').match(/\S+/ig); 
+	let c = input.replace(str[0], '').match(/\S+/ig);
+	let d = input.replace(str[0], '').match(/\S+/ig);
+	
+	
+	rply.text = str[0] + '\n' + '['+ a + '] \n→ ' + a[rollbase.Dice(a.length)-1] + '\n→' + c[rollbase.Dice(a.length)-1] + '\n→' + b[rollbase.Dice(a.length)-1] + '\n→' + d[rollbase.Dice(a.length)-1];
 	return rply;
 }
 
@@ -794,5 +815,7 @@ module.exports = {
 	tarotRevReply,
 	choice,
 	twochoice,
+	threechoice,
+	fourchoice,
 	tarotCardReply	
 };
