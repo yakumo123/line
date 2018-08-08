@@ -769,6 +769,19 @@ function threechoice(input,mainMsg) {
 	return rply;
  }
 
+function fourchoice(input,mainMsg) {	
+ 
+ 	let a = input.replace(mainMsg[0], '').match(/\S+/ig);
+	for (var i = a.length-1; i >=0; i--) {
+ 
+	var randomIndex = Math.floor(Math.random()*(i+1));
+	var itemAtIndex = a[randomIndex];
+	a[randomIndex] = a[i];
+	a[i] = itemAtIndex;
+	}
+	rply.text = mainMsg[0] + '\n' + ' → ' + a[0] + '/' + a[1] + '/' + a[2] + '/' + a[3] ;
+	return rply;
+ }
 
 function fivechoice(input,mainMsg) {	
  
