@@ -741,25 +741,7 @@ function choice(input,str) {
 	return rply;
 }
 
-function twochoice(input,str) {
-	let a = input.replace(str[0], '').match(/\S+/ig);
-	let b = input.replace(str[0], '').match(/\S+/ig);
-	rply.text = str[0] + '\n' + '['+ a + '] \n→ ' + a[rollbase.Dice(a.length)-1] + '\n→' + b[rollbase.Dice(a.length)-1];
-	return rply;
-}
-
-function threechoice(input,str) {
-	let a = input.replace(str[0], '').match(/\S+/ig);
-	let b = input.replace(str[0], '').match(/\S+/ig); 
-	let c = input.replace(str[0], '').match(/\S+/ig);
-	
-	
-	rply.text = str[0] + '\n' + '['+ a + '] \n→ ' + a[rollbase.Dice(a.length)-1] + '\n→' + c[rollbase.Dice(a.length)-1] + '\n→' + b[rollbase.Dice(a.length)-1];
-	return rply;
-}
-
-
-function fourchoice(input,mainMsg) {	
+function twochoice(input,mainMsg) {	
  
  	let a = input.replace(mainMsg[0], '').match(/\S+/ig);
 	for (var i = a.length-1; i >=0; i--) {
@@ -769,7 +751,106 @@ function fourchoice(input,mainMsg) {
 	a[randomIndex] = a[i];
 	a[i] = itemAtIndex;
 	}
-	rply.text = mainMsg[0] + '\n' + ' → ' + a[0] + '/' + a[1] + '/' + a[2] + '/' + a[3] ;
+	rply.text = mainMsg[0] + '\n' + ' → ' + a[0] + '/' + a[1] ;
+	return rply;
+ }
+
+function threechoice(input,mainMsg) {	
+ 
+ 	let a = input.replace(mainMsg[0], '').match(/\S+/ig);
+	for (var i = a.length-1; i >=0; i--) {
+ 
+	var randomIndex = Math.floor(Math.random()*(i+1));
+	var itemAtIndex = a[randomIndex];
+	a[randomIndex] = a[i];
+	a[i] = itemAtIndex;
+	}
+	rply.text = mainMsg[0] + '\n' + ' → ' + a[0] + '/' + a[1] + '/' + a[2] ;
+	return rply;
+ }
+
+
+function fivechoice(input,mainMsg) {	
+ 
+ 	let a = input.replace(mainMsg[0], '').match(/\S+/ig);
+	for (var i = a.length-1; i >=0; i--) {
+ 
+	var randomIndex = Math.floor(Math.random()*(i+1));
+	var itemAtIndex = a[randomIndex];
+	a[randomIndex] = a[i];
+	a[i] = itemAtIndex;
+	}
+	rply.text = mainMsg[0] + '\n' + ' → ' + a[0] + '/' + a[1] + '/' + a[2] + '/' + a[3] + '/' + a[4] ;
+	return rply;
+ }
+
+function sixchoice(input,mainMsg) {	
+ 
+ 	let a = input.replace(mainMsg[0], '').match(/\S+/ig);
+	for (var i = a.length-1; i >=0; i--) {
+ 
+	var randomIndex = Math.floor(Math.random()*(i+1));
+	var itemAtIndex = a[randomIndex];
+	a[randomIndex] = a[i];
+	a[i] = itemAtIndex;
+	}
+	rply.text = mainMsg[0] + '\n' + ' → ' + a[0] + '/' + a[1] + '/' + a[2] + '/' + a[3] + '/' + a[4] + '/' + a[5] ;
+	return rply;
+ }
+
+function sevenchoice(input,mainMsg) {	
+ 
+ 	let a = input.replace(mainMsg[0], '').match(/\S+/ig);
+	for (var i = a.length-1; i >=0; i--) {
+ 
+	var randomIndex = Math.floor(Math.random()*(i+1));
+	var itemAtIndex = a[randomIndex];
+	a[randomIndex] = a[i];
+	a[i] = itemAtIndex;
+	}
+	rply.text = mainMsg[0] + '\n' + ' → ' + a[0] + '/' + a[1] + '/' + a[2] + '/' + a[3] + '/' + a[4] + '/' + a[5] + '/' + a[6] ;
+	return rply;
+ }
+
+function eightchoice(input,mainMsg) {	
+ 
+ 	let a = input.replace(mainMsg[0], '').match(/\S+/ig);
+	for (var i = a.length-1; i >=0; i--) {
+ 
+	var randomIndex = Math.floor(Math.random()*(i+1));
+	var itemAtIndex = a[randomIndex];
+	a[randomIndex] = a[i];
+	a[i] = itemAtIndex;
+	}
+	rply.text = mainMsg[0] + '\n' + ' → ' + a[0] + '/' + a[1] + '/' + a[2] + '/' + a[3]  + '/' + a[4] + '/' + a[5] + '/' + a[6] + '/' + a[7] ;
+	return rply;
+ }
+
+function ninechoice(input,mainMsg) {	
+ 
+ 	let a = input.replace(mainMsg[0], '').match(/\S+/ig);
+	for (var i = a.length-1; i >=0; i--) {
+ 
+	var randomIndex = Math.floor(Math.random()*(i+1));
+	var itemAtIndex = a[randomIndex];
+	a[randomIndex] = a[i];
+	a[i] = itemAtIndex;
+	}
+	rply.text = mainMsg[0] + '\n' + ' → ' + a[0] + '/' + a[1] + '/' + a[2] + '/' + a[3] + '/' + a[4] + '/' + a[5] + '/' + a[6] + '/' + a[7] + '/' + a[8] ;
+	return rply;
+ }
+
+function tenchoice(input,mainMsg) {	
+ 
+ 	let a = input.replace(mainMsg[0], '').match(/\S+/ig);
+	for (var i = a.length-1; i >=0; i--) {
+ 
+	var randomIndex = Math.floor(Math.random()*(i+1));
+	var itemAtIndex = a[randomIndex];
+	a[randomIndex] = a[i];
+	a[i] = itemAtIndex;
+	}
+	rply.text = mainMsg[0] + '\n' + ' → ' + a[0] + '/' + a[1] + '/' + a[2] + '/' + a[3] + '/' + a[4] + '/' + a[5] + '/' + a[6] + '/' + a[7] + '/' + a[8] + '/' + a[9] ;
 	return rply;
  }
 
@@ -822,5 +903,11 @@ module.exports = {
 	twochoice,
 	threechoice,
 	fourchoice,
+	fivechoice,
+	sixchoice,
+	sevenchoice,
+	eightchoice,
+	ninechoice,
+	tenchoice,
 	tarotCardReply	
 };
