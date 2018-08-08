@@ -10,6 +10,28 @@ function BotHelpYy() {
 			"type": "carousel",
 			"columns": [
 				{
+					"title": "《隨機選擇/生產亂數及排序系統》",
+					"text": "隨機選擇功能",
+					"actions": [
+						{
+							"type": "message",
+							"label": "隨機功能示範",
+							"text": "隨機選項數量範圍為1～10\n使用方法：【文字+選1～10】＋空格＋選項\n\n例子1：八雲晚餐選1 白飯 拉麵 麵包\n例子2：小說選3 A小說 B小說 C小說 D小說 E小說\n■注意：句子君A（例如：八雲晚餐選5）和句子君B（你所決定的選項 例如：A B C）之間必須要有空格 且 選項和選項之間必須有空格■"
+						},
+						{
+							"type": "message",
+							"label": "亂數生產",
+							"text": "3D6"
+						},
+						{
+							"type": "message",
+							"label": "排序功能",
+							"text": "群中排名次序 A八雲 B八雲 C八雲 D八雲"
+						}
+
+					]
+				},
+				{
 					"title": "情報專區",
 					"text": "情～報～專～區～哎嘿～☆",
 					"actions": [
