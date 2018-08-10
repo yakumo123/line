@@ -11,6 +11,29 @@ function buttontest() {
     "imageAspectRatio": "rectangle",
     "imageSize": "cover",
     "columns": [
+	     {
+        "thumbnailImageUrl": "https://shadowverse.jp/news/wp-content/uploads/e0b558ba389c34594d109581059d77f1.png",
+        "imageBackgroundColor": "#a8e8fb",
+        "title": "SV新卡情報",
+        "text": "SV新卡情報",
+        "actions": [
+          {
+				      "type": "uri",
+				      "label": "SV新卡情報",
+				      "uri": "https://m.gamer.com.tw/forum/C.php?bsn=29330&snA=14883&bpage=1&top=9&ltype="
+			      },
+			      {
+				      "type": "uri",
+				      "label": "暫無",
+				      "uri": "https://m.gamer.com.tw/forum/C.php?bsn=29330&snA=14883&bpage=1&top=9&ltype="
+			      },	
+			      {
+				      "type": "uri",				      
+				      "label": "暫無",
+				      "uri": "https://m.gamer.com.tw/forum/C.php?bsn=29330&snA=14883&bpage=1&top=9&ltype="
+			      }
+        ]
+      },
       {
         "thumbnailImageUrl": "https://shadowverse.jp/news/wp-content/uploads/e0b558ba389c34594d109581059d77f1.png",
         "imageBackgroundColor": "#a8e8fb",
