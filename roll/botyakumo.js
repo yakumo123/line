@@ -19,7 +19,7 @@ function BotHelpYy() {
 							"text": "sv情報"
 						},
 						{
-							"type": "mmessage",
+							"type": "message",
 							"label": "N/A",
 							"text": "N/A"
 						},
