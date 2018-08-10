@@ -10,7 +10,7 @@ function BotHelpYy() {
 			"type": "carousel",
 			"columns": [
 				{
-					"title": "☆情報專區~連新卡速報☆",
+					"title": "☆情報專區☆",
 					"text": "情～報～專～區～哎嘿～☆",
 					"actions": [
 						{
@@ -19,9 +19,9 @@ function BotHelpYy() {
 							"text": "sv情報"
 						},
 						{
-							"type": "uri",
-							"label": "☆新卡包情報速報☆",
-							"text": "https://m.gamer.com.tw/forum/C.php?bsn=29330&snA=14883&bpage=1&top=9&ltype="
+							"type": "mmessage",
+							"label": "N/A",
+							"text": "N/A"
 						},
 						{
 							"type": "message",
