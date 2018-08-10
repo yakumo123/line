@@ -10,6 +10,28 @@ function BotHelpYy() {
 			"type": "carousel",
 			"columns": [
 				{
+					"title": "☆情報專區~連新卡速報☆",
+					"text": "情～報～專～區～哎嘿～☆",
+					"actions": [
+						{
+							"type": "message",
+							"label": "sv情報",
+							"text": "sv情報"
+						},
+						{
+							"type": "uri",
+							"label": "☆新卡包情報速報☆",
+							"text": "https://m.gamer.com.tw/forum/C.php?bsn=29330&snA=14883&bpage=1&top=9&ltype="
+						},
+						{
+							"type": "message",
+							"label": "N/A",
+							"text": "N/A"
+						}
+
+					]
+				},
+				{
 					"title": "《隨機選擇/生產亂數及排序系統》",
 					"text": "隨機選擇功能",
 					"actions": [
@@ -27,28 +49,6 @@ function BotHelpYy() {
 							"type": "message",
 							"label": "排序功能",
 							"text": "群中排名次序 A八雲 B八雲 C八雲 D八雲"
-						}
-
-					]
-				},
-				{
-					"title": "情報專區",
-					"text": "情～報～專～區～哎嘿～☆",
-					"actions": [
-						{
-							"type": "message",
-							"label": "sv情報",
-							"text": "sv情報"
-						},
-						{
-							"type": "message",
-							"label": "新卡包情報【暫無】",
-							"text": "N/A"
-						},
-						{
-							"type": "message",
-							"label": "N/A",
-							"text": "N/A"
 						}
 
 					]
