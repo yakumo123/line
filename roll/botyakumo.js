@@ -20,8 +20,8 @@ function BotHelpYy() {
 						},
 						{
 							"type": "message",
-							"label": "N/A",
-							"text": "N/A"
+							"label": "公主連結情報",
+							"text": "公主情報"
 						},
 						{
 							"type": "message",
