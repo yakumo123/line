@@ -14,7 +14,7 @@ function princesses() {
 	 {
 "thumbnailImageUrl": "https://gamewith.akamaized.net/img/e338a851d954741b305e7fc9a4db06a0.jpg",
 "imageBackgroundColor": "#a8e8fb",
-"title": "評價情報",
+"title": "評價情報☆拉到右邊還有更多內容☆",
 "text": "評價",
 "actions": [
 {
