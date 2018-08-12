@@ -11,7 +11,7 @@ function BotHelpYy() {
 			"columns": [
 				{
 					"title": "☆情報專區☆",
-					"text": "情～報～專～區～哎嘿～☆",
+					"text": "情～報～專～區～☆拉到右邊還有更多內容☆",
 					"actions": [
 						{
 							"type": "message",
