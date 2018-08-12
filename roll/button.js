@@ -14,7 +14,7 @@ function buttontest() {
 	     {
         "thumbnailImageUrl": "https://shadowverse.jp/news/wp-content/uploads/e0b558ba389c34594d109581059d77f1.png",
         "imageBackgroundColor": "#a8e8fb",
-        "title": "SV新卡情報",
+        "title": "SV新卡情報☆拉到右邊還有更多內容☆",
         "text": "取自巴哈姆特論壇 由作者Karas創作",
         "actions": [
           {
