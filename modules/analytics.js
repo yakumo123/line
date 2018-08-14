@@ -360,18 +360,12 @@ function parseInput(rplyToken, inputStr) {
 	
 	if (trigger.match(/摸老大|摸yu/) != null) return exports.yu.yuoo() ;	
 	
-	if (trigger.match(/聽歌/) != null) return exports.video.mushroomcloud() ;	
-	
 	if (trigger.match(/鳳梨/) != null) return exports.imagepie.PieIm() ;	
 	
 	if (trigger.match(/ㄎㄧㄤ|ㄎㄧㄠ/) != null) return exports.crazy.ircra() ;	
 	
-
 	if (trigger.match(/並沒有/) != null) return exports.nothing.irnothing() ;	
-	
-	if (trigger.match(/婆/) != null) return exports.poi.irpoi() ;	
-	
-	
+
 	if (trigger.match(/瞎掰|騙人|屁啦/) != null) return exports.no.irno() ;	
 	
 	if (trigger.match(/猜拳/) != null) {
