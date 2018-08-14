@@ -25,8 +25,8 @@ function BotHelpYy() {
 						},
 						{
 							"type": "message",
-							"label": "N/A",
-							"text": "N/A"
+							"label": "枯枝安妮妖后式跌死",
+							"text": "枯枝妖后式跌死"
 						}
 
 					]
