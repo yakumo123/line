@@ -9,14 +9,13 @@ function RPhoto() {
 var LinkIDArr = ['https://i.imgur.com/J8GLWvT.jpg','https://i.imgur.com/ccC24kA.jpg','https://i.imgur.com/7tsp2jz.jpg']
 var LinkID = LinkIDArr[Math.floor((Math.random() * (LinkIDArr.length)) + 0)];
 
-var LinkID = '"' + Link + '"';
 	rply = {
 
     "type": "image",
 
-    "originalContentUrl": Link,
+    "originalContentUrl": LinkID,
 
-    "previewImageUrl": Link
+    "previewImageUrl": LinkID
 
 };
 
