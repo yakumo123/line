@@ -4,8 +4,9 @@ var funny = require('./funny.js');
 
 var rply = { type: 'text' }; //type是必需的,但可以更改
 
-let ArrLinkID = ['J8GLWvT.jpg','ccC24kA.jpg','7tsp2jz.jpg']
-let Link = 'https://i.imgur.com/' + LinkID
+let LinkIDArr = ['J8GLWvT.jpg','ccC24kA.jpg','7tsp2jz.jpg'];
+let LinkID = LinkIDArr[Math.floor((Math.random() * (LinkIDArr.length)) + 0)];
+let Link = 'https://i.imgur.com/' + LinkID ;
 
 
 function RPhoto() {
@@ -14,9 +15,9 @@ function RPhoto() {
 
     "type": "image",
 
-    "originalContentUrl": "https://i.imgur.com/p7c2LbE.png",
+    "originalContentUrl": "Link",
 
-    "previewImageUrl": "https://i.imgur.com/p7c2LbE.png"
+    "previewImageUrl": "Link"
 
 };
 
