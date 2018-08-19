@@ -366,6 +366,9 @@ function parseInput(rplyToken, inputStr) {
 
 	if (trigger.match(/瞎掰|騙人|屁啦/) != null) return exports.no.irno() ;	
 	
+	if (trigger.match(/test/) != null) return exports.randomphoto.RPhoto() ;	
+	
+	
 	if (trigger.match(/猜拳/) != null) {
 		return RockPaperScissors(inputStr, mainMsg[1]);
 	}
