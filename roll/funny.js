@@ -8,6 +8,14 @@ rply.text = TEXT[0] + ' ： ' + rplyArr[Math.floor((Math.random() * (rplyArr.len
 return rply;
 }
 
+function like() {	
+let rplyArr = ['\
+我喜歡', '\
+我很喜歡', '\
+我還滿喜歡的'];
+rply.text = rplyArr[Math.floor((Math.random() * (rplyArr.length)) + 0)];
+return rply;
+}
 
 function eato() {	
 rply.text = '吃土比較適合你';
@@ -883,6 +891,7 @@ function tenchoice(input,mainMsg) {
 
 module.exports = {
 	randomColour,
+	like,
 	eato,
 	drinko,
 	moo,
