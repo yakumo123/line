@@ -315,11 +315,7 @@ function parseInput(rplyToken, inputStr) {
 	
 	if (trigger.match(/在次|在一次|在啦幹/) != null) return exports.funny.moo() ;	
 	
-	if (trigger.match(/我想吃|我要吃/) != null) return exports.funny.eato() ;	
-	
-	if (trigger.match(/我想喝|我要喝/) != null) return exports.funny.drinko() ;	
-	
-	if (trigger.match(/吵架/) != null) return exports.mmu.ummm() ;	
+	if (trigger.match(/你喜歡/) != null) return exports.funny.like() ;	
 	
 	if (trigger.match(/悠亞/) != null) return exports.funny.randomYula() ;	 
 		
