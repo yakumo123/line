@@ -12,25 +12,19 @@ function joking() {
           {
             "imageUrl": "https://i.imgur.com/wODPWY8.jpg",
             "action": {
-              "type": "message",
-              "label": "黑人問號",
-              "text": ""
+              "label": "黑人問號"
             }
           },
           {
             "imageUrl": "https://i.imgur.com/VIpVQRd.png",
             "action": {
-              "type": "message",
-              "label": "八雲問號",
-              "text": ""
+              "label": "八雲問號"
             }
           },
           {
             "imageUrl": "https://i.imgur.com/EJf8CZ3.jpg",
             "action": {
-              "type": "message",
-              "label": "白人問號",
-              "text": ""
+		    "label": "白人問號"
 	    }
 	  }
       ]
