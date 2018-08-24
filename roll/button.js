@@ -10,30 +10,7 @@ function buttontest() {
     "type": "carousel",
     "imageAspectRatio": "rectangle",
     "imageSize": "cover",
-    "columns": [
-	     {
-        "thumbnailImageUrl": "https://shadowverse.jp/news/wp-content/uploads/e0b558ba389c34594d109581059d77f1.png",
-        "imageBackgroundColor": "#a8e8fb",
-        "title": "SV新卡情報☆拉到右邊還有更多內容☆",
-        "text": "取自巴哈姆特論壇 由作者Karas創作",
-        "actions": [
-          {
-				      "type": "uri",
-				      "label": "SV新卡情報",
-				      "uri": "https://m.gamer.com.tw/forum/C.php?bsn=29330&snA=14883&bpage=1&top=9&ltype="
-			      },
-			      {
-				      "type": "uri",
-				      "label": "暫無",
-				      "uri": "https://m.gamer.com.tw/forum/C.php?bsn=29330&snA=14883&bpage=1&top=9&ltype="
-			      },	
-			      {
-				      "type": "uri",				      
-				      "label": "暫無",
-				      "uri": "https://m.gamer.com.tw/forum/C.php?bsn=29330&snA=14883&bpage=1&top=9&ltype="
-			      }
-        ]
-      },
+    "columns": {
       {
         "thumbnailImageUrl": "https://shadowverse.jp/news/wp-content/uploads/e0b558ba389c34594d109581059d77f1.png",
         "imageBackgroundColor": "#a8e8fb",
