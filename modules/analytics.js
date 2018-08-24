@@ -362,7 +362,7 @@ function parseInput(rplyToken, inputStr) {
 
 	if (trigger.match(/瞎掰|騙人|屁啦/) != null) return exports.no.irno() ;	
 		
-	if (trigger.match(/瞎掰|騙人|屁啦/) != null) return exports.video.mushroomcloud() ;	
+	if (trigger.match(/邪教/) != null) return exports.video.mushroomcloud() ;	
 		
 	
 	
