@@ -258,6 +258,7 @@ function randomLulla() {
 let rplyArr = ['\
 I very vegetable' ,'\
 (問號)' ,'\
+你是不是這裡(頭殼)有點那個…？' ,'\
 ????'];
 rply.text = rplyArr[Math.floor((Math.random() * (rplyArr.length)) + 0)];
 return rply;
