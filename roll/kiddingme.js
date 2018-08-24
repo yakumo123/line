@@ -12,19 +12,25 @@ function joking() {
           {
             "imageUrl": "https://i.imgur.com/wODPWY8.jpg",
             "action": {
-              "label": "黑人問號"
+              "type": "message",
+              "label": "黑人問號",
+              "text": "我智障到醫生說無可救藥…"
             }
           },
           {
             "imageUrl": "https://i.imgur.com/VIpVQRd.png",
             "action": {
-              "label": "八雲問號"
+              "type": "message",
+              "label": "八雲問號",
+              "text": "八雲問號"
             }
           },
           {
             "imageUrl": "https://i.imgur.com/EJf8CZ3.jpg",
             "action": {
-		    "label": "白人問號"
+              "type": "message",
+              "label": "白人問號",
+              "text": "我智障到醫生說無可救藥…"
 	    }
 	  }
       ]
