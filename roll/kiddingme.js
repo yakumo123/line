@@ -11,12 +11,27 @@ function joking() {
       "columns": [
           {
             "imageUrl": "https://i.imgur.com/wODPWY8.jpg",
+            "action": {
+              "type": "message",
+              "label": "黑人問號",
+              "text": ""
+            }
           },
           {
             "imageUrl": "https://i.imgur.com/VIpVQRd.png",
+            "action": {
+              "type": "message",
+              "label": "八雲問號",
+              "text": ""
+            }
           },
           {
             "imageUrl": "https://i.imgur.com/EJf8CZ3.jpg",
+            "action": {
+              "type": "message",
+              "label": "白人問號",
+              "text": ""
+	    }
 	  }
       ]
   }
