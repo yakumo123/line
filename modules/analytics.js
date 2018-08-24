@@ -361,8 +361,9 @@ function parseInput(rplyToken, inputStr) {
 	if (trigger.match(/並沒有/) != null) return exports.nothing.irnothing() ;	
 
 	if (trigger.match(/瞎掰|騙人|屁啦/) != null) return exports.no.irno() ;	
-	
-	if (trigger.match(/test/) != null) return exports.randomphoto.RPhoto() ;	
+		
+	if (trigger.match(/瞎掰|騙人|屁啦/) != null) return exports.video.mushroomcloud() ;	
+		
 	
 	
 	if (trigger.match(/猜拳/) != null) {
