@@ -10,7 +10,7 @@ function buttontest() {
     "type": "carousel",
     "imageAspectRatio": "rectangle",
     "imageSize": "cover",
-    "columns": {
+    "columns": [
       {
         "thumbnailImageUrl": "https://shadowverse.jp/news/wp-content/uploads/e0b558ba389c34594d109581059d77f1.png",
         "imageBackgroundColor": "#a8e8fb",
