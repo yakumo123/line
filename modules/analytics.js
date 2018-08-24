@@ -352,6 +352,8 @@ function parseInput(rplyToken, inputStr) {
 	
 	if (trigger.match(/摸吹雪/) != null) return exports.imagetwo.immsnow() ;	
 	
+	if (trigger.match(/^車圖$/) != null) return exports.fakeimage.fake() ;	
+	
 	if (trigger.match(/摸老大|摸yu/) != null) return exports.yu.yuoo() ;	
 	
 	if (trigger.match(/鳳梨/) != null) return exports.imagepie.PieIm() ;	
