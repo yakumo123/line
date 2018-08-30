@@ -1,6 +1,20 @@
 var rollbase = require('./rollbase.js');
 var rply ={type : 'text'}; //type是必需的,但可以更改
-var rplymuti = [{type : 'text'}, {type : 'text'}];
+
+function tea() {
+let rplyArr = ['\
+誰來叫FBI來捉走他？', '\
+FBI：就是他！羈押他！！', '\
+露娜爸爸：你別以為我不敢叫FBI來抓你…紅茶！！！', '\
+該羈押囉？', '\
+FBI：請問你有甚麼遺言嗎？', '\
+露娜式厭惡', '\
+快找FBI來RRRRR', '\
+我的天阿！現在都幾點了~該羈押了吧！', '\
+不要跟我解釋你只是露娜控不是蘿莉控那些了！羈押就對了！'];
+rply.text = rplyArr[Math.floor((Math.random() * (rplyArr.length)) + 0)];
+return rply;
+}
 
 function rrrr() {
 let rplyArr = ['\
@@ -908,6 +922,7 @@ function tenchoice(input,mainMsg) {
  }
 
 module.exports = {
+	tea,
 	rrrr,
 	randomColour,
 	like,
