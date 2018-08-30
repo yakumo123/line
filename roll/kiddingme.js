@@ -14,7 +14,7 @@ function joking() {
             "action": {
               "type": "message",
               "label": "黑人問號",
-              "text": "我智障到醫生說無可救藥…"
+              "text": "0"
             }
           },
           {
