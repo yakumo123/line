@@ -366,7 +366,7 @@ function parseInput(rplyToken, inputStr) {
 		
 	if (trigger.match(/邪教/) != null) return exports.video.mushroomcloud() ;	
 		
-	
+	if (trigger.match(/渦芽（橙靈心）|^渦芽$/) != null) return exports.funny.rrrr() ;	
 	
 	if (trigger.match(/猜拳/) != null) {
 		return RockPaperScissors(inputStr, mainMsg[1]);
