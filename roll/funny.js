@@ -12,6 +12,7 @@ let rplyArr = ['\
 交往也是有順序的，怎可能見面10秒就合體？', '\
 渦芽想要被奧茲打臉打到爽死…', '\
 渦芽：可不可以踩我？', '\
+八雲醬最棒了！', '\
 你們要睡渦芽大腿嗎？'];
 rply.text = rplyArr[Math.floor((Math.random() * (rplyArr.length)) + 0)];
 return rply;
