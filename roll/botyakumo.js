@@ -25,8 +25,8 @@ function BotHelpYy() {
 						},
 						{
 							"type": "message",
-							"label": "枯枝安妮妖后式跌死",
-							"text": "枯枝妖后式跌死"
+							"label": "～前往式神幫助2～",
+							"text": "式神幫助2"
 						}
 
 					]
