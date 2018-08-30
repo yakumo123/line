@@ -331,7 +331,7 @@ function parseInput(rplyToken, inputStr) {
 	
 	if (trigger.match(/立flag|死亡flag/) != null) return exports.funny.Flag() ;	
 	
-	if (trigger.match(/^八雲$|^@小學生八雲やくも$/) != null) return exports.funny.randomYakumo() ;	
+	if (trigger.match(/^八雲$|^@小學生八雲やくも$|^@平成最後の小学生八雲（やくも）$/) != null) return exports.funny.randomYakumo() ;	
 	
 	
 	if (trigger.match(/女裝/) != null) return exports.funny.randomReply() ;	
