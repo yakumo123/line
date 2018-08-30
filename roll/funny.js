@@ -13,6 +13,7 @@ let rplyArr = ['\
 渦芽想要被奧茲打臉打到爽死…', '\
 渦芽：可不可以踩我？', '\
 八雲醬最棒了！', '\
+奧兹奧茲心動動', '\
 你們要睡渦芽大腿嗎？'];
 rply.text = rplyArr[Math.floor((Math.random() * (rplyArr.length)) + 0)];
 return rply;
