@@ -6,7 +6,7 @@ rply.text = '我怎麼知道\n你又沒跟我說過( ˘･з･)';
 return rply;
 }
 
-function lullaby()
+function lullaby() {
 let rplyArr = ['\
 要好好負責喲♡', '\
 露菈會為你奉上一切的…所以把你的身心靈都交給我吧…♡'];
