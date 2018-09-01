@@ -1,6 +1,11 @@
 var rollbase = require('./rollbase.js');
 var rply ={type : 'text'}; //type是必需的,但可以更改
 
+function know() {
+rply.text = '我怎麼知道\n你又沒跟我說過( ˘･з･)';
+return rply;
+}
+
 function tea() {
 let rplyArr = ['\
 誰來叫FBI來捉走他？', '\
