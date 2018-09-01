@@ -349,7 +349,7 @@ function parseInput(rplyToken, inputStr) {
 	if (trigger.match(/燻兔肉佐/) != null) return exports.funny.randomRabbit() ;	
 	if (trigger.match(/^@高睿鴻$|^笑臉$/) != null) return exports.funny.randomSmileFace() ;
 		
-	if (trigger.match(/摸露菈/) != null) returnexports.funny.lullaby() ;	
+	if (trigger.match(/摸露菈/) != null) return exports.funny.lullaby() ;	
 	
 	if (trigger.match(/舔吹雪/) != null) return exports.image.imsnow() ;	
 	
