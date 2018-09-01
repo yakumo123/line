@@ -932,6 +932,7 @@ function tenchoice(input,mainMsg) {
  }
 
 module.exports = {
+	know,
 	tea,
 	rrrr,
 	randomColour,
