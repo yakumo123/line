@@ -6,6 +6,14 @@ rply.text = '我怎麼知道\n你又沒跟我說過( ˘･з･)';
 return rply;
 }
 
+function lullaby()
+let rplyArr = ['\
+要好好負責喲♡', '\
+露菈會為你奉上一切的…所以把你的身心靈都交給我吧…♡'];
+rply.text = rplyArr[Math.floor((Math.random() * (rplyArr.length)) + 0)];
+return rply;
+}
+
 function tea() {
 let rplyArr = ['\
 誰來叫FBI來捉走他？', '\
@@ -933,6 +941,7 @@ function tenchoice(input,mainMsg) {
 
 module.exports = {
 	know,
+	lullaby,
 	tea,
 	rrrr,
 	randomColour,
