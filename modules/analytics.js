@@ -371,6 +371,8 @@ function parseInput(rplyToken, inputStr) {
 	
 	if (trigger.match(/^紅茶$|^@紅茶$/) != null) return exports.funny.tea() ;	
 	
+	if (trigger.match(/並沒有/) != null) return exports.funny.know() ;	
+
 	if (trigger.match(/猜拳/) != null) {
 		return RockPaperScissors(inputStr, mainMsg[1]);
 	}
