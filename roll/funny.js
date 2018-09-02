@@ -939,6 +939,239 @@ function tenchoice(input,mainMsg) {
 	return rply;
  }
 
+
+function PokerAll(mainMsg) {	
+
+	let a = ['♤A','♤2','♤3','♤4','♤5','♤6','♤7','♤8','♤9','♤10','♤J','♤Q','♤K','♡A','♡2','♡3','♡4','♡5','♡6','♡7','♡8','♡9','♡10','♡J','♡Q','♡K','◇A','◇2','◇3','◇4','◇5','◇6','◇7','◇8','◇9','◇10','◇J','◇Q','◇K','◇A','◇2','◇3','◇4','◇5','◇6','◇7','◇8','◇9','◇10','◇J','◇Q','◇K'];
+
+	for (var i = a.length-1; i >=0; i--) {
+
+	var randomIndex = Math.floor(Math.random()*(i+1));
+	var itemAtIndex = a[randomIndex];
+	a[randomIndex] = a[i];
+	a[i] = itemAtIndex;
+	}
+	rply.text = mainMsg[0] + '\n' + ' → ' + a ;
+	return rply;
+}
+
+
+
+
+
+
+function Poker14(mainMsg) {	
+
+	let a = ['♤A','♤2','♤3','♤4','♤5','♤6','♤7','♤8','♤9','♤10','♤J','♤Q','♤K','♡A','♡2','♡3','♡4','♡5','♡6','♡7','♡8','♡9','♡10','♡J','♡Q','♡K','◇A','◇2','◇3','◇4','◇5','◇6','◇7','◇8','◇9','◇10','◇J','◇Q','◇K','◇A','◇2','◇3','◇4','◇5','◇6','◇7','◇8','◇9','◇10','◇J','◇Q','◇K'];
+
+	for (var i = a.length-1; i >=0; i--) {
+
+	var randomIndex = Math.floor(Math.random()*(i+1));
+	var itemAtIndex = a[randomIndex];
+	a[randomIndex] = a[i];
+	a[i] = itemAtIndex;
+	}
+rply.text = mainMsg[0] + '\n' + ' → ' + a[0] + ' ， ' + a[1] + ' ， ' + a[2] + ' ， ' + a[3] + ' ， ' + a[4] + '\n' + a[5] + ' ， ' + a[6] + ' ， ' + a[7] + ' ， ' + a[8] + '\n' + a[9] + ' ， ' + a[10] + ' ， ' + a[11] + ' ， ' + a[12] + a[13] ;
+return rply;
+}
+
+
+function Poker13(mainMsg) {	
+
+	let a = ['♤A','♤2','♤3','♤4','♤5','♤6','♤7','♤8','♤9','♤10','♤J','♤Q','♤K','♡A','♡2','♡3','♡4','♡5','♡6','♡7','♡8','♡9','♡10','♡J','♡Q','♡K','◇A','◇2','◇3','◇4','◇5','◇6','◇7','◇8','◇9','◇10','◇J','◇Q','◇K','◇A','◇2','◇3','◇4','◇5','◇6','◇7','◇8','◇9','◇10','◇J','◇Q','◇K'];
+
+	for (var i = a.length-1; i >=0; i--) {
+
+	var randomIndex = Math.floor(Math.random()*(i+1));
+	var itemAtIndex = a[randomIndex];
+	a[randomIndex] = a[i];
+	a[i] = itemAtIndex;
+	}
+rply.text = mainMsg[0] + '\n' + ' → ' + a[0] + ' ， ' + a[1] + ' ， ' + a[2] + ' ， ' + a[3] + ' ， ' + a[4] + '\n' + a[5] + ' ， ' + a[6] + ' ， ' + a[7] + ' ， ' + a[8] + '\n' + a[9] + ' ， ' + a[10] + ' ， ' + a[11] + ' ， ' + a[12] ;
+return rply;
+}
+
+function Poker12(mainMsg) {	
+
+	let a = ['♤A','♤2','♤3','♤4','♤5','♤6','♤7','♤8','♤9','♤10','♤J','♤Q','♤K','♡A','♡2','♡3','♡4','♡5','♡6','♡7','♡8','♡9','♡10','♡J','♡Q','♡K','◇A','◇2','◇3','◇4','◇5','◇6','◇7','◇8','◇9','◇10','◇J','◇Q','◇K','◇A','◇2','◇3','◇4','◇5','◇6','◇7','◇8','◇9','◇10','◇J','◇Q','◇K'];
+
+	for (var i = a.length-1; i >=0; i--) {
+
+	var randomIndex = Math.floor(Math.random()*(i+1));
+	var itemAtIndex = a[randomIndex];
+	a[randomIndex] = a[i];
+	a[i] = itemAtIndex;
+	}
+rply.text = mainMsg[0] + '\n' + ' → ' + a[0] + ' ， ' + a[1] + ' ， ' + a[2] + ' ， ' + a[3] + ' ， ' + a[4] + '\n' + a[5] + ' ， ' + a[6] + ' ， ' + a[7] + ' ， ' + a[8] + '\n' + a[9] + ' ， ' + a[10] + ' ， ' + a[11] ;
+return rply;
+}
+
+function Poker11(mainMsg) {	
+
+	let a = ['♤A','♤2','♤3','♤4','♤5','♤6','♤7','♤8','♤9','♤10','♤J','♤Q','♤K','♡A','♡2','♡3','♡4','♡5','♡6','♡7','♡8','♡9','♡10','♡J','♡Q','♡K','◇A','◇2','◇3','◇4','◇5','◇6','◇7','◇8','◇9','◇10','◇J','◇Q','◇K','◇A','◇2','◇3','◇4','◇5','◇6','◇7','◇8','◇9','◇10','◇J','◇Q','◇K'];
+
+	for (var i = a.length-1; i >=0; i--) {
+
+	var randomIndex = Math.floor(Math.random()*(i+1));
+	var itemAtIndex = a[randomIndex];
+	a[randomIndex] = a[i];
+	a[i] = itemAtIndex;
+	}
+rply.text = mainMsg[0] + '\n' + ' → ' + a[0] + ' ， ' + a[1] + ' ， ' + a[2] + ' ， ' + a[3] + ' ， ' + a[4] + '\n' + a[5] + ' ， ' + a[6] + ' ， ' + a[7] + ' ， ' + a[8] + '\n' + a[9] + ' ， ' + a[10] ;
+return rply;
+}
+
+function Poker10(mainMsg) {	
+
+	let a = ['♤A','♤2','♤3','♤4','♤5','♤6','♤7','♤8','♤9','♤10','♤J','♤Q','♤K','♡A','♡2','♡3','♡4','♡5','♡6','♡7','♡8','♡9','♡10','♡J','♡Q','♡K','◇A','◇2','◇3','◇4','◇5','◇6','◇7','◇8','◇9','◇10','◇J','◇Q','◇K','◇A','◇2','◇3','◇4','◇5','◇6','◇7','◇8','◇9','◇10','◇J','◇Q','◇K'];
+
+	for (var i = a.length-1; i >=0; i--) {
+
+	var randomIndex = Math.floor(Math.random()*(i+1));
+	var itemAtIndex = a[randomIndex];
+	a[randomIndex] = a[i];
+	a[i] = itemAtIndex;
+	}
+rply.text = mainMsg[0] + '\n' + ' → ' + a[0] + ' ， ' + a[1] + ' ， ' + a[2] + ' ， ' + a[3] + ' ， ' + a[4] + '\n' + a[5] + ' ， ' + a[6] + ' ， ' + a[7] + ' ， ' + a[8] + ' ， ' + a[9] ;
+return rply;
+}
+
+
+function Poker9(mainMsg) {	
+
+	let a = ['♤A','♤2','♤3','♤4','♤5','♤6','♤7','♤8','♤9','♤10','♤J','♤Q','♤K','♡A','♡2','♡3','♡4','♡5','♡6','♡7','♡8','♡9','♡10','♡J','♡Q','♡K','◇A','◇2','◇3','◇4','◇5','◇6','◇7','◇8','◇9','◇10','◇J','◇Q','◇K','◇A','◇2','◇3','◇4','◇5','◇6','◇7','◇8','◇9','◇10','◇J','◇Q','◇K'];
+
+	for (var i = a.length-1; i >=0; i--) {
+
+	var randomIndex = Math.floor(Math.random()*(i+1));
+	var itemAtIndex = a[randomIndex];
+	a[randomIndex] = a[i];
+	a[i] = itemAtIndex;
+	}
+rply.text = mainMsg[0] + '\n' + ' → ' + a[0] + ' ， ' + a[1] + ' ， ' + a[2] + ' ， ' + a[3] + ' ， ' + a[4] + '\n' + a[5] + ' ， ' + a[6] + ' ， ' + a[7] + ' ， ' + a[8] ;
+return rply;
+}
+
+function Poker8(mainMsg) {	
+
+	let a = ['♤A','♤2','♤3','♤4','♤5','♤6','♤7','♤8','♤9','♤10','♤J','♤Q','♤K','♡A','♡2','♡3','♡4','♡5','♡6','♡7','♡8','♡9','♡10','♡J','♡Q','♡K','◇A','◇2','◇3','◇4','◇5','◇6','◇7','◇8','◇9','◇10','◇J','◇Q','◇K','◇A','◇2','◇3','◇4','◇5','◇6','◇7','◇8','◇9','◇10','◇J','◇Q','◇K'];
+
+	for (var i = a.length-1; i >=0; i--) {
+
+	var randomIndex = Math.floor(Math.random()*(i+1));
+	var itemAtIndex = a[randomIndex];
+	a[randomIndex] = a[i];
+	a[i] = itemAtIndex;
+	}
+rply.text = mainMsg[0] + '\n' + ' → ' + a[0] + ' ， ' + a[1] + ' ， ' + a[2] + ' ， ' + a[3] + ' ， ' + a[4] + '\n' + a[5] + ' ， ' + a[6] + ' ， ' + a[7] ;
+return rply;
+}
+
+function Poker7(mainMsg) {	
+
+	let a = ['♤A','♤2','♤3','♤4','♤5','♤6','♤7','♤8','♤9','♤10','♤J','♤Q','♤K','♡A','♡2','♡3','♡4','♡5','♡6','♡7','♡8','♡9','♡10','♡J','♡Q','♡K','◇A','◇2','◇3','◇4','◇5','◇6','◇7','◇8','◇9','◇10','◇J','◇Q','◇K','◇A','◇2','◇3','◇4','◇5','◇6','◇7','◇8','◇9','◇10','◇J','◇Q','◇K'];
+
+	for (var i = a.length-1; i >=0; i--) {
+
+	var randomIndex = Math.floor(Math.random()*(i+1));
+	var itemAtIndex = a[randomIndex];
+	a[randomIndex] = a[i];
+	a[i] = itemAtIndex;
+	}
+rply.text = mainMsg[0] + '\n' + ' → ' + a[0] + ' ， ' + a[1] + ' ， ' + a[2] + ' ， ' + a[3] + ' ， ' + a[4] + '\n' + a[5] + ' ， ' + a[6] ;
+return rply;
+}
+
+function Poker6(mainMsg) {	
+
+	let a = ['♤A','♤2','♤3','♤4','♤5','♤6','♤7','♤8','♤9','♤10','♤J','♤Q','♤K','♡A','♡2','♡3','♡4','♡5','♡6','♡7','♡8','♡9','♡10','♡J','♡Q','♡K','◇A','◇2','◇3','◇4','◇5','◇6','◇7','◇8','◇9','◇10','◇J','◇Q','◇K','◇A','◇2','◇3','◇4','◇5','◇6','◇7','◇8','◇9','◇10','◇J','◇Q','◇K'];
+
+	for (var i = a.length-1; i >=0; i--) {
+
+	var randomIndex = Math.floor(Math.random()*(i+1));
+	var itemAtIndex = a[randomIndex];
+	a[randomIndex] = a[i];
+	a[i] = itemAtIndex;
+	}
+rply.text = mainMsg[0] + '\n' + ' → ' + a[0] + ' ， ' + a[1] + ' ， ' + a[2] + ' ， ' + a[3] + ' ， ' + a[4] + ' ， ' + a[5] ;
+return rply;
+}
+
+function Poker5(mainMsg) {	
+
+	let a = ['♤A','♤2','♤3','♤4','♤5','♤6','♤7','♤8','♤9','♤10','♤J','♤Q','♤K','♡A','♡2','♡3','♡4','♡5','♡6','♡7','♡8','♡9','♡10','♡J','♡Q','♡K','◇A','◇2','◇3','◇4','◇5','◇6','◇7','◇8','◇9','◇10','◇J','◇Q','◇K','◇A','◇2','◇3','◇4','◇5','◇6','◇7','◇8','◇9','◇10','◇J','◇Q','◇K'];
+
+	for (var i = a.length-1; i >=0; i--) {
+
+	var randomIndex = Math.floor(Math.random()*(i+1));
+	var itemAtIndex = a[randomIndex];
+	a[randomIndex] = a[i];
+	a[i] = itemAtIndex;
+	}
+rply.text = mainMsg[0] + '\n' + ' → ' + a[0] + ' ， ' + a[1] + ' ， ' + a[2] + ' ， ' + a[3] + ' ， ' + a[4] ;
+return rply;
+}
+
+function Poker4(mainMsg) {	
+
+	let a = ['♤A','♤2','♤3','♤4','♤5','♤6','♤7','♤8','♤9','♤10','♤J','♤Q','♤K','♡A','♡2','♡3','♡4','♡5','♡6','♡7','♡8','♡9','♡10','♡J','♡Q','♡K','◇A','◇2','◇3','◇4','◇5','◇6','◇7','◇8','◇9','◇10','◇J','◇Q','◇K','◇A','◇2','◇3','◇4','◇5','◇6','◇7','◇8','◇9','◇10','◇J','◇Q','◇K'];
+
+	for (var i = a.length-1; i >=0; i--) {
+
+	var randomIndex = Math.floor(Math.random()*(i+1));
+	var itemAtIndex = a[randomIndex];
+	a[randomIndex] = a[i];
+	a[i] = itemAtIndex;
+	}
+rply.text = mainMsg[0] + '\n' + ' → ' + a[0] + ' ， ' + a[1] + ' ， ' + a[2] + ' ， ' + a[3] ;
+return rply;
+}
+
+function Poker3(mainMsg) {	
+
+	let a = ['♤A','♤2','♤3','♤4','♤5','♤6','♤7','♤8','♤9','♤10','♤J','♤Q','♤K','♡A','♡2','♡3','♡4','♡5','♡6','♡7','♡8','♡9','♡10','♡J','♡Q','♡K','◇A','◇2','◇3','◇4','◇5','◇6','◇7','◇8','◇9','◇10','◇J','◇Q','◇K','◇A','◇2','◇3','◇4','◇5','◇6','◇7','◇8','◇9','◇10','◇J','◇Q','◇K'];
+
+	for (var i = a.length-1; i >=0; i--) {
+
+	var randomIndex = Math.floor(Math.random()*(i+1));
+	var itemAtIndex = a[randomIndex];
+	a[randomIndex] = a[i];
+	a[i] = itemAtIndex;
+	}
+rply.text = mainMsg[0] + '\n' + ' → ' + a[0] + ' ， ' + a[1] + ' ， ' + a[2] ;
+return rply;
+}
+
+function Poker2(mainMsg) {	
+
+	let a = ['♤A','♤2','♤3','♤4','♤5','♤6','♤7','♤8','♤9','♤10','♤J','♤Q','♤K','♡A','♡2','♡3','♡4','♡5','♡6','♡7','♡8','♡9','♡10','♡J','♡Q','♡K','◇A','◇2','◇3','◇4','◇5','◇6','◇7','◇8','◇9','◇10','◇J','◇Q','◇K','◇A','◇2','◇3','◇4','◇5','◇6','◇7','◇8','◇9','◇10','◇J','◇Q','◇K'];
+
+	for (var i = a.length-1; i >=0; i--) {
+
+	var randomIndex = Math.floor(Math.random()*(i+1));
+	var itemAtIndex = a[randomIndex];
+	a[randomIndex] = a[i];
+	a[i] = itemAtIndex;
+	}
+rply.text = mainMsg[0] + '\n' + ' → ' + a[0] + ' ， ' + a[1] ;
+return rply;
+}
+
+function Poker1(mainMsg) {	
+
+	let a = ['♤A','♤2','♤3','♤4','♤5','♤6','♤7','♤8','♤9','♤10','♤J','♤Q','♤K','♡A','♡2','♡3','♡4','♡5','♡6','♡7','♡8','♡9','♡10','♡J','♡Q','♡K','◇A','◇2','◇3','◇4','◇5','◇6','◇7','◇8','◇9','◇10','◇J','◇Q','◇K','◇A','◇2','◇3','◇4','◇5','◇6','◇7','◇8','◇9','◇10','◇J','◇Q','◇K'];
+
+	for (var i = a.length-1; i >=0; i--) {
+
+	var randomIndex = Math.floor(Math.random()*(i+1));
+	var itemAtIndex = a[randomIndex];
+	a[randomIndex] = a[i];
+	a[i] = itemAtIndex;
+	}
+rply.text = mainMsg[0] + '\n' + ' → ' + a[0] ;
+return rply;
+}
+
 module.exports = {
 	know,
 	lullaby,
@@ -984,5 +1217,20 @@ module.exports = {
 	eightchoice,
 	ninechoice,
 	tenchoice,
-	tarotCardReply	
+	tarotCardReply,
+	PokerAll,
+	Poker14,
+	Poker13,
+	Poker12,
+	Poker11,
+	Poker10,
+	Poker9,
+	Poker8,
+	Poker7,
+	Poker6,
+	Poker5,
+	Poker4,
+	Poker3,
+	Poker2,
+	Poker1
 };
