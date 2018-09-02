@@ -123,20 +123,21 @@ function parseInput(rplyToken, inputStr) {
 	if (trigger.match(/選8/)!= null && mainMsg.length >= 3) return exports.funny.eightchoice(inputStr,mainMsg);
 	if (trigger.match(/選9/)!= null && mainMsg.length >= 3) return exports.funny.ninechoice(inputStr,mainMsg);
 	
+	if (trigger.match(/^撲克大老二$/)!= null ) return exports.funny.Poker11();	
 	if (trigger.match(/^撲克11$/)!= null ) return exports.funny.Poker11();	
-if (trigger.match(/^撲克12$/)!= null ) return exports.funny.Poker12();	
-if (trigger.match(/^撲克13$/)!= null ) return exports.funny.Poker13();	
-if (trigger.match(/^撲克14$/)!= null ) return exports.funny.Poker14();	
-if (trigger.match(/^撲克1$/)!= null ) return exports.funny.Poker1();	
-if (trigger.match(/^撲克2$/)!= null ) return exports.funny.Poker2();	
-if (trigger.match(/^撲克3$/)!= null ) return exports.funny.Poker3();	
-if (trigger.match(/^撲克4$/)!= null ) return exports.funny.Poker4();	
-if (trigger.match(/^撲克5$/)!= null ) return exports.funny.Poker5();	
-if (trigger.match(/^撲克6$/)!= null ) return exports.funny.Poker6();	
-if (trigger.match(/^撲克7$/)!= null ) return exports.funny.Poker7();	
-if (trigger.match(/^撲克8$/)!= null ) return exports.funny.Poker8();	
-if (trigger.match(/^撲克9$/)!= null ) return exports.funny.Poker9();	
-if (trigger.match(/^撲克10$/)!= null ) return exports.funny.Poker10();
+	if (trigger.match(/^撲克12$/)!= null ) return exports.funny.Poker12();
+	if (trigger.match(/^撲克13$/)!= null ) return exports.funny.Poker13();	
+	if (trigger.match(/^撲克14$/)!= null ) return exports.funny.Poker14();	
+	if (trigger.match(/^撲克1$/)!= null ) return exports.funny.Poker1();	
+	if (trigger.match(/^撲克2$/)!= null ) return exports.funny.Poker2();	
+	if (trigger.match(/^撲克3$/)!= null ) return exports.funny.Poker3();	
+	if (trigger.match(/^撲克4$/)!= null ) return exports.funny.Poker4();	
+	if (trigger.match(/^撲克5$/)!= null ) return exports.funny.Poker5();	
+	if (trigger.match(/^撲克6$/)!= null ) return exports.funny.Poker6();	
+	if (trigger.match(/^撲克7$/)!= null ) return exports.funny.Poker7();	
+	if (trigger.match(/^撲克8$/)!= null ) return exports.funny.Poker8();	
+	if (trigger.match(/^撲克9$/)!= null ) return exports.funny.Poker9();	
+	if (trigger.match(/^撲克10$/)!= null ) return exports.funny.Poker10();
 	
 	//tarot 指令
 	if (trigger.match(/tarot|塔羅牌|塔羅/) != null) {
