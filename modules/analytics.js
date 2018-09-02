@@ -123,7 +123,7 @@ function parseInput(rplyToken, inputStr) {
 	if (trigger.match(/選8/)!= null && mainMsg.length >= 3) return exports.funny.eightchoice(inputStr,mainMsg);
 	if (trigger.match(/選9/)!= null && mainMsg.length >= 3) return exports.funny.ninechoice(inputStr,mainMsg);
 	
-	if (trigger.match(/^撲克大老二$/)!= null ) return exports.funny.Poker11();	
+	if (trigger.match(/^撲克大老二$/)!= null ) return exports.funny.PokerAll();	
 	if (trigger.match(/^撲克11$/)!= null ) return exports.funny.Poker11();	
 	if (trigger.match(/^撲克12$/)!= null ) return exports.funny.Poker12();
 	if (trigger.match(/^撲克13$/)!= null ) return exports.funny.Poker13();	
