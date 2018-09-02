@@ -1197,7 +1197,6 @@ module.exports = {
 	ninechoice,
 	tenchoice,
 	tarotCardReply,
-	PokerAll,
 	Poker14,
 	Poker13,
 	Poker12,
