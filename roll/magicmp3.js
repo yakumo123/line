@@ -7,7 +7,7 @@ function magic() {
 	rply = {
 				"type": "audio",
 				"originalContentUrl": "https://drive.google.com/uc?export=download&id=16tYAkJhYrbTADKmdTgQq_mLzNoKdE8ff",
-				"duration": "60000"		
+				"duration": "20000"		
 	};
 		
 	return rply; 
