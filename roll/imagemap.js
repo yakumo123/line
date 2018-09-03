@@ -13,8 +13,8 @@ rply = {
   },
   "actions": [
       {
-          "type": "message",
-          "text": "我是紅茶",
+          "type": "uri",
+          "linkUri": "https://drive.google.com/uc?export=download&id=1lE4NvE76BKZ9mOCA4Q0Fichjn-gD2U1V",
           "area": {
               "x": 0,
               "y": 0,
@@ -23,8 +23,8 @@ rply = {
           }
       },
       {
-          "type": "message",
-          "text": "我是紅茶",
+          "type": "uri",
+          "linkUri": "https://drive.google.com/uc?export=download&id=169Fu5cZJQMLl0BfVvPxChpEoSoPRt7Bg",
           "area": {
               "x": 0,
               "y": 520,
@@ -33,8 +33,8 @@ rply = {
           }
       },
       {
-          "type": "message",
-          "text": "這是八雲的婆",
+          "type": "uri",
+          "linkUri": "https://drive.google.com/uc?export=download&id=1vuiIlRYcuPuKLEi0R67VexebECF",
           "area": {
               "x": 520,
               "y": 520,
@@ -43,8 +43,8 @@ rply = {
           }
       },
       {
-          "type": "message",
-          "text": "這是八雲的婆",
+          "type": "uri",
+          "linkUri": "https://drive.google.com/file/d/15WAZyE7DJ5Tu268I4oshrXBv-n00NGz4/view?usp=drivesdk",
           "area": {
               "x": 520,
               "y": 0,
