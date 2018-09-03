@@ -83,7 +83,7 @@ function parseInput(rplyToken, inputStr) {
 	if (trigger.match(/^sv情報$/)!= null ) return exports.button.buttontest();
 	if (trigger.match(/^公主情報$/)!= null ) return exports.redive.princesses();
 	
-	if (trigger.match(/^八雲比賽牌組$/)!= null ) return exports.yakumocard.buttontest();
+	if (trigger.match(/(^咕嚕靈波)/)!= null ) return exports.magicmp3.magic();
 	
 	
 	if (trigger.match(/^photolist$/)!= null ) return exports.security.Security();
