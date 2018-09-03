@@ -5,7 +5,7 @@ var rply = { type: 'text' }; //type是必需的,但可以更改
 function joke() {
 	rply = {
   "type": "text",
-  "text": "Select your favorite food category or send me your location!",
+  "text": "function test",
 		"quickReply": {
   "items": [
     {
@@ -13,6 +13,14 @@ function joke() {
       "action": {
         "type": "cameraRoll",
         "label": "Send photo"
+      }
+    },
+	  {
+      "type": "action",
+      "action": {
+        "type": "message",
+        "label": "Send photo",
+	      "text": "Hi"
       }
     },
     {
