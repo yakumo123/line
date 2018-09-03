@@ -76,7 +76,7 @@ function parseInput(rplyToken, inputStr) {
 	
 	if (trigger.match(/^comfirmcommand$/)!= null ) return exports.commandlist.Cili();
 
-	if (trigger.match(/^test$/)!= null ) return exports.kidding.joke();
+	if (trigger.match(/^心理測試$/)!= null ) return exports.kidding.joke();
 	
 	if (trigger.match(/^問號$/)!= null ) return exports.kiddingme.joking();
 	
