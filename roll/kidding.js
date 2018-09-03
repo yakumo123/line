@@ -26,7 +26,7 @@ function joke() {
 				      "uri": "https://shadowlog.com/s/trend/"
 			      }
         ]
-      },;
+      };
 	return rply;
 }
 
