@@ -19,10 +19,18 @@ function joke() {
       "type": "action",
       "action": {
         "type": "message",
-        "label": "Send photo",
+        "label": "Say Hi",
 	      "text": "Hi"
       }
     },
+	{
+      "type": "action",
+      "action": {
+        "type": "postback",
+        "label": "Postback Data",
+	      "Data": "Hi"
+      }
+    },  
     {
       "type": "action",
       "action": {
