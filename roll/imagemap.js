@@ -2,7 +2,7 @@ var rollbase = require('./rollbase.js');
 var funny = require('./funny.js');
 var rply = { type: 'text' };
 
-function mapping() {
+function mapping() {}
 rply = {
 "type": "imagemap",
   "baseUrl": "https://i.imgur.com/i5tqQ5n.png/1040",
