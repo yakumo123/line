@@ -25,7 +25,7 @@ function parseInput(rplyToken, inputStr) {
 	
 	if (trigger.match(/霖|凜/) != null) return exports.null.null() ;
 	
-	if (trigger.match(/test/) != null) return exports.kidding.joke() ;
+	if (trigger.match(/^萌$/) != null) return exports.imagemap.mapping() ;
 
 	
 
