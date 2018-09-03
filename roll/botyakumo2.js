@@ -20,8 +20,8 @@ function BotHelpYy() {
 						},
 						{
 							"type": "message",
-							"label": "暫無",
-							"text": "null"
+							"label": "撲克",
+							"text": "撲克1-14/撲克大老二\n\n用法自行發掘，最高抽撲克功能只支援到14張。\n\n【例子1】撲克12\n\n【例子2】撲克大老二"
 						},
 						{
 							"type": "message",
