@@ -14,12 +14,12 @@ function joke() {
 						"type": "message",
 						"label": "♡A",
 						"text": "我是智障"  
-					},
+				},
 					{
 					"type": "action",
 					"action": {
-					"type": "♧J",
-					"label": "",
+					"type": "message",
+					"label": "♧3",
 					"text": "我是變態"
 				}
 				},
