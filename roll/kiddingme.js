@@ -14,7 +14,7 @@ function joking() {
             "action": {
               "type": "postback",
               "label": "黑人問號",
-              "data": "2"
+              "data": "式神幫助"
             }
           },
           {
