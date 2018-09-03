@@ -4,50 +4,42 @@ var rply = { type: 'text' }; //type是必需的,但可以更改
 
 function joke() {
 	rply = {
-  "type": "text",
-  "text": "選一張撲克牌",
+		"type": "text",
+		"text": "選一張撲克牌",
 		"quickReply": {
-  "items": [
-    {
-      "type": "action",
-      "action": {
-       "type": "message",
-        "label": "♡A",
-	      "text": "我是智障"  
-    },
-	  {
-      "type": "action",
-      "action": {
-        "type": "♧J",
-        "label": "",
-	      "text": "我是變態"
-      }
-    },
-	 {
-      "type": "action",
-      "action": {
-        "type": "message",
-        "label": "♤2",
-	      "text": "我是蘿莉控"
-      }
-    },
-    {
-      "type": "action",
-      "action": {
-        "type": "message",
-        "label": "◇K",
-	      "text": "我是紅茶"
-      }
-    },
-	   {
-      "type": "action",
-      "action": {
-        "type": "message",
-        "label": "♡Q",
-	      "text": "我想被踩"
-      }
-    }
-]
+			"items": [
+				{
+					"type": "action",
+					"action": {
+						"type": "message",
+						"label": "♡A",
+						"text": "我是智障"  
+					},
+					{
+					"type": "action",
+					"action": {
+					"type": "♧J",
+					"label": "",
+					"text": "我是變態"
+				}
+				},
+				{
+				"type": "action",
+				"action": {
+				"type": "message",
+				"label": "◇K",
+				"text": "我是紅茶"
+				}
+				},
+				{
+				"type": "action",
+				"action": {
+				"type": "message",
+				"label": "♡Q",
+				"text": "我想被踩"
+				}
+				}
+			]
 		}
 	};
 	return rply;
