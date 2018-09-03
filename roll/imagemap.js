@@ -5,7 +5,7 @@ var rply = { type: 'text' };
 function mapping() {
 rply = {
 "type": "imagemap",
-  "baseUrl": "https://i.imgur.com/thA8GS6.png/1040",
+  "baseUrl": "https://i.imgur.com/i5tqQ5n.png/1040",
   "altText": "點你最喜歡的",
   "baseSize": {
       "height": 1040,
