@@ -5,7 +5,7 @@ var rply = { type: 'text' };
 function mapping() {
 rply = {
 "type": "imagemap",
-  "baseUrl": "https://drive.google.com/uc?export=download&id=1HbRYnHLU2-Hd7SDLVEzuu7iIbCHCuNIw/1040",
+  "baseUrl": "https://drive.google.com/uc?export=download&id=1HbRYnHLU2-Hd7SDLVEzuu7iIbCHCuNIw",
   "altText": "點你最喜歡的",
   "baseSize": {
       "height": 1040,
