@@ -6,38 +6,39 @@ function joke() {
 	rply = {
 		"type": "text",
 		"text": "選一張撲克牌",
-		"quickReply": {
+		"quickReply": { 
 			"items": [
+				{
+					"type": "action",
+					"action": {
+						"type": "message",
+						"label": "◇K",
+						"text": "我是紅茶"
+					}
+				},
+				{	
+					"type": "action",
+					"action": {
+						"type": "message",
+						"label": "♧3",
+						"text": "我是變態"
+					}
+				},
+				{
+					"type": "action",
+					"action": {
+						"type": "message",
+						"label": "♡Q",
+						"text": "我想被踩"
+					}
+				},
 				{
 					"type": "action",
 					"action": {
 						"type": "message",
 						"label": "♡A",
 						"text": "我是智障"  
-				},
-					{
-					"type": "action",
-					"action": {
-					"type": "message",
-					"label": "♧3",
-					"text": "我是變態"
-				}
-				},
-				{
-				"type": "action",
-				"action": {
-				"type": "message",
-				"label": "◇K",
-				"text": "我是紅茶"
-				}
-				},
-				{
-				"type": "action",
-				"action": {
-				"type": "message",
-				"label": "♡Q",
-				"text": "我想被踩"
-				}
+					}
 				}
 			]
 		}
