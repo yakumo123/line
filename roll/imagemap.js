@@ -44,7 +44,7 @@ rply = {
       },
       {
           "type": "uri",
-          "linkUri": "https://drive.google.com/file/d/15WAZyE7DJ5Tu268I4oshrXBv-n00NGz4/view?usp=drivesdk",
+          "linkUri": "https://drive.google.com/uc?export=download&id=15WAZyE7DJ5Tu268I4oshrXBv-n00NGz4",
           "area": {
               "x": 520,
               "y": 0,
