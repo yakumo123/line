@@ -28,7 +28,8 @@ function joke() {
       "action": {
         "type": "postback",
         "label": "Postback Data",
-	      "Data": "Hi"
+	      "data": "Hi",
+	      "text": "Hi"
       }
     },  
     {
