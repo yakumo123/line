@@ -109,7 +109,7 @@ function fakehelp() {
 						{
 							"type": "message",
 							"label": "角色人設生成",
-							"text": "我想被轟成智障呢~~"
+							"text": "This is reason that I am becoming a 變態"
 						},
 						{
 							"type": "message",
