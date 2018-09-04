@@ -67,7 +67,9 @@ function parseInput(rplyToken, inputStr) {
 	if (trigger.match(/(^cc6版創角$|^cc六版創角$)/) != null && mainMsg[1] != NaN )	return exports.coc.build6char(mainMsg[1]);
 	
 	if (trigger.match(/^coc7角色背景$/)!= null ) return exports.coc.PcBG();
-		
+	
+	if (trigger.match(/^式神幫忙$|^幫助$|^幫忙$/)!= null ) return exports.fakeyakumobot.fakehelp();
+	
 	if (trigger.match(/^式神幫助2$/)!= null ) return exports.botyakumo2.BotHelpYy();
 	
 	if (trigger.match(/^式神幫助$/)!= null ) return exports.botyakumo.BotHelpYy();
