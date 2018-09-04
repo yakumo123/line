@@ -64,7 +64,7 @@ function fakehelp() {
 						},
 						{
 							"type": "message",
-							"label": "隨機生成寵物"
+							"label": "隨機生成寵物",
 							"text": "我想狂歡阿伯"
 						},
 						{
@@ -186,7 +186,7 @@ function fakehelp() {
 					]
 				},
 				{
-					"title": "《其他功能》",
+					"title": "其他功能",
 					"text": "其他功能",
 					"actions": [
 						{
