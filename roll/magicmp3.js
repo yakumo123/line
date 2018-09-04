@@ -6,7 +6,7 @@ var rply = { type: 'text'};
 function magic() {
 	rply = {
 				"type": "audio",
-				"originalContentUrl": "https://drive.google.com/file/d/1JfROwdLdaK-3FqjyNYw2b6WBSx71475M/view?usp=drivesdk",
+				"originalContentUrl": "https://drive.google.com/uc?export=download&id=1JfROwdLdaK-3FqjyNYw2b6WBSx71475M",
 				"duration": "23000"		
 	};
 		
