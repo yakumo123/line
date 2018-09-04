@@ -1,6 +1,6 @@
 
 var rollbase = require('./rollbase.js');
-var rply ={type : 'text'}; //type是必需的,但可以更改
+var rply ={type : 'text'}; 
 
 
 function MultiDrawBan(CardToCal, text, type) {
@@ -60,8 +60,8 @@ function MultiDrawBan(CardToCal, text, type) {
 		if (i == 0) returnStr += '1: ' + BanCardReply(cards[i]) + ' ' + '\n';
 		if (i == 1) returnStr += '2: ' + BanCardReply(cards[i]) + ' ' + '\n';
 		if (i == 2) returnStr += '3: ' + BanCardReply(cards[i]) + ' ' + '\n';
-    if (i == 3) returnStr += '4: ' + BanCardReply(cards[i]) + ' ' + '\n';
-    if (i == 4) returnStr += '5: ' + BanCardReply(cards[i]) + ' ' + '\n';
+		if (i == 3) returnStr += '4: ' + BanCardReply(cards[i]) + ' ' + '\n';
+		if (i == 4) returnStr += '5: ' + BanCardReply(cards[i]) + ' ' + '\n';
 		if (i == 5) {
 		if (revs[i] == 0) 
 			returnStr += '6: ' + BanCardReply(cards[i]) + ' ' + '\n';
