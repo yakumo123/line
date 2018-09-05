@@ -3,9 +3,7 @@ var funny = require('./funny.js');
 var rply = { type: 'message' }; //type是必需的,但可以更改
 
 function joke() {
-	rply = {
-  "type": "carousel",
-  "contents": [
+	rply = 
     {
       "type": "bubble",
       "body": {
@@ -18,22 +16,7 @@ function joke() {
           }
         ]
       }
-    },
-    {
-      "type": "bubble",
-      "body": {
-        "type": "box",
-        "layout": "vertical",
-        "contents": [
-          {
-            "type": "text",
-            "text": "Second bubble"
-          }
-        ]
-      }
-    }
-  ]
-};
+    };
 	return rply;
 }
 
