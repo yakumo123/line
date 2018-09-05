@@ -87,13 +87,16 @@ var message = {
                       "type": "message",
                       "label": "Order",
                       "text": "CM01_001"
-                    }
-                  }
-                ]
-              }
-            }
-        }
-      };
+                
+		    }
+              
+		  }
+            
+		]
+         
+	      }
+	 }
+};
 
 function joke() {
 	return message;
