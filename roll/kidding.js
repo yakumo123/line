@@ -4,6 +4,8 @@ var rply = { type: 'message', type: 'message' }; //type是必需的,但可以更
 
 function joke() {
 	rply = {
+  "type": "carousel",
+  "contents": [
   "type": "bubble",
   "header": {
     "type": "box",
@@ -42,6 +44,7 @@ function joke() {
   "styles": {
     "comment": "See the example of a bubble style object"
   }
+	  ]
 };
 	return rply;
 }
