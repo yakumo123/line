@@ -2,7 +2,7 @@ var rollbase = require('./rollbase.js');
 var funny = require('./funny.js');
 var message = {
     "type": "flex",
-    "altText": "#",
+    "altText": "咕嚕靈波（●´∀｀）ノ♡",
     "contents": {
         "type": "bubble",
         "hero": {
@@ -46,7 +46,7 @@ var message = {
                 },
                 {
                   "type": "text",
-                "text": "咕嚕靈波~~\n",
+                "text": "咕嚕靈波（●´∀｀）ノ♡\n",
                 "wrap": true,
                 "weight": "bold",
                 "gravity": "center",
