@@ -80,6 +80,9 @@ function parseInput(rplyToken, inputStr) {
 
 	if (trigger.match(/^真步教$|^真步真步教$/)!= null ) return exports.kidding.joke();
 	
+	if (trigger.match(/^推薦牌組$/)!= null ) return exports.cardbuild.build();
+	
+	
 	if (trigger.match(/^問號$/)!= null ) return exports.kiddingme.joking();
 	
 	if (trigger.match(/^sv情報$/)!= null ) return exports.button.buttontest();
