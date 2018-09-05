@@ -19,13 +19,21 @@ var message = {
             "contents": [
             {
                 "type": "text",
-                "text": "這是真步真步王國的宣傳單張",
+                "text": "這是真步真步王國的宣傳單張\n\n",
 		    "color": "#3c09f4",
                 "wrap": true,
                 "weight": "bold",
                 "gravity": "center",
                 "size": "xl"
             },
+		{
+        "type": "button",
+        "style": "link",
+        "action": {
+          "type": "uri",
+          "label": "點擊觀看真步真步教聖歌",
+          "uri": "https://youtu.be/78BdGjqnaIg"
+        },
             {
                 "type": "box",
                 "layout": "vertical",
@@ -37,7 +45,7 @@ var message = {
                 },
                 {
                   "type": "text",
-                "text": "咕嚕靈波~~",
+                "text": "\n咕嚕靈波~~",
                 "wrap": true,
                 "weight": "bold",
                 "gravity": "center",
@@ -45,7 +53,7 @@ var message = {
                 },
                 {
                     "type": "text",
-                    "text": "請快點加入我們真步真步教！",
+                    "text": "請快點加入我們真步真步教！\n",
                     "color": "#ff1616",
                     "wrap": true,
                     "margin": "xxl",
