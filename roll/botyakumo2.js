@@ -10,8 +10,8 @@ function BotHelpYy() {
 			"type": "carousel",
 			"columns": [
 				{
-					"title": "隨機生成",
-					"text": "隨機生成",
+					"title": "隨機生成/其他",
+					"text": "隨機生成/其他",
 					"actions": [
 						{
 							"type": "message",
@@ -25,8 +25,8 @@ function BotHelpYy() {
 						},
 						{
 							"type": "message",
-							"label": "暫無",
-							"text": "null"
+							"label": "偽式神幫助【毀其他人形象用】",
+							"text": "式神幫忙"
 						}
 
 					]
