@@ -3,8 +3,7 @@ var funny = require('./funny.js');
 var rply = { type: 'message' }; //type是必需的,但可以更改
 
 function joke() {
-	rply = 
-    {
+	rply = {
       "type": "bubble",
       "body": {
         "type": "box",
