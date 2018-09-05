@@ -5,9 +5,10 @@ var rply = { type: 'text'};
 
 function magic() {
 	rply = {
-				"type": "text",
-				"text": "＿人人人人人人人人＿\n＞　　咕嚕靈波♡ 　＜\n￣^Y^Y^Y^Y^Y^Y^Y￣\n／ イ  　　　(((ヽ\n(　 ﾉ　　　　 ￣Ｙ＼\n|　(＼　(\      /)   ｜    )\nヽ　ヽ` ( ﾟ∀ﾟ ) _ノ    /\n　＼ |　⌒Ｙ⌒　/  /\n　 ｜ヽ　 ｜　 ﾉ ／"	
-	};
+    "type": "video",
+    "originalContentUrl": "https://drive.google.com/uc?export=download&id=12Yw8oX1DILiAovQkr2j1ykZ-AQ9cNe9c",
+    "previewImageUrl": "https://drive.google.com/uc?export=download&id=1KNgmkrvog0OnUHRil9seI8CfyVAWtn3j"
+};
 		
 	return rply; 
 	
