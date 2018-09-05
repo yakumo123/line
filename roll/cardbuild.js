@@ -1,3 +1,5 @@
+var rollbase = require('./rollbase.js');
+var funny = require('./funny.js');
 var message = {
   "type": "carousel",
   "contents": [
@@ -272,4 +274,16 @@ var message = {
     }
     
     ]
-    }
+    };
+
+function build() {
+	return message; 
+	
+}
+
+
+
+module.exports = {
+	build: build
+};
+
