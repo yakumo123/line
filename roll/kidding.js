@@ -46,7 +46,7 @@ var message = {
                 },
                 {
                   "type": "text",
-                "text": "咕嚕靈波~~",
+                "text": "\n咕嚕靈波~~",
                 "wrap": true,
                 "weight": "bold",
                 "gravity": "center",
