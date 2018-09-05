@@ -5,9 +5,8 @@ var rply = { type: 'text'};
 
 function magic() {
 	rply = {
-				"type": "audio",
-				"originalContentUrl": "https://drive.google.com/uc?export=download&id=1JfROwdLdaK-3FqjyNYw2b6WBSx71475M",
-				"duration": "23000"		
+				"type": "message",
+				"text": "＿人人人人人人人人＿\n＞　　咕嚕靈波♡ 　＜\n￣^Y^Y^Y^Y^Y^Y^Y￣\n／ イ  　　　(((ヽ\n(　 ﾉ　　　　 ￣Ｙ＼\n|　(＼　(\      /)   ｜    )\nヽ　ヽ` ( ﾟ∀ﾟ ) _ノ    /\n　＼ |　⌒Ｙ⌒　/  /\n　 ｜ヽ　 ｜　 ﾉ ／"	
 	};
 		
 	return rply; 
