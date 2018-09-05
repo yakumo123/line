@@ -20,11 +20,11 @@ var message = {
             {
                 "type": "text",
                 "text": "這是真步真步王國的宣傳單張",
-	 "color": "#3c09f4",
+		    "color": "#3c09f4",
                 "wrap": true,
                 "weight": "bold",
                 "gravity": "center",
-                "size": "l"
+                "size": "xl"
             },
             {
                 "type": "box",
@@ -49,7 +49,7 @@ var message = {
                     "color": "#ff1616",
                     "wrap": true,
                     "margin": "xxl",
-                    "size": "l"
+                    "size": "xl"
                 }
                 ]
             }
