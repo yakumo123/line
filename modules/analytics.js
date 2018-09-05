@@ -78,7 +78,7 @@ function parseInput(rplyToken, inputStr) {
 	
 	if (trigger.match(/^comfirmcommand$/)!= null ) return exports.commandlist.Cili();
 
-	if (trigger.match(/^咕嚕靈波（●´∀｀）ノ♡$/)!= null ) return exports.kidding.joke();
+	if (trigger.match(/^真步教$|^真步真步教$/)!= null ) return exports.kidding.joke();
 	
 	if (trigger.match(/^問號$/)!= null ) return exports.kiddingme.joking();
 	
