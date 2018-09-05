@@ -57,7 +57,7 @@ var message = {
                 "color": "#905c44",
                 "action": {
                     "type": "message",
-                    "label": "立即加入",
+                    "label": "按此立即加入",
                     "text": "我本人在此起誓 真步真步教是我的唯一教義！咕嚕靈波！"
                 }
             }
