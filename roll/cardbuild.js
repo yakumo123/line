@@ -12,8 +12,6 @@ var message = {
             "aspectRatio": "20:13",
             "aspectMode": "cover"
         },
-    {
-      "type": "bubble",
       "body": {
         "type": "box",
         "layout": "vertical",
@@ -268,13 +266,12 @@ var message = {
             }
           },
             "style": "secondary"
-          }
-        ]
-      }
-    }
-    
-    ]
-    };
+		}
+	]
+      }  
+  }
+  ] 
+};
 
 function build() {
 	return message; 
