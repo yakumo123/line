@@ -1,10 +1,7 @@
 var rollbase = require('./rollbase.js');
 var funny = require('./funny.js');
-var rply = { type: 'messages' }; //type是必需的,但可以更改
-
-function joke() {
-	rply = {
-  "type": "bubble",
+var rply = {
+	"type": "bubble",
   "body": {
     "type": "box",
     "layout": "vertical",
@@ -40,6 +37,8 @@ function joke() {
     ]
   }
 };
+
+function joke() {
 	return rply;
 }
 
