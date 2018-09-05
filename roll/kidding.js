@@ -35,9 +35,6 @@ var message = {
         "text": "Footer text",
       }
     ]
-  },
-  "styles": {
-    "comment": "test"
   }
 };
 
