@@ -25,16 +25,17 @@ var message = {
                 "weight": "bold",
                 "gravity": "center",
                 "size": "xl"
-            },
-		{
+	    },
+		    {
         "type": "button",
         "style": "link",
         "action": {
           "type": "uri",
           "label": "點擊觀看真步真步教聖歌",
           "uri": "https://youtu.be/78BdGjqnaIg"
-        },
-            {
+        }
+			    },
+			    {
                 "type": "box",
                 "layout": "vertical",
                 "margin": "xl",
@@ -45,7 +46,7 @@ var message = {
                 },
                 {
                   "type": "text",
-                "text": "\n咕嚕靈波~~",
+                "text": "咕嚕靈波~~",
                 "wrap": true,
                 "weight": "bold",
                 "gravity": "center",
@@ -62,7 +63,7 @@ var message = {
 			{
                 "type": "button",
                 "style": "primary",
-                "color": "#905c44",
+                "color": "#f40909",
                 "action": {
                     "type": "message",
                     "label": "按此立即加入",
