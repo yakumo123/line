@@ -78,14 +78,12 @@ function parseInput(rplyToken, inputStr) {
 	
 	if (trigger.match(/^comfirmcommand$/)!= null ) return exports.commandlist.Cili();
 
-	if (trigger.match(/^test$/)!= null ) return exports.kidding.joke();
+	if (trigger.match(/(^咕嚕靈波)/)!= null ) return exports.kidding.joke();
 	
 	if (trigger.match(/^問號$/)!= null ) return exports.kiddingme.joking();
 	
 	if (trigger.match(/^sv情報$/)!= null ) return exports.button.buttontest();
 	if (trigger.match(/^公主情報$/)!= null ) return exports.redive.princesses();
-	
-	if (trigger.match(/(^咕嚕靈波)/)!= null ) return exports.magicmp3.magic();
 	
 	
 	if (trigger.match(/^photolist$/)!= null ) return exports.security.Security();
