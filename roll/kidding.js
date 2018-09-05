@@ -7,15 +7,10 @@ var message = {
         "type": "bubble",
         "hero": {
             "type": "image",
-            "url": "https://s3-ap-northeast-1.amazonaws.com/xxxxxxx/hamburger.jpg",
+            "url": "https://drive.google.com/uc?export=download&id=1KNgmkrvog0OnUHRil9seI8CfyVAWtn3j",
             "size": "full",
             "aspectRatio": "20:13",
-            "aspectMode": "cover",
-            "action": {
-                "type": "uri",
-                "label": "#",
-                "uri": "https://classmethod.jp/"
-            }
+            "aspectMode": "cover"
         },
         "body": {
             "type": "box",
@@ -24,7 +19,7 @@ var message = {
             "contents": [
             {
                 "type": "text",
-                "text": "Hamburger",
+                "text": "這是真步真步王國的宣傳單張",
                 "wrap": true,
                 "weight": "bold",
                 "gravity": "center",
@@ -40,18 +35,20 @@ var message = {
                     "size": "lg"
                 },
                 {
-                    "type": "image",
-                    "url": "https://scdn.line-apps.com/n/channel_devcenter/img/fx/linecorp_code_withborder.png",
-                    "aspectMode": "cover",
-                    "size": "xl"
+                  "type": "text",
+                "text": "咕嚕靈波~~",
+                "wrap": true,
+                "weight": "bold",
+                "gravity": "center",
+                "size": "xxl"
                 },
                 {
                     "type": "text",
-                    "text": "You can pick up your order by using this code instead of a ticket.",
-                    "color": "#aaaaaa",
+                    "text": "請快點加入我們真步真步教",
+                    "color": "#ff1616",
                     "wrap": true,
                     "margin": "xxl",
-                    "size": "xs"
+                    "size": "xl"
                 }
                 ]
             }
