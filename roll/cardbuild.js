@@ -19,6 +19,13 @@ var message = {
 						"size": "lg"
 					},
 					{
+						"type": "image",
+						"url": "https://4.bp.blogspot.com/-CCGRqPwHEfs/WktTdAgulVI/AAAAAAAAHR4/eSp9rCA6FVc0npu3T782sIuW_r3l55a6wCLcBGAs/s1600/1072410201%2B%25282%2529.png",
+						"size": "full",
+						"aspectRatio": "20:13",
+						"aspectMode": "cover"
+					},
+					{
 						"type": "box",
 						"layout": "baseline",
 						"spacing": "lg",
