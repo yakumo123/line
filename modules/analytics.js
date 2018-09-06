@@ -78,7 +78,7 @@ function parseInput(rplyToken, inputStr) {
 	
 	if (trigger.match(/^suggestcard$/)!= null ) return exports.cardsuggest.Suggestion();
 	
-	if (trigger.match(/（）/) != null) {
+	if (trigger.match(/推薦/) != null) {
 		if (trigger.match(/^亞瑟/)!= null ) return exports.cardbuild.royal();
 		if (trigger.match(/^妖精龍/)!= null ) return exports.cardbuild.elfdragon();
 		if (trigger.match(/^星爆猴/)!= null ) return exports.cardbuild.build2();
@@ -86,6 +86,8 @@ function parseInput(rplyToken, inputStr) {
 		if (trigger.match(/^陽光/)!= null ) return exports.cardbuild.sun();
 		if (trigger.match(/^幽靈/)!= null ) return exports.cardbuild.onetea();
 		if (trigger.match(/^葬送/)!= null ) return exports.cardbuild.twotea();
+		if (trigger.match(/^騙水吸/)!= null ) return exports.cardbuild.VampireLimit();
+
 
 	
 	}
