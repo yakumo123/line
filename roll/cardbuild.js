@@ -79,84 +79,51 @@ var message = {
 			},
 			{
 				"type": "box",
-
 				"layout": "vertical",
-
 				"margin": "lg",
-
 				"spacing": "sm",
-
 				"contents": [
-
 					{
-
 						"type": "box",
-
-						
 						"layout": "horizontal",
-
 						"spacing": "sm",
-
 						"contents": [
-
 							{
-						
-						
 								"type": "box",
-						
 								"layout": "horizontal",
-							
 								"spacing": "sm",
-							
 								"contents": [
-							
 									{
-						
 										"type": "button",
-							
 										"style": "primary",
-							
 										"action": {
-						
 											"type": "postback",
-						
 											"label": "暫無",
-						
-						
 											"data": "暫無"
-						
 										}
-						
-										
-						
 									},		
-						
 									{
-					
-										
-						
 										"type": "button",
-						
 										"style": "primary",
-						
 										"action": {
-													"type": "postback",
-													"label": "暫無",
-													"data": "暫無"
-												}
-											},
-											{
-												"type": "button",
-												"style": "primary",
-												"action": {
-													"type": "postback",
-													"label": "暫無",
-													"data": "暫無"
-												}
-											}
-										]
+											"type": "postback",
+											"label": "暫無",
+											"data": "暫無"
+										}
 									},
-									
+									{
+										"type": "button",
+										"style": "primary",
+										"action": {
+											"type": "postback",
+											"label": "暫無",
+											"data": "暫無"
+										}
+									}
+								]
+							}
+						]
+					},
 					{
 						"type": "box",
 						"layout": "vertical",
@@ -198,6 +165,7 @@ var message = {
 													"type": "postback",
 													"label": "暫無",
 													"data": "暫無"
+												
 												}
 											}
 										]
@@ -206,7 +174,11 @@ var message = {
 							}
 						]
 					}
-					
+				]
+			}
+		]
+	}
+};					
 												
 										
 										
