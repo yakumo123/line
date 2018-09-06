@@ -27,7 +27,7 @@ var message = {
 			{
 				"type": "separator",
 				"margin": "lg"
-			},
+			}
 		]
 	},
 	"body": {
