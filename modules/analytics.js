@@ -89,7 +89,7 @@ function parseInput(rplyToken, inputStr) {
 		if (trigger.match(/^亞瑟/)!= null ) return exports.cardbuild.build();
 		if (trigger.match(/^妖精龍/)!= null ) return exports.cardbuild.build1();
 		if (trigger.match(/^星爆猴/)!= null ) return exports.cardbuild.build2();
-		if (trigger.match(/^護符/)!= null ) return exports.cardbuild.build1();
+		if (trigger.match(/^護符/)!= null ) return exports.cardbuild.build3();
 	}
 
 	if (trigger.match(/^test55566$/)!= null ) return exports.magicmp3.magic();
