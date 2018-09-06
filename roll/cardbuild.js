@@ -1895,7 +1895,7 @@ module.exports = {
 	build3: build3,
 	sun: sun,
 	onetea: onetea,
-	twotea:twotea
+	twotea: twotea
 	
 };
 
