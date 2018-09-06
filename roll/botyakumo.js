@@ -1,6 +1,6 @@
 var rollbase = require('./rollbase.js');
 var funny = require('./funny.js');
-var rply = { type: 'text'};
+var rply = { type: 'text' }; //type是必需的,但可以更改
 
 function BotHelpYy() {
 	rply = {
@@ -204,14 +204,13 @@ function BotHelpYy() {
 							"label": "【車圖整合(慎用)】",
 							"text": "comfirephoto"
 						}
-						
-						
+
 					]
 				}
 			]
 		}
 	};
-	return rply
+	return rply;
 }
 
 
