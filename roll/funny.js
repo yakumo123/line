@@ -1180,7 +1180,6 @@ module.exports = {
 	randomRabbit,
 	randomSnow,
 	randomFrog,
-	randomShit,
 	randomYakumoKii,
 	RockPaperScissors,
 	MultiDrawTarot,
