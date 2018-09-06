@@ -27,9 +27,6 @@ function parseInput(rplyToken, inputStr) {
 	
 	if (trigger.match(/^萌$/) != null) return exports.imagemap.mapping() ;
 
-	if (trigger.match(/^test$/) != null) return exports.rollcard.roll() ;
-
-
 	//普通ROLL擲骰判定在此	
 	if (inputStr.match(/\w/)!=null && inputStr.toLowerCase().match(/\d+d+\d/)!=null) return exports.rollbase.nomalDiceRoller(inputStr,mainMsg[0],mainMsg[1],mainMsg[2]);
 
@@ -62,7 +59,6 @@ function parseInput(rplyToken, inputStr) {
 
 	if (trigger.match(/^生成卡片$|^卡片生成$|^生成卡牌$|^卡牌生成$/) != null && mainMsg[1] != NaN )	return exports.createcard.build7char(mainMsg[1]);
 	
-	
 	if (trigger.match(/(^cc7版創角$|^cc七版創角$)/) != null && mainMsg[1] != NaN )	return exports.coc.build7char(mainMsg[1]);
 	
 	if (trigger.match(/(^cc6版創角$|^cc六版創角$)/) != null && mainMsg[1] != NaN )	return exports.coc.build6char(mainMsg[1]);
@@ -91,9 +87,6 @@ function parseInput(rplyToken, inputStr) {
 		if (trigger.match(/^星爆猴/)!= null ) return exports.cardbuild.build2();
 		if (trigger.match(/^護符/)!= null ) return exports.cardbuild.build3();
 	}
-
-	if (trigger.match(/^test55566$/)!= null ) return exports.magicmp3.magic();
-
 	
 	if (trigger.match(/^問號$/)!= null ) return exports.kiddingme.joking();
 	
