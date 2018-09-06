@@ -87,9 +87,8 @@ function parseInput(rplyToken, inputStr) {
 		if (trigger.match(/^幽靈/)!= null ) return exports.cardbuild.onetea();
 		if (trigger.match(/^葬送/)!= null ) return exports.cardbuild.twotea();
 		if (trigger.match(/^騙水吸/)!= null ) return exports.cardbuild.vampilim();
-
-
-	
+		if (trigger.match(/^殺戮土/)!= null ) return exports.cardbuild.vampilim();
+		
 	}
 	
 	if (trigger.match(/^問號$/)!= null ) return exports.kiddingme.joking();
