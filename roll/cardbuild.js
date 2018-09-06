@@ -1,5 +1,7 @@
 var rollbase = require('./rollbase.js');
 var funny = require('./funny.js');										
+
+//亞瑟皇
 var message = {
 	"type": "flex",
     "contents": {
@@ -262,6 +264,8 @@ var message = {
 	  }
 };
 
+
+//妖精龍
 var message1 = {
 	"type": "flex",
     "contents": {
@@ -440,7 +444,7 @@ var message1 = {
 								"contents": [
 									{
 										"type": "text",
-										"text": "前期利用妖精和旋律給予對面傷害，需要注意手牌的牌數和解場傷害換算，後期利用世界樹的衍生卡或大狼給予妖精龍疾走收頭。",
+										"text": "前期利用妖精和旋律給予對面傷害，需要注意手牌的牌數和解場傷害換算，後期利用世界樹的衍生卡或大狼給予妖精龍疾走收頭，如果能配合絲線能做到極大的傷害爆發。",
 										"color": "#000000",
 										"wrap": true,
 										"weight": "bold",
@@ -524,6 +528,269 @@ var message1 = {
 	  }
 };
 
+
+//星爆猴
+var message = {
+	"type": "flex",
+    "contents": {
+		  "type": "bubble",
+			"body": {
+				"type": "box",
+				"layout": "vertical",
+				"spacing": "lg",
+				"contents": [
+					{
+						"type": "text",
+						"text": "星爆猴異形妖",
+						"wrap": true,
+						"weight": "bold",
+						"gravity": "center",
+						"size": "lg"
+					},
+					{
+						"type": "box",
+						"layout": "baseline",
+						"spacing": "lg",
+						"contents": [
+							{
+								"type": "icon",
+								"url": "https://shadowverse.jp/sp/assets/images/world/thumb-chara-01.jpg?rel20180803_2",
+								"size": "lg"
+							},
+							{
+								"type": "text",
+								"text": "指定模式",
+								"gravity": "center",
+								"flex": 5,
+								"align": "start"
+							},
+							{
+								"type": "text",
+								"text": "職業：妖精",
+								"gravity": "center",
+								"flex": 5,
+								"align": "end"
+							},
+							{
+								"type": "icon",
+								"url": "https://shadowverse.com/sp/cht/assets/images/gameguide/card-btn-02.png?rel20180718",
+								"size": "lg"
+							}
+						]
+					},
+					{
+						"type": "box",
+						"layout": "vertical",
+						"margin": "lg",
+						"spacing": "sm",
+						"contents": [
+							{
+								"type": "box",
+								"layout": "baseline",
+								"spacing": "sm",
+								"contents": [
+									{
+										"type": "text",
+										"text": "卡片稀有度分佈",
+										"color": "#aaaaaa",
+										"size": "sm",
+										"weight": "bold"
+									}
+								]
+							},
+							{
+								"type": "box",
+								"layout": "baseline",
+								"spacing": "sm",
+								"contents": [
+									{
+										"type": "text",
+										"text": "虹卡：",
+										"color": "#aaaaaa",
+										"size": "sm",
+										"flex": 1
+									},
+									{
+										"type": "text",
+										"text": "16",
+										"wrap": true,
+										"color": "#666666",
+										"size": "sm",
+										"flex": 1
+									}
+								]
+							},
+							{
+								"type": "box",
+								"layout": "baseline",
+								"spacing": "sm",
+								"contents": [
+									{
+										"type": "text",
+										"text": "金卡：",
+										"color": "#aaaaaa",
+										"size": "sm",
+										"flex": 1
+									},
+									{
+										"type": "text",
+										"text": "5",
+										"wrap": true,
+										"color": "#666666",
+										"size": "sm",
+										"flex": 1
+									}								]
+         
+							},
+							{
+								"type": "box",
+								"layout": "baseline",
+								"spacing": "sm",
+								"contents": [
+									{
+										"type": "text",
+										"text": "銀卡：",
+										"color": "#aaaaaa",
+										"size": "sm",
+										"flex": 1
+									},
+									{
+										"type": "text",
+										"text": "6",
+										"wrap": true,
+										"color": "#666666",
+										"size": "sm",
+										"flex": 1
+									}
+								]
+							},
+							{
+								"type": "box",
+								"layout": "baseline",
+								"spacing": "sm",
+								"contents": [
+									{
+										"type": "text",
+										"text": "銅卡：",
+										"color": "#aaaaaa",
+										"size": "sm",
+										"flex": 1
+									},
+									{
+
+										"type": "text",
+										"text": "13",
+										"wrap": true,
+										"color": "#666666",
+										"size": "sm",
+										"flex": 1
+									}
+								]
+							},
+							{
+								"type": "box",
+								"layout": "baseline",
+								"spacing": "md",
+								"contents": [
+									{
+										"type": "text",
+										"text": "牌組概念",
+										"color": "#aaaaaa",
+										"size": "sm",
+										"weight": "bold"
+									}
+								]
+							},
+							{
+								"type": "box",
+								"layout": "vertical",
+								"spacing": "xxl",
+								"contents": [
+									{
+										"type": "text",
+										"text": "前期利用妖精和旋律給予對面傷害，而妖精公主能提供011，可以令旋律的效果極大化。需要注意手牌的牌數和解場傷害換算，後期利用絲線配合猴子做成高傷害，而異形算是外掛性質，但一旦完成任務或配合絲線效果就能做成極大爆發。",
+										"color": "#000000",
+										"wrap": true,
+										"weight": "bold",
+										"gravity": "center",
+										"size": "sm"
+									}
+								]
+							}
+						]
+					}
+				]
+			},
+			"footer": {
+				"type": "box",
+				"layout": "vertical",
+				"contents": [
+					{
+						"type": "separator",
+						"margin": "xxl"
+					},
+					{
+						"type": "box",
+						"layout": "baseline",
+						"margin": "md",
+						"contents": [
+							{
+								"type": "text",
+								"text": "製作價格：",
+								"color": "#aaaaaa",
+								"size": "sm",
+								"flex": 2
+							},
+							{
+								"type": "text",
+								"text": "60350",
+								"wrap": true,
+								"color": "#666666",
+								"size": "sm",
+								"flex": 4
+							}
+						]
+					},
+					{
+						"type": "box",
+						"layout": "baseline",
+						"spacing": "sm",
+						"contents": [
+							{
+								"type": "text",
+								"text": "製作者：",
+								"color": "#aaaaaa",
+								"size": "sm",
+								"flex": 2
+							},
+							{
+								"type": "text",
+								"text": "小學生八雲",
+								"wrap": true,
+								"size": "sm",
+								"color": "#666666",
+								"flex": 4
+							}
+						]
+					},
+					{
+						"type": "separator",
+						"margin": "md"
+					},
+					{
+						"type": "button",
+						"style": "primary",
+						"margin": "sm",
+						"action": {
+							"type": "uri",
+							"label": "前往牌組製作",
+							"uri": "https://shadowverse-portal.com/deck/3.1.5zvAY.5zvAY.5zvAY.6KolQ.6KolQ.6KolQ.5zvAi.5zvAi.6Oh22.6Oh22.6OjUS.6OjUS.6OjUS.6SVBM.6SVBM.6SVBM.6KrBg.6KrBg.6KrBg.6H0p2.6H0p2.6H0p2.6WJKC.6WJKC.f-5RI.6WLmI.6WLmI.6WLmI.6KvLI.6KvLI.6SXdI.6SXdI.6WLmc.6SXdS.6SXdS.6SXdS.6KvLI.6Oh22.6Ko0i.6Ko0i?lang=zh-tw"
+						}
+					}
+				]
+			}
+	  }
+};
 
 function build() {
 	return message; 
