@@ -260,8 +260,9 @@ var messageroll = {
 						}
 					}
 				]
-			},
-{
+			}
+		},
+		{
 		 "type": "bubble",
 			"body": {
 				"type": "box",
@@ -517,8 +518,9 @@ var messageroll = {
 						}
 					}
 				]
-			},
-{
+			}
+		},
+		{
 		 "type": "bubble",
 			"body": {
 				"type": "box",
@@ -775,8 +777,9 @@ var messageroll = {
 						}
 					}
 				]
-			},
-{
+			}
+		},
+		{
 		 "type": "bubble",
 			"body": {
 				"type": "box",
@@ -1035,6 +1038,7 @@ var messageroll = {
 				
 				]
 			}
+		}
 	]
 };
 
