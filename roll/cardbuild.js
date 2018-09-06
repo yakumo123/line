@@ -2117,6 +2117,276 @@ var vampire = {
 	 }
 };
 
+//土印
+var magic = {
+	"type": "flex",
+	"altText": "【土印法】",
+"contents": {
+		 "type": "bubble",
+			"body": {
+				"type": "box",
+				"layout": "vertical",
+				"spacing": "lg",
+				"contents": [
+					{
+						"type": "text",
+						"text": "土印殺戮法",
+						"wrap": true,
+						"weight": "bold",
+						"gravity": "center",
+						"size": "lg"
+					},
+					{
+						"type": "box",
+						"layout": "baseline",
+						"spacing": "lg",
+						"contents": [
+							{
+								"type": "icon",
+								"url": "https://shadowverse.com/assets/images/cardpack/brigadeofthesky/title.png?rel20180730_1",
+								"size": "lg"
+							},
+							{
+								"type": "text",
+								"text": "指定模式",
+								"gravity": "center",
+								"flex": 5,
+								"align": "start"
+							},
+							{
+								"type": "text",
+								"text": "職業：法師",
+								"gravity": "center",
+								"flex": 5,
+								"align": "end"
+							},
+							{
+								"type": "icon",
+								"url": "https://shadowverse.jp/sp/assets/images/world/thumb-chara-06.jpg?rel20180803_2",
+								"size": "lg"
+							},
+							{
+            "type": "image",
+            "url": "https://serving.photos.photobox.com/641433476fe3d17a1c8d022ce4a6a73a4707d420caf006961587b38c3aed7af411d6c369.jpg",
+            "size": "full",
+            "aspectRatio": "20:13",
+            "aspectMode": "cover"
+        }
+						]
+					},
+					{
+						"type": "box",
+						"layout": "vertical",
+						"margin": "lg",
+						"spacing": "sm",
+						"contents": [
+							{
+								"type": "box",
+								"layout": "baseline",
+								"spacing": "sm",
+								"contents": [
+									{
+										"type": "text",
+										"text": "卡片稀有度分佈",
+										"color": "#aaaaaa",
+										"size": "sm",
+										"weight": "bold"
+									}
+								]
+							},
+							{
+								"type": "box",
+								"layout": "baseline",
+								"spacing": "sm",
+								"contents": [
+									{
+										"type": "text",
+										"text": "虹卡：",
+										"color": "#aaaaaa",
+										"size": "sm",
+										"flex": 1
+									},
+									{
+										"type": "text",
+										"text": "7",
+										"wrap": true,
+										"color": "#666666",
+										"size": "sm",
+										"flex": 1
+									}
+								]
+							},
+							{
+								"type": "box",
+								"layout": "baseline",
+								"spacing": "sm",
+								"contents": [
+									{
+										"type": "text",
+										"text": "金卡：",
+										"color": "#aaaaaa",
+										"size": "sm",
+										"flex": 1
+									},
+									{
+										"type": "text",
+										"text": "8",
+										"wrap": true,
+										"color": "#666666",
+										"size": "sm",
+										"flex": 1
+									}								]
+
+							},
+							{
+								"type": "box",
+								"layout": "baseline",
+								"spacing": "sm",
+								"contents": [
+									{
+										"type": "text",
+										"text": "銀卡：",
+										"color": "#aaaaaa",
+										"size": "sm",
+										"flex": 1
+									},
+									{
+										"type": "text",
+										"text": "10",
+										"wrap": true,
+										"color": "#666666",
+										"size": "sm",
+										"flex": 1
+									}
+								]
+							},
+							{
+								"type": "box",
+								"layout": "baseline",
+								"spacing": "sm",
+								"contents": [
+									{
+										"type": "text",
+										"text": "銅卡：",
+										"color": "#aaaaaa",
+										"size": "sm",
+										"flex": 1
+									},
+									{
+
+										"type": "text",
+										"text": "15",
+										"wrap": true,
+										"color": "#666666",
+										"size": "sm",
+										"flex": 1
+									}
+								]
+							},
+							{
+								"type": "box",
+								"layout": "baseline",
+								"spacing": "md",
+								"contents": [
+									{
+										"type": "text",
+										"text": "牌組概念",
+										"color": "#aaaaaa",
+										"size": "sm",
+										"weight": "bold"
+									}
+								]
+							},
+							{
+								"type": "box",
+								"layout": "vertical",
+								"spacing": "xxl",
+								"contents": [
+									{
+										"type": "text",
+										"text": "366請手動進化幹頭（別妄想你能開他），2費生物除212特殊功能（必拉土槍or雷擊），其他可自行調整，土蘿（進化後回的PP可以做鋪場!!）的法術為斬殺的關鍵，請勿隨意解場。",
+										"color": "#000000",
+										"wrap": true,
+										"weight": "bold",
+										"gravity": "center",
+										"size": "sm"
+									}
+								]
+							}
+						]
+					}
+				]
+			},
+			"footer": {
+				"type": "box",
+				"layout": "vertical",
+				"contents": [
+					{
+						"type": "separator",
+						"margin": "xxl"
+					},
+					{
+						"type": "box",
+						"layout": "baseline",
+						"margin": "md",
+						"contents": [
+							{
+								"type": "text",
+								"text": "製作價格：",
+								"color": "#aaaaaa",
+								"size": "sm",
+								"flex": 2
+							},
+							{
+								"type": "text",
+								"text": "33550",
+								"wrap": true,
+								"color": "#666666",
+								"size": "sm",
+								"flex": 4
+							}
+						]
+					},
+					{
+						"type": "box",
+						"layout": "baseline",
+						"spacing": "sm",
+						"contents": [
+							{
+								"type": "text",
+								"text": "製作者：",
+								"color": "#aaaaaa",
+								"size": "sm",
+								"flex": 2
+							},
+							{
+								"type": "text",
+								"text": "SHIH AN",
+								"wrap": true,
+								"size": "sm",
+								"color": "#666666",
+								"flex": 4
+							}
+						]
+					},
+					{
+						"type": "separator",
+						"margin": "md"
+					},
+					{
+						"type": "button",
+						"style": "primary",
+						"margin": "sm",
+						"action": {
+							"type": "uri",
+							"label": "前往牌組製作",
+							"uri": "https://shadowverse-portal.com/deck/1.3.6HkyA.6HkyA.6HkyA.6LZ5A.6LZ5A.6LZ5A.6X4Og.6X4Og.5-f_Y.5-f_Y.6TB7Y.6TB7Y.6TB7Y.6TDZy.6TDZy.6W__Q.6W__Q.6W__Q.6PPgQ.6PPgQ.6PPgQ.6KS2S.6KS2S.6Hs1S.6Hs1S.6LbI6.6LbI6.6LbI6.6X49C.6X49C.6X49C.6X6bc.6X6bc.6X6bc.6PUJI.6PUJI.6PNja.6HpbC.6HpbC.6HpbC?lang=zh-tw#_=_"
+						}
+					}
+				]
+			}
+	 }
+};
 
 function royal() {
 	return RoyalKing; 
@@ -2155,6 +2425,11 @@ function vampilim() {
 	return vampire; 
 	
 }	
+
+function ductmagic() {
+	return magic; 
+	
+}	
 	  
 module.exports = {
 	royal: royal,
@@ -2164,7 +2439,8 @@ module.exports = {
 	sun: sun,
 	onetea: onetea,
 	twotea: twotea,
-	vampilim: vampilim
+	vampilim: vampilim,
+	ductmagic: ductmagic
 	
 };
 
