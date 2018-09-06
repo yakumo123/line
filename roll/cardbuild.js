@@ -42,144 +42,141 @@ var message = {
 				"spacing": "sm",
 				"contents": [
 					{
-						"type": "box",
-						"layout": "horizontal",
-						"spacing": "sm",
-						"contents": [
-							{
-								"type": "button",
-								"style": "primary",
-								"action": {
-									"type": "message",
-									"label": "亞瑟皇",
-									"text": "推薦牌組（亞瑟）"
-								}
-							},
-							{
-								"type": "button",
-								"style": "primary",
-								"action": {
-									"type": "message",
-									"label": "妖精龍妖",
-									"text": "推薦牌組（妖精龍）"
-								}
-							},
-							{
-								"type": "button",
-								"style": "primary",
-								"action": {
-									"type": "postback",
-									"label": "暫無",
-									"data": "暫無"
-								}
-							}
-						]
+						"type": "button",
+						"style": "primary",
+						"action": {
+							"type": "message",
+							"label": "亞瑟皇",
+							"text": "推薦牌組（亞瑟）"
+						}
+					},
+					{
+						"type": "button",
+						"style": "primary",
+						"action": {
+							"type": "message",
+							"label": "妖精龍妖",
+							"text": "推薦牌組（妖精龍）"
+						}
+					},
+					{
+						"type": "button",
+						"style": "primary",
+						"action": {
+							"type": "postback",
+							"label": "暫無",
+							"data": "暫無"
+						}
 					}
 				]
 			},
 			{
 				"type": "box",
-				"layout": "vertical",
-				"margin": "lg",
+				"layout": "horizontal",
 				"spacing": "sm",
 				"contents": [
 					{
-						"type": "box",
-						"layout": "horizontal",
-						"spacing": "sm",
-						"contents": [
-							{
-								"type": "box",
-								"layout": "horizontal",
-								"spacing": "sm",
-								"contents": [
-									{
-										"type": "button",
-										"style": "primary",
-										"action": {
-											"type": "postback",
-											"label": "暫無",
-											"data": "暫無"
-										}
-									},		
-									{
-										"type": "button",
-										"style": "primary",
-										"action": {
-											"type": "postback",
-											"label": "暫無",
-											"data": "暫無"
-										}
-									},
-									{
-										"type": "button",
-										"style": "primary",
-										"action": {
-											"type": "postback",
-											"label": "暫無",
-											"data": "暫無"
-										}
-									}
-								]
-							}
-						]
+						"type": "button",
+						"style": "primary",
+						"action": {
+							"type": "postback",
+							"label": "暫無",
+							"data": "暫無"
+						}
 					},
 					{
-						"type": "box",
-						"layout": "vertical",
-						"margin": "lg",
-						"spacing": "sm",
-						"contents": [
-							{
-								"type": "box",
-								"layout": "horizontal",
-								"spacing": "sm",
-								"contents": [
-									{
-										"type": "box",
-										"layout": "horizontal",
-										"spacing": "sm",
-										"contents": [
-											{
-												"type": "button",
-												"style": "primary",
-												"action": {
-													"type": "postback",
-													"label": "暫無",
-													"data": "暫無"
-												}
-											},		
-											{
-												"type": "button",
-												"style": "primary",
-												"action": {
-													"type": "postback",
-													"label": "暫無",
-													"data": "暫無"
-												}					
-											},
-											{
-												"type": "button",
-												"style": "primary",
-												"action": {
-													"type": "postback",
-													"label": "暫無",
-													"data": "暫無"
-												
-												}
-											}
-										]
-									}
-								]
-							}
-						]
+						"type": "button",
+						"style": "primary",
+						"action": {
+							"type": "postback",
+							"label": "暫無",
+							"data": "暫無"
+						}
+					},
+					{
+						"type": "button",
+						"style": "primary",
+						"action": {
+							"type": "postback",
+							"label": "暫無",
+							"data": "暫無"
+						}
+					}
+				]
+			},
+			{
+				"type": "box",
+				"layout": "horizontal",
+				"spacing": "sm",
+				"contents": [
+					{
+						"type": "button",
+						"style": "primary",
+						"action": {
+							"type": "postback",
+							"label": "暫無",
+							"data": "暫無"
+						}
+					},
+					{
+						"type": "button",
+						"style": "primary",
+						"action": {
+							"type": "postback",
+							"label": "暫無",
+							"data": "暫無"
+						}
+					},
+					{
+						"type": "button",
+						"style": "primary",
+						"action": {
+							"type": "postback",
+							"label": "暫無",
+							"data": "暫無"
+						}
+					}
+				]
+			},
+			{
+				"type": "box",
+				"layout": "horizontal",
+				"spacing": "sm",
+				"contents": [
+					{
+						"type": "button",
+						"style": "primary",
+						"action": {
+							"type": "postback",
+							"label": "暫無",
+							"data": "暫無"
+						}
+					},
+					{
+						"type": "button",
+						"style": "primary",
+						"action": {
+							"type": "postback",
+							"label": "暫無",
+							"data": "暫無"
+						}
+					},
+					{
+						"type": "button",
+						"style": "primary",
+						"action": {
+							"type": "postback",
+							"label": "暫無",
+							"data": "暫無"
+						}
 					}
 				]
 			}
 		]
 	}
-};					
-												
+};
+
+										
 										
 										
 var message1 = {
