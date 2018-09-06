@@ -211,7 +211,7 @@ function BotHelpYy() {
 			]
 		}
 	};
-	return rply;
+	return rply
 }
 
 
