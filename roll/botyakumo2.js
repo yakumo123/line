@@ -5,7 +5,6 @@ var rply = { type: 'text' }; //type是必需的,但可以更改
 function BotHelpYy() {
 	rply = {
 		"type": "template",
-		"altText": "【式神的教學2】",
 		"template": {
 			"type": "carousel",
 			"columns": [
@@ -28,8 +27,9 @@ function BotHelpYy() {
 							"label": "偽式神幫助【毀其他人形象用】",
 							"text": "式神幫忙"
 						}
-
-					],
+					]
+				},
+				{
 					"title": "其他功能",
 					"text": "其他",
 					"actions": [
@@ -47,8 +47,7 @@ function BotHelpYy() {
 							"type": "message",
 							"label": "暫無",
 							"text": "暫無"
-						}
-
+						}				
 					]
 				}
 			]
