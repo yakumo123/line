@@ -292,7 +292,7 @@ var message1 = {
 						"contents": [
 							{
 								"type": "icon",
-								"url": "https://shadowverse.jp/sp/assets/images/world/thumb-chara-01.jpg?rel20180803_2",
+								"url": "https://shadowverse.com/assets/images/cardpack/brigadeofthesky/title.png?rel20180730_1",
 								"size": "lg"
 							},
 							{
@@ -311,7 +311,7 @@ var message1 = {
 							},
 							{
 								"type": "icon",
-								"url": "https://shadowverse.com/sp/cht/assets/images/gameguide/card-btn-02.png?rel20180718",
+								"url": "https://shadowverse.jp/sp/assets/images/world/thumb-chara-01.jpg?rel20180803_2",
 								"size": "lg"
 							}
 						]
@@ -550,6 +550,7 @@ var message2 = {
 						"gravity": "center",
 						"size": "lg"
 					},
+
 					{
 						"type": "box",
 						"layout": "baseline",
@@ -557,7 +558,7 @@ var message2 = {
 						"contents": [
 							{
 								"type": "icon",
-								"url": "https://shadowverse.jp/sp/assets/images/world/thumb-chara-01.jpg?rel20180803_2",
+								"url": "https://shadowverse.com/assets/images/cardpack/brigadeofthesky/title.png?rel20180730_1",
 								"size": "lg"
 							},
 							{
@@ -576,11 +577,11 @@ var message2 = {
 							},
 							{
 								"type": "icon",
-								"url": "https://shadowverse.com/sp/cht/assets/images/gameguide/card-btn-02.png?rel20180718",
+								"url": "https://shadowverse.jp/sp/assets/images/world/thumb-chara-01.jpg?rel20180803_2",
 								"size": "lg"
 							}
 						]
-					},
+					},					
 					{
 						"type": "box",
 						"layout": "vertical",
@@ -814,7 +815,7 @@ var message3 = {
 						"weight": "bold",
 						"gravity": "center",
 						"size": "lg"
-					},
+					},	
 					{
 						"type": "box",
 						"layout": "baseline",
@@ -822,7 +823,7 @@ var message3 = {
 						"contents": [
 							{
 								"type": "icon",
-								"url": "https://shadowverse.jp/sp/assets/images/world/thumb-chara-01.jpg?rel20180803_2",
+								"url": "https://shadowverse.com/assets/images/cardpack/brigadeofthesky/title.png?rel20180730_1",
 								"size": "lg"
 							},
 							{
@@ -834,14 +835,14 @@ var message3 = {
 							},
 							{
 								"type": "text",
-								"text": "職業：妖精",
+								"text": "職業：主教",
 								"gravity": "center",
 								"flex": 5,
 								"align": "end"
 							},
 							{
 								"type": "icon",
-								"url": "https://shadowverse.com/sp/cht/assets/images/gameguide/card-btn-02.png?rel20180718",
+								"url": "https://shadowverse.jp/sp/assets/images/world/thumb-chara-07.jpg?rel20180803_2",
 								"size": "lg"
 							}
 						]
