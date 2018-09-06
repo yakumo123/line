@@ -1354,6 +1354,6 @@ module.exports = {
 	elfdragon: elfdragon,
 	build2: build2,
 	build3: build3,
-	sunlight: sunlight
+	sun: sun
 };
 
