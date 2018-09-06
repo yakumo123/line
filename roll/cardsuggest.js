@@ -60,7 +60,7 @@ function Suggestion() {
 						{
 							"type": "message",
 							"label": "紅茶死2號【指定】",
-							"text": "護符（）"
+							"text": "紅茶死2（）"
 						},
 						{
 							"type": "message",
