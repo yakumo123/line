@@ -4,6 +4,7 @@ var funny = require('./funny.js');
 //亞瑟皇
 var message = {
 	"type": "flex",
+	"altText": "【亞瑟皇】",
     "contents": {
 		  "type": "bubble",
 			"body": {
@@ -268,6 +269,7 @@ var message = {
 //妖精龍
 var message1 = {
 	"type": "flex",
+	"altText": "【妖精龍】",
     "contents": {
 		  "type": "bubble",
 			"body": {
@@ -532,6 +534,7 @@ var message1 = {
 //星爆猴
 var message2 = {
 	"type": "flex",
+	"altText": "【星爆猴】",
     "contents": {
 		  "type": "bubble",
 			"body": {
@@ -796,6 +799,7 @@ var message2 = {
 //護符主
 var message3 = {
 	"type": "flex",
+	"altText": "【護符主】",
 "contents": {
 		 "type": "bubble",
 			"body": {
