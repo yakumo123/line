@@ -82,6 +82,8 @@ function parseInput(rplyToken, inputStr) {
 	
 	if (trigger.match(/^推薦牌組$/)!= null ) return exports.cardbuild.build();
 	
+	if (trigger.match(/^test55566$/)!= null ) return exports.magicmp3.magic();
+
 	
 	if (trigger.match(/^問號$/)!= null ) return exports.kiddingme.joking();
 	
