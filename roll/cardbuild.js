@@ -1602,7 +1602,7 @@ var tn = {
 				"contents": [
 					{
 						"type": "text",
-						"text": "葬送",
+						"text": "葬送死",
 						"wrap": true,
 						"weight": "bold",
 						"gravity": "center",
