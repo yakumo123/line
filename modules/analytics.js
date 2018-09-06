@@ -27,7 +27,7 @@ function parseInput(rplyToken, inputStr) {
 	
 	if (trigger.match(/^萌$/) != null) return exports.imagemap.mapping() ;
 
-	if (trigger.match(/^test77$/) != null) return exports.rollcard.messageroll() ;
+	if (trigger.match(/^test$/) != null) return exports.rollcard.roll() ;
 
 
 	//普通ROLL擲骰判定在此	
