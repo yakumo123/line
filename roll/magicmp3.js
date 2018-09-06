@@ -2,6 +2,7 @@ var rollbase = require('./rollbase.js');
 var funny = require('./funny.js');
 var message = {
   "type": "carousel",
+	"altText": "【警告】",
   "contents": [
     {
       "type": "bubble",
