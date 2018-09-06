@@ -58,15 +58,6 @@ var message = {
 							"label": "妖精龍妖",
 							"text": "推薦牌組（妖精龍）"
 						}
-					},
-					{
-						"type": "button",
-						"style": "primary",
-						"action": {
-							"type": "postback",
-							"label": "暫無",
-							"data": "暫無"
-						}
 					}
 				]
 			},
@@ -92,15 +83,6 @@ var message = {
 							"label": "暫無",
 							"data": "暫無"
 						}
-					},
-					{
-						"type": "button",
-						"style": "primary",
-						"action": {
-							"type": "postback",
-							"label": "暫無",
-							"data": "暫無"
-						}
 					}
 				]
 			},
@@ -109,49 +91,6 @@ var message = {
 				"layout": "horizontal",
 				"spacing": "sm",
 				"contents": [
-					{
-						"type": "button",
-						"style": "primary",
-						"action": {
-							"type": "postback",
-							"label": "暫無",
-							"data": "暫無"
-						}
-					},
-					{
-						"type": "button",
-						"style": "primary",
-						"action": {
-							"type": "postback",
-							"label": "暫無",
-							"data": "暫無"
-						}
-					},
-					{
-						"type": "button",
-						"style": "primary",
-						"action": {
-							"type": "postback",
-							"label": "暫無",
-							"data": "暫無"
-						}
-					}
-				]
-			},
-			{
-				"type": "box",
-				"layout": "horizontal",
-				"spacing": "sm",
-				"contents": [
-					{
-						"type": "button",
-						"style": "primary",
-						"action": {
-							"type": "postback",
-							"label": "暫無",
-							"data": "暫無"
-						}
-					},
 					{
 						"type": "button",
 						"style": "primary",
