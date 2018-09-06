@@ -3,19 +3,19 @@ var funny = require('./funny.js');
 
 /////推薦牌組列表
 var message = {
-	"type": "bubble",
-	"header": {
-		"type": "box",
-		"layout": "vertical",
-		"contents": [
-			{
+  "type": "bubble",
+  "header": {
+    "type": "box",
+    "layout": "vertical",
+    "contents": [
+      {
 				"type": "text",
 				"text": "推薦牌組列表",
 				"size": "lg",
 				"weight": "bold"
 
 			},
-			{
+ {
 				"type": "text",
 				"text": "免責聲音：本功能含有大量資訊，因而作者只設置於私訊使用,群組內盡量避免使用以做成洗頻。如有人惡意使用本功能而做成洗頻，其所有責任不在本Bot的作者身上。",
 				"color": "#ff0202",
@@ -23,25 +23,26 @@ var message = {
 				"weight": "bold",
 				"gravity": "center",
 				"size": "md"
-			},
-			{
-				"type": "separator",
-				"margin": "lg"
 			}
-		]
-	},
-	"body": {
-		"type": "box",
-		"layout": "vertical",
-		"margin": "lg",
-		"spacing": "sm",
-		"contents": [
-			{
-				"type": "box",
-				"layout": "horizontal",
-				"spacing": "sm",
-				"contents": [
-					{
+	        ]
+  },
+	{
+        "type": "separator",
+        "margin": "lg"
+      },
+  "body": 
+      {
+        "type": "box",
+        "layout": "vertical",
+        "margin": "lg",
+        "spacing": "sm",
+        "contents": [
+          {
+            "type": "box",
+            "layout": "horizontal",
+            "spacing": "sm",
+            "contents": [
+              {
 						"type": "button",
 						"style": "primary",
 						"action": {
@@ -59,14 +60,15 @@ var message = {
 							"text": "推薦牌組（妖精龍）"
 						}
 					}
-				]
-			},
-			{
-				"type": "box",
-				"layout": "horizontal",
-				"spacing": "sm",
-				"contents": [
-					{
+		    }
+	    ]
+	  },
+          {
+		  "type": "box",
+            "layout": "horizontal",
+            "spacing": "sm",
+            "contents": [
+              {
 						"type": "button",
 						"style": "primary",
 						"action": {
@@ -84,39 +86,11 @@ var message = {
 							"data": "暫無"
 						}
 					}
-				]
-			},
-			{
-				"type": "box",
-				"layout": "horizontal",
-				"spacing": "sm",
-				"contents": [
-					{
-						"type": "button",
-						"style": "primary",
-						"action": {
-							"type": "postback",
-							"label": "暫無",
-							"data": "暫無"
-						}
-					},
-					{
-						"type": "button",
-						"style": "primary",
-						"action": {
-							"type": "postback",
-							"label": "暫無",
-							"data": "暫無"
-						}
-					}
-				]
-			}
-		]
-	}
-};
-
-										
-										
+		    ]
+		  }
+	]
+      }
+};								
 										
 var message1 = {
 	"type": "flex",
