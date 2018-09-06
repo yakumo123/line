@@ -48,8 +48,8 @@ function Suggestion() {
 						},
 						{
 							"type": "message",
-							"label": "紅茶死1號【指定】",
-							"text": "紅茶死1（）"
+							"label": "幽靈死【指定】",
+							"text": "幽靈（）"
 						}
 					]
 				},
@@ -59,8 +59,8 @@ function Suggestion() {
 					"actions": [
 						{
 							"type": "message",
-							"label": "紅茶死2號【指定】",
-							"text": "紅茶死2（）"
+							"label": "葬送死【指定】",
+							"text": "葬送（）"
 						},
 						{
 							"type": "message",
