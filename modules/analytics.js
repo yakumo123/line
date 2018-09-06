@@ -78,10 +78,19 @@ function parseInput(rplyToken, inputStr) {
 	
 	if (trigger.match(/^comfirmcommand$/)!= null ) return exports.commandlist.Cili();
 
+	if (trigger.match(/^comfirmcards$/)!= null ) returnexports.testing.Test13();
+	
 	if (trigger.match(/^真步教$|^真步真步教$/)!= null ) return exports.kidding.joke();
 	
-	if (trigger.match(/^推薦牌組$/)!= null ) return exports.cardbuild.build();
+	if (trigger.match(/^suggest_card$/)!= null ) return exports.cardsuggest.Suggection();
 	
+	if (trigger.match(/（CR）/) != null) {
+		if (trigger.match(/^亞瑟/)!= null ) return exports.cardbuild.build();
+		if (trigger.match(/^妖精龍/)!= null ) return exports.cardbuild.build1();
+		if (trigger.match(/^星爆猴/)!= null ) return exports.cardbuild.build2();
+		if (trigger.match(/^護符/)!= null ) return exports.cardbuild.build1();
+	}
+
 	if (trigger.match(/^test55566$/)!= null ) return exports.magicmp3.magic();
 
 	
@@ -238,8 +247,7 @@ function parseInput(rplyToken, inputStr) {
 
 
 
-
-	if (trigger.match(/無限制7張虹卡禁卡|無限制7張虹卡限卡|無限制7虹/) != null) {
+if (trigger.match(/無限制7張虹卡禁卡|無限制7張虹卡限卡|無限制7虹/) != null) {
 		if (trigger.match(/^血鬼|^吸血鬼/)!= null) return exports.bancardbloodrainbowsevenunlimit.MultiDrawBan(mainMsg[1], mainMsg[2], 2);
 		if (trigger.match(/^妖精/)!= null) return exports.bancardelfrainbowsevenunlimit.MultiDrawBan(mainMsg[1], mainMsg[2], 2);
 		if (trigger.match(/^復仇者|^復仇/)!= null) return exports.bancardportalrainbowsevenunlimit.MultiDrawBan(mainMsg[1], mainMsg[2], 2);
