@@ -29,6 +29,26 @@ function BotHelpYy() {
 							"text": "式神幫忙"
 						}
 
+					],
+					"title": "其他功能",
+					"text": "其他",
+					"actions": [
+						{
+							"type": "message",
+							"label": "推薦牌組列表",
+							"text": "comfirmcards"
+						},
+						{
+							"type": "message",
+							"label": "暫無",
+							"text": "暫無"
+						},
+						{
+							"type": "message",
+							"label": "暫無",
+							"text": "暫無"
+						}
+
 					]
 				}
 			]
