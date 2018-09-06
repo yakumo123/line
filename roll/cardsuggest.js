@@ -15,18 +15,18 @@ function Suggestion() {
 					"actions": [
 						{
 							"type": "message",
-							"label": "亞瑟基德皇",
+							"label": "亞瑟基德皇【指定】",
 							"text": "亞瑟（）"
 						},
 						{
 							"type": "message",
-							"label": "妖精龍妖精",
+							"label": "妖精龍妖精【指定】",
 							"text": "妖精龍（）"
 							
 						},
 						{
 							"type": "message",
-							"label": "星爆異形猴子妖",
+							"label": "星爆異形猴子妖【指定】",
 							"text": "星爆猴（）"
 						}
 					]
@@ -37,13 +37,13 @@ function Suggestion() {
 					"actions": [
 						{
 							"type": "message",
-							"label": "護符主",
+							"label": "護符主【指定】",
 							"text": "護符（）"
 						},
 						{
 							"type": "message",
-							"label": "暫無",
-              "text": "暫無"
+							"label": "陽光主教【無限】",
+							"text": "陽光（）"
 							
 						},
 						{
