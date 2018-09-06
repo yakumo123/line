@@ -83,7 +83,7 @@ function parseInput(rplyToken, inputStr) {
 	
 	if (trigger.match(/^真步教$|^真步真步教$/)!= null ) return exports.kidding.joke();
 	
-	if (trigger.match(/^suggest_card$/)!= null ) return exports.cardsuggest.Suggection();
+	if (trigger.match(/^suggestcard$/)!= null ) return exports.cardsuggest.Suggestion();
 	
 	if (trigger.match(/（CR）/) != null) {
 		if (trigger.match(/^亞瑟/)!= null ) return exports.cardbuild.build();
