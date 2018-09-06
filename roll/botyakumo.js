@@ -262,8 +262,8 @@ function BotHelpYy() {
 		}
 	};
 	return {
-		rply,
-		message
+		rply: rply,
+		message: message
 	};
 }
 
