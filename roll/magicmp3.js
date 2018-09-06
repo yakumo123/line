@@ -1,8 +1,10 @@
 var rollbase = require('./rollbase.js');
 var funny = require('./funny.js');
 var message = {
+	"type": "template",
+		"altText": "【式神的教學】",
+		"template": {
   "type": "carousel",
-	"altText": "【警告】",
   "contents": [
     {
       "type": "bubble",
@@ -1779,11 +1781,23 @@ var message = {
               "uri": "https://sitthi.me:3807/downloaded/3de80022227249b2bf1fec7eb08127f5.json"
             },
             "style": "secondary"
-          }
-        ]
+        
+	  }
+       
+	
+	]
+    
+      
       }
+   
+  
     }
+	  
+
+	  
   ]
+		
+ }
 };
 
 function magic() {
