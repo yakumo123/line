@@ -1,306 +1,215 @@
 var rollbase = require('./rollbase.js');
 var funny = require('./funny.js');
 
+/////推薦牌組列表
 var message = {
-  "type": "bubble",
-  "header": {
-    "type": "box",
-    "layout": "vertical",
-    "contents": [
-	    {
-		    "type": "text",
-		    "text": "推薦牌組列表",
-		    "size": "lg",
-		    "weight": "bold"
-	    },
-	    {
-		    "type": "text",
-		    "text": "免責聲音：本功能含有大量資訊，因而作者只設置於私訊使用,群組內盡量避免使用以做成洗頻。如有人惡意使用本功能而做成洗頻，其所有責任不在本Bot的作者身上。",
-		    "color": "#ff0202",
-		    "wrap": true,
-		    "weight": "bold",
-		    "gravity": "center",
-		    "size": "md"
-	    },
-	    {
-		    "type": "separator",
-		    "margin": "lg"
-	    },
-    ]
-  },
-  "body": {
-        "type": "box",
-        "layout": "vertical",
-        "margin": "lg",
-        "spacing": "sm",
-        "contents": [
-          {
-            "type": "box",
-            "layout": "horizontal",
-            "spacing": "sm",
-            "contents": [
-          {
-            "type": "box",
-            "layout": "horizontal",
-            "spacing": "sm",
-            "contents": [
-              {
-                "type": "button",
-                "style": "primary",
-                "action": {
-                  "type": "message",
-                  "label": "亞瑟皇",
-		"text": "推薦牌組（亞瑟）"
-                }
-              },
-		    {
-                "type": "button",
-                "style": "primary",
-                "action": {
-                  "type": "message",
-                  "label": "妖精龍妖",
-		"text": "推薦牌組（妖精龍）"
-                }
-              },
-              {
-                "type": "button",
-                "style": "primary",
-                "action": {
-                  "type": "postback",
-                  "label": "暫無",
-                  "data": "暫無"
-                }
-              }
-            ]
-          },
-		    {
-        "type": "box",
-        "layout": "vertical",
-        "margin": "lg",
-        "spacing": "sm",
-        "contents": [
-          {
-            "type": "box",
-            "layout": "horizontal",
-            "spacing": "sm",
-            "contents": [
-          {
-            "type": "box",
-            "layout": "horizontal",
-            "spacing": "sm",
-            "contents": [
-              {
-                "type": "button",
-                "style": "primary",
-                "action": {
-                  "type": "postback",
-                  "label": "暫無",
-                  "data": "暫無"
-                }
-              },	
-              {
-                "type": "button",
-                "style": "primary",
-                "action": {
-                  "type": "postback",
-                  "label": "暫無",
-                  "data": "暫無"
-                }
-              },
-              {
-                "type": "button",
-                "style": "primary",
-                "action": {
-                  "type": "postback",
-                  "label": "暫無",
-                  "data": "暫無"
-                }
-              }
-            ],
-		  {
-        "type": "box",
-        "layout": "vertical",
-        "margin": "lg",
-        "spacing": "sm",
-        "contents": [
-          {
-            "type": "box",
-            "layout": "horizontal",
-            "spacing": "sm",
-            "contents": [
-          {
-            "type": "box",
-            "layout": "horizontal",
-            "spacing": "sm",
-            "contents": [
-              {
-                "type": "button",
-                "style": "primary",
-                "action": {
-                  "type": "postback",
-                  "label": "暫無",
-                  "data": "暫無"
-                }
-              },	
-              {
-                "type": "button",
-                "style": "primary",
-                "action": {
-                  "type": "postback",
-                  "label": "暫無",
-                  "data": "暫無"
-                }
-              },
-              {
-                "type": "button",
-                "style": "primary",
-                "action": {
-                  "type": "postback",
-                  "label": "暫無",
-                  "data": "暫無"
-                }
-              }
-            ]
-          }
-        ]
-      }
-    ]
-  },
-  "footer": {
-   "type": "box",
-        "layout": "vertical",
-        "margin": "lg",
-        "spacing": "sm",
-        "contents": [
-          {
-            "type": "box",
-            "layout": "horizontal",
-            "spacing": "sm",
-            "contents": [
-          {
-            "type": "box",
-            "layout": "horizontal",
-            "spacing": "sm",
-            "contents": [
-              {
-                "type": "button",
-                "style": "primary",
-                "action": {
-                  "type": "postback",
-                  "label": "暫無",
-                  "data": "暫無"
-                }
-              },	
-              {
-                "type": "button",
-                "style": "primary",
-                "action": {
-                  "type": "postback",
-                  "label": "暫無",
-                  "data": "暫無"
-                }
-              },
-              {
-                "type": "button",
-                "style": "primary",
-                "action": {
-                  "type": "postback",
-                  "label": "暫無",
-                  "data": "暫無"
-                }
-              }
-            ]
-  },
-	"type": "box",
-        "layout": "vertical",
-        "margin": "lg",
-        "spacing": "sm",
-        "contents": [
-          {
-            "type": "box",
-            "layout": "horizontal",
-            "spacing": "sm",
-            "contents": [
-          {
-            "type": "box",
-            "layout": "horizontal",
-            "spacing": "sm",
-            "contents": [
-              {
-                "type": "button",
-                "style": "primary",
-                "action": {
-                  "type": "postback",
-                  "label": "暫無",
-                  "data": "暫無"
-                }
-              },	
-              {
-                "type": "button",
-                "style": "primary",
-                "action": {
-                  "type": "postback",
-                  "label": "暫無",
-                  "data": "暫無"
-                }
-              },
-              {
-                "type": "button",
-                "style": "primary",
-                "action": {
-                  "type": "postback",
-                  "label": "暫無",
-                  "data": "暫無"
-                }
-              }
-            ]
-	  },
-		    "type": "box",
-        "layout": "vertical",
-        "margin": "lg",
-        "spacing": "sm",
-        "contents": [
-          {
-            "type": "box",
-            "layout": "horizontal",
-            "spacing": "sm",
-            "contents": [
-          {
-            "type": "box",
-            "layout": "horizontal",
-            "spacing": "sm",
-            "contents": [
-              {
-                "type": "button",
-                "style": "primary",
-                "action": {
-                  "type": "postback",
-                  "label": "暫無",
-                  "data": "暫無"
-                }
-              },	
-              {
-                "type": "button",
-                "style": "primary",
-                "action": {
-                  "type": "postback",
-                  "label": "暫無",
-                  "data": "暫無"
-                }
-              },
-              {
-                "type": "button",
-                "style": "primary",
-                "action": {
-                  "type": "postback",
-                  "label": "暫無",
-                  "data": "暫無"
-                }
-              }
-            ]
-	  }
-}
+	"type": "bubble",
+	"header": {
+		"type": "box",
+		"layout": "vertical",
+		"contents": [
+			{
+				"type": "text",
+				"text": "推薦牌組列表",
+				"size": "lg",
+				"weight": "bold"
 
+			},
+			{
+				"type": "text",
+				"text": "免責聲音：本功能含有大量資訊，因而作者只設置於私訊使用,群組內盡量避免使用以做成洗頻。如有人惡意使用本功能而做成洗頻，其所有責任不在本Bot的作者身上。",
+				"color": "#ff0202",
+				"wrap": true,
+				"weight": "bold",
+				"gravity": "center",
+				"size": "md"
+			},
+			{
+				"type": "separator",
+				"margin": "lg"
+			},
+		]
+	},
+	"body": {
+		"type": "box",
+		"layout": "vertical",
+		"margin": "lg",
+		"spacing": "sm",
+		"contents": [
+			{
+				"type": "box",
+				"layout": "horizontal",
+				"spacing": "sm",
+				"contents": [
+					{
+						"type": "box",
+						"layout": "horizontal",
+						"spacing": "sm",
+						"contents": [
+							{
+								"type": "button",
+								"style": "primary",
+								"action": {
+									"type": "message",
+									"label": "亞瑟皇",
+									"text": "推薦牌組（亞瑟）"
+								}
+							},
+							{
+								"type": "button",
+								"style": "primary",
+								"action": {
+									"type": "message",
+									"label": "妖精龍妖",
+									"text": "推薦牌組（妖精龍）"
+								}
+							},
+							{
+								"type": "button",
+								"style": "primary",
+								"action": {
+									"type": "postback",
+									"label": "暫無",
+									"data": "暫無"
+								}
+							}
+						]
+					}
+				]
+			},
+			{
+				"type": "box",
+
+				"layout": "vertical",
+
+				"margin": "lg",
+
+				"spacing": "sm",
+
+				"contents": [
+
+					{
+
+						"type": "box",
+
+						
+						"layout": "horizontal",
+
+						"spacing": "sm",
+
+						"contents": [
+
+							{
+						
+						
+								"type": "box",
+						
+								"layout": "horizontal",
+							
+								"spacing": "sm",
+							
+								"contents": [
+							
+									{
+						
+										"type": "button",
+							
+										"style": "primary",
+							
+										"action": {
+						
+											"type": "postback",
+						
+											"label": "暫無",
+						
+						
+											"data": "暫無"
+						
+										}
+						
+										
+						
+									},		
+						
+									{
+					
+										
+						
+										"type": "button",
+						
+										"style": "primary",
+						
+										"action": {
+													"type": "postback",
+													"label": "暫無",
+													"data": "暫無"
+												}
+											},
+											{
+												"type": "button",
+												"style": "primary",
+												"action": {
+													"type": "postback",
+													"label": "暫無",
+													"data": "暫無"
+												}
+											}
+										]
+									},
+									
+					{
+						"type": "box",
+						"layout": "vertical",
+						"margin": "lg",
+						"spacing": "sm",
+						"contents": [
+							{
+								"type": "box",
+								"layout": "horizontal",
+								"spacing": "sm",
+								"contents": [
+									{
+										"type": "box",
+										"layout": "horizontal",
+										"spacing": "sm",
+										"contents": [
+											{
+												"type": "button",
+												"style": "primary",
+												"action": {
+													"type": "postback",
+													"label": "暫無",
+													"data": "暫無"
+												}
+											},		
+											{
+												"type": "button",
+												"style": "primary",
+												"action": {
+													"type": "postback",
+													"label": "暫無",
+													"data": "暫無"
+												}					
+											},
+											{
+												"type": "button",
+												"style": "primary",
+												"action": {
+													"type": "postback",
+													"label": "暫無",
+													"data": "暫無"
+												}
+											}
+										]
+									}
+								]
+							}
+						]
+					}
+					
+												
+										
+										
 var message1 = {
 	"type": "flex",
     "contents": {
