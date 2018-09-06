@@ -1,11 +1,10 @@
 var rollbase = require('./rollbase.js');
 var funny = require('./funny.js');
-
 var messageroll = {
-  "type": "carousel",
+	"type": "carousel",
 	"altText": "【推薦牌組】",
-  "contents": [
-{
+	"contents": [
+		{
 		 "type": "bubble",
 			"body": {
 				"type": "box",
@@ -1031,12 +1030,15 @@ var messageroll = {
 							"label": "前往牌組製作",
 							"uri": "https://shadowverse-portal.com/deck/1.7.6N9tI.6N9tI.6N9tI.6JNhI.6JNhI.6JNhI.6Ung2.6Ung2.6Ung2.6Ybp2.6Ybp2.60COa.60COa.60COa.60C8o.60C8o.6Qv7o.6Qv7o.6Qv7o.6UjGo.6UjGo.6UjGo.6Q_zI.6Q_zI.6Q_zI.6Uo9I.6Uo9I.6Uo9I.6Uq6S.6Uq6S.6Uq6S.60Eb2.60Eb2.6JJI2.6JJI2.6JJI2.6YcXw.6YeFc.6YeFc.6YeFc?lang=zh-tw"
 						}
+					
 					}
+				
 				]
 			}
-    }
-	 ]
+	]
 };
+
+
 
 function roll() {
 	return messageroll; 
