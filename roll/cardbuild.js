@@ -1062,10 +1062,9 @@ var message3 = {
 };
 //陽光
 var sunlight = {
-  "type": "carousel",
-	"altText": "【陽光教】",
-  "contents": [
-{
+	"type": "flex",
+	"altText": "【陽光主教】",
+"contents": {
 		 "type": "bubble",
 			"body": {
 				"type": "box",
@@ -1322,9 +1321,273 @@ var sunlight = {
 					}
 				]
 			}
-	  }
+	 }
 };
 
+
+var message = {
+  "type": "carousel",
+	"altText": "【推薦牌組】",
+  "contents": [
+{
+		 "type": "bubble",
+			"body": {
+				"type": "box",
+				"layout": "vertical",
+				"spacing": "lg",
+				"contents": [
+					{
+						"type": "text",
+						"text": "",
+						"wrap": true,
+						"weight": "bold",
+						"gravity": "center",
+						"size": "lg"
+					},
+					{
+						"type": "box",
+						"layout": "baseline",
+						"spacing": "lg",
+						"contents": [
+							{
+								"type": "icon",
+								"url": "https://shadowverse.com/assets/images/cardpack/brigadeofthesky/title.png?rel20180730_1",
+								"size": "lg"
+							},
+							{
+								"type": "text",
+								"text": "",
+								"gravity": "center",
+								"flex": 5,
+								"align": "start"
+							},
+							{
+								"type": "text",
+								"text": "",
+								"gravity": "center",
+								"flex": 5,
+								"align": "end"
+							},
+							{
+								"type": "icon",
+								"url": "",
+								"size": "lg"
+							}
+						]
+					},
+					{
+						"type": "box",
+						"layout": "vertical",
+						"margin": "lg",
+						"spacing": "sm",
+						"contents": [
+							{
+								"type": "box",
+								"layout": "baseline",
+								"spacing": "sm",
+								"contents": [
+									{
+										"type": "text",
+										"text": "卡片稀有度分佈",
+										"color": "#aaaaaa",
+										"size": "sm",
+										"weight": "bold"
+									}
+								]
+							},
+							{
+								"type": "box",
+								"layout": "baseline",
+								"spacing": "sm",
+								"contents": [
+									{
+										"type": "text",
+										"text": "虹卡：",
+										"color": "#aaaaaa",
+										"size": "sm",
+										"flex": 1
+									},
+									{
+										"type": "text",
+										"text": "",
+										"wrap": true,
+										"color": "#666666",
+										"size": "sm",
+										"flex": 1
+									}
+								]
+							},
+							{
+								"type": "box",
+								"layout": "baseline",
+								"spacing": "sm",
+								"contents": [
+									{
+										"type": "text",
+										"text": "金卡：",
+										"color": "#aaaaaa",
+										"size": "sm",
+										"flex": 1
+									},
+									{
+										"type": "text",
+										"text": "",
+										"wrap": true,
+										"color": "#666666",
+										"size": "sm",
+										"flex": 1
+									}								]
+
+							},
+							{
+								"type": "box",
+								"layout": "baseline",
+								"spacing": "sm",
+								"contents": [
+									{
+										"type": "text",
+										"text": "銀卡：",
+										"color": "#aaaaaa",
+										"size": "sm",
+										"flex": 1
+									},
+									{
+										"type": "text",
+										"text": "",
+										"wrap": true,
+										"color": "#666666",
+										"size": "sm",
+										"flex": 1
+									}
+								]
+							},
+							{
+								"type": "box",
+								"layout": "baseline",
+								"spacing": "sm",
+								"contents": [
+									{
+										"type": "text",
+										"text": "銅卡：",
+										"color": "#aaaaaa",
+										"size": "sm",
+										"flex": 1
+									},
+									{
+
+										"type": "text",
+										"text": "",
+										"wrap": true,
+										"color": "#666666",
+										"size": "sm",
+										"flex": 1
+									}
+								]
+							},
+							{
+								"type": "box",
+								"layout": "baseline",
+								"spacing": "md",
+								"contents": [
+									{
+										"type": "text",
+										"text": "牌組概念",
+										"color": "#aaaaaa",
+										"size": "sm",
+										"weight": "bold"
+									}
+								]
+							},
+							{
+								"type": "box",
+								"layout": "vertical",
+								"spacing": "xxl",
+								"contents": [
+									{
+										"type": "text",
+										"text": "",
+										"color": "#000000",
+										"wrap": true,
+										"weight": "bold",
+										"gravity": "center",
+										"size": "sm"
+									}
+								]
+							}
+						]
+					}
+				]
+			},
+			"footer": {
+				"type": "box",
+				"layout": "vertical",
+				"contents": [
+					{
+						"type": "separator",
+						"margin": "xxl"
+					},
+					{
+						"type": "box",
+						"layout": "baseline",
+						"margin": "md",
+						"contents": [
+							{
+								"type": "text",
+								"text": "製作價格：",
+								"color": "#aaaaaa",
+								"size": "sm",
+								"flex": 2
+							},
+							{
+								"type": "text",
+								"text": "",
+								"wrap": true,
+								"color": "#666666",
+								"size": "sm",
+								"flex": 4
+							}
+						]
+					},
+					{
+						"type": "box",
+						"layout": "baseline",
+						"spacing": "sm",
+						"contents": [
+							{
+								"type": "text",
+								"text": "製作者：",
+								"color": "#aaaaaa",
+								"size": "sm",
+								"flex": 2
+							},
+							{
+								"type": "text",
+								"text": "",
+								"wrap": true,
+								"size": "sm",
+								"color": "#666666",
+								"flex": 4
+							}
+						]
+					},
+					{
+						"type": "separator",
+						"margin": "md"
+					},
+					{
+						"type": "button",
+						"style": "primary",
+						"margin": "sm",
+						"action": {
+							"type": "uri",
+							"label": "前往牌組製作",
+							"uri": ""
+						}
+					}
+				]
+			}
+	 ]
+};
 
 
 function royal() {
