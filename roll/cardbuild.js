@@ -1328,7 +1328,7 @@ var sunlight = {
 //紅茶死靈1
 var on = {
 	"type": "flex",
-	"altText": "【不明死靈】",
+	"altText": "【怨靈死靈】",
 "contents": {
 		 "type": "bubble",
 			"body": {
@@ -1338,7 +1338,7 @@ var on = {
 				"contents": [
 					{
 						"type": "text",
-						"text": "紅茶沒給我名字死",
+						"text": "怨靈死",
 						"wrap": true,
 						"weight": "bold",
 						"gravity": "center",
@@ -1476,7 +1476,7 @@ var on = {
 									{
 
 										"type": "text",
-										"text": "9",
+										"text": "12",
 										"wrap": true,
 										"color": "#666666",
 										"size": "sm",
@@ -1592,7 +1592,7 @@ var on = {
 //紅茶死2
 var tn = {
 	"type": "flex",
-	"altText": "【不明死靈】",
+	"altText": "【葬送死靈】",
 "contents": {
 		 "type": "bubble",
 			"body": {
@@ -1602,7 +1602,7 @@ var tn = {
 				"contents": [
 					{
 						"type": "text",
-						"text": "紅茶沒給我名字死2號",
+						"text": "葬送",
 						"wrap": true,
 						"weight": "bold",
 						"gravity": "center",
