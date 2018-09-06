@@ -37,7 +37,7 @@ function Test13() {
           {
             "type": "message",
             "label": "Yes",
-            "text": "suggest_card"
+            "text": "suggestcard"
           },
           {
             "type": "message",
