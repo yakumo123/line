@@ -67,7 +67,9 @@ function parseInput(rplyToken, inputStr) {
 	
 	if (trigger.match(/^式神幫忙$|^幫助$|^幫忙$/)!= null ) return exports.fakeyakumobot.fakehelp();
 	
-	if (trigger.match(/^式神幫助$/)!= null ) return exports.botyakumo.BotHelpYy() return exports.botyakumo2.BotHelpYy()
+	if (trigger.match(/^式神幫助2$/)!= null ) return exports.botyakumo2.BotHelpYy();
+	
+	if (trigger.match(/^式神幫助$/)!= null ) return exports.botyakumo.BotHelpYy();
 	
 	if (trigger.match(/^comfirephoto$/)!= null ) return exports.testing.Test12();
 	
