@@ -1325,6 +1325,535 @@ var sunlight = {
 	 }
 };
 
+//紅茶死靈1
+var on = {
+	"type": "flex",
+	"altText": "【不明死靈】",
+"contents": {
+		 "type": "bubble",
+			"body": {
+				"type": "box",
+				"layout": "vertical",
+				"spacing": "lg",
+				"contents": [
+					{
+						"type": "text",
+						"text": "紅茶沒給我名字死",
+						"wrap": true,
+						"weight": "bold",
+						"gravity": "center",
+						"size": "lg"
+					},
+					{
+						"type": "box",
+						"layout": "baseline",
+						"spacing": "lg",
+						"contents": [
+							{
+								"type": "icon",
+								"url": "https://shadowverse.com/assets/images/cardpack/brigadeofthesky/title.png?rel20180730_1",
+								"size": "lg"
+							},
+							{
+								"type": "text",
+								"text": "指定模式",
+								"gravity": "center",
+								"flex": 5,
+								"align": "start"
+							},
+							{
+								"type": "text",
+								"text": "職業：死靈",
+								"gravity": "center",
+								"flex": 5,
+								"align": "end"
+							},
+							{
+								"type": "icon",
+								"url": "https://shadowverse.jp/sp/assets/images/world/thumb-chara-05.jpg?rel20180803_2",
+								"size": "lg"
+							}
+						]
+					},
+					{
+						"type": "box",
+						"layout": "vertical",
+						"margin": "lg",
+						"spacing": "sm",
+						"contents": [
+							{
+								"type": "box",
+								"layout": "baseline",
+								"spacing": "sm",
+								"contents": [
+									{
+										"type": "text",
+										"text": "卡片稀有度分佈",
+										"color": "#aaaaaa",
+										"size": "sm",
+										"weight": "bold"
+									}
+								]
+							},
+							{
+								"type": "box",
+								"layout": "baseline",
+								"spacing": "sm",
+								"contents": [
+									{
+										"type": "text",
+										"text": "虹卡：",
+										"color": "#aaaaaa",
+										"size": "sm",
+										"flex": 1
+									},
+									{
+										"type": "text",
+										"text": "10",
+										"wrap": true,
+										"color": "#666666",
+										"size": "sm",
+										"flex": 1
+									}
+								]
+							},
+							{
+								"type": "box",
+								"layout": "baseline",
+								"spacing": "sm",
+								"contents": [
+									{
+										"type": "text",
+										"text": "金卡：",
+										"color": "#aaaaaa",
+										"size": "sm",
+										"flex": 1
+									},
+									{
+										"type": "text",
+										"text": "5",
+										"wrap": true,
+										"color": "#666666",
+										"size": "sm",
+										"flex": 1
+									}								]
+
+							},
+							{
+								"type": "box",
+								"layout": "baseline",
+								"spacing": "sm",
+								"contents": [
+									{
+										"type": "text",
+										"text": "銀卡：",
+										"color": "#aaaaaa",
+										"size": "sm",
+										"flex": 1
+									},
+									{
+										"type": "text",
+										"text": "13",
+										"wrap": true,
+										"color": "#666666",
+										"size": "sm",
+										"flex": 1
+									}
+								]
+							},
+							{
+								"type": "box",
+								"layout": "baseline",
+								"spacing": "sm",
+								"contents": [
+									{
+										"type": "text",
+										"text": "銅卡：",
+										"color": "#aaaaaa",
+										"size": "sm",
+										"flex": 1
+									},
+									{
+
+										"type": "text",
+										"text": "9",
+										"wrap": true,
+										"color": "#666666",
+										"size": "sm",
+										"flex": 1
+									}
+								]
+							},
+							{
+								"type": "box",
+								"layout": "baseline",
+								"spacing": "md",
+								"contents": [
+									{
+										"type": "text",
+										"text": "牌組概念",
+										"color": "#aaaaaa",
+										"size": "sm",
+										"weight": "bold"
+									}
+								]
+							},
+							{
+								"type": "box",
+								"layout": "vertical",
+								"spacing": "xxl",
+								"contents": [
+									{
+										"type": "text",
+										"text": "紅茶：我愛露娜",
+										"color": "#000000",
+										"wrap": true,
+										"weight": "bold",
+										"gravity": "center",
+										"size": "sm"
+									}
+								]
+							}
+						]
+					}
+				]
+			},
+			"footer": {
+				"type": "box",
+				"layout": "vertical",
+				"contents": [
+					{
+						"type": "separator",
+						"margin": "xxl"
+					},
+					{
+						"type": "box",
+						"layout": "baseline",
+						"margin": "md",
+						"contents": [
+							{
+								"type": "text",
+								"text": "製作價格：",
+								"color": "#aaaaaa",
+								"size": "sm",
+								"flex": 2
+							},
+							{
+								"type": "text",
+								"text": "52550",
+								"wrap": true,
+								"color": "#666666",
+								"size": "sm",
+								"flex": 4
+							}
+						]
+					},
+					{
+						"type": "box",
+						"layout": "baseline",
+						"spacing": "sm",
+						"contents": [
+							{
+								"type": "text",
+								"text": "製作者：",
+								"color": "#aaaaaa",
+								"size": "sm",
+								"flex": 2
+							},
+							{
+								"type": "text",
+								"text": "紅茶",
+								"wrap": true,
+								"size": "sm",
+								"color": "#666666",
+								"flex": 4
+							}
+						]
+					},
+					{
+						"type": "separator",
+						"margin": "md"
+					},
+					{
+						"type": "button",
+						"style": "primary",
+						"margin": "sm",
+						"action": {
+							"type": "uri",
+							"label": "前往牌組製作",
+							"uri": "https://shadowverse-portal.com/deck/3.5.6Txys.6Txys.6XtQc.6XtQc.6XtQc.6XmqQ.6XmqQ.6IVXY.6IVXY.6MJgs.6MJgs.6MJgs.6MOZC.6MOZC.6MOZC.6XoXy.6XoXy.6XoXy.6XtQI.6XtQI.6MMrg.6MMrg.6KS2S.6KS2S.6KS2S.6OL3y.6OL3y.6OL3y.6T-Oo.6T-Oo.6XoXo.6XoXo.6XoXo.6IcsS.6IcsS.6IaQ2.6IaQ2.6U3Hc.6U3Hc.6U3Hc?lang=zh-tw"
+						}
+					}
+				]
+			}
+	 }
+};
+
+//紅茶死2
+ver tn = {
+	"type": "flex",
+	"altText": "【不明死靈】",
+"contents": {
+		 "type": "bubble",
+			"body": {
+				"type": "box",
+				"layout": "vertical",
+				"spacing": "lg",
+				"contents": [
+					{
+						"type": "text",
+						"text": "紅茶沒給我名字死2號",
+						"wrap": true,
+						"weight": "bold",
+						"gravity": "center",
+						"size": "lg"
+					},
+					{
+						"type": "box",
+						"layout": "baseline",
+						"spacing": "lg",
+						"contents": [
+							{
+								"type": "icon",
+								"url": "https://shadowverse.com/assets/images/cardpack/brigadeofthesky/title.png?rel20180730_1",
+								"size": "lg"
+							},
+							{
+								"type": "text",
+								"text": "指定模式",
+								"gravity": "center",
+								"flex": 5,
+								"align": "start"
+							},
+							{
+								"type": "text",
+								"text": "職業：死靈",
+								"gravity": "center",
+								"flex": 5,
+								"align": "end"
+							},
+							{
+								"type": "icon",
+								"url": "https://shadowverse.jp/sp/assets/images/world/thumb-chara-05.jpg?rel20180803_2",
+								"size": "lg"
+							}
+						]
+					},
+					{
+						"type": "box",
+						"layout": "vertical",
+						"margin": "lg",
+						"spacing": "sm",
+						"contents": [
+							{
+								"type": "box",
+								"layout": "baseline",
+								"spacing": "sm",
+								"contents": [
+									{
+										"type": "text",
+										"text": "卡片稀有度分佈",
+										"color": "#aaaaaa",
+										"size": "sm",
+										"weight": "bold"
+									}
+								]
+							},
+							{
+								"type": "box",
+								"layout": "baseline",
+								"spacing": "sm",
+								"contents": [
+									{
+										"type": "text",
+										"text": "虹卡：",
+										"color": "#aaaaaa",
+										"size": "sm",
+										"flex": 1
+									},
+									{
+										"type": "text",
+										"text": "10",
+										"wrap": true,
+										"color": "#666666",
+										"size": "sm",
+										"flex": 1
+									}
+								]
+							},
+							{
+								"type": "box",
+								"layout": "baseline",
+								"spacing": "sm",
+								"contents": [
+									{
+										"type": "text",
+										"text": "金卡：",
+										"color": "#aaaaaa",
+										"size": "sm",
+										"flex": 1
+									},
+									{
+										"type": "text",
+										"text": "8",
+										"wrap": true,
+										"color": "#666666",
+										"size": "sm",
+										"flex": 1
+									}								]
+
+							},
+							{
+								"type": "box",
+								"layout": "baseline",
+								"spacing": "sm",
+								"contents": [
+									{
+										"type": "text",
+										"text": "銀卡：",
+										"color": "#aaaaaa",
+										"size": "sm",
+										"flex": 1
+									},
+									{
+										"type": "text",
+										"text": "13",
+										"wrap": true,
+										"color": "#666666",
+										"size": "sm",
+										"flex": 1
+									}
+								]
+							},
+							{
+								"type": "box",
+								"layout": "baseline",
+								"spacing": "sm",
+								"contents": [
+									{
+										"type": "text",
+										"text": "銅卡：",
+										"color": "#aaaaaa",
+										"size": "sm",
+										"flex": 1
+									},
+									{
+
+										"type": "text",
+										"text": "9",
+										"wrap": true,
+										"color": "#666666",
+										"size": "sm",
+										"flex": 1
+									}
+								]
+							},
+							{
+								"type": "box",
+								"layout": "baseline",
+								"spacing": "md",
+								"contents": [
+									{
+										"type": "text",
+										"text": "牌組概念",
+										"color": "#aaaaaa",
+										"size": "sm",
+										"weight": "bold"
+									}
+								]
+							},
+							{
+								"type": "box",
+								"layout": "vertical",
+								"spacing": "xxl",
+								"contents": [
+									{
+										"type": "text",
+										"text": "紅茶：我愛露娜",
+										"color": "#000000",
+										"wrap": true,
+										"weight": "bold",
+										"gravity": "center",
+										"size": "sm"
+									}
+								]
+							}
+						]
+					}
+				]
+			},
+			"footer": {
+				"type": "box",
+				"layout": "vertical",
+				"contents": [
+					{
+						"type": "separator",
+						"margin": "xxl"
+					},
+					{
+						"type": "box",
+						"layout": "baseline",
+						"margin": "md",
+						"contents": [
+							{
+								"type": "text",
+								"text": "製作價格：",
+								"color": "#aaaaaa",
+								"size": "sm",
+								"flex": 2
+							},
+							{
+								"type": "text",
+								"text": "44350",
+								"wrap": true,
+								"color": "#666666",
+								"size": "sm",
+								"flex": 4
+							}
+						]
+					},
+					{
+						"type": "box",
+						"layout": "baseline",
+						"spacing": "sm",
+						"contents": [
+							{
+								"type": "text",
+								"text": "製作者：",
+								"color": "#aaaaaa",
+								"size": "sm",
+								"flex": 2
+							},
+							{
+								"type": "text",
+								"text": "紅茶",
+								"wrap": true,
+								"size": "sm",
+								"color": "#666666",
+								"flex": 4
+							}
+						]
+					},
+					{
+						"type": "separator",
+						"margin": "md"
+					},
+					{
+						"type": "button",
+						"style": "primary",
+						"margin": "sm",
+						"action": {
+							"type": "uri",
+							"label": "前往牌組製作",
+							"uri": "https://shadowverse-portal.com/deck/3.5.6XmqQ.6XmqQ.6IVXY.6IVXY.6MJgs.6MJgs.6MJgs.6MOZC.6MOZC.6MOZC.6XoXy.6XoXy.6XoXy.6XtQI.6XtQI.6MMrg.6MMrg.6T-Oo.6T-Oo.6XoXo.6XoXo.6XoXo.6IcsS.6IcsS.6XoY6.6XoY6.fttUY.fttUY.6IaQ2.6IaQ2.6U3HI.6U3HI.6U3HI.6QCi2.6QCi2.6QCi2.6XtQS.6XtQS.6XtQS.6XoY6?lang=zh-tw"
+						}
+					}
+				]
+			}
+	 }
+};
+
+
 
 function royal() {
 	return RoyalKing; 
@@ -1348,12 +1877,25 @@ function sun() {
 	return sunlight; 
 	
 }
+	  
+function onetea() {
+	return on; 
+	
+}	  
 
+function twotea() {
+	return tn; 
+	
+}	
+	  
 module.exports = {
 	royal: royal,
 	elfdragon: elfdragon,
 	build2: build2,
 	build3: build3,
-	sun: sun
+	sun: sun,
+	onetea: onetea,
+	twotea:twotea
+	
 };
 
