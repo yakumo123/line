@@ -1051,6 +1051,6 @@ function roll() {
 
 
 module.exports = {
-	roll: roll,
+	roll: roll
 };
 
