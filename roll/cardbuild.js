@@ -2118,10 +2118,10 @@ var vampire = {
 };
 
 //土印
-var magic = {
+var magiccu = {
 	"type": "flex",
 	"altText": "【土印法】",
-"contents": {
+	"contents": {
 		 "type": "bubble",
 			"body": {
 				"type": "box",
@@ -2166,12 +2166,12 @@ var magic = {
 								"size": "lg"
 							},
 							{
-            "type": "image",
-            "url": "https://serving.photos.photobox.com/641433476fe3d17a1c8d022ce4a6a73a4707d420caf006961587b38c3aed7af411d6c369.jpg",
-            "size": "full",
-            "aspectRatio": "20:13",
-            "aspectMode": "cover"
-        }
+								"type": "image",
+								"url": "https://serving.photos.photobox.com/641433476fe3d17a1c8d022ce4a6a73a4707d420caf006961587b38c3aed7af411d6c369.jpg",
+								"size": "full",
+								"aspectRatio": "20:13",
+								"aspectMode": "cover"
+							}
 						]
 					},
 					{
@@ -2427,7 +2427,7 @@ function vampilim() {
 }	
 
 function ductmagic() {
-	return magic; 
+	return magiccu; 
 	
 }	
 	  
