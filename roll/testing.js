@@ -37,7 +37,7 @@ function Test13() {
           {
             "type": "message",
             "label": "Yes",
-            "text": "suggestcard"
+            "text": "sv推薦牌組"
           },
           {
             "type": "message",
