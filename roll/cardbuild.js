@@ -262,7 +262,8 @@ var message = {
 							"type": "uri",
 							"label": "前往牌組製作",
 							"uri": "https://shadowverse-portal.com/deck/1.2.6SuKQ.6SuKQ.6HOkc.6HOkc.6HOkc.6SojM.6SojM.6SojM.6Sw1o.6Sw1o.6Sw1o.fsmhI.fsmhI.fsmhI.6LHlo.6LHlo.6LHlo.6P3SY.6P3SY.6Sr9c.6Sr9c.6Sr9c.6WfII.6WfII.6P10I.6P10I.6WiTQ.6WiTQ.6WiTQ.6WkAo.6WkAo.6WkB6.6WkB6.6P5uy.6P5uy.6P5uy.6Sw1y.6Sw1y.6WkAy.6WkAy?lang=zh-tw"
-						}
+						},
+						          "style": "secondary"
 					}
 				]
 			}
@@ -526,7 +527,8 @@ var message = {
 							"type": "uri",
 							"label": "前往牌組製作",
 							"uri": "https://shadowverse-portal.com/deck/1.2.6SuKQ.6SuKQ.6HOkc.6HOkc.6HOkc.6SojM.6SojM.6SojM.6Sw1o.6Sw1o.6Sw1o.fsmhI.fsmhI.fsmhI.6LHlo.6LHlo.6LHlo.6P3SY.6P3SY.6Sr9c.6Sr9c.6Sr9c.6WfII.6WfII.6P10I.6P10I.6WiTQ.6WiTQ.6WiTQ.6WkAo.6WkAo.6WkB6.6WkB6.6P5uy.6P5uy.6P5uy.6Sw1y.6Sw1y.6WkAy.6WkAy?lang=zh-tw"
-						}
+						},
+						          "style": "secondary"
 					}
 				]
 			}
