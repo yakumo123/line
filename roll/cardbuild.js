@@ -178,7 +178,7 @@ var message = {
 							},
 							{
 								"type": "box",
-								"layout": "horizontal",
+								"layout": "vertical",
 								"spacing": "sm",
 								"contents": [
 									{
