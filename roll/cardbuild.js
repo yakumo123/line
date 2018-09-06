@@ -2137,6 +2137,13 @@ var magiccu = {
 						"size": "lg"
 					},
 					{
+								"type": "image",
+								"url": "https://serving.photos.photobox.com/641433476fe3d17a1c8d022ce4a6a73a4707d420caf006961587b38c3aed7af411d6c369.jpg",
+								"size": "full",
+								"aspectRatio": "20:13",
+								"aspectMode": "cover"
+					},
+					{
 						"type": "box",
 						"layout": "baseline",
 						"spacing": "lg",
@@ -2164,13 +2171,6 @@ var magiccu = {
 								"type": "icon",
 								"url": "https://shadowverse.jp/sp/assets/images/world/thumb-chara-03.jpg?rel20180803_2",
 								"size": "lg"
-							},
-							{
-								"type": "image",
-								"url": "https://serving.photos.photobox.com/641433476fe3d17a1c8d022ce4a6a73a4707d420caf006961587b38c3aed7af411d6c369.jpg",
-								"size": "full",
-								"aspectRatio": "20:13",
-								"aspectMode": "cover"
 							}
 						]
 					},
