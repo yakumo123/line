@@ -36,13 +36,7 @@ var message = {
 							},
 							{
 								"type": "text",
-								"text": "職業：",
-								"flex": 2,
-								"align": "center"
-							},
-							{
-								"type": "text",
-								"text": "皇家",
+								"text": "職業：皇家",
 								"flex": 5,
 								"align": "end"
 							},
@@ -165,7 +159,7 @@ var message = {
 							{
 								"type": "box",
 								"layout": "baseline",
-								"spacing": "xxl",
+								"spacing": "md",
 								"contents": [
 									{
 										"type": "text",
@@ -179,7 +173,7 @@ var message = {
 							{
 								"type": "box",
 								"layout": "vertical",
-								"spacing": "sm",
+								"spacing": "xxl",
 								"contents": [
 									{
 										"type": "text",
