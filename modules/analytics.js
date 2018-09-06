@@ -87,8 +87,8 @@ function parseInput(rplyToken, inputStr) {
 		if (trigger.match(/^星爆猴/)!= null ) return exports.cardbuild.build2();
 		if (trigger.match(/^護符/)!= null ) return exports.cardbuild.build3();
 		if (trigger.match(/^陽光/)!= null ) return exports.cardbuild.sun();
-		if (trigger.match(/^紅茶死1/)!= null ) return exports.cardbuild.onetea();
-		if (trigger.match(/^紅茶死2/)!= null ) return exports.cardbuild.twotea();
+		if (trigger.match(/^幽靈/)!= null ) return exports.cardbuild.onetea();
+		if (trigger.match(/^葬送/)!= null ) return exports.cardbuild.twotea();
 
 	
 	}
