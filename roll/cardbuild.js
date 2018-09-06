@@ -1590,7 +1590,7 @@ var on = {
 };
 
 //紅茶死2
-ver tn = {
+var tn = {
 	"type": "flex",
 	"altText": "【不明死靈】",
 "contents": {
