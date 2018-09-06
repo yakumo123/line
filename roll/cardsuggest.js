@@ -16,18 +16,18 @@ function Suggestion() {
 						{
 							"type": "message",
 							"label": "亞瑟基德皇【指定】",
-							"text": "亞瑟（）"
+							"text": "亞瑟☆推薦"
 						},
 						{
 							"type": "message",
 							"label": "妖精龍妖精【指定】",
-							"text": "妖精龍（）"
+							"text": "妖精龍☆推薦"
 							
 						},
 						{
 							"type": "message",
 							"label": "星爆異形猴子妖【指定】",
-							"text": "星爆猴（）"
+							"text": "星爆猴☆推薦"
 						}
 					]
 				},
@@ -38,18 +38,18 @@ function Suggestion() {
 						{
 							"type": "message",
 							"label": "護符主【指定】",
-							"text": "護符（）"
+							"text": "護符☆推薦"
 						},
 						{
 							"type": "message",
 							"label": "陽光主教【無限】",
-							"text": "陽光（）"
+							"text": "陽光☆推薦"
 							
 						},
 						{
 							"type": "message",
 							"label": "幽靈死【指定】",
-							"text": "幽靈（）"
+							"text": "幽靈☆推薦"
 						}
 					]
 				},
@@ -60,12 +60,12 @@ function Suggestion() {
 						{
 							"type": "message",
 							"label": "葬送死【指定】",
-							"text": "葬送（）"
+							"text": "葬送☆推薦"
 						},
 						{
 							"type": "message",
-							"label": "null",
-							"text": "null"
+							"label": "看來是控吸【指定】",
+							"text": "騙水吸☆推薦"
 							
 						},
 						{
