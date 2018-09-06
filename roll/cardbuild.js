@@ -8,7 +8,7 @@ var message = {
 			"body": {
 				"type": "box",
 				"layout": "vertical",
-				"spacing": "md",
+				"spacing": "lg",
 				"contents": [
 					{
 						"type": "text",
@@ -21,7 +21,7 @@ var message = {
 					{
 						"type": "box",
 						"layout": "baseline",
-						"spacing": "sm",
+						"spacing": "lg",
 						"contents": [
 							{
 								"type": "icon",
@@ -80,7 +80,7 @@ var message = {
 								"contents": [
 									{
 										"type": "text",
-										"text": "虹卡：'",
+										"text": "虹卡：",
 										"color": "#aaaaaa",
 										"size": "sm",
 										"flex": 1
@@ -102,7 +102,7 @@ var message = {
 								"contents": [
 									{
 										"type": "text",
-										"text": "金卡：'",
+										"text": "金卡：",
 										"color": "#aaaaaa",
 										"size": "sm",
 										"flex": 1
@@ -124,7 +124,7 @@ var message = {
 								"contents": [
 									{
 										"type": "text",
-										"text": "銀卡：'",
+										"text": "銀卡：",
 										"color": "#aaaaaa",
 										"size": "sm",
 										"flex": 1
@@ -146,7 +146,7 @@ var message = {
 								"contents": [
 									{
 										"type": "text",
-										"text": "銅卡：'",
+										"text": "銅卡：",
 										"color": "#aaaaaa",
 										"size": "sm",
 										"flex": 1
@@ -165,7 +165,7 @@ var message = {
 							{
 								"type": "box",
 								"layout": "baseline",
-								"spacing": "sm",
+								"spacing": "xxl",
 								"contents": [
 									{
 										"type": "text",
