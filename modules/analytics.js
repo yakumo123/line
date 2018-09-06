@@ -19,10 +19,7 @@ function parseInput(rplyToken, inputStr) {
 	let mainMsg = inputStr.match(msgSplitor); //定義輸入字串
 	let trigger = mainMsg[0].toString().toLowerCase(); //指定啟動詞在第一個詞&把大階強制轉成細階
 
-	//在下面位置開始分析trigger
 
-	if (trigger.match(/妮|幽|annie/) != null) return exports.null.null() ;
-	
 	if (trigger.match(/霖|凜/) != null) return exports.null.null() ;
 	
 	if (trigger.match(/^萌$/) != null) return exports.imagemap.mapping() ;
