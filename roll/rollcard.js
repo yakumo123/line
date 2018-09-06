@@ -1,6 +1,6 @@
 var rollbase = require('./rollbase.js');
 var funny = require('./funny.js');
-var messageroll = {
+var message = {
 	"type": "carousel",
 	"altText": "【推薦牌組】",
 	"contents": [
@@ -1045,7 +1045,7 @@ var messageroll = {
 
 
 function roll() {
-	return messageroll; 
+	return message; 
 	
 }
 
