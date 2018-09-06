@@ -2162,7 +2162,7 @@ var magic = {
 							},
 							{
 								"type": "icon",
-								"url": "https://shadowverse.jp/sp/assets/images/world/thumb-chara-06.jpg?rel20180803_2",
+								"url": "https://shadowverse.jp/sp/assets/images/world/thumb-chara-03.jpg?rel20180803_2",
 								"size": "lg"
 							},
 							{
@@ -2304,7 +2304,7 @@ var magic = {
 								"contents": [
 									{
 										"type": "text",
-										"text": "366請手動進化幹頭（別妄想你能開他），2費生物除212特殊功能（必拉土槍or雷擊），其他可自行調整，土蘿（進化後回的PP可以做鋪場!!）的法術為斬殺的關鍵，請勿隨意解場。",
+										"text": "366請手動進化幹頭（別妄想你能開他），2費生物除212特殊功能（必拉土槍or雷擊），其他可自行調整，土蘿（進化後回的PP可以做鋪場!!）的法術為斬殺的關鍵，請勿隨意解場。而殺戮為本牌組的婆心。",
 										"color": "#000000",
 										"wrap": true,
 										"weight": "bold",
