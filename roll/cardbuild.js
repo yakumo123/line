@@ -26,7 +26,7 @@ var message = {
 							{
 								"type": "icon",
 								"url": "https://shadowverse.com/assets/images/cardpack/brigadeofthesky/title.png?rel20180730_1",
-								"size": "sm"
+								"size": "md"
 							},
 							{
 								"type": "text",
@@ -43,7 +43,7 @@ var message = {
 							{
 								"type": "icon",
 								"url": "https://shadowverse.com/sp/cht/assets/images/gameguide/card-btn-02.png?rel20180718",
-								"size": "sm"
+								"size": "md"
 							}
 						]
 					},
