@@ -2118,10 +2118,6 @@ var vampire = {
 };
 
 
-function VampireLimit() {
-	reture vampire;
-}
-
 function royal() {
 	return RoyalKing; 
 	
@@ -2156,7 +2152,6 @@ function twotea() {
 }	
 	  
 module.exports = {
-	VampireLimit: VampireLimit,
 	royal: royal,
 	elfdragon: elfdragon,
 	build2: build2,
