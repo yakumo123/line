@@ -1,10 +1,10 @@
 var rollbase = require('./rollbase.js');
 var funny = require('./funny.js');
 var message = {
-	"type": "carousel",
-	"contents": [
-		{
-			"type": "bubble",
+	"type": "flex",
+	"altText": "推薦",
+	"contents": {
+		"type": "bubble",
 			"body": {
 				"type": "box",
 				"layout": "vertical",
@@ -260,9 +260,8 @@ var message = {
 						}
 					}
 				]
-			}  
-		}
-	] 
+			} 
+	}
 };
 
 function build() {
