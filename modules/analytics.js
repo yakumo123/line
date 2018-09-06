@@ -76,7 +76,7 @@ function parseInput(rplyToken, inputStr) {
 	
 	if (trigger.match(/^真步教$|^真步真步教$/)!= null ) return exports.kidding.joke();
 	
-	if (trigger.match(/^suggestcard$/)!= null ) return exports.cardsuggest.Suggestion();
+	if (trigger.match(/^sv推薦牌組$/)!= null ) return exports.cardsuggest.Suggestion();
 	
 	if (trigger.match(/☆推薦/) != null) {
 		if (trigger.match(/^亞瑟/)!= null ) return exports.cardbuild.royal();
