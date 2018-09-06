@@ -161,6 +161,33 @@ var message = {
 										"flex": 1
 									}
 								]
+							},
+							{
+								"type": "box",
+								"layout": "baseline",
+								"spacing": "sm",
+								"contents": [
+									{
+										"type": "text",
+										"text": "牌組起留手概念",
+										"color": "#aaaaaa",
+										"size": "sm",
+										"weight": "bold"
+									}
+								]
+							},
+							{
+								"type": "box",
+								"layout": "horizontal",
+								"spacing": "sm",
+								"contents": [
+									{
+										"type": "text",
+										"text": "先手起留手盡量留213老鼠跟323炎將，如果起手換牌有黑白也留。後手和先手差不多，但盡量留222白熊護衛和221及炎將。",
+										"color": "#aaaaaa",
+										"size": "sm"
+									}
+								]
 							}
 						]
 					}
