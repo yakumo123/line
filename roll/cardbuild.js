@@ -2,7 +2,7 @@ var rollbase = require('./rollbase.js');
 var funny = require('./funny.js');										
 
 //亞瑟皇
-var message = {
+var RoyalKing = {
 	"type": "flex",
 	"altText": "【亞瑟皇】",
     "contents": {
@@ -267,7 +267,7 @@ var message = {
 
 
 //妖精龍
-var message1 = {
+var Elf = {
 	"type": "flex",
 	"altText": "【妖精龍】",
     "contents": {
@@ -1061,13 +1061,13 @@ var message3 = {
 	 }
 };
 
-function build() {
-	return message; 
+function royal() {
+	return RoyalKing; 
 	
 }
 
-function build1() {
-	return message1; 
+function elfdragon() {
+	return Elf; 
 	
 }
 
@@ -1083,8 +1083,8 @@ function build3() {
 
 
 module.exports = {
-	build: build,
-	build1: build2,
+	royal: royal,
+	elfdragon: elfdragon,
 	build2: build2,
 	build3: build3
 };
