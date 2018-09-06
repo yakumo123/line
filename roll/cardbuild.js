@@ -43,7 +43,7 @@ var message = {
 							},
 							{
 								"type": "icon",
-								"url": "https://shadowverse.com/sp/cht/assets/images/gameguide/card-btn-02.png?rel20180718",
+								"url": "https://shadowverse.jp/sp/assets/images/world/thumb-chara-02.jpg?rel20180803_2",
 								"size": "lg"
 							}
 						]
@@ -164,7 +164,7 @@ var message = {
 								"contents": [
 									{
 										"type": "text",
-										"text": "牌組起留手概念",
+										"text": "牌組概念",
 										"color": "#aaaaaa",
 										"size": "sm",
 										"weight": "bold"
@@ -178,7 +178,7 @@ var message = {
 								"contents": [
 									{
 										"type": "text",
-										"text": "先手起留手盡量留213老鼠跟323炎將，如果起手換牌有黑白也留。後手和先手差不多，但盡量留222白熊護衛和221及炎將。",
+										"text": "先手起留手盡量留213老鼠跟323炎將，如果起手換牌有黑白也留。後手和先手差不多，但盡量留222白熊護衛和221及炎將。用亞瑟、基德和馬桶的配合拼斬殺",
 										"color": "#000000",
 										"wrap": true,
 										"weight": "bold",
@@ -273,7 +273,7 @@ var message1 = {
 				"contents": [
 					{
 						"type": "text",
-						"text": "亞瑟基德皇",
+						"text": "妖精龍妖",
 						"wrap": true,
 						"weight": "bold",
 						"gravity": "center",
@@ -286,7 +286,7 @@ var message1 = {
 						"contents": [
 							{
 								"type": "icon",
-								"url": "https://shadowverse.com/assets/images/cardpack/brigadeofthesky/title.png?rel20180730_1",
+								"url": "https://shadowverse.jp/sp/assets/images/world/thumb-chara-01.jpg?rel20180803_2",
 								"size": "lg"
 							},
 							{
@@ -298,7 +298,7 @@ var message1 = {
 							},
 							{
 								"type": "text",
-								"text": "職業：皇家",
+								"text": "職業：妖精",
 								"gravity": "center",
 								"flex": 5,
 								"align": "end"
@@ -344,7 +344,7 @@ var message1 = {
 									},
 									{
 										"type": "text",
-										"text": "17",
+										"text": "16",
 										"wrap": true,
 										"color": "#666666",
 										"size": "sm",
@@ -366,7 +366,7 @@ var message1 = {
 									},
 									{
 										"type": "text",
-										"text": "7",
+										"text": "8",
 										"wrap": true,
 										"color": "#666666",
 										"size": "sm",
@@ -388,7 +388,7 @@ var message1 = {
 									},
 									{
 										"type": "text",
-										"text": "13",
+										"text": "6",
 										"wrap": true,
 										"color": "#666666",
 										"size": "sm",
@@ -411,7 +411,7 @@ var message1 = {
 									{
 
 										"type": "text",
-										"text": "3",
+										"text": "8",
 										"wrap": true,
 										"color": "#666666",
 										"size": "sm",
@@ -426,7 +426,7 @@ var message1 = {
 								"contents": [
 									{
 										"type": "text",
-										"text": "牌組起留手概念",
+										"text": "牌組概念",
 										"color": "#aaaaaa",
 										"size": "sm",
 										"weight": "bold"
@@ -440,7 +440,7 @@ var message1 = {
 								"contents": [
 									{
 										"type": "text",
-										"text": "先手起留手盡量留213老鼠跟323炎將，如果起手換牌有黑白也留。後手和先手差不多，但盡量留222白熊護衛和221及炎將。",
+										"text": "前期利用妖精和旋律給予對面傷害，需要注意手牌的牌數和解場傷害換算，後期利用世界樹的衍生卡或大狼給予妖精龍疾走收頭。",
 										"color": "#000000",
 										"wrap": true,
 										"weight": "bold",
@@ -475,7 +475,7 @@ var message1 = {
 							},
 							{
 								"type": "text",
-								"text": "67250",
+								"text": "63850",
 								"wrap": true,
 								"color": "#666666",
 								"size": "sm",
@@ -516,7 +516,7 @@ var message1 = {
 						"action": {
 							"type": "uri",
 							"label": "前往牌組製作",
-							"uri": "https://shadowverse-portal.com/deck/1.2.6SuKQ.6SuKQ.6HOkc.6HOkc.6HOkc.6SojM.6SojM.6SojM.6Sw1o.6Sw1o.6Sw1o.fsmhI.fsmhI.fsmhI.6LHlo.6LHlo.6LHlo.6P3SY.6P3SY.6Sr9c.6Sr9c.6Sr9c.6WfII.6WfII.6P10I.6P10I.6WiTQ.6WiTQ.6WiTQ.6WkAo.6WkAo.6WkB6.6WkB6.6P5uy.6P5uy.6P5uy.6Sw1y.6Sw1y.6WkAy.6WkAy?lang=zh-tw"
+							"uri": "https://shadowverse-portal.com/deck/1.1.5zvAY.5zvAY.5zvAY.6KolQ.6KolQ.6KolQ.6Oceo.6Oceo.5zvAi.5zvAi.6H5CS.6H5CS.6H5CS.6Oh22.6Oh22.6OjUS.6OjUS.6OjUS.6KrBg.6KrBg.6KrBg.6H0p2.6H0p2.6H0p2.6H2m2.6H2m2.6WJKC.6WJKC.6SVBC.6SVBC.6WLmI.6WLmI.6WLmI.6WLmS.6KvLI.6KvLI.6KvLI.6SXdI.6SXdI.6SXdI?lang=zh-tw#"
 						}
 					}
 				]
