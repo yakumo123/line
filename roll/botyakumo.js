@@ -262,8 +262,8 @@ var bothelptwo = {
 };
 
 function BotHelpYy() {
-	return [bothelpone, bothelptwo];
-}
+	return bothelpone;
+};
 
 
 
