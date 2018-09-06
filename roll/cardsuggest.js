@@ -16,29 +16,29 @@ function Suggestion() {
 						{
 							"type": "message",
 							"label": "亞瑟基德皇",
-							"text": "亞瑟（CR）"
+							"text": "亞瑟（）"
 						},
 						{
 							"type": "message",
 							"label": "妖精龍妖精",
-              "text": "妖精龍（CR）"
+							"text": "妖精龍（）"
 							
 						},
 						{
 							"type": "message",
 							"label": "星爆異形猴子妖",
-							"text": "星爆猴（CR）"
+							"text": "星爆猴（）"
 						}
 					]
 				},
-        {
+				{
 					"title": "推薦牌組列表【接受投稿】",
 					"text": "☆裡面包含夢想牌☆",
 					"actions": [
 						{
 							"type": "message",
 							"label": "護符主",
-							"text": "護符（CR）"
+							"text": "護符（）"
 						},
 						{
 							"type": "message",
