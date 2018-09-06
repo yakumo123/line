@@ -79,7 +79,7 @@ function parseInput(rplyToken, inputStr) {
 	
 	if (trigger.match(/^comfirmcommand$/)!= null ) return exports.commandlist.Cili();
 
-	if (trigger.match(/^comfirmcards$/)!= null ) returnexports.testing.Test13();
+	if (trigger.match(/^comfirmcards$/)!= null ) return exports.testing.Test13();
 	
 	if (trigger.match(/^真步教$|^真步真步教$/)!= null ) return exports.kidding.joke();
 	
