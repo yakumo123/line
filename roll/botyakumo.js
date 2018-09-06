@@ -1,7 +1,9 @@
 var rollbase = require('./rollbase.js');
 var funny = require('./funny.js');
+var rply = { type: 'text'};
 
-var bothelpone = {
+function BotHelpYy() {
+	rply = {
 		"type": "template",
 		"altText": "【式神的教學】",
 		"template": {
@@ -208,11 +210,9 @@ var bothelpone = {
 				}
 			]
 		}
-};
-
-function BotHelpYy() {
-	return bothelpone;
-};
+	};
+	return rply;
+}
 
 
 
