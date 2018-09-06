@@ -26,24 +26,26 @@ var message = {
 							{
 								"type": "icon",
 								"url": "https://shadowverse.com/assets/images/cardpack/brigadeofthesky/title.png?rel20180730_1",
-								"size": "md"
+								"size": "lg"
 							},
 							{
 								"type": "text",
 								"text": "指定模式",
+								"gravity": "center",
 								"flex": 5,
 								"align": "start"
 							},
 							{
 								"type": "text",
 								"text": "職業：皇家",
+								"gravity": "center",
 								"flex": 5,
 								"align": "end"
 							},
 							{
 								"type": "icon",
 								"url": "https://shadowverse.com/sp/cht/assets/images/gameguide/card-btn-02.png?rel20180718",
-								"size": "md"
+								"size": "lg"
 							}
 						]
 					},
