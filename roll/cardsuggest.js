@@ -48,8 +48,30 @@ function Suggestion() {
 						},
 						{
 							"type": "message",
-							"label": "暫無",
-							"text": "暫無"
+							"label": "紅茶死1號【指定】",
+							"text": "紅茶死1（）"
+						}
+					]
+				},
+				{
+					"title": "推薦牌組列表【接受投稿】",
+					"text": "☆裡面包含夢想牌☆",
+					"actions": [
+						{
+							"type": "message",
+							"label": "紅茶死2號【指定】",
+							"text": "護符（）"
+						},
+						{
+							"type": "message",
+							"label": "null",
+							"text": "null"
+							
+						},
+						{
+							"type": "message",
+							"label": "null",
+							"text": "null"
 						}
 					]
 				}
