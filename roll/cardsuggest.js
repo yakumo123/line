@@ -70,8 +70,8 @@ function Suggestion() {
 						},
 						{
 							"type": "message",
-							"label": "null",
-							"text": "null"
+							"label": "殺戮土印法【指定】",
+							"text": "殺戮土☆推薦"
 						}
 					]
 				}
