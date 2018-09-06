@@ -1060,6 +1060,271 @@ var message3 = {
 			}
 	 }
 };
+//陽光
+var sunlight = {
+  "type": "carousel",
+	"altText": "【陽光教】",
+  "contents": [
+{
+		 "type": "bubble",
+			"body": {
+				"type": "box",
+				"layout": "vertical",
+				"spacing": "lg",
+				"contents": [
+					{
+						"type": "text",
+						"text": "陽光主教",
+						"wrap": true,
+						"weight": "bold",
+						"gravity": "center",
+						"size": "lg"
+					},
+					{
+						"type": "box",
+						"layout": "baseline",
+						"spacing": "lg",
+						"contents": [
+							{
+								"type": "icon",
+								"url": "https://shadowverse.com/assets/images/cardpack/brigadeofthesky/title.png?rel20180730_1",
+								"size": "lg"
+							},
+							{
+								"type": "text",
+								"text": "無限制模式",
+								"gravity": "center",
+								"flex": 5,
+								"align": "start"
+							},
+							{
+								"type": "text",
+								"text": "職業：主教",
+								"gravity": "center",
+								"flex": 5,
+								"align": "end"
+							},
+							{
+								"type": "icon",
+								"url": "https://shadowverse.jp/sp/assets/images/world/thumb-chara-07.jpg?rel20180803_2",
+								"size": "lg"
+							}
+						]
+					},
+					{
+						"type": "box",
+						"layout": "vertical",
+						"margin": "lg",
+						"spacing": "sm",
+						"contents": [
+							{
+								"type": "box",
+								"layout": "baseline",
+								"spacing": "sm",
+								"contents": [
+									{
+										"type": "text",
+										"text": "卡片稀有度分佈",
+										"color": "#aaaaaa",
+										"size": "sm",
+										"weight": "bold"
+									}
+								]
+							},
+							{
+								"type": "box",
+								"layout": "baseline",
+								"spacing": "sm",
+								"contents": [
+									{
+										"type": "text",
+										"text": "虹卡：",
+										"color": "#aaaaaa",
+										"size": "sm",
+										"flex": 1
+									},
+									{
+										"type": "text",
+										"text": "11",
+										"wrap": true,
+										"color": "#666666",
+										"size": "sm",
+										"flex": 1
+									}
+								]
+							},
+							{
+								"type": "box",
+								"layout": "baseline",
+								"spacing": "sm",
+								"contents": [
+									{
+										"type": "text",
+										"text": "金卡：",
+										"color": "#aaaaaa",
+										"size": "sm",
+										"flex": 1
+									},
+									{
+										"type": "text",
+										"text": "8",
+										"wrap": true,
+										"color": "#666666",
+										"size": "sm",
+										"flex": 1
+									}								]
+
+							},
+							{
+								"type": "box",
+								"layout": "baseline",
+								"spacing": "sm",
+								"contents": [
+									{
+										"type": "text",
+										"text": "銀卡：",
+										"color": "#aaaaaa",
+										"size": "sm",
+										"flex": 1
+									},
+									{
+										"type": "text",
+										"text": "12",
+										"wrap": true,
+										"color": "#666666",
+										"size": "sm",
+										"flex": 1
+									}
+								]
+							},
+							{
+								"type": "box",
+								"layout": "baseline",
+								"spacing": "sm",
+								"contents": [
+									{
+										"type": "text",
+										"text": "銅卡：",
+										"color": "#aaaaaa",
+										"size": "sm",
+										"flex": 1
+									},
+									{
+
+										"type": "text",
+										"text": "9",
+										"wrap": true,
+										"color": "#666666",
+										"size": "sm",
+										"flex": 1
+									}
+								]
+							},
+							{
+								"type": "box",
+								"layout": "baseline",
+								"spacing": "md",
+								"contents": [
+									{
+										"type": "text",
+										"text": "牌組概念",
+										"color": "#aaaaaa",
+										"size": "sm",
+										"weight": "bold"
+									}
+								]
+							},
+							{
+								"type": "box",
+								"layout": "vertical",
+								"spacing": "xxl",
+								"contents": [
+									{
+										"type": "text",
+										"text": "起手留牌沒什麼特別的……找低費、找陽光。肅清、神盾、神父都能視個人情況增建，也可放入黑貞、635的酷刑審判者等等。只需要記得這是一副報復社會的牌組，獲勝手段什麼的不重要！如果你覺得很重要的話就多帶一張撒旦吧，換成天盾也可行。",
+										"color": "#000000",
+										"wrap": true,
+										"weight": "bold",
+										"gravity": "center",
+										"size": "sm"
+									}
+								]
+							}
+						]
+					}
+				]
+			},
+			"footer": {
+				"type": "box",
+				"layout": "vertical",
+				"contents": [
+					{
+						"type": "separator",
+						"margin": "xxl"
+					},
+					{
+						"type": "box",
+						"layout": "baseline",
+						"margin": "md",
+						"contents": [
+							{
+								"type": "text",
+								"text": "製作價格：",
+								"color": "#aaaaaa",
+								"size": "sm",
+								"flex": 2
+							},
+							{
+								"type": "text",
+								"text": "47000",
+								"wrap": true,
+								"color": "#666666",
+								"size": "sm",
+								"flex": 4
+							}
+						]
+					},
+					{
+						"type": "box",
+						"layout": "baseline",
+						"spacing": "sm",
+						"contents": [
+							{
+								"type": "text",
+								"text": "製作者：",
+								"color": "#aaaaaa",
+								"size": "sm",
+								"flex": 2
+							},
+							{
+								"type": "text",
+								"text": "露菈",
+								"wrap": true,
+								"size": "sm",
+								"color": "#666666",
+								"flex": 4
+							}
+						]
+					},
+					{
+						"type": "separator",
+						"margin": "md"
+					},
+					{
+						"type": "button",
+						"style": "primary",
+						"margin": "sm",
+						"action": {
+							"type": "uri",
+							"label": "前往牌組製作",
+							"uri": "https://shadowverse-portal.com/deck/1.7.6YZMo.6YZMo.640Hy.640Hy.640Hy.6JNhI.6JNhI.6JNhI.60COa.60COa.60COa.642UQ.642UQ.67st2.67st2.67st2.6UjGo.6UjGo.6UjGo.6Uo9I.6Uo9I.6Uo9I.60E5y.60E5y.60E5y.6Uq6S.6Uq6S.6JJI2.6JJI2.6YeFI.6YeFI.6YeFI.645Pw.645Pw.645Pw.6Uq6I.6Uq6I.6YcXw.6YcXw.61SE6?lang=zh-tw#"
+						}
+					}
+				]
+		}
+};
+
+
 
 function royal() {
 	return RoyalKing; 
@@ -1073,19 +1338,22 @@ function elfdragon() {
 
 function build2() {
 	return message2; 
-	
 }
 
 function build3() {
 	return message3; 
+}
+	
+function sun() {
+	return sunlight; 
 	
 }
-
 
 module.exports = {
 	royal: royal,
 	elfdragon: elfdragon,
 	build2: build2,
-	build3: build3
+	build3: build3,
+	sunlight: sunlight
 };
 
