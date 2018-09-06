@@ -1078,6 +1078,9 @@ function build3() {
 
 
 module.exports = {
-	build: build
+	build: build,
+	build1: build2,
+	build2: build2,
+	build3: build3
 };
 
