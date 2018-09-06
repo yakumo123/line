@@ -86,6 +86,7 @@ function parseInput(rplyToken, inputStr) {
 		if (trigger.match(/^妖精龍/)!= null ) return exports.cardbuild.elfdragon();
 		if (trigger.match(/^星爆猴/)!= null ) return exports.cardbuild.build2();
 		if (trigger.match(/^護符/)!= null ) return exports.cardbuild.build3();
+		if (trigger.match(/^陽光/)!= null ) return exports.cardbuild.sun();
 	}
 	
 	if (trigger.match(/^問號$/)!= null ) return exports.kiddingme.joking();
