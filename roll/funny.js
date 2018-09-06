@@ -383,7 +383,6 @@ let rplyArr = ['\
 要被拔雞雞?', '\
 我沒有雞雞啦', '\
 想被割掉嗎???', '\
-摸摸吹雪', '\
 你想被燒嗎?', '\
 八雲沒有雞雞', '\
 安的女友大雞雞', '\
@@ -416,19 +415,12 @@ return rply;
 function randomSnow() {
 let rplyArr = ['\
 吹雪姐姐~~~', '\
-然後吹雪就拿出了第二根……', '\
-吹雪快女裝！', '\
+然後他就拿出了第二根……', '\
 我愛吹雪', '\
-還不是都加吹雪精華', '\
 感謝吹雪 讚嘆吹雪', '\
-他自己賣肉賺的錢很多', '\
 啊啊啊啊', '\
 樓上跟吹雪傲嬌', '\
-摸摸吹雪', '\
 吹雪我婆', '\
-請問你要愛護吹雪嗎??', '\
-吹雪都喜歡欺負人', '\
-吹雪壞壞' ,'\
 為何吹雪都不女裝'];
 rply.text = rplyArr[Math.floor((Math.random() * (rplyArr.length)) + 0)];
 return rply;
@@ -508,12 +500,6 @@ MudaMudaMudaMuda', '\
 不要', '\
 走開'];
 rply.text = rplyArr[Math.floor((Math.random() * (rplyArr.length)) + 0)];
-return rply;
-}
-
-function randomShit() {
-let ree = '自稱小妹的通常是一個大叔 自稱大叔的在此刻也是一名大叔';
-rply.text = ree
 return rply;
 }
 
