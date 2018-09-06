@@ -178,7 +178,10 @@ var message = {
 									{
 										"type": "text",
 										"text": "先手起留手盡量留213老鼠跟323炎將，如果起手換牌有黑白也留。後手和先手差不多，但盡量留222白熊護衛和221及炎將。",
-										"color": "#aaaaaa",
+										"color": "#000000",
+										"wrap": true,
+										"weight": "bold",
+										"gravity": "center",
 										"size": "sm"
 									}
 								]
