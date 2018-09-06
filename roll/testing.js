@@ -35,7 +35,7 @@ function Test13() {
           {
             "type": "message",
             "label": "Yes",
-            "text": "推薦牌組"
+            "text": "suggest_card"
           },
           {
             "type": "message",
