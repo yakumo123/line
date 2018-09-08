@@ -98,6 +98,63 @@ var rply = {
       }
 };
 
+var yakumo = {
+    "type": "flex",
+    "altText": "八雲教（？",
+    "contents": {
+        "type": "bubble",
+        "hero": {
+            "type": "image",
+            "url": "https://serving.photos.photobox.com/24338828b376fc023c84bf22c990cd65cc86da893a8ee1fd139e1b8a44219fc9b574cec1.jpg",
+            "size": "full",
+            "aspectRatio": "1:1",
+            "aspectMode": "fit"
+        },
+        "body": {
+            "type": "box",
+            "layout": "vertical",
+            "spacing": "md",
+            "contents": [
+            {
+                "type": "text",
+                "text": "你要加入八雲喵喵教嗎？",
+		    "color": "#3c09f4",
+                "wrap": true,
+                "weight": "bold",
+                "gravity": "center",
+                "size": "lg"
+	    },
+			    {
+                "type": "box",
+                "layout": "vertical",
+                "margin": "xl",
+                "contents": [
+                {
+                    "type": "spacer",
+                    "size": "lg"
+                },
+                {
+                  "type": "text",
+                "text": "神奇八雲魔法靈 八雲靈波~",
+                "wrap": true,
+                "weight": "bold",
+                "gravity": "center",
+                "size": "xl"
+                },
+                {
+                    "type": "text",
+                    "text": "請快點加入我們，信仰着八雲（大誤",
+                    "color": "#ff1616",
+                    "wrap": true,
+                    "margin": "xxl",
+                    "size": "lg"
+                }
+                ]
+            }
+            ]
+        }
+    }
+};
 
 function joke() {
 	return message;
@@ -107,8 +164,13 @@ function inin() {
 	return rply;
 }
 
+function yakumagic() {
+	return yakumo
+}
+	
 
 module.exports = {
 	joke: joke,
-	inin: inin
+	inin: inin,
+	yakumo: yakumo
 };
