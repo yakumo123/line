@@ -88,7 +88,8 @@ var rply = {
 		"contents": [
 			{ "type": "image",
 			 "url": "https://serving.photos.photobox.com/2850011487c6f1e2648b3b3a70f675876e493935218b6810fd5c51ed3bed39f090d4a375.jpg",
-			 "size": "full"
+			 "size": "full",
+			 "aspectMode": "fit"
 			}
 		]
 	} 
