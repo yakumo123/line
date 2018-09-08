@@ -77,7 +77,10 @@ var message = {
     }
 };
 
-var rply = { 
+var rply = {
+      "type": "flex",
+      "altText": "基德",
+      "contents": { 
 	"type": "bubble",
 	"hero": { 
 		"type": "box", 
@@ -88,6 +91,8 @@ var rply = {
 			}
 		]
 	} 
+
+      }
 };
 
 
