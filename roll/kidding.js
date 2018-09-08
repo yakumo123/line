@@ -90,7 +90,7 @@ var rply = {
 			 "url": "https://serving.photos.photobox.com/66620889a888146fb10452ba17ad46df33b0cc613c43a83f606c896260591e20616edf3d.jpg",
 			 "size": "full",
 			 "aspectRatio": "9:16",
-			 "aspectMode": "fit"
+			 "aspectMode": "cover"
 			}
 		]
 	} 
