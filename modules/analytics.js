@@ -397,7 +397,7 @@ if (trigger.match(/無限制7張虹卡禁卡|無限制7張虹卡限卡|無限制
 	
 	if (trigger.match(/知道嗎/) != null) return exports.funny.know() ;	
 
-	if (trigger.match(/基德/) != null) return exports.kidding.inin() ;	
+	if (trigger.match(/^基德$/) != null) return exports.kidding.inin() ;	
 
 	
 	if (trigger.match(/猜拳/) != null) {
