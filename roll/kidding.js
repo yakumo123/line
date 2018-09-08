@@ -77,13 +77,30 @@ var message = {
     }
 };
 
+var rply = { 
+	"type": "bubble",
+	"hero": { 
+		"type": "box", 
+		"layout": "horizontal", 
+		"contents": [
+			{ "type": "image",
+			 "url": "https://serving.photos.photobox.com/2850011487c6f1e2648b3b3a70f675876e493935218b6810fd5c51ed3bed39f090d4a375.jpg"
+			}
+		]
+	} 
+};
+
+
 function joke() {
 	return message;
 }
 	
-
+function inin() {
+	return rply;
+}
 
 
 module.exports = {
-	joke: joke
+	joke: joke,
+	inin: inin
 };
