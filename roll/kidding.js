@@ -82,7 +82,7 @@ var rply = {
       "altText": "基德",
       "contents": { 
 	"type": "bubble",
-	"body": { 
+	"hero": { 
 		"type": "box", 
 		"layout": "horizontal", 
 		"contents": [
