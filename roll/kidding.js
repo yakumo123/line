@@ -108,7 +108,7 @@ var yakumo = {
 			"url": "https://serving.photos.photobox.com/24338828b376fc023c84bf22c990cd65cc86da893a8ee1fd139e1b8a44219fc9b574cec1.jpg",
 			"size": "full",
 			"aspectRatio": "1:1",
-			"aspectMode": "fit"
+			"aspectMode": "cover"
 		},
 		"body": {
 			"type": "box",
