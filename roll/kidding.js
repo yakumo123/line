@@ -87,9 +87,10 @@ var rply = {
 		"layout": "horizontal", 
 		"contents": [
 			{ "type": "image",
-			 "url": "https://serving.photos.photobox.com/2850011487c6f1e2648b3b3a70f675876e493935218b6810fd5c51ed3bed39f090d4a375.jpg",
+			 "url": "66620889a888146fb10452ba17ad46df33b0cc613c43a83f606c896260591e20616edf3d.jpg",
 			 "size": "full",
-			 "aspectMode": "cover"
+			 "aspectRatio": "9:16",
+			 "aspectMode": "fit"
 			}
 		]
 	} 
