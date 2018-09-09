@@ -130,16 +130,16 @@ var yakumo = {
 					"wrap": true,
 					"weight": "bold",
 					"gravity": "center",
-					"size": "lg"
+					"size": "md"
 				},
 				{
 					"type": "box",
 					"layout": "vertical",
-					"margin": "xl",
+					"margin": "md",
 					"contents": [
 						{
 							"type": "spacer",
-							"size": "lg"
+							"size": "md"
 						},
 						{
 							"type": "text",
@@ -147,14 +147,14 @@ var yakumo = {
 							"wrap": true,
 							"weight": "bold",
 							"gravity": "center",
-							"size": "xl"
+							"size": "lg"
 						},
 						{
 							"type": "text",
 							"text": "請快點加入我們，信仰着八雲（大誤",
 							"color": "#ff1616",
 							"wrap": true,
-							"margin": "xxl",
+							"margin": "xl",
 							"size": "lg"
 						}
 					]
