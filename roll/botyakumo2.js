@@ -10,8 +10,8 @@ function BotHelpYy() {
 			"type": "carousel",
 			"columns": [
 				{
-					"title": "隨機生成/其他",
-					"text": "隨機生成/其他",
+					"title": "其他☆按鈕點一下就可以，一直點會洗頻的。",
+					"text": "其他",
 					"actions": [
 						{
 							"type": "message",
