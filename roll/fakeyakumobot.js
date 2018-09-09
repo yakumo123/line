@@ -10,7 +10,7 @@ function fakehelp() {
 			"type": "carousel",
 			"columns": [
 				{
-					"title": "☆情報專區☆",
+					"title": "情報專區☆按鈕點一下就可以，一直點會洗頻的。",
 					"text": "情～報～專～區～☆拉到右邊還有更多內容☆",
 					"actions": [
 						{
