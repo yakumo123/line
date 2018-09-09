@@ -15,7 +15,6 @@ var message = {
         "body": {
             "type": "box",
             "layout": "vertical",
-            "spacing": "sm",
             "contents": [
             {
                 "type": "text",
