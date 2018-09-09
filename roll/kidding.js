@@ -15,7 +15,7 @@ var message = {
         "body": {
             "type": "box",
             "layout": "vertical",
-            "spacing": "md",
+            "spacing": "sm",
             "contents": [
             {
                 "type": "text",
@@ -38,7 +38,7 @@ var message = {
 			    {
                 "type": "box",
                 "layout": "vertical",
-                "margin": "md",
+                "margin": "sm",
                 "contents": [
                 {
                     "type": "spacer",
@@ -50,11 +50,11 @@ var message = {
                 "wrap": true,
                 "weight": "bold",
                 "gravity": "center",
-                "size": "lg"
+                "size": "md"
                 },
                 {
                     "type": "text",
-                    "text": "請快點加入我們真步真步教！",
+                    "text": "請快點加入我們真步真步教！\n",
                     "color": "#ff1616",
                     "wrap": true,
                     "margin": "lg",
@@ -74,6 +74,8 @@ var message = {
 				"type": "text", 
 				"text": "按鈕點一下就可以，點了就會有反應，一直點會洗頻的。",
 				"color": "#aaaaaa",
+				"wrap": true,
+				"gravity": "center",
 				"size": "sm",
 				"weight": "bold"
 			}
@@ -121,7 +123,7 @@ var yakumo = {
 		"body": {
 			"type": "box",
 			"layout": "vertical",
-			"spacing": "md",
+			"spacing": "sm",
 			"contents": [
 				{
 					"type": "text",
@@ -139,7 +141,7 @@ var yakumo = {
 					"contents": [
 						{
 							"type": "spacer",
-							"size": "md"
+							"size": "sm"
 						},
 						{
 							"type": "text",
@@ -147,7 +149,7 @@ var yakumo = {
 							"wrap": true,
 							"weight": "bold",
 							"gravity": "center",
-							"size": "lg"
+							"size": "md"
 						},
 						{
 							"type": "text",
