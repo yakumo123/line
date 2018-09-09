@@ -24,7 +24,7 @@ var message = {
                 "wrap": true,
                 "weight": "bold",
                 "gravity": "center",
-                "size": "lg"
+                "size": "md"
 	    },
 		    {
         "type": "button",
@@ -38,11 +38,11 @@ var message = {
 			    {
                 "type": "box",
                 "layout": "vertical",
-                "margin": "xl",
+                "margin": "md",
                 "contents": [
                 {
                     "type": "spacer",
-                    "size": "lg"
+                    "size": "sm"
                 },
                 {
                   "type": "text",
@@ -50,15 +50,15 @@ var message = {
                 "wrap": true,
                 "weight": "bold",
                 "gravity": "center",
-                "size": "xl"
+                "size": "lg"
                 },
                 {
                     "type": "text",
-                    "text": "請快點加入我們真步真步教！\n按鈕點一下就可以，點了就會有反應，一直點會洗頻的。",
+                    "text": "請快點加入我們真步真步教！",
                     "color": "#ff1616",
                     "wrap": true,
-                    "margin": "xxl",
-                    "size": "lg"
+                    "margin": "lg",
+                    "size": "md"
                 },
 			{
                 "type": "button",
@@ -69,11 +69,19 @@ var message = {
                     "label": "按此立即加入",
                     "text": "我本人在此起誓 真步真步教是我的唯一教義！咕嚕靈波！"
                 }
-            }
+			},
+			{ 
+				"type": "text", 
+				"text": "按鈕點一下就可以，點了就會有反應，一直點會洗頻的。",
+				"color": "#aaaaaa",
+				"size": "sm",
+				"weight": "bold"
+			}
                 ]
             }
             ]
         }
+  
     }
 };
 
