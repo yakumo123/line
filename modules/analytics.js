@@ -383,7 +383,7 @@ if (trigger.match(/無限制7張虹卡禁卡|無限制7張虹卡限卡|無限制
 	
 	if (trigger.match(/^車圖$/) != null) return exports.fakeimage.fake() ;	
 	
-	if (trigger.match(/鳳梨/) != null) return exports.imagepie.PieIm() ;	
+	if (trigger.match(/^鳳梨$/) != null) return exports.imagepie.PieIm() ;	
 	
 	if (trigger.match(/ㄎㄧㄤ|ㄎㄧㄠ/) != null) return exports.crazy.ircra() ;	
 	
