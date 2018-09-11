@@ -1,6 +1,11 @@
 var rollbase = require('./rollbase.js');
 var rply ={type : 'text'}; //type是必需的,但可以更改
 
+function shadow() {
+	rply.text = '吃我的冥府啦！！！！！！' ;
+	return rply;
+}
+
 function know() {
 rply.text = '我怎麼知道\n你又沒跟我說過( ˘･з･)';
 return rply;
@@ -1153,6 +1158,7 @@ return rply;
 }
 
 module.exports = {
+	shadow,
 	know,
 	lullaby,
 	tea,
