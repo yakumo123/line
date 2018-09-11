@@ -26,6 +26,8 @@ function parseInput(rplyToken, inputStr) {
 
 	if (trigger.match(/^八雲教$/)!= null ) return exports.kidding.yakumagic();
 	
+	if (trigger.match(/魔將軍/)!= null ) return exports.funny.shadow();
+	
 	//普通ROLL擲骰判定在此	
 	if (inputStr.match(/\w/)!=null && inputStr.toLowerCase().match(/\d+d+\d/)!=null) return exports.rollbase.nomalDiceRoller(inputStr,mainMsg[0],mainMsg[1],mainMsg[2]);
 
