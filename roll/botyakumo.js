@@ -25,8 +25,8 @@ function BotHelpYy() {
 						},
 						{
 							"type": "message",
-							"label": "～式神幫助2【暫無】～",
-							"text": "式神幫助2【暫無】"
+							"label": "～式神幫助2～",
+							"text": "式神幫助2"
 						}
 
 					]
