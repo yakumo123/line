@@ -230,8 +230,8 @@ function parseInput(rplyToken, inputStr) {
 
 	if (trigger.match(/^基德$/) != null) return exports.kidding.inin() ;	
 
-	if (trigger.match(/^生成名字$|^名字生成$|^生產名字$|^名字生產$/) != null) return exports.name.gename() ;	
-
+	if (trigger.match(/^生成名字$|^名字生成$|^生產名字$|^名字生產$/) != null && mainMsg[1] != NaN )	return exports.name.gename(mainMsg[1]);
+	
 	if (trigger.match(/猜拳/) != null) {
 		return RockPaperScissors(inputStr, mainMsg[1]);
 	}
