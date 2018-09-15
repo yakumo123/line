@@ -32,11 +32,11 @@ ReStr = ReStr + firstname + lastname ;
 
 
 if (depend == 2) {
-ReStr = ReStr + shame + firstname + lastname ;
+ReStr = ReStr + shame + ' ' + firstname + lastname ;
 }
 
 if (depend == 3) {
-ReStr = ReStr + adv + shame + firstname + lastname ;
+ReStr = ReStr + adv + shame + ' ' + firstname + lastname ;
 }
 
 	
