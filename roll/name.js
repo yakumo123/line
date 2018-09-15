@@ -20,7 +20,8 @@ let lastnameArr = ['母湯','幹狗','紅茶','吹雪','笨蛋','渣渣','萌新
 let lastname = lastnameArr[Math.floor((Math.random() * (lastnameArr.length)) + 0)];
 
 ReStr = ReStr + firstname + lastname;
-return ReStr;
+rply.text = ReStr;
+return rply;
 }
 
 
