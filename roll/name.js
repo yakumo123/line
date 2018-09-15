@@ -22,7 +22,7 @@ let dependArr = [1,1,2,3]
 let depend = dependArr[Math.floor((Math.random() * (dependArr.length)) + 0)];
 let shameArr = ['八雲','安特','垃圾','智障','扶他','偽娘','母湯','幹狗','紅茶','吹雪','笨蛋','渣渣','萌新','大佬','偽男','甲甲','娘泡','Gay泡','GayDer','月亮枯枝','變態','光頭','沒頭','無頭','肥宅','油宅','噁宅','變態大叔','白痴','魔法少女','光明會成員','瑞樹','女裝','大爆射','騙水','大雞雞','有很多根','他媽的','媽的','三小','淦','大佬','幹話']	
 let shame = shameArr[Math.floor((Math.random() * (shameArr.length)) + 0)];
-let advArr = ['滿像','還滿像','是','超像','根本就是','幾乎是','算是','差不多是']
+let advArr = ['還滿','滿','滿像','還滿像','是','超像','根本就是','幾乎是','算是','差不多是']
 let adv = advArr[Math.floor((Math.random() * (advArr.length)) + 0)];
 
 
