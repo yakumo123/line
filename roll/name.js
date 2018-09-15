@@ -6,8 +6,8 @@ function gename(text01) {
 let nameid ="";
 let ReStr = '【' ;
 if (text01 == undefined) {
-nameid = '＜沒有預設值' ;
-ReStr = ReStr + nameid '>' + '】：';
+nameid = '沒有預設值' ;
+ReStr = ReStr + nameid + '】：';
 }
 else 
 {
