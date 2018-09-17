@@ -195,7 +195,7 @@ function BotHelpYy() {
 						},
 						{
 							"type": "message",
-							"label": "暫無",
+							"label": "機率提供",
 							"text": "暫無"
 						},
 						{
