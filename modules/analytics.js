@@ -183,7 +183,7 @@ function parseInput(rplyToken, inputStr) {
 	
 	if (trigger.match(/(運勢$)/) != null) return exports.funny.randomLuck(mainMsg) ; 
 	
-	if (trigger.match(/(機率$)/) != null) return exports.funny.randomChance(mainMsg) ; 
+	if (trigger.match(/(的機率$)/) != null) return exports.funny.randomChance(mainMsg) ; 
 	
 	if (trigger.match(/角色背景|人設/) != null) return exports.funny.BStyleFlagSCRIPTS(mainMsg) ;	
 	
