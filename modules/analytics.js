@@ -226,7 +226,7 @@ function parseInput(rplyToken, inputStr) {
 		
 	if (trigger.match(/(渦芽（橙靈心）$)|^渦芽$/) != null) return exports.funny.rrrr() ;	
 	
-	if (trigger.match(/^紅茶$|^@紅茶$/) != null) return exports.funny.tea() ;	
+	if (trigger.match(/^紅茶$/) != null) return exports.funny.tea() ;	
 	
 	if (trigger.match(/知道嗎/) != null) return exports.funny.know() ;	
 
