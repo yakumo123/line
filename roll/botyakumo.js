@@ -196,7 +196,7 @@ function BotHelpYy() {
 						{
 							"type": "message",
 							"label": "機率提供",
-							"text": "暫無"
+							"text": "八雲運氣變好的機率 ■XXX+的機率"
 						},
 						{
 							"type": "message",
