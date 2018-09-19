@@ -120,13 +120,7 @@ var rp = {
 			 "url": "https://serving.photos.photobox.com/00000870aec93b70a53d8b8dc8b1380f579af4208224881d70205fd2e309e953f862577f.jpg",
 			 "size": "full",
 			 "aspectRatio": "20:13",
-			 "aspectMode": "fit",
-			 "actions": [
-				 {
-					 "type": "uri",
-					 "linkUri": "https://serving.photos.photobox.com/00000870aec93b70a53d8b8dc8b1380f579af4208224881d70205fd2e309e953f862577f.jpg"
-				 }
-			 ]
+			 "aspectMode": "fit"
 			}
 		]
 	} 
