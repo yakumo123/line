@@ -109,7 +109,7 @@ var rply = {
 
 var rp = {
       "type": "flex",
-      "altText": "基德",
+      "altText": "不買貼圖？",
       "contents": { 
 	"type": "bubble",
 	"body": { 
@@ -117,10 +117,8 @@ var rp = {
 		"layout": "horizontal", 
 		"contents": [
 			{ "type": "image",
-			 "url": "https://serving.photos.photobox.com/66620889a888146fb10452ba17ad46df33b0cc613c43a83f606c896260591e20616edf3d.jpg",
-			 "size": "full",
-			 "aspectRatio": "9:16",
-			 "aspectMode": "cover"
+			 "url": "https://serving.photos.photobox.com/00000870aec93b70a53d8b8dc8b1380f579af4208224881d70205fd2e309e953f862577f.jpg",
+			 "size": "full"
 			}
 		]
 	} 
