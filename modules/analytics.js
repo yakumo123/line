@@ -230,9 +230,9 @@ function parseInput(rplyToken, inputStr) {
 	
 	if (trigger.match(/知道嗎/) != null) return exports.funny.know() ;	
 
-	if (trigger.match(/真的最後一次|買最後一次|最後一次買|戒貼圖|戒買貼圖/) != null) return exports.kidding.inin() ;	
+	if (trigger.match(/真的最後一次|買最後一次|最後一次買|戒貼圖|戒買貼圖/) != null) return exports.kidding.laugh() ;	
 
-	if (trigger.match(/^基德$/) != null) return exports.kidding.laugh() ;	
+	if (trigger.match(/^基德$/) != null) return exports.kidding.inin() ;	
 
 	if (trigger.match(/^生成名字$|^名字生成$|^生產名字$|^名字生產$/) != null && mainMsg[1] != NaN )	return exports.name.gename(mainMsg[1]);
 	
