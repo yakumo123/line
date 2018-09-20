@@ -90,7 +90,7 @@ function ability(TEXT){
   if (lula >= 50 && fbi >= 25) ReStr = ReStr + '紅茶~你門口有FBI在按門鈴。' ;
   if (lula >= 50 && fbi < 25) ReStr = ReStr + '看來露娜是滿喜歡紅茶的嘛，但你別以為做一些過火的事不會被羈押。' ;
   if (lula < 50 && lula >= 25) ReStr = ReStr + '看來露娜也不是很喜歡你呢～' ;
-  if (lula < 25) ReStr = ReStr + '紅茶，露娜在用厭惡的眼神看着你。' ；
+  if (lula < 25) ReStr = ReStr + '紅茶，露娜在用厭惡的眼神看着你。' ;
 
 
 	
