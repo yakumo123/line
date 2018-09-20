@@ -1,6 +1,12 @@
 var rollbase = require('./rollbase.js');
 var rply ={type : 'text'}; //type是必需的,但可以更改
 
+function yakumomark() {
+	rply.text = '八雲的綜合分數：/n【魅力】：101/n【萌力】：101/n【廚藝】：101/n【財力】：101/n【生命力】：101/n【對吹雪的愛】:101/n【歐皇之力】：101/n/n【八雲點評】：請信仰八雲教！' ;
+	return rply;
+}
+	
+	
 function shadow() {
 	rply.text = '吃我的冥府啦！！！！！！' ;
 	return rply;
@@ -1174,6 +1180,7 @@ return rply;
 }
 
 module.exports = {
+	yakumomark,
 	shadow,
 	know,
 	lullaby,
