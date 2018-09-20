@@ -56,6 +56,8 @@ function parseInput(rplyToken, inputStr) {
 	
 	if (trigger.match(/(能力值$)/) != null && mainMsg[1] != NaN )	return exports.character.build7char(mainMsg[1]);
 	
+	if (trigger.match(/八雲的綜合分數$|八雲綜合分數$/) != null) return exports.funny.yakumomark() ;	
+
 	if (trigger.match(/紅茶的綜合分數$|紅茶綜合分數$/) != null) return exports.teachar.ability(mainMsg) ;	
 	
 	if (trigger.match(/綜合分數$/) != null) return exports.character.ability(mainMsg) ;	
