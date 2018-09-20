@@ -76,7 +76,7 @@ function buttontest() {
 
 		{
                 "type": "uri",
-                "label": "其他",
+                "label": "情報社牌組參考",
                 "uri": "https://sv-knower.blogspot.com/2018/08/9.html?m=1"
             }
         ]
