@@ -43,8 +43,6 @@ function ability(TEXT){
 	ReStr = ReStr + '\n【廚藝】：' + cook ;
 	ReStr = ReStr + '\n【財力】：' + money ;	
 	ReStr = ReStr + '\n【生命力】：' + life ;
-	ReStr = ReStr + '\n【羈押度】：' + fbi ;
-	ReStr = ReStr + '\n【露娜的愛】：' + lula ;
 	if (afc >= 50 && eu >= 50)	ReStr = ReStr + '\n【非洲之力】：' + '100' + '\n【歐皇之力】：' + '0' ; 
 	else
 	if (afc >= 60 && eu <= 40)	ReStr = ReStr + '\n【非洲之力】：' + afc + '\n【歐皇之力】：' + '0' ; 
@@ -56,6 +54,8 @@ function ability(TEXT){
 	if (afc > 50 && eu < 50)	ReStr = ReStr + '\n【非洲之力】：' + afc + '\n【歐皇之力】：' + eu ; 
 	else
 	if (afc < 50 && eu > 50)	ReStr = ReStr + '\n【非洲之力】：' + afc + '\n【歐皇之力】：' + eu ; 
+	ReStr = ReStr + '\n【羈押度】：' + fbi ;
+	ReStr = ReStr + '\n【露娜的愛】：' + lula ;
 	ReStr = ReStr + '\n\n【八雲點評】：' ;
 	ReStr = ReStr + '在你的萌力方面，' ;
 	if (cute >= 50)	ReStr = ReStr + '你很適合去賣萌喔~一定有人說你可愛的！' ; 
