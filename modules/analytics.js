@@ -191,6 +191,9 @@ function parseInput(rplyToken, inputStr) {
 	
 	if (trigger.match(/角色背景|的人設/) != null) return exports.funny.BStyleFlagSCRIPTS(mainMsg) ;	
 	
+	if (trigger.match(/八雲的黑歷史|八雲黑歷史/) != null) return exports.funny.ykh() ;	
+	
+	
 	if (trigger.match(/黑歷史/) != null) return exports.funny.BlackHistory(mainMsg) ;	
 	
 	if (trigger.match(/立flag|死亡flag/) != null) return exports.funny.Flag() ;	
