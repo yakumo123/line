@@ -6,6 +6,10 @@ function yakumomark() {
 	return rply;
 }
 	
+function ykh() {
+rply.text = '八雲沒有黑歷史';
+return rply;
+}
 	
 function shadow() {
 	rply.text = '吃我的冥府啦！！！！！！' ;
@@ -1181,6 +1185,7 @@ return rply;
 
 module.exports = {
 	yakumomark,
+	ykh,
 	shadow,
 	know,
 	lullaby,
