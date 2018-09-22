@@ -25,7 +25,7 @@ function Security() {
 						},
 						{
 							"type": "message",
-							"label": "整合清單3【伊莉雅】",
+							"label": "【新追加】整合清單3【伊莉雅】",
 							"text": "list0003"
 						}
 
