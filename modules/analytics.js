@@ -111,6 +111,8 @@ function parseInput(rplyToken, inputStr) {
 	
 	if (trigger.match(/^list0002$/)!= null ) return exports.photo2.CarPhoto2();
 
+	if (trigger.match(/^list0003$/)!= null ) return exports.photo3.CarPhoto3();
+
 	//nc指令開始於此 來自Rainsting/TarotLineBot 
 	if (trigger.match(/^[1-4]n[c|a][+|-][1-99]$|^[1-4]n[c|a]$/)!= null ) return exports.nc.nechronica(trigger,mainMsg[1]);
 
