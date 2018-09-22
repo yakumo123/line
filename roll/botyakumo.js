@@ -200,7 +200,7 @@ function BotHelpYy() {
 						{
 							"type": "message",
 							"label": "【新】【車圖整合(慎用)】",
-							"text": "comfirephoto"
+							"text": "comfirmphoto"
 						}
 
 					]
