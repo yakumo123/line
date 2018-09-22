@@ -142,28 +142,6 @@ function BotHelpYy() {
 					]
 				},
 				{
-					"title": "《其他功能》",
-					"text": "其他功能",
-					"actions": [
-						{
-							"type": "message",
-							"label": "女裝示範",
-							"text": "你來女裝"
-						},
-						{
-							"type": "message",
-							"label": "【關鍵字列表】",
-							"text": "comfirmcommand"
-						},
-						{
-							"type": "message",
-							"label": "【車圖整合(慎用)】",
-							"text": "comfirephoto"
-						}
-
-					]
-				},
-				{
 					"title": "其他",
 					"text": "其他",
 					"actions": [
@@ -203,6 +181,28 @@ function BotHelpYy() {
 							"label": "暫無",
 							"text": "暫無"
 						}				
+					]
+				},
+				{
+					"title": "《其他功能》",
+					"text": "其他功能",
+					"actions": [
+						{
+							"type": "message",
+							"label": "女裝示範",
+							"text": "你來女裝"
+						},
+						{
+							"type": "message",
+							"label": "【關鍵字列表】",
+							"text": "comfirmcommand"
+						},
+						{
+							"type": "message",
+							"label": "【新】【車圖整合(慎用)】",
+							"text": "comfirephoto"
+						}
+
 					]
 				}
 			]
