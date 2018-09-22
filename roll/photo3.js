@@ -9,9 +9,10 @@ function CarPhoto3() {
 		"template": {
 			"type": "carousel",
 			"columns": [
+			
 				{
 					"title": "伊莉雅",
-					"text": "Fate",
+					"text": "Fate",		
 					"actions": [
 						{
 							"type": "message",
@@ -27,9 +28,11 @@ function CarPhoto3() {
 							"type": "message",
 							"label": "伊莉雅3",
 							"text": "FKL003"
+			
 						}
-            },
-				 {
+					]
+				},
+				{
 					"title": "伊莉雅",
 					"text": "Fate",
 					"actions": [
@@ -48,8 +51,9 @@ function CarPhoto3() {
 							"label": "伊莉雅6",
 							"text": "FKL006"
 						}
-            },
-				 {
+					]
+				},
+				{
 					"title": "伊莉雅",
 					"text": "Fate",
 					"actions": [
@@ -68,7 +72,8 @@ function CarPhoto3() {
 							"label": "伊莉雅9",
 							"text": "FKL009"
 						}
-            },
+					]
+				},
 				{
 					"title": "伊莉雅",
 					"text": "Fate",
@@ -88,7 +93,8 @@ function CarPhoto3() {
 							"label": "伊莉雅12",
 							"text": "FKL012"
 						}
-            },
+					]
+				},
 				{
 					"title": "伊莉雅",
 					"text": "Fate",
@@ -108,7 +114,8 @@ function CarPhoto3() {
 							"label": "伊莉雅15",
 							"text": "FKL015"
 						}
-            },
+					]
+				},
 				{
 					"title": "伊莉雅",
 					"text": "Fate",
@@ -128,7 +135,8 @@ function CarPhoto3() {
 							"label": "伊莉雅18",
 							"text": "FKL018"
 						}
-            },
+					]
+				},
 				{
 					"title": "伊莉雅",
 					"text": "Fate",
@@ -148,10 +156,8 @@ function CarPhoto3() {
 							"label": "伊莉雅21",
 							"text": "FKL021"
 						}
-            }
 					]
-				},
-
+				}
 			]
 		}
 	};
