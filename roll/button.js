@@ -11,29 +11,6 @@ function buttontest() {
     "imageAspectRatio": "rectangle",
     "imageSize": "cover",
     "columns": [
-	  {
-        "thumbnailImageUrl": "https://i.ytimg.com/vi/iYRO-R_fRq4/maxresdefault.jpg",
-        "imageBackgroundColor": "#a8e8fb",
-        "title": "新卡包情報",
-        "text": "新卡包情報",
-        "actions": [
-          {
-				      "type": "uri",
-				      "label": "最新卡片情報",
-				      "uri": "https://sv-knower.blogspot.com/2018/09/10omen-of-ten-297.html?m=1"
-			      },
-			      {
-				      "type": "uri",
-				      "label": "官方新卡包特設網站",
-				      "uri": "https://shadowverse.com/sp/cht/cardpack/omenoftheten/"
-			      },	
-			      {
-				      "type": "uri",				      
-				      "label": "新卡包宣傳影片",
-				      "uri": "https://youtu.be/Ihpa3KwruFY"
-			      }
-        ]
-      },
       {
         "thumbnailImageUrl": "https://shadowverse.jp/news/wp-content/uploads/e0b558ba389c34594d109581059d77f1.png",
         "imageBackgroundColor": "#a8e8fb",
@@ -58,7 +35,7 @@ function buttontest() {
         ]
       },
       {
-        "thumbnailImageUrl": "https://i.ytimg.com/vi/G8O2TSRilkg/maxresdefault.jpg",
+        "thumbnailImageUrl": "https://i.ytimg.com/vi/iYRO-R_fRq4/maxresdefault.jpg",
         "imageBackgroundColor": "#a8e8fb",
         "title": "競技場牌組",
         "text": "競技場牌組",
@@ -77,7 +54,7 @@ function buttontest() {
 		{
                 "type": "uri",
                 "label": "情報社牌組參考",
-                "uri": "https://sv-knower.blogspot.com/2018/08/9.html?m=1"
+                "uri": "https://sv-knower.blogspot.com"
             }
         ]
       }
