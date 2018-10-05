@@ -21,14 +21,6 @@ rply.text = '我怎麼知道\n你又沒跟我說過( ˘･з･)';
 return rply;
 }
 
-function lullaby() {
-let rplyArr = ['\
-要好好負責喲♡', '\
-露菈會為你奉上一切的…所以把你的身心靈都交給我吧…♡'];
-rply.text = rplyArr[Math.floor((Math.random() * (rplyArr.length)) + 0)];
-return rply;
-}
-
 function tea() {
 let rplyArr = ['\
 誰來叫FBI來捉走他？', '\
@@ -41,23 +33,6 @@ FBI：請問你有甚麼遺言嗎？', '\
 快找FBI來RRRRR', '\
 我的天阿！現在都幾點了~該羈押了吧！', '\
 不要跟我解釋你只是露娜控不是蘿莉控那些了！羈押就對了！'];
-rply.text = rplyArr[Math.floor((Math.random() * (rplyArr.length)) + 0)];
-return rply;
-}
-
-function rrrr() {
-let rplyArr = ['\
-渦芽醬：奧茲是我的！誰都不能搶', '\
-奧茲是專屬渦芽的小蘿莉♥', '\
-渦芽醬：只有渦芽能跟奧茲共度那美好的夜晚~', '\
-渦芽醬在這裡呦', '\
-要看渦芽醬我的女裝嗎？', '\
-交往也是有順序的，怎可能見面10秒就合體？', '\
-渦芽想要被奧茲打臉打到爽死…', '\
-可不可以踩我？', '\
-八雲醬最棒了！', '\
-奧兹奧茲心動動', '\
-你們要睡渦芽大腿嗎？'];
 rply.text = rplyArr[Math.floor((Math.random() * (rplyArr.length)) + 0)];
 return rply;
 }
@@ -326,20 +301,6 @@ Baby don’t know why I cry さよなら 本当は言いたくないタダの強
 怕', '\
 走開', '\
 嗯'];
-rply.text = rplyArr[Math.floor((Math.random() * (rplyArr.length)) + 0)];
-return rply;
-}
-
-function randomLulla() {
-let rplyArr = ['\
-I very vegetable' ,'\
-(問號)' ,'\
-你是不是這裡(頭殼)有點那個…？' ,'\
-摸摸露菈', '\
-阿哈哈哈哈哈', '\
-好啦！該來開始斷罪了！', '\
-你的內臟到底長怎樣的呢', '\
-????'];
 rply.text = rplyArr[Math.floor((Math.random() * (rplyArr.length)) + 0)];
 return rply;
 }
@@ -1188,9 +1149,7 @@ module.exports = {
 	ykh,
 	shadow,
 	know,
-	lullaby,
 	tea,
-	rrrr,
 	randomColour,
 	like,
 	eato,
@@ -1205,7 +1164,6 @@ module.exports = {
 	BStyleFlagSCRIPTS,
 	randomReply,
 	randomYakumo,
-	randomLulla,
 	randomSmileFace,
 	randomAnt,
 	randomLuck,
