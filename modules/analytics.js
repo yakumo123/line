@@ -210,15 +210,11 @@ function parseInput(rplyToken, inputStr) {
 	if (trigger.match(/ㄐㄐ|雞雞/) != null) return exports.funny.randomChick() ;	
 	
 	if (trigger.match(/^吹雪$|^@震棋$/) != null) return exports.funny.randomSnow() ;	
-	if (trigger.match(/^lullaby$|^露菈$/) != null) return exports.funny.randomLulla() ;	
 	if (trigger.match(/^安特$/) != null) return exports.funny.randomAnt() ;
 	if (trigger.match(/^筱亞$|^@筱亞叔叔$|^洨亞$/) != null) return exports.funny.randomFrog() ;	
 	if (trigger.match(/^兔子$|燻兔肉佐/) != null) return exports.funny.randomRabbit() ;	
-	if (trigger.match(/燻兔肉佐/) != null) return exports.funny.randomRabbit() ;	
 	if (trigger.match(/^@高睿鴻$|^笑臉$/) != null) return exports.funny.randomSmileFace() ;
 		
-	if (trigger.match(/摸露菈/) != null) return exports.funny.lullaby() ;	
-	
 	if (trigger.match(/舔吹雪/) != null) return exports.image.imsnow() ;	
 	
 	if (trigger.match(/^車圖$/) != null) return exports.fakeimage.fake() ;	
@@ -233,8 +229,6 @@ function parseInput(rplyToken, inputStr) {
 		
 	if (trigger.match(/邪教/) != null) return exports.video.mushroomcloud() ;	
 		
-	if (trigger.match(/(渦芽（橙靈心）$)|^渦芽$/) != null) return exports.funny.rrrr() ;	
-	
 	if (trigger.match(/^紅茶$/) != null) return exports.funny.tea() ;	
 	
 	if (trigger.match(/知道嗎/) != null) return exports.funny.know() ;	
