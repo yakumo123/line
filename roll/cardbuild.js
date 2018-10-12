@@ -4,7 +4,7 @@ var funny = require('./funny.js');
 //吹雪龍1
 var snowdragon = {
 	"type": "flex",
-	"altText": "",
+	"altText": "穩定型疾馳龍",
 "contents": {
 		 "type": "bubble",
 			"body": {
@@ -39,7 +39,7 @@ var snowdragon = {
 							},
 							{
 								"type": "text",
-								"text": "職業：",
+								"text": "職業：龍",
 								"gravity": "center",
 								"flex": 5,
 								"align": "end"
