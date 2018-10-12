@@ -14,7 +14,7 @@ var snowdragon = {
 				"contents": [
 					{
 						"type": "text",
-						"text": "悔辱龍",
+						"text": "穩定型疾馳龍",
 						"wrap": true,
 						"weight": "bold",
 						"gravity": "center",
