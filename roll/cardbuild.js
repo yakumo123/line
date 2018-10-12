@@ -534,11 +534,11 @@ function dragon1() {
 }
 
 function vampire1() {
-return teavampire
+	return teavampire
 }
 
 module.exports = {
 	dragon1: dragon1,
-	teavampire: teavampire
+	vampire1: vampire1
 };
 
