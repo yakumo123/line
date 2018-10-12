@@ -52,6 +52,28 @@ function Suggestion() {
 							"text": "終末☆推薦"
 						}
 					]
+				},
+				{
+					"title": "推薦牌組列表【接受投稿】",
+					"text": "推薦牌組列表",
+					"actions": [
+						{
+							"type": "message",
+							"label": "八雲唯我龍-八雲【指定】",
+							"text": "八雲唯我龍☆推薦"
+						},
+						{
+							"type": "message",
+							"label": "絢爛仇-八雲【指定】",
+							"text": "絢爛☆推薦"
+							
+						},
+						{
+							"type": "message",
+							"label": "終末死-八雲【指定】",
+							"text": "終末☆推薦"
+						}
+					]
 				}
 			]
 		}
