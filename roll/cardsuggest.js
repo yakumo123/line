@@ -11,23 +11,23 @@ function Suggestion() {
 			"columns": [
 				{
 					"title": "推薦牌組列表【接受投稿】",
-					"text": "☆裡面包含夢想牌☆",
+					"text": "推薦牌組列表",
 					"actions": [
 						{
 							"type": "message",
-							"label": "亞瑟基德皇【指定】",
-							"text": "亞瑟☆推薦"
+							"label": "N/A",
+							"text": "N/A"
 						},
 						{
 							"type": "message",
-							"label": "妖精龍妖精【指定】",
-							"text": "妖精龍☆推薦"
+							"label": "N/A",
+							"text": "N/A"
 							
 						},
 						{
 							"type": "message",
-							"label": "星爆異形猴子妖【指定】",
-							"text": "星爆猴☆推薦"
+							"label": "N/A",
+							"text": "N/A"
 						}
 					]
 				},
@@ -37,19 +37,19 @@ function Suggestion() {
 					"actions": [
 						{
 							"type": "message",
-							"label": "護符主【指定】",
-							"text": "護符☆推薦"
+							"label": "N/A",
+							"text": "N/A"
 						},
 						{
 							"type": "message",
-							"label": "陽光主教【無限】",
-							"text": "陽光☆推薦"
+							"label": "N/A",
+							"text": "N/A"
 							
 						},
 						{
 							"type": "message",
-							"label": "幽靈死【指定】",
-							"text": "幽靈☆推薦"
+							"label": "N/A",
+							"text": "N/A"
 						}
 					]
 				},
@@ -59,19 +59,19 @@ function Suggestion() {
 					"actions": [
 						{
 							"type": "message",
-							"label": "葬送死【指定】",
-							"text": "葬送☆推薦"
+							"label": "N/A",
+							"text": "N/A"
 						},
 						{
 							"type": "message",
-							"label": "看來是控吸【指定】",
-							"text": "騙水吸☆推薦"
+							"label": "N/A",
+							"text": "N/A"
 							
 						},
 						{
 							"type": "message",
-							"label": "殺戮土印法【指定】",
-							"text": "殺戮土☆推薦"
+							"label": "N/A",
+							"text": "N/A"
 						}
 					]
 				}
