@@ -93,6 +93,7 @@ function parseInput(rplyToken, inputStr) {
 		if (trigger.match(/^葬送/)!= null ) return exports.cardbuild.shadow1();
 		if (trigger.match(/^絢爛/)!= null ) return exports.cardbuild.portal1();
 		if (trigger.match(/^終末/)!= null ) return exports.cardbuild.shadow2();
+		if (trigger.match(/^八雲唯我龍/)!= null ) return exports.cardbuild.dragon2();
 		
 	}
 	
