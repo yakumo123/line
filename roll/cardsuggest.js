@@ -30,6 +30,28 @@ function Suggestion() {
 							"text": "元氣彈☆推薦"
 						}
 					]
+				},
+				{
+					"title": "推薦牌組列表【接受投稿】",
+					"text": "推薦牌組列表",
+					"actions": [
+						{
+							"type": "message",
+							"label": "葬送死-紅茶【指定】",
+							"text": "葬送☆推薦"
+						},
+						{
+							"type": "message",
+							"label": "N/A",
+							"text": "N/A"
+							
+						},
+						{
+							"type": "message",
+							"label": "N/A",
+							"text": "N/A"
+						}
+					]
 				}
 			]
 		}
