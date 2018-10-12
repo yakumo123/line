@@ -88,7 +88,7 @@ function parseInput(rplyToken, inputStr) {
 	
 	if (trigger.match(/☆推薦/) != null) {
 		if (trigger.match(/^疾馳/)!= null ) return exports.cardbuild.dragon1();
-		if (trigger.match(/^耶夢/)!= null ) return exports.cardbuild.vampire1();
+		if (trigger.match(/^王座/)!= null ) return exports.cardbuild.vampire1();
 		
 	}
 	
