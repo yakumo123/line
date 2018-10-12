@@ -70,8 +70,8 @@ function Suggestion() {
 						},
 						{
 							"type": "message",
-							"label": "終末死-八雲【指定】",
-							"text": "終末☆推薦"
+							"label": "唯我皇-八雲【指定】",
+							"text": "八雲唯我皇☆推薦"
 						}
 					]
 				}
