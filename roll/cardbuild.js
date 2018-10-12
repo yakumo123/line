@@ -175,7 +175,7 @@ var snowdragon = {
 									{
 
 										"type": "text",
-										"text": "沒有資料",
+										"text": "Master天梯9連勝",
 										"wrap": true,
 										"color": "#666666",
 										"size": "sm",
@@ -399,8 +399,8 @@ var teavampire = {
 										"color": "#666666",
 										"size": "sm",
 										"flex": 1
-									}								]
-
+									}
+								]
 							},
 							{
 								"type": "box",
@@ -1194,7 +1194,7 @@ var yakumoportal = {
 							},
 							{
 								"type": "icon",
-								"url": "",
+								"url": "https://shadowverse.com/sp/cht/assets/images/world/thumb-chara-08.jpg?rel20180928",
 								"size": "lg"
 							}
 						]
@@ -2172,7 +2172,6 @@ var yakunodragon2 = {
 									}
 								]
 							},
-
 							{
 								"type": "box",
 								"layout": "baseline",
@@ -2460,7 +2459,6 @@ var yakumoroyal1 = {
 									}
 								]
 							},
-
 							{
 								"type": "box",
 								"layout": "baseline",
@@ -2623,7 +2621,7 @@ return yakunodragon2
 }
 
 function royal1() {
-return yakumoroyal
+return yakumoroyal1
 }
 
 module.exports = {
