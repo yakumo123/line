@@ -26,8 +26,8 @@ function Suggestion() {
 						},
 						{
 							"type": "message",
-							"label": "N/A",
-							"text": "N/A"
+							"label": "元氣彈馬納法-かひ【指定】",
+							"text": "元氣彈☆推薦"
 						}
 					]
 				}
