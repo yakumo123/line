@@ -48,8 +48,8 @@ function Suggestion() {
 						},
 						{
 							"type": "message",
-							"label": "N/A",
-							"text": "N/A"
+							"label": "終末死-八雲【指定】",
+							"text": "終末☆推薦"
 						}
 					]
 				}
