@@ -16,7 +16,7 @@ function Suggestion() {
 						{
 							"type": "message",
 							"label": "穩定型疾馳龍-吹雪【指定】",
-							"text": "疾駛☆推薦"
+							"text": "疾馳☆推薦"
 						},
 						{
 							"type": "message",
