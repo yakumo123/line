@@ -28,7 +28,7 @@ var snowdragon = {
 							{
 								"type": "icon",
 								"url": "https://shadowverse.com/assets/images/cardpack/omenoftheten/title.png?rel20180928",
-								"size": "xxl"
+								"size": "lg"
 							},
 							{
 								"type": "text",
@@ -315,7 +315,7 @@ var teavampire = {
 							{
 								"type": "icon",
 								"url": "https://shadowverse.com/assets/images/cardpack/omenoftheten/title.png?rel20180928",
-								"size": "xxl"
+								"size": "lg"
 							},
 							{
 								"type": "text",
@@ -602,7 +602,7 @@ var bomb = {
 							{
 								"type": "icon",
 								"url": "https://shadowverse.com/assets/images/cardpack/omenoftheten/title.png?rel20180928",
-								"size": "xxl"
+								"size": "lg"
 							},
 							{
 								"type": "text",
