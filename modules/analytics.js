@@ -95,7 +95,7 @@ function parseInput(rplyToken, inputStr) {
 		if (trigger.match(/^終末/)!= null ) return exports.cardbuild.shadow2();
 		if (trigger.match(/^八雲唯我龍/)!= null ) return exports.cardbuild.dragon2();
 		if (trigger.match(/^悔辱/)!= null ) return exports.cardbuild.dragon3();
-		
+		if (trigger.match(/^八雲唯我皇/)!= null ) return exports.cardbuild.royal1();
 	}
 	
 	if (trigger.match(/^問號$/)!= null ) return exports.kiddingme.joking();
