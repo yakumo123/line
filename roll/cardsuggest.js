@@ -20,8 +20,8 @@ function Suggestion() {
 						},
 						{
 							"type": "message",
-							"label": "耶夢控吸-紅茶【指定】",
-							"text": "耶夢☆推薦"
+							"label": "王座吸-紅茶【指定】",
+							"text": "王座☆推薦"
 							
 						},
 						{
