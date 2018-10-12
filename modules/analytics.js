@@ -87,15 +87,7 @@ function parseInput(rplyToken, inputStr) {
 	if (trigger.match(/^sv推薦牌組$/)!= null ) return exports.cardsuggest.Suggestion();
 	
 	if (trigger.match(/☆推薦/) != null) {
-		if (trigger.match(/^亞瑟/)!= null ) return exports.cardbuild.royal();
-		if (trigger.match(/^妖精龍/)!= null ) return exports.cardbuild.elfdragon();
-		if (trigger.match(/^星爆猴/)!= null ) return exports.cardbuild.build2();
-		if (trigger.match(/^護符/)!= null ) return exports.cardbuild.build3();
-		if (trigger.match(/^陽光/)!= null ) return exports.cardbuild.sun();
-		if (trigger.match(/^幽靈/)!= null ) return exports.cardbuild.onetea();
-		if (trigger.match(/^葬送/)!= null ) return exports.cardbuild.twotea();
-		if (trigger.match(/^騙水吸/)!= null ) return exports.cardbuild.vampilim();
-		if (trigger.match(/^殺戮土/)!= null ) return exports.cardbuild.ductmagic();
+		if (trigger.match(/^疾馳/)!= null ) return exports.cardbuild.dragon1();
 		
 	}
 	
