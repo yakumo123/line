@@ -268,7 +268,7 @@ var snowdragon = {
 //紅茶吸1
 var teavampire = {
 	"type": "flex",
-	"altText": "耶夢控吸",
+	"altText": "王座吸",
 "contents": {
 		 "type": "bubble",
 			"body": {
@@ -278,7 +278,7 @@ var teavampire = {
 				"contents": [
 					{
 						"type": "text",
-						"text": "耶夢控吸",
+						"text": "王座吸",
 						"wrap": true,
 						"weight": "bold",
 						"gravity": "center",
