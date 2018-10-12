@@ -15,52 +15,8 @@ function Suggestion() {
 					"actions": [
 						{
 							"type": "message",
-							"label": "N/A",
-							"text": "N/A"
-						},
-						{
-							"type": "message",
-							"label": "N/A",
-							"text": "N/A"
-							
-						},
-						{
-							"type": "message",
-							"label": "N/A",
-							"text": "N/A"
-						}
-					]
-				},
-				{
-					"title": "推薦牌組列表【接受投稿】",
-					"text": "☆裡面包含夢想牌☆",
-					"actions": [
-						{
-							"type": "message",
-							"label": "N/A",
-							"text": "N/A"
-						},
-						{
-							"type": "message",
-							"label": "N/A",
-							"text": "N/A"
-							
-						},
-						{
-							"type": "message",
-							"label": "N/A",
-							"text": "N/A"
-						}
-					]
-				},
-				{
-					"title": "推薦牌組列表【接受投稿】",
-					"text": "☆裡面包含夢想牌☆",
-					"actions": [
-						{
-							"type": "message",
-							"label": "N/A",
-							"text": "N/A"
+							"label": "穩定型疾馳龍-吹雪【指定】",
+							"text": "疾駛☆推薦"
 						},
 						{
 							"type": "message",
