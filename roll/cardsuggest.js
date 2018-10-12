@@ -64,8 +64,8 @@ function Suggestion() {
 						},
 						{
 							"type": "message",
-							"label": "絢爛仇-八雲【指定】",
-							"text": "絢爛☆推薦"
+							"label": "悔辱龍-八雲【指定】",
+							"text": "悔辱☆推薦"
 							
 						},
 						{
