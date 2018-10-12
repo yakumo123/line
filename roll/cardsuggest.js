@@ -42,8 +42,8 @@ function Suggestion() {
 						},
 						{
 							"type": "message",
-							"label": "N/A",
-							"text": "N/A"
+							"label": "絢爛仇-八雲【指定】",
+							"text": "絢爛☆推薦"
 							
 						},
 						{
