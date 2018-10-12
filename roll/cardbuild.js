@@ -257,7 +257,7 @@ var snowdragon = {
 						"action": {
 							"type": "uri",
 							"label": "前往牌組製作",
-							"uri": ""
+							"uri": "https://shadowverse-portal.com/deck/1.4.6bEGc.6bEGc.6bEGc.6bHRQ.6bHRQ.6bHRQ.6PqHY.6PqHY.6PqHY.6Tgt6.6Tgt6.6Tgt6.6bBqM.6bBqM.6bBqM.5_38w.5_38w.5_38w.6TeQY.6TeQY.6TeQY.6Tf9Q.6Tf9Q.6bJ8o.6bJ8o.6bJ8o.6XV06.6XV06.6XV06.6XSZs.6XSZs.6XSZs.6PqHi.6PqHi.6Psjy.6Psjy.6Psjy.6XU_o.6XU_o.6XU_o?lang=zh-tw"
 						}
 					}
 				]
