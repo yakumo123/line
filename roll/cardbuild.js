@@ -749,7 +749,7 @@ var bomb = {
 									{
 
 										"type": "text",
-										"text": "Master天梯6&7連勝各一次",
+										"text": "Master天梯9連勝",
 										"wrap": true,
 										"color": "#666666",
 										"size": "sm",
