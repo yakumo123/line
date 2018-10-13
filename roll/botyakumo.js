@@ -178,8 +178,8 @@ function BotHelpYy() {
 						},
 						{
 							"type": "message",
-							"label": "暫無",
-							"text": "暫無"
+							"label": "【新】立Flag功能",
+							"text": "flag"
 						}				
 					]
 				},
