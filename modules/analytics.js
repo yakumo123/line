@@ -98,6 +98,7 @@ function parseInput(rplyToken, inputStr) {
 		if (trigger.match(/^八雲唯我皇/)!= null ) return exports.cardbuild.royal1();
 		if (trigger.match(/^阿卡/)!= null ) return exports.cardbuild.shadow3();
 		if (trigger.match(/^寶藏/)!= null ) return exports.cardbuild.royal2();
+		if (trigger.match(/^穩亞/)!= null ) return exports.cardbuild.royal3();
 	}
 	
 	if (trigger.match(/^問號$/)!= null ) return exports.kiddingme.joking();
