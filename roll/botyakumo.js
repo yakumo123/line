@@ -168,8 +168,8 @@ function BotHelpYy() {
 					"actions": [
 						{
 							"type": "message",
-							"label": "推薦牌組列表",
-							"text": "comfirmcards"
+							"label": "暫無",
+							"text": "暫無"
 						},
 						{
 							"type": "message",
