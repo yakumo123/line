@@ -92,8 +92,8 @@ function Suggestion() {
 						},
 						{
 							"type": "message",
-							"label": "暫無",
-							"text": "暫無"
+							"label": "穩定型亞瑟-左左【指定】",
+							"text": "穩亞☆推薦"
 						}
 					]
 				}
