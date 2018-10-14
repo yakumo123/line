@@ -37,8 +37,8 @@ function buttontest() {
       {
         "thumbnailImageUrl": "https://i.ytimg.com/vi/iYRO-R_fRq4/maxresdefault.jpg",
         "imageBackgroundColor": "#a8e8fb",
-        "title": "投稿推薦牌組",
-        "text": "內容較多，群組內慎用以免做成洗頻。",
+	      "title": "競技場牌組",
+        "text": "競技場牌組",
         "actions": [
           {
    "type": "uri",
@@ -61,8 +61,8 @@ function buttontest() {
       {
         "thumbnailImageUrl": "https://shadowverse.gamepress.gg/sites/shadowverse/files/2018-09/Omen-of-the-Ten_2.png",
         "imageBackgroundColor": "#a8e8fb",
-        "title": "競技場牌組",
-        "text": "競技場牌組",
+        "title": "投稿推薦牌組",
+        "text": "內容較多，群組內慎用以免做成洗頻。",
         "actions": [
           {
    "type": "message",
