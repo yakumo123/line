@@ -74,28 +74,6 @@ function Suggestion() {
 							"text": "八雲唯我皇☆推薦"
 						}
 					]
-				},
-				{
-					"title": "推薦牌組列表【接受投稿】",
-					"text": "推薦牌組列表",
-					"actions": [
-						{
-							"type": "message",
-							"label": "阿卡斯死-賤BB【指定】",
-							"text": "阿卡☆推薦"
-						},
-						{
-							"type": "message",
-							"label": "寶藏亞瑟皇-sherman Lai【指定】",
-							"text": "寶藏☆推薦"
-							
-						},
-						{
-							"type": "message",
-							"label": "N/A",
-							"text": "N/A"
-						}
-					]
 				}
 			]
 		}
