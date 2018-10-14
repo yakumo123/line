@@ -2878,7 +2878,7 @@ var ghost = {
 
 
 //寶藏皇
-var irrt = {
+var gold = {
 	"type": "flex",
 	"altText": "克爆大蝙蝠之寶藏亞瑟皇",
 "contents": {
@@ -3167,7 +3167,7 @@ var irrt = {
 
 
 //亞瑟皇
-var gold = {
+var irrt = {
 	"type": "flex",
 	"altText": "穩定型亞瑟皇",
 "contents": {
@@ -3505,6 +3505,7 @@ return gold
 function royal3() {
 return irrt
 }
+
 module.exports = {
 	dragon1: dragon1,
 	vampire1: vampire1,
