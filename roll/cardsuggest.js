@@ -86,7 +86,7 @@ function Suggestion() {
 						},
 						{
 							"type": "message",
-							"label": "寶藏亞瑟皇-shermanLai【指定】",
+							"label": "寶藏亞瑟皇-sherman Lai【指定】",
 							"text": "寶藏☆推薦"
 							
 						},
