@@ -104,7 +104,7 @@ function Suggestion() {
 						{
 							"type": "message",
 							"label": "中速死-紅茶【指定】",
-							"text": "葬送☆推薦"
+							"text": "羈押☆推薦"
 						},
 						{
 							"type": "message",
