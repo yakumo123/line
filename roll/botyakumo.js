@@ -87,7 +87,7 @@ function BotHelpYy() {
 						{
 							"type": "message",
 							"label": "機率占卜",
-							"text": "求八雲遇到式神的機率是多少"
+							"text": "求八雲遇到式神的機率"
 						},
 						{
 							"type": "message",
