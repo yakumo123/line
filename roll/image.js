@@ -6,8 +6,8 @@ var rply = { type: 'text'};
 function imsnow() {
 	rply = {
 				"type": "image",
-				"originalContentUrl": "https://i.imgur.com/5zrj83B.png",
-				"previewImageUrl": "https://i.imgur.com/5zrj83B.png"		
+				"originalContentUrl": "https://i.imgur.com/hmaC9oM.jpg",
+				"previewImageUrl": "https://i.imgur.com/hmaC9oM.jpg"		
 	};
 		
 	return rply; 
