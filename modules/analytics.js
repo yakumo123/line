@@ -222,7 +222,7 @@ function parseInput(rplyToken, inputStr) {
 	
 	if (trigger.match(/^車圖$/) != null) return exports.fakeimage.fake() ;	
 	
-	if (trigger.match(/^鳳梨$/) != null) return exports.imagepie.PieIm() ;	
+	if (trigger.match(/會習慣/) != null) return exports.imagepie.PieIm() ;	
 	
 	if (trigger.match(/ㄎㄧㄤ|ㄎㄧㄠ/) != null) return exports.crazy.ircra() ;	
 	
