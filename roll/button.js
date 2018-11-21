@@ -24,8 +24,8 @@ function buttontest() {
 			      },
 			      {
 				      "type": "uri",
-				      "label": "ShadowNews",
-				      "uri": "https://shadowverse.com/sp/cht/news/"
+				      "label": "追加卡包情報 【感謝LM.緯提供】",
+				      "uri": "https://m.gamer.com.tw/forum/C.php?bsn=29330&snA=15691&bpage=1&top=9&ltype="
 			      },	
 			      {
 				      "type": "uri",				      
