@@ -5,7 +5,7 @@ var rply = { type: 'text' }; //type是必需的,但可以更改
 function TRPG() {
 	rply = {
 		"type": "template",
-		"altText": "【TRPGBOT】,
+		"altText": "【TRPGBOT】",
 		"template": {
 			"type": "carousel",
 			"columns": [
