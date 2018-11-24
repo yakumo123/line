@@ -174,14 +174,7 @@ function parseInput(rplyToken, inputStr) {
 
 	
 	if (trigger.match(/隨機職業/) != null) return exports.careerchoice.MultiDrawBan(mainMsg[1], mainMsg[2], 2);
-	
-	
-	
-	//FLAG指令開始於此
-	if (trigger.match(/再次|再一次|再啦幹/) != null) return exports.funny.mot() ;	
-	
-	if (trigger.match(/在次|在一次|在啦幹/) != null) return exports.funny.moo() ;	
-	
+		
 	if (trigger.match(/你喜歡/) != null) return exports.funny.like() ;	
 	
 	if (trigger.match(/悠亞/) != null) return exports.funny.randomYula() ;	 
