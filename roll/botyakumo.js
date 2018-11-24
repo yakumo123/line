@@ -189,8 +189,8 @@ function BotHelpYy() {
 					"actions": [
 						{
 							"type": "message",
-							"label": "女裝示範",
-							"text": "你來女裝"
+							"label": "暫無",
+							"text": "暫無"
 						},
 						{
 							"type": "message",
@@ -199,8 +199,8 @@ function BotHelpYy() {
 						},
 						{
 							"type": "message",
-							"label": "【新】【車圖整合(慎用)】",
-							"text": "comfirmphoto"
+							"label": "暫無",
+							"text": "暫無"
 						}
 
 					]
