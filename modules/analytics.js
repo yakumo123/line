@@ -99,15 +99,6 @@ function parseInput(rplyToken, inputStr) {
 	if (trigger.match(/^sv情報$/)!= null ) return exports.button.buttontest();
 	if (trigger.match(/^公主情報$/)!= null ) return exports.redive.princesses();
 	
-	
-	if (trigger.match(/^photolist$/)!= null ) return exports.security.Security();
-	
-	if (trigger.match(/^list0001$/)!= null ) return exports.photo.CarPhoto();
-	
-	if (trigger.match(/^list0002$/)!= null ) return exports.photo2.CarPhoto2();
-
-	if (trigger.match(/^list0003$/)!= null ) return exports.photo3.CarPhoto3();
-
 	//nc指令開始於此 來自Rainsting/TarotLineBot 
 	if (trigger.match(/^[1-4]n[c|a][+|-][1-99]$|^[1-4]n[c|a]$/)!= null ) return exports.nc.nechronica(trigger,mainMsg[1]);
 
