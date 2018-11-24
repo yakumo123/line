@@ -70,8 +70,6 @@ function parseInput(rplyToken, inputStr) {
 	
 	if (trigger.match(/^式神幫助$/)!= null ) return exports.botyakumo.BotHelpYy();
 	
-	if (trigger.match(/^comfirmphoto$/)!= null ) return exports.testing.Test12();
-	
 	if (trigger.match(/^comfirmcommand$/)!= null ) return exports.commandlist.Cili();
 
 	if (trigger.match(/^comfirmcards$/)!= null ) return exports.testing.Test13();
@@ -93,8 +91,6 @@ function parseInput(rplyToken, inputStr) {
 		if (trigger.match(/^穩亞/)!= null ) return exports.cardbuild.royal3();	
 		if (trigger.match(/^羈押/)!= null ) return exports.cardbuild.shadow3();
 	}
-	
-	if (trigger.match(/^問號$/)!= null ) return exports.kiddingme.joking();
 	
 	if (trigger.match(/^sv情報$/)!= null ) return exports.button.buttontest();
 	if (trigger.match(/^公主情報$/)!= null ) return exports.redive.princesses();
@@ -154,7 +150,6 @@ function parseInput(rplyToken, inputStr) {
 	}
 	
 	if (trigger.match(/隨機顏色|幸運顏色/) != null) return exports.funny.randomColour(mainMsg) ;	
-
 	
 	if (trigger.match(/隨機職業/) != null) return exports.careerchoice.MultiDrawBan(mainMsg[1], mainMsg[2], 2);
 		
@@ -180,8 +175,6 @@ function parseInput(rplyToken, inputStr) {
 	if (trigger.match(/鋪起來|鋪滿/) != null) return exports.funny.randomAOE() ;	
 	
 	if (trigger.match(/老實說/) != null) return exports.image.imsnow() ;	
-	
-	if (trigger.match(/^車圖$/) != null) return exports.fakeimage.fake() ;	
 	
 	if (trigger.match(/會習慣/) != null) return exports.imagepie.PieIm() ;	
 	
