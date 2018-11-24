@@ -20,13 +20,7 @@ function parseInput(rplyToken, inputStr) {
 	let trigger = mainMsg[0].toString().toLowerCase(); //指定啟動詞在第一個詞&把大階強制轉成細階
 
 
-	if (trigger.match(/霖|凜|安妮|妮幽/) != null) return exports.null.null() ;
-	
-	if (trigger.match(/^萌$/) != null) return exports.imagemap.mapping() ;
-
-	if (trigger.match(/^八雲教$/)!= null ) return exports.kidding.yakumagic();
-	
-	if (trigger.match(/魔將軍/)!= null ) return exports.funny.shadow();
+	if (trigger.match(/霖|凜|安妮|妮幽|weichen/) != null) return exports.null.null() ;
 	
 	//普通ROLL擲骰判定在此	
 	if (inputStr.match(/\w/)!=null && inputStr.toLowerCase().match(/\d+d+\d/)!=null) return exports.rollbase.nomalDiceRoller(inputStr,mainMsg[0],mainMsg[1],mainMsg[2]);
@@ -54,7 +48,7 @@ function parseInput(rplyToken, inputStr) {
 
 	if (trigger.match(/摸八雲|摸爆八雲/) != null) return exports.funny.randomYakumoKii() ;	
 	
-	if (trigger.match(/(能力值$)/) != null && mainMsg[1] != NaN )	return exports.character.build7char(mainMsg[1]);
+	if (trigger.match(/(的能力值$)/) != null && mainMsg[1] != NaN )	return exports.character.build7char(mainMsg[1]);
 	
 	if (trigger.match(/八雲的綜合分數$|八雲綜合分數$/) != null) return exports.funny.yakumomark() ;	
 
@@ -81,8 +75,6 @@ function parseInput(rplyToken, inputStr) {
 	if (trigger.match(/^comfirmcommand$/)!= null ) return exports.commandlist.Cili();
 
 	if (trigger.match(/^comfirmcards$/)!= null ) return exports.testing.Test13();
-	
-	if (trigger.match(/^真步教$|^真步真步教$/)!= null ) return exports.kidding.joke();
 	
 	if (trigger.match(/^sv推薦牌組10月$/)!= null ) return exports.cardsuggest.Suggestion();
 	
@@ -175,10 +167,6 @@ function parseInput(rplyToken, inputStr) {
 	
 	if (trigger.match(/隨機職業/) != null) return exports.careerchoice.MultiDrawBan(mainMsg[1], mainMsg[2], 2);
 		
-	if (trigger.match(/你喜歡/) != null) return exports.funny.like() ;	
-	
-	if (trigger.match(/悠亞/) != null) return exports.funny.randomYula() ;	 
-		
 	if (trigger.match(/ㄘ什麼|吃甚麼|吃什麼/) != null) return exports.funny.FoodChoices(mainMsg) ;	
 	
 	if (trigger.match(/喝甚麼|喝什麼/) != null) return exports.funny.randomDrink(mainMsg) ;	
@@ -187,7 +175,7 @@ function parseInput(rplyToken, inputStr) {
 	
 	if (trigger.match(/(的機率$)/) != null) return exports.funny.randomChance(mainMsg) ; 
 	
-	if (trigger.match(/角色背景|的人設/) != null) return exports.funny.BStyleFlagSCRIPTS(mainMsg) ;	
+	if (trigger.match(/角色背景/) != null) return exports.funny.BStyleFlagSCRIPTS(mainMsg) ;	
 	
 	if (trigger.match(/八雲的黑歷史|八雲黑歷史/) != null) return exports.funny.ykh() ;	
 	
@@ -198,20 +186,9 @@ function parseInput(rplyToken, inputStr) {
 	
 	if (trigger.match(/^八雲$|^@小學生八雲やくも$|^@平成最後の喵喵小学生八雲（やくも）$/) != null) return exports.funny.randomYakumo() ;	
 	
-	
-	if (trigger.match(/女裝/) != null) return exports.funny.randomReply() ;	
-	
 	if (trigger.match(/鋪起來|鋪滿/) != null) return exports.funny.randomAOE() ;	
 	
-	if (trigger.match(/ㄐㄐ|雞雞/) != null) return exports.funny.randomChick() ;	
-	
-	if (trigger.match(/^吹雪$|^@震棋$/) != null) return exports.funny.randomSnow() ;	
-	if (trigger.match(/^安特$/) != null) return exports.funny.randomAnt() ;
-	if (trigger.match(/^筱亞$|^@筱亞叔叔$|^洨亞$/) != null) return exports.funny.randomFrog() ;	
-	if (trigger.match(/^兔子$|燻兔肉佐/) != null) return exports.funny.randomRabbit() ;	
-	if (trigger.match(/^@高睿鴻$|^笑臉$/) != null) return exports.funny.randomSmileFace() ;
-		
-	if (trigger.match(/老實說|說真的/) != null) return exports.image.imsnow() ;	
+	if (trigger.match(/老實說/) != null) return exports.image.imsnow() ;	
 	
 	if (trigger.match(/^車圖$/) != null) return exports.fakeimage.fake() ;	
 	
@@ -222,13 +199,7 @@ function parseInput(rplyToken, inputStr) {
 	if (trigger.match(/並沒有/) != null) return exports.nothing.irnothing() ;	
 
 	if (trigger.match(/瞎掰|騙人|屁啦/) != null) return exports.no.irno() ;	
-		
-	if (trigger.match(/邪教/) != null) return exports.video.mushroomcloud() ;	
-		
-	if (trigger.match(/^紅茶$/) != null) return exports.funny.tea() ;	
 	
-	if (trigger.match(/知道嗎/) != null) return exports.funny.know() ;	
-
 	if (trigger.match(/^嘴砲$|真的最後一次|買最後一次|最後一次買|戒貼圖|戒買貼圖/) != null) return exports.kidding.laugh() ;	
 
 	if (trigger.match(/^基德$/) != null) return exports.kidding.inin() ;	
