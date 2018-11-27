@@ -173,7 +173,11 @@ function parseInput(rplyToken, inputStr) {
 	
 	if (trigger.match(/flag/) != null) return exports.funny.Flag() ;	
 	
-	if (trigger.match(/^八雲$|^@小學生八雲やくも$|^@平成最後の喵喵小学生八雲（やくも）$/) != null) return exports.funny.randomYakumo() ;	
+	if (trigger.match(/^八雲$/) != null) return exports.funny.randomYakumo() ;	
+	if (trigger.match(/^吹雪$/) != null) return exports.funny.randomSnow() ;	
+	if (trigger.match(/^安特$/) != null) return exports.funny.randomAnt() ;
+	if (trigger.match(/^筱亞$|^洨亞$/) != null) return exports.funny.randomFrog() ;	
+	if (trigger.match(/^兔子$/) != null) return exports.funny.randomRabbit() ;
 	
 	if (trigger.match(/鋪起來|鋪滿/) != null) return exports.funny.randomAOE() ;	
 	
