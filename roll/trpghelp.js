@@ -11,7 +11,7 @@ function TRPG() {
 			"columns": [
 				{
 					"title": "《基本擲骰系統》",
-					"text": "【TRPGBOT】v1.40 指令包括1D100, 5B10 ,5U10 8 9",
+					"text": "指令包括1D100, 5B10 ,5U10 8 9 由RoboYabaso@HKTRPG V1.50提供",
 					"actions": [
 						{
 							"type": "message",
@@ -92,6 +92,28 @@ function TRPG() {
 							"type": "message",
 							"label": "DX3 擲骰範例",
 							"text": "2DX5-1"
+						}
+
+					]
+				},
+				{
+					"title": "《瘋狂狀態》",
+					"text": "Flag, D66, D66s",
+					"actions": [
+						{
+							"type": "message",
+							"label": "瘋狂狀態",
+							"text": "ccsu"
+						},
+						{
+							"type": "message",
+							"label": "恐懼下引致的症狀",
+							"text": "ccrt"
+						},
+						{
+							"type": "postback",
+							"label": "N/A",
+							"data": "N/A"
 						}
 
 					]
