@@ -70,15 +70,15 @@ function buttontest() {
                 "text": "sv推薦牌組10月"
             },
             {
-                "type": "message",
+                "type": "postback",
                 "label": "投稿推薦牌組11月版【待更】",
-                "text": "待更新"
+                "data": "待更新"
             },	      
 
 		{
-                "type": "message",
+                "type": "postback",
                 "label": "投稿推薦牌組12月版【待更】",
-                "text": "待更新"
+                "data": "待更新"
             }
         ]
       }
