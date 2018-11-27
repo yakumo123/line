@@ -43,6 +43,9 @@ function parseInput(rplyToken, inputStr) {
 	if (trigger == 'ccn1'&& mainMsg[1]<=1000) return exports.coc.coc7bp(mainMsg[1],'-1',mainMsg[2]);	
 	if (trigger == 'ccn2'&& mainMsg[1]<=1000) return exports.coc.coc7bp(mainMsg[1],'-2',mainMsg[2]);	
 	}
+	if (trigger.match(/(^ccrt$)/) != null) return exports.coc.ccrt();
+	if (trigger.match(/(^ccsu$)/) != null) return exports.coc.ccsu();
+
 
 	if (trigger.match(/^trpghelp$/)!= null ) return exports.trpghelp.TRPG();
 
