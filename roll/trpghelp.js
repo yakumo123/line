@@ -98,7 +98,7 @@ function TRPG() {
 				},
 				{
 					"title": "《瘋狂狀態》",
-					"text": "Flag, D66, D66s",
+					"text": "ccrt, ccsu",
 					"actions": [
 						{
 							"type": "message",
