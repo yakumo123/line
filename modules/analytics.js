@@ -199,7 +199,7 @@ function parseInput(rplyToken, inputStr) {
 	
 	if (trigger.match(/雞雞|大ㄐㄐ/) != null) return exports.funny.randomChick() ;
 
-
+}
 module.exports = {
 	parseInput:parseInput
 };
