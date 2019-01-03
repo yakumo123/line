@@ -47,6 +47,9 @@ function parseInput(rplyToken, inputStr) {
 	if (trigger.match(/(^ccsu$)/) != null) return exports.coc.ccsu();
 
 
+	if (trigger.match(/感謝祭/) != null) return exports.funny.think() ;	
+	
+	
 	if (trigger.match(/^trpghelp$/)!= null ) return exports.trpghelp.TRPG();
 
 	if (trigger.match(/摸八雲|摸爆八雲/) != null) return exports.funny.randomYakumoKii() ;	
