@@ -167,9 +167,9 @@ function BotHelpYy() {
 					"text": "其他",
 					"actions": [
 						{
-							"type": "message",
+							"type": "postback",
 							"label": "暫無",
-							"text": "暫無"
+							"data": "暫無"
 						},
 						{
 							"type": "message",
@@ -193,9 +193,9 @@ function BotHelpYy() {
 							"data": "暫無"
 						},
 						{
-							"type": "message",
-							"label": "【關鍵字列表】",
-							"text": "comfirmcommand"
+							"type": "postback",
+							"label": "暫無",
+							"data": "暫無"
 						},
 						{
 							"type": "postback",
