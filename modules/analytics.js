@@ -76,7 +76,6 @@ function parseInput(rplyToken, inputStr) {
 	
 	if (trigger.match(/^式神幫助$/)!= null ) return exports.botyakumo.BotHelpYy();
 	
-	if (trigger.match(/^comfirmcommand$/)!= null ) return exports.commandlist.Cili();
 
 	if (trigger.match(/^comfirmcards$/)!= null ) return exports.testing.Test13();
 	
