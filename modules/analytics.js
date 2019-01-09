@@ -79,7 +79,7 @@ function parseInput(rplyToken, inputStr) {
 
 	if (trigger.match(/^comfirmcards$/)!= null ) return exports.testing.Test13();
 	
-	if (trigger.match(/^sv推薦牌組10月$/)!= null ) return exports.cardsuggest.Suggestion();
+	if (trigger.match(/^sv推薦牌組1月$/)!= null ) return exports.cardsuggest.Suggestion();
 	
 	if (trigger.match(/☆推薦/) != null) {
 		if (trigger.match(/^獅子/)!= null ) return exports.cardbuild.royal1();
