@@ -82,19 +82,7 @@ function parseInput(rplyToken, inputStr) {
 	if (trigger.match(/^sv推薦牌組10月$/)!= null ) return exports.cardsuggest.Suggestion();
 	
 	if (trigger.match(/☆推薦/) != null) {
-		if (trigger.match(/^疾馳/)!= null ) return exports.cardbuild.dragon1();
-		if (trigger.match(/^王座/)!= null ) return exports.cardbuild.vampire1();
-		if (trigger.match(/^元氣彈/)!= null ) return exports.cardbuild.rune1();
-		if (trigger.match(/^葬送/)!= null ) return exports.cardbuild.shadow1();
-		if (trigger.match(/^絢爛/)!= null ) return exports.cardbuild.portal1();
-		if (trigger.match(/^終末/)!= null ) return exports.cardbuild.shadow2();
-		if (trigger.match(/^八雲唯我龍/)!= null ) return exports.cardbuild.dragon2();
-		if (trigger.match(/^悔辱/)!= null ) return exports.cardbuild.dragon3();
-		if (trigger.match(/^八雲唯我皇/)!= null ) return exports.cardbuild.royal1();
-		if (trigger.match(/^阿卡/)!= null ) return exports.cardbuild.shadow3();
-		if (trigger.match(/^寶藏/)!= null ) return exports.cardbuild.royal2();
-		if (trigger.match(/^穩亞/)!= null ) return exports.cardbuild.royal3();	
-		if (trigger.match(/^羈押/)!= null ) return exports.cardbuild.shadow3();
+		if (trigger.match(/^獅子/)!= null ) return exports.cardbuild.royal1();
 	}
 	
 	if (trigger.match(/^sv情報$/)!= null ) return exports.button.buttontest();
