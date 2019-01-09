@@ -65,9 +65,9 @@ function buttontest() {
         "text": "內容較多，群組內慎用以免做成洗頻。",
         "actions": [
           {
-   "type": "postback",
-                "label": "投稿推薦牌組1月版【待更】",
-                "data": "sv推薦牌組1月"
+   "type": "message",
+                "label": "投稿推薦牌組1月版",
+                "text": "sv推薦牌組1月"
             },
             {
                 "type": "postback",
