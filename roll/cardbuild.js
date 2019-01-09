@@ -248,5 +248,5 @@ return gold
 }
 
 module.exports = {
-gold: gold,
+royal1: royal1,
 };
