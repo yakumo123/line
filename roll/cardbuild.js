@@ -14,7 +14,7 @@ var gold = {
 				"contents": [
 					{
 						"type": "text",
-						"text": "中速死",
+						"text": "獅子皇",
 						"wrap": true,
 						"weight": "bold",
 						"gravity": "center",
@@ -27,7 +27,7 @@ var gold = {
 						"contents": [
 							{
 								"type": "icon",
-								"url": "https://shadowverse.com/assets/images/cardpack/omenoftheten/title.png?rel20180928",
+								"url": "https://shadowverse.com/news/wp-content/uploads/9d33fe1601f90fdff2e0ca2c111d8793.png",
 								"size": "lg"
 							},
 							{
