@@ -169,7 +169,7 @@ function parseInput(rplyToken, inputStr) {
 	if (trigger.match(/^筱亞$|^洨亞$/) != null) return exports.funny.randomFrog() ;	
 	if (trigger.match(/^兔子$/) != null) return exports.funny.randomRabbit() ;
 	
-	if (trigger.match(/鋪起來|鋪滿/) != null) return exports.funny.randomAOE() ;	
+	if (trigger.match(/鋪起來/) != null) return exports.funny.randomAOE() ;	
 	
 	if (trigger.match(/老實說/) != null) return exports.image.imsnow() ;	
 	
