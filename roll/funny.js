@@ -1,7 +1,7 @@
 var rollbase = require('./rollbase.js');
 var rply ={type : 'text'}; //type是必需的,但可以更改
 
-function suck() {
+function suck(TEXT) {
 	let rplyArr = ['你就爛阿= =','我要尊重你？？','你都不是人 我那需要尊重你？','先上GM再來討論好不好？','沒GM的人水準差太多無法溝通= ='] ;
 	let numArr = [1,2,3,4,5,6,7,8,9,10];
 	let num1Arr = [1,2,3,4,5,6,7,8,9,10];
