@@ -8,8 +8,6 @@ function suck() {
 	let num2Arr = [1,2,3,4,5,6,7,8,9];
 	
 	rply.text = '<' + TEXT[0] + '>' + '\n ---MiaO-LaZYCat語錄' + '《' + numArr[Math.floor((Math.random() * (numArr.length)) + 0)] + '》' + '節錄' + num1Arr[Math.floor((Math.random() * (num1Arr.length)) + 0)] + '.' + num2Arr[Math.floor((Math.random() * (num2Arr.length)) + 0)] + '<爛>' + '\n追加語錄：<' + rplyArr[Math.floor((Math.random() * (rplyArr.length)) + 0)] + '>';
-
- ;
 	return rply;
 }
 	
