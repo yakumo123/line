@@ -2,7 +2,14 @@ var rollbase = require('./rollbase.js');
 var rply ={type : 'text'}; //type是必需的,但可以更改
 
 function suck() {
-	rply.text = '你就爛阿＝ ＝我要尊重人？你都不是人＝ ＝先上GM再討論好不好？不然水準差太多無法溝通＝ ＝\n\nMiaO-LaZYCat(Mario)語錄1 節錄2.3 ＜爛＞' ;
+	let rplyArr = ['你就爛阿= =','我要尊重你？？','你都不是人 我那需要尊重你？','先上GM再來討論好不好？','沒GM的人水準差太多無法溝通= ='] ;
+	let numArr = [1,2,3,4,5,6,7,8,9,10];
+	let num1Arr = [1,2,3,4,5,6,7,8,9,10];
+	let num2Arr = [1,2,3,4,5,6,7,8,9];
+	
+	rply.text = '<' + TEXT[0] + '>' + '\n ---MiaO-LaZYCat語錄' + '《' + numArr[Math.floor((Math.random() * (numArr.length)) + 0)] + '》' + '節錄' + num1Arr[Math.floor((Math.random() * (num1Arr.length)) + 0)] + '.' + num2Arr[Math.floor((Math.random() * (num2Arr.length)) + 0)] + '<爛>' + '\n追加語錄：<' + rplyArr[Math.floor((Math.random() * (rplyArr.length)) + 0)] + '>';
+
+ ;
 	return rply;
 }
 	
