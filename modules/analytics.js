@@ -142,9 +142,10 @@ function parseInput(rplyToken, inputStr) {
 		if (trigger.match(/^大十字|^cross/)!= null) return exports.funny.MultiDrawTarot(mainMsg[1], mainMsg[2], 2);
 	}
 	
-	if (trigger.match(/^@MiaO-LaZYCat|你就爛|你就是爛|他就爛|他就是爛|她就是爛|她就爛/)!= null ) return exports.funny.suck();
+	if (trigger.match(/^@MiaO-LaZYCat|你就爛|你就是爛/)!= null ) return exports.funny.suck();
 
-	
+	if (trigger.match(/他就爛|他就是爛|她就是爛|她就爛/)!= null ) return exports.funny.suck();
+
 	if (trigger.match(/隨機顏色|幸運顏色/) != null) return exports.funny.randomColour(mainMsg) ;	
 	
 	if (trigger.match(/隨機職業/) != null) return exports.careerchoice.MultiDrawBan(mainMsg[1], mainMsg[2], 2);
