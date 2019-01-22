@@ -1,6 +1,11 @@
 var rollbase = require('./rollbase.js');
 var rply ={type : 'text'}; //type是必需的,但可以更改
 
+function suck() {
+	rply.text = '你就爛阿= = 我要尊重人？你都不是人= = 先上GM再討論好不好？不然水準差太多無法溝通= =\n\nMiaO-LaZYCat(Mario)語錄1 節錄2.3 ＜爛＞';
+	return rply;
+}
+	
 function yakumomark() {
 	rply.text = '八雲的綜合分數：\n【魅力】：101\n【萌力】：101\n【廚藝】：101\n【財力】：101\n【生命力】：101\n【對吹雪的愛】:101\n【歐皇之力】：101\n\n【八雲點評】：請信仰八雲教！' ;
 	return rply;
@@ -1221,5 +1226,6 @@ module.exports = {
 	Poker3,
 	Poker2,
 	Poker1,
-	PokerAll
+	PokerAll,
+	suck
 };
