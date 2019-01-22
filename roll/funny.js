@@ -2,7 +2,7 @@ var rollbase = require('./rollbase.js');
 var rply ={type : 'text'}; //type是必需的,但可以更改
 
 function suck() {
-	rply.text = '你就爛阿= = 我要尊重人？你都不是人= = 先上GM再討論好不好？不然水準差太多無法溝通= =\n\nMiaO-LaZYCat(Mario)語錄1 節錄2.3 ＜爛＞';
+	rply.text = '你就爛阿＝ ＝我要尊重人？你都不是人＝ ＝先上GM再討論好不好？不然水準差太多無法溝通＝ ＝\n\nMiaO-LaZYCat(Mario)語錄1 節錄2.3 ＜爛＞' ;
 	return rply;
 }
 	
