@@ -142,7 +142,7 @@ function parseInput(rplyToken, inputStr) {
 		if (trigger.match(/^大十字|^cross/)!= null) return exports.funny.MultiDrawTarot(mainMsg[1], mainMsg[2], 2);
 	}
 	
-	if (trigger.match(/^@MiaO-LaZYCat|你就爛|你就是爛/)!= null ) return exports.funny.suck();
+	if (trigger.match(/^@MiaO|你就爛|你就是爛/)!= null ) return exports.funny.suck();
 
 	if (trigger.match(/他就爛|他就是爛|她就是爛|她就爛/)!= null ) return exports.funny.suck();
 
