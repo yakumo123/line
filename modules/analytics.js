@@ -144,7 +144,7 @@ function parseInput(rplyToken, inputStr) {
 	
 	if (trigger.match(/你就爛|你就是爛/)!= null ) return exports.funny.suck(mainMsg);
 
-	if (trigger.match(/他就爛|他就是爛|她就是爛|她就爛/)!= null ) return exports.funny.suck();
+	if (trigger.match(/他就爛|他就是爛|她就是爛|她就爛/)!= null ) return exports.funny.suck(mainMsg);
 
 	if (trigger.match(/隨機顏色|幸運顏色/) != null) return exports.funny.randomColour(mainMsg) ;	
 	
