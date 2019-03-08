@@ -43,12 +43,12 @@ function BotHelpYy() {
 						{
 							"type": "message",
 							"label": "亂數生產",
-							"text": "3D6"
+							"text": "3D6 \nD為你骰子的縮寫 10d6 d前面的數字10為你想骰的骰子數目 6為骰子你想要的面數"
 						},
 						{
 							"type": "message",
 							"label": "排序功能",
-							"text": "群中排名次序 A八雲 B八雲 C八雲 D八雲"
+							"text": "群中排名次序 六雲 七雲 八雲 九八雲 \n使用方法為 XXXX次序 A B C D 選項和選項及 XXX次序 之間必須相隔一個空格"
 						}
 
 					]
@@ -60,7 +60,7 @@ function BotHelpYy() {
 						{
 							"type": "message",
 							"label": "角色背景示範",
-							"text": "八雲的角色背景"
+							"text": "八雲的角色背景 \n使用方法為 XXX的角色背景"
 						},
 						{
 							"type": "message",
@@ -82,12 +82,12 @@ function BotHelpYy() {
 						{
 							"type": "message",
 							"label": "運勢占卜範例",
-							"text": "求八雲式神運勢"
+							"text": "求八雲式神運勢 \n使用方法為 XXX運勢"
 						},
 						{
 							"type": "message",
 							"label": "機率占卜",
-							"text": "求八雲遇到式神的機率"
+							"text": "求八雲遇到式神的機率 \n使用方法為 XXX的機率"
 						},
 						{
 							"type": "message",
@@ -104,17 +104,17 @@ function BotHelpYy() {
 						{
 							"type": "message",
 							"label": "能力值生成(可不加歲數)",
-							"text": "式神的能力值 18歲"
+							"text": "式神的能力值 18歲 \n使用方法為 XXX的能力值 你希望的歲數"
 						},
 						{
 							"type": "message",
 							"label": "綜合分數生成",
-							"text": "式神的綜合分數"
+							"text": "式神的綜合分數 \n使用方法為 XXX的綜合分數"
 						},
 						{
 							"type": "message",
 							"label": "黑歷史隨機生產",
-							"text": "萌式神的黑歷史"
+							"text": "萌式神的黑歷史 \n使用方法為 XXX的黑歷史"
 						}
 
 					]
@@ -126,12 +126,12 @@ function BotHelpYy() {
 						{
 							"type": "message",
 							"label": "吃甚麼",
-							"text": "式神晚餐吃甚麼"
+							"text": "式神晚餐吃甚麼 \n使用方法為 XXX吃甚麼"
 						},
 						{
 							"type": "message",
 							"label": "喝甚麼",
-							"text": "式神待會喝甚麼"
+							"text": "式神待會喝甚麼 \n使用方法為 XXX喝甚麼"
 						},
 						{
 							"type": "message",
@@ -179,7 +179,7 @@ function BotHelpYy() {
 						{
 							"type": "message",
 							"label": "【新】立Flag功能",
-							"text": "flag"
+							"text": "flag \n使用方法為XXXflag"
 						}				
 					]
 				},
