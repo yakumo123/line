@@ -179,8 +179,6 @@ function parseInput(rplyToken, inputStr) {
 	
 	if (trigger.match(/會習慣/) != null) return exports.imagepie.PieIm() ;	
 	
-	if (trigger.match(/ㄎㄧㄤ|ㄎㄧㄠ/) != null) return exports.crazy.ircra() ;	
-	
 	if (trigger.match(/並沒有/) != null) return exports.nothing.irnothing() ;	
 
 	if (trigger.match(/瞎掰|騙人|屁啦/) != null) return exports.no.irno() ;	
