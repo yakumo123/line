@@ -54,6 +54,8 @@ function parseInput(rplyToken, inputStr) {
 
 	if (trigger.match(/摸八雲|摸爆八雲/) != null) return exports.funny.randomYakumoKii() ;	
 	
+	if (trigger.match(/不要停下來/) != null) return exports.video.mushroomcloud() ;	
+	
 	if (trigger.match(/(的能力值$)/) != null && mainMsg[1] != NaN )	return exports.character.build7char(mainMsg[1]);
 	
 	if (trigger.match(/八雲的綜合分數$|八雲綜合分數$/) != null) return exports.funny.yakumomark() ;	
