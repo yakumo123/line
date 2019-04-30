@@ -8,7 +8,8 @@ function mushroomcloud() {
 		"duration": 60000,
 		"contentProvider": {
 			"type": "external",
-			"originalContentUrl":"https://drive.google.com/uc?export=download&id=1bZC81tfqPLrbk7tySsieI30YYwlFVrWM"
+			"originalContentUrl":
+			"https://drive.google.com/uc?export=download&id=1bZC81tfqPLrbk7tySsieI30YYwlFVrWM"
 		}
 	};
 	return rply;
