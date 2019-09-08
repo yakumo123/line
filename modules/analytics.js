@@ -47,13 +47,15 @@ function parseInput(rplyToken, inputStr) {
 	if (trigger.match(/(^ccsu$)/) != null) return exports.coc.ccsu();
 
 
-	if (trigger.match(/感謝季|感謝八雲|感謝祭|快感謝他|快感覺她/) != null) return exports.funny.think() ;	
+//      if (trigger.match(/感謝季|感謝八雲|感謝祭|快感謝他|快感覺她/) != null) return exports.funny.think() ;	
 	
 	
 	if (trigger.match(/^trpghelp$/)!= null ) return exports.trpghelp.TRPG();
 
-	if (trigger.match(/摸八雲|摸爆八雲/) != null) return exports.funny.randomYakumoKii() ;	
-	
+//
+//      if (trigger.match(/摸八雲|摸爆八雲/) != null) return exports.funny.randomYakumoKii() ;	
+//
+
 	if (trigger.match(/不要停下來/) != null) return exports.video.mushroomcloud() ;	
 	
 	if (trigger.match(/(的能力值$)/) != null && mainMsg[1] != NaN )	return exports.character.build7char(mainMsg[1]);
@@ -65,13 +67,7 @@ function parseInput(rplyToken, inputStr) {
 	if (trigger.match(/綜合分數$/) != null) return exports.character.ability(mainMsg) ;	
 
 	if (trigger.match(/^生成卡片$|^卡片生成$|^生成卡牌$|^卡牌生成$/) != null && mainMsg[1] != NaN )	return exports.createcard.build7char(mainMsg[1]);
-	
-	if (trigger.match(/(^cc7版創角$|^cc七版創角$)/) != null && mainMsg[1] != NaN )	return exports.coc.build7char(mainMsg[1]);
-	
-	if (trigger.match(/(^cc6版創角$|^cc六版創角$)/) != null && mainMsg[1] != NaN )	return exports.coc.build6char(mainMsg[1]);
-	
-	if (trigger.match(/^coc7角色背景$/)!= null ) return exports.coc.PcBG();
-	
+
 	if (trigger.match(/^式神幫忙$|^幫助$|^幫忙$/)!= null ) return exports.fakeyakumobot.fakehelp();
 	
 	if (trigger.match(/^式神幫助2$/)!= null ) return exports.botyakumo2.BotHelpYy();
@@ -108,6 +104,14 @@ function parseInput(rplyToken, inputStr) {
  	if (trigger.match(/排序|次序/)!= null && mainMsg.length >= 3) return exports.funny.SortIt(inputStr,mainMsg);
  	if (trigger.match(/^d66$/)!= null ) return exports.advroll.d66(mainMsg[1]);
 	if (trigger.match(/^d66s$/)!= null ) return exports.advroll.d66s(mainMsg[1]);
+
+		
+	if (trigger.match(/(^cc7版創角$|^cc七版創角$)/) != null && mainMsg[1] != NaN )	return exports.coc.build7char(mainMsg[1]);
+	
+	if (trigger.match(/(^cc6版創角$|^cc六版創角$)/) != null && mainMsg[1] != NaN )	return exports.coc.build6char(mainMsg[1]);
+	
+	if (trigger.match(/^coc7角色背景$/)!= null ) return exports.coc.PcBG();
+	
 
 
 	if (trigger.match(/選10/)!= null && mainMsg.length >= 3) return exports.funny.tenchoice(inputStr,mainMsg);
