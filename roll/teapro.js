@@ -22,7 +22,7 @@ var tea = {
 					{
 						"type": "box",
 						"layout": "baseline",
-						"spacing": "lg",
+						"spacing": "sm",
 						"contents": [
 							{
 								"type": "icon",
@@ -40,7 +40,7 @@ var tea = {
 								"type": "text",
 								"text": "超路站位：光、闇",
 								"gravity": "center",
-								"flex": 2,
+								"flex": 5,
 								"align": "end"
 							}
 						]
