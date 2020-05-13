@@ -1,3 +1,6 @@
+var rollbase = require('./rollbase.js');
+var funny = require('./funny.js');
+
 var tea = {
 	"type": "flex",
 	"altText": "紅茶個人資料",
@@ -150,7 +153,7 @@ var tea = {
 								"contents": [
 									{
 										"type": "text",
-										"text": "我又沒長\\卻戰\\露娜我婆\\那裡有色圖",
+										"text": "我又沒長\n卻戰\n露娜我婆\n那裡有色圖",
 										"color": "#000000",
 										"wrap": true,
 										"weight": "bold",
