@@ -142,7 +142,7 @@ function parseInput(rplyToken, inputStr) {
 	}
 	
 	
-	if (trigger.match(/^gbf情報$/)!= null ) return exports.botyakumo2.BotHelpYy();
+	if (trigger.match(/^gbf情報$/)!= null ) return exports.button.buttontest();
 	
 	if (trigger.match(/^gbf情報電腦$/)!= null ) return exports.funny.gbf();
 	
