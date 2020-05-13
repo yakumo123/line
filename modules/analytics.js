@@ -148,6 +148,15 @@ function parseInput(rplyToken, inputStr) {
 		if (trigger.match(/^大十字|^cross/)!= null) return exports.funny.MultiDrawTarot(mainMsg[1], mainMsg[2], 2);
 	}
 	
+	
+	if (trigger.match(/^gbf情報$/)!= null ) return exports.botyakumo2.BotHelpYy();
+	
+	if (trigger.match(/^gbf情報電腦$/)!= null ) return exports.funny.gbf();
+	
+	if (trigger.match(/^gbf箱掘$/)!= null ) return exports.box.gbfbox();
+	
+	if (trigger.match(/(要打多少$|要打多少肉$)/) != null) return exports.funny.meat(mainMsg) ; 
+	
 	if (trigger.match(/就爛|就是爛|你就爛|你就是爛/)!= null ) return exports.funny.suck(mainMsg);
 
 	if (trigger.match(/他就爛|他就是爛|她就是爛|她就爛/)!= null ) return exports.funny.suck(mainMsg);
