@@ -10,6 +10,13 @@ function suck(TEXT) {
 	rply.text = '<' + TEXT[0] + '>' + '\n ---MiaO-LaZYCat語錄' + '《' + numArr[Math.floor((Math.random() * (numArr.length)) + 0)] + '》' + '節錄' + num1Arr[Math.floor((Math.random() * (num1Arr.length)) + 0)] + '.' + num2Arr[Math.floor((Math.random() * (num2Arr.length)) + 0)] + '<爛>' + '\n\n追加語錄：<' + rplyArr[Math.floor((Math.random() * (rplyArr.length)) + 0)] + '>';
 	return rply;
 }
+
+function meat(TEXT) {
+let FirArr = [1,2,3,4,5,6,7,8,9]
+let SecArr = [500,0500,0000,1000,2000,3000,4000,5000,6000,7000,8000,9000,00000]
+rply.text = TEXT[0] + ' ： ' + FirArr[Math.floor((Math.random() * (FirArr.length)) + 0)] + SecArr[Math.floor((Math.random() * (SecArr.length)) + 0)]; ; 
+return rply;
+}
 	
 function yakumomark() {
 	rply.text = '八雲的綜合分數：\n【魅力】：101\n【萌力】：101\n【廚藝】：101\n【財力】：101\n【生命力】：101\n【親和力】:101\n【歐皇之力】：101\n\n【八雲點評】：請信仰八雲教！' ;
@@ -1174,6 +1181,7 @@ return rply;
 module.exports = {
 	yakumomark,
 	ykh,
+	meat,
 	shadow,
 	know,
 	think,
