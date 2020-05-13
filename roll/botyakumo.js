@@ -15,8 +15,8 @@ function BotHelpYy() {
 					"actions": [
 						{
 							"type": "message",
-							"label": "sv情報",
-							"text": "sv情報"
+							"label": "gbf情報",
+							"text": "gbf情報"
 						},
 						{
 							"type": "message",
