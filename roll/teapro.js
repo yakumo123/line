@@ -8,17 +8,17 @@ var tea = {
 				"layout": "vertical",
 				"spacing": "lg",
 				"contents": [
-							{
-								"type": "icon",
-								"url": "https://cdn.discordapp.com/emojis/708598573964460073.png?v=1",
-								"size": "lg"
-							},
 					{
 						"type": "text",
 						"text": "紅茶",
 						"wrap": true,
 						"weight": "bold",
 						"gravity": "center",
+						"size": "lg"
+					},
+					{
+						"type": "icon",
+						"url": "https://cdn.discordapp.com/emojis/708598573964460073.png?v=1",
 						"size": "lg"
 					},
 					{
