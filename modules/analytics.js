@@ -77,13 +77,6 @@ function parseInput(rplyToken, inputStr) {
 
 	if (trigger.match(/^comfirmcards$/)!= null ) return exports.testing.Test13();
 	
-	if (trigger.match(/^sv推薦牌組1月$/)!= null ) return exports.cardsuggest.Suggestion();
-	
-	if (trigger.match(/☆推薦/) != null) {
-		if (trigger.match(/^獅子/)!= null ) return exports.cardbuild.royal1();
-	}
-	
-	if (trigger.match(/^sv情報$/)!= null ) return exports.button.buttontest();
 	if (trigger.match(/^公主情報$/)!= null ) return exports.redive.princesses();
 	
 	//nc指令開始於此 來自Rainsting/TarotLineBot 
