@@ -173,6 +173,8 @@ function parseInput(rplyToken, inputStr) {
 	
 	if (trigger.match(/的黑歷史/) != null) return exports.funny.BlackHistory(mainMsg) ;	
 	
+	if (trigger.match(/^紅茶個人資料$/) != null) return exports.teapro.teaprofile() ;	
+
 	if (trigger.match(/flag/) != null) return exports.funny.Flag() ;	
 	
 	if (trigger.match(/^八雲$/) != null) return exports.funny.randomYakumo() ;	
