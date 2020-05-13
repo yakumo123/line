@@ -104,30 +104,6 @@ function buttontest() {
 						}
 					]
 				},
-
-      {
-        "thumbnailImageUrl": "https://lh3.googleusercontent.com/_MSiV37MJ8aZ5-QBNSypvVdWnSWZqQKkExnWziekauFOQvRKcvCQjiMcrT6sXC9NQzUXXV_6ngPzvfSM-quoqlDxAGDIz2eeuOhZ1dH0fnbP",
-        "imageBackgroundColor": "#a8e8fb",
-					"title": "素材收集",
-					"text": "素材收集",
-					"actions": [
-								{
-							"type": "uri",
-							"label": "共鬥素材表",
-							"uri": "https://forum.gamer.com.tw/C.php?bsn=25204&snA=7522"
-						},
-						{
-							"type": "uri",
-							"label": "武器盤倍率介紹 及 100%升技表",
-							"uri": "https://xn--bck3aza1a2if6kra4ee0hf.gamewith.jp/article/show/33197"
-						},
-						{
-							"type": "uri",
-							"label": "Side Story 召喚石及武器的評價",
-							"uri": "https://www.ptt.cc/man/GBF/DC71/DC36/M.1529890956.A.0FD.html"
-						}
-					]
-				},
       {
         "thumbnailImageUrl": "https://lh3.googleusercontent.com/_MSiV37MJ8aZ5-QBNSypvVdWnSWZqQKkExnWziekauFOQvRKcvCQjiMcrT6sXC9NQzUXXV_6ngPzvfSM-quoqlDxAGDIz2eeuOhZ1dH0fnbP",
         "imageBackgroundColor": "#a8e8fb",
