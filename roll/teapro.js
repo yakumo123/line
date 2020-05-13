@@ -38,7 +38,7 @@ var tea = {
 							},
 							{
 								"type": "text",
-								"text": "超路站位：光、闇",
+								"text": "超路站位：光闇",
 								"gravity": "center",
 								"flex": 5
 							}
