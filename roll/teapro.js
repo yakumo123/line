@@ -40,7 +40,7 @@ var tea = {
 								"type": "text",
 								"text": "超路站位：光、闇",
 								"gravity": "center",
-								"flex": 5,
+								"flex": 2,
 								"align": "end"
 							}
 						]
