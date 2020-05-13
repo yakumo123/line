@@ -40,8 +40,7 @@ var tea = {
 								"type": "text",
 								"text": "超路站位：光、闇",
 								"gravity": "center",
-								"flex": 5,
-								"align": "end"
+								"flex": 5
 							}
 						]
 					},
@@ -59,7 +58,7 @@ var tea = {
 									{
 										"type": "text",
 										"text": "資料",
-										"color": "#aaaaaa",
+										"color": "#000000",
 										"size": "sm",
 										"weight": "bold"
 									}
@@ -73,7 +72,7 @@ var tea = {
 									{
 										"type": "text",
 										"text": "超路勝場：",
-										"color": "#aaaaaa",
+										"color": "#000000",
 										"size": "sm",
 										"flex": 1
 									},
@@ -81,7 +80,7 @@ var tea = {
 										"type": "text",
 										"text": "999",
 										"wrap": true,
-										"color": "#666666",
+										"color": "#000000",
 										"size": "sm",
 										"flex": 1
 									}
@@ -95,7 +94,7 @@ var tea = {
 									{
 										"type": "text",
 										"text": "口頭禪：",
-										"color": "#aaaaaa",
+										"color": "#000000",
 										"size": "sm",
 										"flex": 1
 									},
@@ -103,7 +102,7 @@ var tea = {
 										"type": "text",
 										"text": "笑死、爛、您、土天人解試煉",
 										"wrap": true,
-										"color": "#666666",
+										"color": "#000000",
 										"size": "sm",
 										"flex": 1
 									}
@@ -117,7 +116,7 @@ var tea = {
 									{
 										"type": "text",
 										"text": "雞雞長度：",
-										"color": "#aaaaaa",
+										"color": "#000000",
 										"size": "sm",
 										"flex": 1
 									},
@@ -126,7 +125,7 @@ var tea = {
 										"type": "text",
 										"text": "0（沒長）",
 										"wrap": true,
-										"color": "#666666",
+										"color": "#000000",
 										"size": "sm",
 										"flex": 1
 									}
@@ -140,7 +139,7 @@ var tea = {
 									{
 										"type": "text",
 										"text": "金句",
-										"color": "#aaaaaa",
+										"color": "#000000",
 										"size": "sm",
 										"weight": "bold"
 									}
