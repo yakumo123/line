@@ -46,17 +46,10 @@ function parseInput(rplyToken, inputStr) {
 	if (trigger.match(/(^ccrt$)/) != null) return exports.coc.ccrt();
 	if (trigger.match(/(^ccsu$)/) != null) return exports.coc.ccsu();
 
-
-//      if (trigger.match(/感謝季|感謝八雲|感謝祭|快感謝他|快感覺她/) != null) return exports.funny.think() ;	
 	
 	
 	if (trigger.match(/^trpghelp$/)!= null ) return exports.trpghelp.TRPG();
 
-//
-//      if (trigger.match(/摸八雲|摸爆八雲/) != null) return exports.funny.randomYakumoKii() ;	
-//
-
-	if (trigger.match(/不要停下來/) != null) return exports.video.mushroomcloud() ;	
 	
 	if (trigger.match(/(的能力值$)/) != null && mainMsg[1] != NaN )	return exports.character.build7char(mainMsg[1]);
 	
@@ -178,28 +171,8 @@ function parseInput(rplyToken, inputStr) {
 	if (trigger.match(/flag/) != null) return exports.funny.Flag() ;	
 	
 	if (trigger.match(/^八雲$/) != null) return exports.funny.randomYakumo() ;	
-	if (trigger.match(/^吹雪$/) != null) return exports.funny.randomSnow() ;	
-	if (trigger.match(/^安特$/) != null) return exports.funny.randomAnt() ;
-	if (trigger.match(/^筱亞$|^洨亞$/) != null) return exports.funny.randomFrog() ;	
-	if (trigger.match(/^兔子$/) != null) return exports.funny.randomRabbit() ;
-	
-	if (trigger.match(/鋪起來/) != null) return exports.funny.randomAOE() ;	
-	
-	if (trigger.match(/老實說/) != null) return exports.image.imsnow() ;	
-	
-	if (trigger.match(/會習慣/) != null) return exports.imagepie.PieIm() ;	
-	
-	if (trigger.match(/並沒有/) != null) return exports.nothing.irnothing() ;	
-
-	if (trigger.match(/瞎掰|騙人|屁啦/) != null) return exports.no.irno() ;	
-	
-	if (trigger.match(/^嘴砲$|真的最後一次|買最後一次|最後一次買|戒貼圖|戒買貼圖/) != null) return exports.kidding.laugh() ;	
-
-	if (trigger.match(/^基德$/) != null) return exports.kidding.inin() ;	
 
 	if (trigger.match(/^生成名字$|^名字生成$|^生產名字$|^名字生產$/) != null && mainMsg[1] != NaN )	return exports.name.gename(mainMsg[1]);
-	
-	if (trigger.match(/雞雞|大ㄐㄐ/) != null) return exports.funny.randomChick() ;
 
 }
 module.exports = {
