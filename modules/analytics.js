@@ -169,7 +169,9 @@ function parseInput(rplyToken, inputStr) {
 	
 	if (trigger.match(/的黑歷史/) != null) return exports.funny.BlackHistory(mainMsg) ;	
 	
-	if (trigger.match(/^紅茶個人資料$/) != null) return exports.teapro.teaprofile() ;	
+	if (trigger.match(/紅茶的個人資料$|紅茶個人資料$/) != null) return exports.teapro.teaprofile() ;	
+
+	if (trigger.match(/言的個人資料$|言個人資料$/) != null) return exports.profile.disprofile() ;	
 
 	if (trigger.match(/flag/) != null) return exports.funny.Flag() ;	
 	
