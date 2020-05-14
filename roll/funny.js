@@ -23,7 +23,7 @@ function yakumomark() {
 	return rply;
 }
 
-function dis() {
+function disss() {
 	rply.text = '【噁心度】：100\n【試煉擔當】：0\n\n【八雲點評】：噁	' ;
 	return rply;
 }
@@ -1185,7 +1185,7 @@ return rply;
 
 module.exports = {
 	yakumomark,
-	dis,
+	disss,
 	ykh,
 	meat,
 	shadow,
