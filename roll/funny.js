@@ -19,7 +19,7 @@ return rply;
 }
 	
 function dis(TEXT) {
-	rply.text = '【噁心度】：100\n【試煉擔當】：0\n\n【八雲點評】：噁'；
+	rply.text = '【噁心度】：100\n【試煉擔當】：0\n\n【八雲點評】：噁' ;
 reture rply;
 }
 	
