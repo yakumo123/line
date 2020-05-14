@@ -226,9 +226,9 @@ var tea = {
 						"style": "primary",
 						"margin": "sm",
 						"action": {
-							"type": "postback",
+							"type": "message",
 							"label": "點擊羈押",
-							"data": "A"
+							"text": "羈押茶"
 						}
 					}
 				]
