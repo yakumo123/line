@@ -24,7 +24,7 @@ function yakumomark() {
 }
 
 function disss() {
-	rply.text = '【噁心度】：100\n【試煉擔當】：0\n\n【八雲點評】：噁' ;
+	rply.text = '言的綜合分數：\n【噁心度】：100\n【試煉擔當】：0\n\n【八雲點評】：噁' ;
 	return rply;
 }
 
