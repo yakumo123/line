@@ -310,7 +310,7 @@ var dis = {
 									},
 									{
 										"type": "text",
-										"text": "？？？",
+										"text": "？",
 										"wrap": true,
 										"color": "#FF0000",
 										"size": "sm",
@@ -401,15 +401,15 @@ var dis = {
 				"type": "box",
 				"layout": "vertical",
 				"contents": [
+{
+						"type": "separator",
+						"margin": "xxl"
+					},
 					{
 						"type": "box",
 						"layout": "baseline",
 						"margin": "md",
 						"contents": [
-							{
-								"type": "separator",
-								"margin": "xxl"
-							},
 							{
 								"type": "text",
 								"text": "平均超巴貢獻：",
