@@ -18,8 +18,8 @@ rply.text = TEXT[0] + ' ： ' + FirArr[Math.floor((Math.random() * (FirArr.lengt
 return rply;
 }
 	
-function dis() {
-	rply.extt = '【噁心度】：100\n【試煉擔當】：0\n\n【八雲點評】：噁'；
+function dis(TEXT) {
+	rply.text = '【噁心度】：100\n【試煉擔當】：0\n\n【八雲點評】：噁'；
 reture rply;
 }
 	
