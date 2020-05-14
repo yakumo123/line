@@ -384,7 +384,7 @@ var dis = {
 								"contents": [
 									{
 										"type": "text",
-										"text": "闇幫忙解的8及打完還沒解的3",
+										"text": "紅茶幫忙解的8及打完還沒解的3",
 										"color": "#000000",
 										"wrap": true,
 										"weight": "bold",
