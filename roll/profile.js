@@ -310,7 +310,7 @@ var dis = {
 									},
 									{
 										"type": "text",
-										"text": "？",
+										"text": "？？？",
 										"wrap": true,
 										"color": "#FF0000",
 										"size": "sm",
