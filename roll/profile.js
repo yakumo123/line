@@ -310,9 +310,9 @@ var dis = {
 									},
 									{
 										"type": "text",
-										"text": "？",
+										"text": "？？？",
 										"wrap": true,
-										"color": "#666666",
+										"color": "#FF0000",
 										"size": "sm",
 										"flex": 1
 									}
@@ -334,7 +334,7 @@ var dis = {
 										"type": "text",
 										"text": "我很穩、畜生",
 										"wrap": true,
-										"color": "#666666",
+										"color": "#000000",
 										"size": "sm",
 										"flex": 1
 									}
@@ -357,7 +357,7 @@ var dis = {
 										"type": "text",
 										"text": "奧義砸翅膀",
 										"wrap": true,
-										"color": "#666666",
+										"color": "#000000",
 										"size": "sm",
 										"flex": 1
 									}
@@ -406,6 +406,11 @@ var dis = {
 						"layout": "baseline",
 						"margin": "md",
 						"contents": [
+							
+					{
+						"type": "separator",
+						"margin": "xl"
+					},
 							{
 								"type": "text",
 								"text": "平均超巴貢獻：",
@@ -417,7 +422,7 @@ var dis = {
 								"type": "text",
 								"text": "2-30萬",
 								"wrap": true,
-								"color": "#aaaaaa",
+								"color": "#000000",
 								"size": "sm",
 								"flex": 4
 							}
@@ -440,7 +445,7 @@ var dis = {
 								"text": "FA到理超",
 								"wrap": true,
 								"size": "sm",
-								"color": "#aaaaaa",
+								"color": "#000000",
 								"flex": 4
 							}
 						]
