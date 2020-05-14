@@ -406,11 +406,10 @@ var dis = {
 						"layout": "baseline",
 						"margin": "md",
 						"contents": [
-							
-					{
-						"type": "separator",
-						"margin": "xl"
-					},
+							{
+								"type": "separator",
+								"margin": "xxl"
+							},
 							{
 								"type": "text",
 								"text": "平均超巴貢獻：",
