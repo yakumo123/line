@@ -299,73 +299,6 @@ var dis = {
 							{
 								"type": "box",
 								"layout": "baseline",
-								"spacing": "sm",
-								"contents": [
-									{
-										"type": "text",
-										"text": "超路勝場：",
-										"color": "#aaaaaa",
-										"size": "sm",
-										"flex": 1
-									},
-									{
-										"type": "text",
-										"text": "？？？",
-										"wrap": true,
-										"color": "#FF0000",
-										"size": "sm",
-										"flex": 1
-									}
-								]
-							},
-							{
-								"type": "box",
-								"layout": "baseline",
-								"spacing": "sm",
-								"contents": [
-									{
-										"type": "text",
-										"text": "口頭禪：",
-										"color": "#aaaaaa",
-										"size": "sm",
-										"flex": 1
-									},
-									{
-										"type": "text",
-										"text": "我很穩、畜生",
-										"wrap": true,
-										"color": "#000000",
-										"size": "sm",
-										"flex": 1
-									}
-								]
-							},
-							{
-								"type": "box",
-								"layout": "baseline",
-								"spacing": "sm",
-								"contents": [
-									{
-										"type": "text",
-										"text": "解試煉方法：",
-										"color": "#aaaaaa",
-										"size": "sm",
-										"flex": 1
-									},
-									{
-
-										"type": "text",
-										"text": "奧義砸翅膀",
-										"wrap": true,
-										"color": "#000000",
-										"size": "sm",
-										"flex": 1
-									}
-								]
-							},
-							{
-								"type": "box",
-								"layout": "baseline",
 								"spacing": "md",
 								"contents": [
 									{
@@ -384,7 +317,7 @@ var dis = {
 								"contents": [
 									{
 										"type": "text",
-										"text": "紅茶幫忙解的8及打完還沒解的3",
+										"text": "1-13",
 										"color": "#000000",
 										"wrap": true,
 										"weight": "bold",
@@ -408,40 +341,18 @@ var dis = {
 					{
 						"type": "box",
 						"layout": "baseline",
-						"margin": "md",
-						"contents": [
-							{
-								"type": "text",
-								"text": "平均超巴貢獻：",
-								"color": "#aaaaaa",
-								"size": "sm",
-								"flex": 2
-							},
-							{
-								"type": "text",
-								"text": "2-30萬",
-								"wrap": true,
-								"color": "#000000",
-								"size": "sm",
-								"flex": 4
-							}
-						]
-					},
-					{
-						"type": "box",
-						"layout": "baseline",
 						"spacing": "sm",
 						"contents": [
 							{
 								"type": "text",
-								"text": "專長：",
+								"text": "其他稱號：",
 								"color": "#aaaaaa",
 								"size": "sm",
 								"flex": 2
 							},
 							{
 								"type": "text",
-								"text": "FA到理超",
+								"text": "六龍霸、六龍天人、六龍攻克者、六龍之六連金星",
 								"wrap": true,
 								"size": "sm",
 								"color": "#000000",
