@@ -344,15 +344,10 @@ rply.text = rplyArr[Math.floor((Math.random() * (rplyArr.length)) + 0)];
 return rply;
 }
 
-function randomSmileFace() {
-let rplyArr = ['\
-偽娘笑臉' ,'\
-跑出來的笑臉' ,'\
-笑臉逐漸母湯中' ,'\
-都被露菈打爆' ,'\
-'];
-rply.text = rplyArr[Math.floor((Math.random() * (rplyArr.length)) + 0)];
-return rply;
+function randomMatch(TEXT) {
+let rplyArr = ['言' ,'紅茶' ,'士豪' ,'俊廷' ,'柏叡','噁糖'];
+
+rply.text = TEXT[0] + rplyArr[Math.floor((Math.random() * (rplyArr.length)) + 0)];return rply;
 }
 
 function randomAnt() {
@@ -1205,7 +1200,7 @@ module.exports = {
 	BStyleFlagSCRIPTS,
 	randomReply,
 	randomYakumo,
-	randomSmileFace,
+	randomMatch,
 	randomAnt,
 	randomLuck,
 	randomChance,
