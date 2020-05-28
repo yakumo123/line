@@ -59,7 +59,8 @@ function parseInput(rplyToken, inputStr) {
 
 	if (trigger.match(/紅茶的綜合分數$|紅茶綜合分數$/) != null) return exports.teachar.ability(mainMsg) ;	
 
-	
+	if (trigger.match(/配對$/) != null) return exports.funny.randomMatch(mainMsg) ;	
+
 	if (trigger.match(/綜合分數$/) != null) return exports.character.ability(mainMsg) ;	
 
 	if (trigger.match(/^生成卡片$|^卡片生成$|^生成卡牌$|^卡牌生成$/) != null && mainMsg[1] != NaN )	return exports.createcard.build7char(mainMsg[1]);
