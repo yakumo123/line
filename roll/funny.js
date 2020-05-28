@@ -347,7 +347,8 @@ return rply;
 function randomMatch(TEXT) {
 let rplyArr = ['言' ,'紅茶' ,'士豪' ,'俊廷' ,'柏叡','噁糖'];
 
-rply.text = TEXT[0] + rplyArr[Math.floor((Math.random() * (rplyArr.length)) + 0)];return rply;
+rply.text = TEXT[0] + '【' + rplyArr[Math.floor((Math.random() * (rplyArr.length)) + 0)] + '】';
+	return rply;
 }
 
 function randomAnt() {
