@@ -20,7 +20,7 @@ function parseInput(rplyToken, inputStr) {
 	let trigger = mainMsg[0].toString().toLowerCase(); //指定啟動詞在第一個詞&把大階強制轉成細階
 
 
-	if (trigger.match(/霖|凜|安妮|妮幽|趙翰|weichen/) != null) return exports.null.null() ;
+	if (trigger.match(/霖|凜|安妮|妮幽|趙翰|紅茶|士豪|土豪|weichen/) != null) return exports.null.null() ;
 	
 	//普通ROLL擲骰判定在此	
 	if (inputStr.match(/\w/)!=null && inputStr.toLowerCase().match(/\d+d+\d/)!=null) return exports.rollbase.nomalDiceRoller(inputStr,mainMsg[0],mainMsg[1],mainMsg[2]);
